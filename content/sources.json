@@ -1,0 +1,90 @@
+[
+  {
+    "id": "aha-monitoring-2017",
+    "citation": "Sandau KE, Funk M, Auerbach A, et al. Update to Practice Standards for Electrocardiographic Monitoring in Hospital Settings: A Scientific Statement From the American Heart Association. Circulation. 2017;136(19):e273–e344.",
+    "url": "https://doi.org/10.1161/CIR.0000000000000527",
+    "year": 2017
+  },
+  {
+    "id": "aha-ecg-std-2009",
+    "citation": "Rautaharju PM, Surawicz B, Gettes LS. AHA/ACCF/HRS Recommendations for the Standardization and Interpretation of the Electrocardiogram: Part IV: The ST Segment, T and U Waves, and the QT Interval. Circulation. 2009;119(10):e241–e250.",
+    "url": "https://doi.org/10.1161/CIRCULATIONAHA.108.191096",
+    "year": 2009
+  },
+  {
+    "id": "esc-acs-2023",
+    "citation": "Byrne RA, Rossello X, Coughlan JJ, et al. 2023 ESC Guidelines for the management of acute coronary syndromes. Eur Heart J. 2023;44(38):3720–3826.",
+    "url": "https://doi.org/10.1093/eurheartj/ehad191",
+    "year": 2023
+  },
+  {
+    "id": "esc-af-2024",
+    "citation": "Van Gelder IC, Rienstra M, Bunting KV, et al. 2024 ESC Guidelines for the management of atrial fibrillation. Eur Heart J. 2024;45(36):3314–3414.",
+    "url": "https://doi.org/10.1093/eurheartj/ehae176",
+    "year": 2024
+  },
+  {
+    "id": "esc-va-2022",
+    "citation": "Zeppenfeld K, Tfelt-Hansen J, de Riva M, et al. 2022 ESC Guidelines for the management of patients with ventricular arrhythmias and the prevention of sudden cardiac death. Eur Heart J. 2022;43(40):3997–4126.",
+    "url": "https://doi.org/10.1093/eurheartj/ehac262",
+    "year": 2022
+  },
+  {
+    "id": "esc-svt-2019",
+    "citation": "Brugada J, Katritsis DG, Arbelo E, et al. 2019 ESC Guidelines for the management of patients with supraventricular tachycardia. Eur Heart J. 2020;41(5):655–720.",
+    "url": "https://doi.org/10.1093/eurheartj/ehz467",
+    "year": 2019
+  },
+  {
+    "id": "esc-pacing-2021",
+    "citation": "Glikson M, Nielsen JC, Kronborg MB, et al. 2021 ESC Guidelines on cardiac pacing and cardiac resynchronization therapy. Eur Heart J. 2021;42(35):3427–3520.",
+    "url": "https://doi.org/10.1093/eurheartj/ehab364",
+    "year": 2021
+  },
+  {
+    "id": "aha-brady-2018",
+    "citation": "Kusumoto FM, Schoenfeld MH, Barrett C, et al. 2018 ACC/AHA/HRS Guideline on the Evaluation and Management of Patients With Bradycardia and Cardiac Conduction Delay. Circulation. 2019;140(8):e382–e482.",
+    "url": "https://doi.org/10.1161/CIR.0000000000000628",
+    "year": 2018
+  },
+  {
+    "id": "esc-hf-2021",
+    "citation": "McDonagh TA, Metra M, Adamo M, et al. 2021 ESC Guidelines for the diagnosis and treatment of acute and chronic heart failure. Eur Heart J. 2021;42(36):3599–3726.",
+    "url": "https://doi.org/10.1093/eurheartj/ehab368",
+    "year": 2021
+  },
+  {
+    "id": "esc-htn-2024",
+    "citation": "McEvoy JW, McCarthy CP, Bruno RM, et al. 2024 ESC Guidelines for the management of elevated blood pressure and hypertension. Eur Heart J. 2024;45(38):3912–4018.",
+    "url": "https://doi.org/10.1093/eurheartj/ehae178",
+    "year": 2024
+  },
+  {
+    "id": "erc-als-2021",
+    "citation": "Soar J, Böttiger BW, Carli P, et al. European Resuscitation Council Guidelines 2021: Adult advanced life support. Resuscitation. 2021;161:115–151.",
+    "url": "https://doi.org/10.1016/j.resuscitation.2021.02.010",
+    "year": 2021
+  },
+  {
+    "id": "erc-special-2021",
+    "citation": "Lott C, Truhlář A, Alfonzo A, et al. European Resuscitation Council Guidelines 2021: Cardiac arrest in special circumstances. Resuscitation. 2021;161:152–219.",
+    "url": "https://doi.org/10.1016/j.resuscitation.2021.02.011",
+    "year": 2021
+  },
+  {
+    "id": "erc-2025",
+    "citation": "European Resuscitation Council. ERC Guidelines 2025 (Adult Basic and Advanced Life Support). Online verfügbar unter cprguidelines.eu.",
+    "url": "https://cprguidelines.eu",
+    "year": 2025
+  },
+  {
+    "id": "guyton-2021",
+    "citation": "Hall JE, Hall ME. Guyton and Hall Textbook of Medical Physiology. 14. Aufl. Philadelphia: Elsevier; 2021.",
+    "year": 2021
+  },
+  {
+    "id": "pschyrembel",
+    "citation": "Pschyrembel Online – Klinisches Wörterbuch. Berlin/Boston: De Gruyter. Stichworte zu den jeweiligen Fachbegriffen und Wortbausteinen.",
+    "url": "https://www.pschyrembel.de"
+  }
+]
