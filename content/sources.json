@@ -98,5 +98,23 @@
     "citation": "Thygesen K, Alpert JS, Jaffe AS, et al. Fourth Universal Definition of Myocardial Infarction (2018). Eur Heart J. 2019;40(3):237–269.",
     "url": "https://doi.org/10.1093/eurheartj/ehy462",
     "year": 2018
+  },
+  {
+    "id": "s3-cap-2021",
+    "citation": "Ewig S, Kolditz M, Pletz M, et al. Behandlung von erwachsenen Patienten mit ambulant erworbener Pneumonie – Update 2021. S3-Leitlinie. Pneumologie. 2021;75(9):665–729.",
+    "url": "https://doi.org/10.1055/a-1497-0693",
+    "year": 2021
+  },
+  {
+    "id": "gold-2026",
+    "citation": "Global Initiative for Chronic Obstructive Lung Disease (GOLD). Global Strategy for the Prevention, Diagnosis and Management of COPD: 2026 Report.",
+    "url": "https://goldcopd.org",
+    "year": 2026
+  },
+  {
+    "id": "esc-ccs-2024",
+    "citation": "Vrints C, Andreotti F, Koskinas KC, et al. 2024 ESC Guidelines for the management of chronic coronary syndromes. Eur Heart J. 2024;45(36):3415–3537.",
+    "url": "https://doi.org/10.1093/eurheartj/ehae177",
+    "year": 2024
   }
 ]

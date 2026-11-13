@@ -335,6 +335,27 @@
     ]
   },
   {
+    "id": "t-exazerbation",
+    "term": "Exazerbation",
+    "parts": [
+      {
+        "part": "Ex",
+        "meaning": "heraus, sehr",
+        "origin": "lat. ex"
+      },
+      {
+        "part": "azerbation",
+        "meaning": "verschärfen",
+        "origin": "lat. acerbare"
+      }
+    ],
+    "meaning": "Akute Verschlimmerung einer chronischen Krankheit",
+    "example": "COPD-Exazerbation",
+    "sourceIds": [
+      "pschyrembel"
+    ]
+  },
+  {
     "id": "t-extrasystole",
     "term": "Extrasystole",
     "parts": [
@@ -789,6 +810,27 @@
     ]
   },
   {
+    "id": "t-obstruktion",
+    "term": "Obstruktion",
+    "parts": [
+      {
+        "part": "Ob",
+        "meaning": "entgegen, vor",
+        "origin": "lat. ob"
+      },
+      {
+        "part": "struktion",
+        "meaning": "bauen, aufschichten",
+        "origin": "lat. struere"
+      }
+    ],
+    "meaning": "Verlegung, Verengung (z.B. der Atemwege)",
+    "example": "COPD = chronisch obstruktive Lungenerkrankung",
+    "sourceIds": [
+      "pschyrembel"
+    ]
+  },
+  {
     "id": "t-oligurie",
     "term": "Oligurie",
     "parts": [
@@ -869,6 +911,25 @@
       }
     ],
     "meaning": "Herzbeutelentzündung",
+    "sourceIds": [
+      "pschyrembel"
+    ]
+  },
+  {
+    "id": "t-pneumonie",
+    "term": "Pneumonie",
+    "parts": [
+      {
+        "part": "Pneumon",
+        "meaning": "Lunge",
+        "origin": "griech. pneúmōn"
+      },
+      {
+        "part": "ie",
+        "meaning": "Krankheit, Zustand"
+      }
+    ],
+    "meaning": "Lungenentzündung",
     "sourceIds": [
       "pschyrembel"
     ]
