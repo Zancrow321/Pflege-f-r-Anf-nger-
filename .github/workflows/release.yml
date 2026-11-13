@@ -33,17 +33,32 @@ jobs:
 
       - name: Release-Schlüssel bereitstellen
         env:
-          KEYSTORE_BASE64: ${{ secrets.RELEASE_KEYSTORE_BASE64 }}
+          KEYSTORE_BASE64: ${{ secrets.RELEASE_KEYSTORE_BASE64 || vars.RELEASE_KEYSTORE_BASE64 }}
+          S_RELEASE_KEYSTORE_BASE64: ${{ secrets.RELEASE_KEYSTORE_BASE64 }}
+          V_RELEASE_KEYSTORE_BASE64: ${{ vars.RELEASE_KEYSTORE_BASE64 }}
+          S_RELEASE_KEYSTORE_PASSWORD: ${{ secrets.RELEASE_KEYSTORE_PASSWORD }}
+          V_RELEASE_KEYSTORE_PASSWORD: ${{ vars.RELEASE_KEYSTORE_PASSWORD }}
+          S_RELEASE_KEY_ALIAS: ${{ secrets.RELEASE_KEY_ALIAS }}
+          V_RELEASE_KEY_ALIAS: ${{ vars.RELEASE_KEY_ALIAS }}
+          S_RELEASE_KEY_PASSWORD: ${{ secrets.RELEASE_KEY_PASSWORD }}
+          V_RELEASE_KEY_PASSWORD: ${{ vars.RELEASE_KEY_PASSWORD }}
         run: |
-          if [ -z "$KEYSTORE_BASE64" ]; then echo "Secret RELEASE_KEYSTORE_BASE64 fehlt"; exit 1; fi
+          # Nur anzeigen, OB etwas gesetzt ist (nie den Wert)
+          for n in RELEASE_KEYSTORE_BASE64 RELEASE_KEYSTORE_PASSWORD RELEASE_KEY_ALIAS RELEASE_KEY_PASSWORD; do
+            s="S_$n"; v="V_$n"
+            if [ -n "${!s}" ]; then a=gesetzt; else a=fehlt; fi
+            if [ -n "${!v}" ]; then b=gesetzt; else b=fehlt; fi
+            echo "$n: als Secret $a | als Variable $b"
+          done
+          if [ -z "$KEYSTORE_BASE64" ]; then echo "RELEASE_KEYSTORE_BASE64 fehlt"; exit 1; fi
           echo "$KEYSTORE_BASE64" | base64 -d > "$RUNNER_TEMP/release.jks"
           echo "RELEASE_KEYSTORE_FILE=$RUNNER_TEMP/release.jks" >> "$GITHUB_ENV"
 
       - name: Release-APK bauen
         env:
-          RELEASE_KEYSTORE_PASSWORD: ${{ secrets.RELEASE_KEYSTORE_PASSWORD }}
-          RELEASE_KEY_ALIAS: ${{ secrets.RELEASE_KEY_ALIAS }}
-          RELEASE_KEY_PASSWORD: ${{ secrets.RELEASE_KEY_PASSWORD }}
+          RELEASE_KEYSTORE_PASSWORD: ${{ secrets.RELEASE_KEYSTORE_PASSWORD || vars.RELEASE_KEYSTORE_PASSWORD }}
+          RELEASE_KEY_ALIAS: ${{ secrets.RELEASE_KEY_ALIAS || vars.RELEASE_KEY_ALIAS }}
+          RELEASE_KEY_PASSWORD: ${{ secrets.RELEASE_KEY_PASSWORD || vars.RELEASE_KEY_PASSWORD }}
         run: ./gradlew :app:assembleRelease
 
       - name: Signatur prüfen und umbenennen
