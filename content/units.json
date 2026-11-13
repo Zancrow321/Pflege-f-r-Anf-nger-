@@ -5999,6 +5999,384 @@
           "termIds": []
         }
       ]
+    },
+    {
+      "id": "u16",
+      "title": "Medikamente 2: Gerinnung, Gefäße, Notfall",
+      "level": "station",
+      "description": "Plättchenhemmer, Antikoagulanzien, Heparine, Statine, Nitrate, Calciumantagonisten und Akutmedikamente.",
+      "lessons": [
+        {
+          "id": "u16l1",
+          "title": "Plättchenhemmer und Antikoagulanzien",
+          "card": {
+            "title": "Zwei Wege gegen Gerinnsel",
+            "text": "Plättchenhemmer schützen Arterien und Stents, Antikoagulanzien verhindern Gerinnsel in Vorhof und Venen.",
+            "bullets": [
+              "DAPT = ASS + P2Y12-Hemmer",
+              "DOAK: Apixaban, Rivaroxaban, Edoxaban, Dabigatran",
+              "mechanische Klappe: nur VKA",
+              "Blutungszeichen beobachten"
+            ]
+          },
+          "questions": [
+            {
+              "id": "u16l1q1",
+              "type": "matching",
+              "prompt": "Ordne zu.",
+              "pairs": [
+                {
+                  "left": "Ticagrelor",
+                  "right": "P2Y12-Hemmer"
+                },
+                {
+                  "left": "Apixaban",
+                  "right": "Faktor-Xa-Hemmer"
+                },
+                {
+                  "left": "Dabigatran",
+                  "right": "Thrombinhemmer"
+                },
+                {
+                  "left": "Phenprocoumon",
+                  "right": "Vitamin-K-Antagonist"
+                }
+              ],
+              "explanation": "DOAK und VKA sind Antikoagulanzien, P2Y12-Hemmer Plättchenhemmer."
+            },
+            {
+              "id": "u16l1q2",
+              "type": "true_false",
+              "statement": "Nach einem Stent darf ein Patient die DAPT vor einer Zahnbehandlung selbst absetzen.",
+              "correct": false,
+              "explanation": "Falsch. Vorzeitiges Absetzen kann eine Stentthrombose auslösen – immer Rücksprache."
+            },
+            {
+              "id": "u16l1q3",
+              "type": "single_choice",
+              "prompt": "Welche Patienten dürfen keine DOAK bekommen?",
+              "options": [
+                "Patienten mit mechanischer Herzklappe",
+                "Patienten mit Vorhofflimmern",
+                "Patienten nach TVT",
+                "Patienten mit Lungenembolie"
+              ],
+              "correctIndex": 0,
+              "explanation": "Hier sind Vitamin-K-Antagonisten nötig."
+            },
+            {
+              "id": "u16l1q4",
+              "type": "single_choice",
+              "prompt": "Welcher Wert steuert die Therapie mit Phenprocoumon?",
+              "options": [
+                "INR",
+                "CRP",
+                "HbA1c",
+                "TSH"
+              ],
+              "correctIndex": 0,
+              "explanation": "Meist Ziel-INR 2–3."
+            },
+            {
+              "id": "u16l1q5",
+              "type": "single_choice",
+              "prompt": "Welches Zeichen kann eine Magen-Darm-Blutung unter Gerinnungshemmung anzeigen?",
+              "options": [
+                "schwarzer Teerstuhl",
+                "heller Stuhl",
+                "gelbe Haut",
+                "Haarausfall"
+              ],
+              "correctIndex": 0,
+              "explanation": "Sofort melden, Kreislauf beobachten."
+            }
+          ],
+          "sourceIds": [
+            "esc-acs-2023",
+            "esc-af-2024",
+            "ehra-doac-2021"
+          ],
+          "articleIds": [
+            "m-plaettchenhemmer",
+            "m-antikoagulanzien"
+          ],
+          "termIds": []
+        },
+        {
+          "id": "u16l2",
+          "title": "Heparine und Statine",
+          "card": {
+            "title": "Spritze und Langzeitschutz",
+            "text": "Heparine wirken sofort, Statine schützen auf Dauer.",
+            "bullets": [
+              "UFH: aPTT, i.v.; NMH: s.c.",
+              "HIT: Thrombozyten fallen",
+              "Statine senken LDL",
+              "Muskelschmerz melden"
+            ]
+          },
+          "questions": [
+            {
+              "id": "u16l2q1",
+              "type": "single_choice",
+              "prompt": "Wie wird ein UFH-Perfusor gesteuert?",
+              "options": [
+                "nach aPTT",
+                "nach INR",
+                "nach Blutzucker",
+                "nach Gewicht allein"
+              ],
+              "correctIndex": 0,
+              "explanation": "Kontrollen nach Schema."
+            },
+            {
+              "id": "u16l2q2",
+              "type": "single_choice",
+              "prompt": "Was ist eine HIT?",
+              "options": [
+                "Abfall der Blutplättchen durch Heparin mit Thrombosegefahr",
+                "Hitzschlag",
+                "Herzinfarkt",
+                "Hypertonie"
+              ],
+              "correctIndex": 0,
+              "explanation": "Typisch nach 5–10 Tagen. Thrombozyten kontrollieren."
+            },
+            {
+              "id": "u16l2q3",
+              "type": "true_false",
+              "statement": "NMH-Spritzen gibt man in die Bauchhaut und reibt danach kräftig.",
+              "correct": false,
+              "explanation": "Falsch. Nicht reiben – das fördert Hämatome."
+            },
+            {
+              "id": "u16l2q4",
+              "type": "single_choice",
+              "prompt": "Welches LDL-Ziel empfiehlt die ESC bei sehr hohem Risiko?",
+              "options": [
+                "unter 55 mg/dl",
+                "unter 300 mg/dl",
+                "über 160 mg/dl",
+                "egal"
+              ],
+              "correctIndex": 0,
+              "explanation": "Nach Herzinfarkt gilt meist sehr hohes Risiko."
+            },
+            {
+              "id": "u16l2q5",
+              "type": "single_choice",
+              "prompt": "Welche Nebenwirkung von Statinen meldest du sofort?",
+              "options": [
+                "starke Muskelschmerzen und dunkler Urin",
+                "leichter Appetit",
+                "gute Laune",
+                "trockene Lippen"
+              ],
+              "correctIndex": 0,
+              "explanation": "Verdacht auf Muskelschädigung (CK)."
+            }
+          ],
+          "sourceIds": [
+            "esc-pe-2019",
+            "esc-dyslip-2019"
+          ],
+          "articleIds": [
+            "m-heparine",
+            "m-statine"
+          ],
+          "termIds": []
+        },
+        {
+          "id": "u16l3",
+          "title": "Nitrate und Calciumantagonisten",
+          "card": {
+            "title": "Gefäße weit machen",
+            "text": "Nitrate und Calciumantagonisten senken den Blutdruck – das kann helfen oder gefährlich werden.",
+            "bullets": [
+              "Nitro: kein RR unter 90, keine Potenzmittel",
+              "Nitro meiden bei AS, HOCM, Rechtsherzinfarkt",
+              "Amlodipin: Knöchelödeme",
+              "Verapamil: nicht bei HFrEF"
+            ]
+          },
+          "questions": [
+            {
+              "id": "u16l3q1",
+              "type": "single_choice",
+              "prompt": "Wann darfst du kein Nitrospray geben?",
+              "options": [
+                "nach Sildenafil-Einnahme vor 12 Stunden",
+                "bei Blutdruck 150/90",
+                "bei Brustschmerz mit normalem Kreislauf",
+                "bei Angina pectoris"
+              ],
+              "correctIndex": 0,
+              "explanation": "PDE-5-Hemmer plus Nitrat: lebensbedrohlicher Blutdruckabfall."
+            },
+            {
+              "id": "u16l3q2",
+              "type": "single_choice",
+              "prompt": "Welche Nebenwirkung von Nitraten ist sehr häufig?",
+              "options": [
+                "Kopfschmerz",
+                "Haarausfall",
+                "Durchfall",
+                "Gelbsehen"
+              ],
+              "correctIndex": 0,
+              "explanation": "Durch die Gefäßerweiterung im Kopf."
+            },
+            {
+              "id": "u16l3q3",
+              "type": "matching",
+              "prompt": "Ordne zu.",
+              "pairs": [
+                {
+                  "left": "Amlodipin",
+                  "right": "Gefäßtyp, Knöchelödeme"
+                },
+                {
+                  "left": "Verapamil",
+                  "right": "Herztyp, bremst AV-Knoten"
+                },
+                {
+                  "left": "Glyceroltrinitrat",
+                  "right": "Vorlastsenkung"
+                },
+                {
+                  "left": "Isosorbidmononitrat",
+                  "right": "Langzeit-Nitrat"
+                }
+              ],
+              "explanation": "Endung „-dipin“ = Gefäßtyp."
+            },
+            {
+              "id": "u16l3q4",
+              "type": "true_false",
+              "statement": "Verapamil ist bei HFrEF ein gutes Mittel zur Frequenzkontrolle.",
+              "correct": false,
+              "explanation": "Falsch. Es schwächt die Kontraktion und kann die Herzinsuffizienz verschlechtern."
+            },
+            {
+              "id": "u16l3q5",
+              "type": "single_choice",
+              "prompt": "Was kontrollierst du vor und nach Nitro-Gabe?",
+              "options": [
+                "Blutdruck",
+                "Körpertemperatur",
+                "Blutzucker",
+                "Gewicht"
+              ],
+              "correctIndex": 0,
+              "explanation": "Patient dabei sitzen oder liegen lassen."
+            }
+          ],
+          "sourceIds": [
+            "esc-acs-2023",
+            "esc-htn-2024",
+            "esc-af-2024"
+          ],
+          "articleIds": [
+            "m-nitrate",
+            "m-calciumantagonisten"
+          ],
+          "termIds": []
+        },
+        {
+          "id": "u16l4",
+          "title": "Adenosin, Atropin, Adrenalin",
+          "card": {
+            "title": "Notfallwagen-Wissen",
+            "text": "Diese drei Medikamente brauchst du bei Herzrasen, zu langsamem Puls und in der Reanimation.",
+            "bullets": [
+              "Adenosin: schneller Bolus + Spülung",
+              "Atropin 500 µg bei instabiler Bradykardie",
+              "Adrenalin 1 mg alle 3–5 min in der Reanimation",
+              "jede Gabe mit Uhrzeit dokumentieren"
+            ]
+          },
+          "questions": [
+            {
+              "id": "u16l4q1",
+              "type": "matching",
+              "prompt": "Ordne das Medikament der Situation zu.",
+              "pairs": [
+                {
+                  "left": "Adenosin",
+                  "right": "stabile AVNRT"
+                },
+                {
+                  "left": "Atropin",
+                  "right": "instabile Bradykardie"
+                },
+                {
+                  "left": "Adrenalin",
+                  "right": "Reanimation"
+                },
+                {
+                  "left": "Amiodaron",
+                  "right": "VF nach dem 3. Schock"
+                }
+              ],
+              "explanation": "So im ERC-Algorithmus."
+            },
+            {
+              "id": "u16l4q2",
+              "type": "single_choice",
+              "prompt": "Wie oft wird Adrenalin in der Reanimation gegeben?",
+              "options": [
+                "1 mg alle 3–5 Minuten",
+                "einmalig 10 mg",
+                "alle 30 Sekunden",
+                "gar nicht"
+              ],
+              "correctIndex": 0,
+              "explanation": "Nach ERC."
+            },
+            {
+              "id": "u16l4q3",
+              "type": "true_false",
+              "statement": "Nach Adenosin-Gabe kann der Patient kurz Druck auf der Brust und Hitze spüren.",
+              "correct": true,
+              "explanation": "Richtig. Vorher darauf hinweisen."
+            },
+            {
+              "id": "u16l4q4",
+              "type": "single_choice",
+              "prompt": "Wie gibst du Adenosin richtig?",
+              "options": [
+                "schnell als Bolus mit sofortiger Spülung über einen herznahen Zugang",
+                "langsam über 30 Minuten",
+                "in den Muskel",
+                "unter die Zunge"
+              ],
+              "correctIndex": 0,
+              "explanation": "Adenosin wirkt nur wenige Sekunden."
+            },
+            {
+              "id": "u16l4q5",
+              "type": "single_choice",
+              "prompt": "Welche Nebenwirkung hat Atropin?",
+              "options": [
+                "Mundtrockenheit und Harnverhalt",
+                "Bradykardie",
+                "Durchfall",
+                "Hypoglykämie"
+              ],
+              "correctIndex": 0,
+              "explanation": "Atropin hemmt den Vagus."
+            }
+          ],
+          "sourceIds": [
+            "erc-als-2021",
+            "erc-2025"
+          ],
+          "articleIds": [
+            "m-akutmedikamente"
+          ],
+          "termIds": []
+        }
+      ]
     }
   ]
 }
