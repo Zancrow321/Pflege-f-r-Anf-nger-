@@ -1213,5 +1213,30 @@
       "pschyrembel"
     ],
     "example": "Delta-Welle im EKG"
+  },
+  {
+    "id": "t-hypertrophie",
+    "term": "Hypertrophie",
+    "parts": [
+      {
+        "part": "Hyper",
+        "meaning": "über, zu viel",
+        "origin": "griech. hypér"
+      },
+      {
+        "part": "troph",
+        "meaning": "Ernährung, Wachstum",
+        "origin": "griech. trophḗ"
+      },
+      {
+        "part": "ie",
+        "meaning": "Zustand"
+      }
+    ],
+    "meaning": "Vergrößerung eines Organs durch Wachstum seiner Zellen, z.B. Verdickung des Herzmuskels",
+    "sourceIds": [
+      "pschyrembel"
+    ],
+    "example": "hypertrophe Kardiomyopathie"
   }
 ]

@@ -4650,6 +4650,514 @@
           ]
         }
       ]
+    },
+    {
+      "id": "u13",
+      "title": "Krankheitsbilder 7: Herzmuskel und Herzbeutel",
+      "level": "station",
+      "description": "HFpEF, DCM, HCM, Takotsubo, Myokarditis und Perikarditis.",
+      "lessons": [
+        {
+          "id": "u13l1",
+          "title": "HFpEF",
+          "card": {
+            "title": "Stark, aber steif",
+            "text": "Bei der HFpEF pumpt das Herz ausreichend, füllt sich aber schlecht.",
+            "bullets": [
+              "EF ab 50 %",
+              "häufig: Alter, Hochdruck, Übergewicht, VHF",
+              "Diuretika und SGLT2-Hemmer",
+              "Gewicht täglich"
+            ]
+          },
+          "questions": [
+            {
+              "id": "u13l1q1",
+              "type": "matching",
+              "prompt": "Ordne die Herzinsuffizienz-Form der EF zu.",
+              "pairs": [
+                {
+                  "left": "HFrEF",
+                  "right": "EF bis 40 %"
+                },
+                {
+                  "left": "HFmrEF",
+                  "right": "EF 41–49 %"
+                },
+                {
+                  "left": "HFpEF",
+                  "right": "EF ab 50 %"
+                },
+                {
+                  "left": "Normalbefund",
+                  "right": "kein Herzinsuffizienz-Typ"
+                }
+              ],
+              "explanation": "Einteilung nach ESC."
+            },
+            {
+              "id": "u13l1q2",
+              "type": "single_choice",
+              "prompt": "Was ist das Hauptproblem bei der HFpEF?",
+              "options": [
+                "Die Kammer ist steif und füllt sich schlecht",
+                "Die Kammer pumpt kaum",
+                "Die Herzklappe ist verkalkt",
+                "Der Herzbeutel ist entzündet"
+              ],
+              "correctIndex": 0,
+              "explanation": "Deshalb steigt der Druck in Vorhof und Lunge."
+            },
+            {
+              "id": "u13l1q3",
+              "type": "single_choice",
+              "prompt": "Welche Medikamentengruppe wird bei HFpEF seit 2023 empfohlen?",
+              "options": [
+                "SGLT2-Hemmer",
+                "Antibiotika",
+                "Opioide",
+                "Antihistaminika"
+              ],
+              "correctIndex": 0,
+              "explanation": "Empagliflozin und Dapagliflozin verringern Krankenhausaufnahmen."
+            },
+            {
+              "id": "u13l1q4",
+              "type": "true_false",
+              "statement": "Vorhofflimmern kann bei HFpEF eine Dekompensation auslösen.",
+              "correct": true,
+              "explanation": "Richtig. Das steife Herz braucht die Vorhofkontraktion besonders."
+            },
+            {
+              "id": "u13l1q5",
+              "type": "single_choice",
+              "prompt": "Welcher Befund ist ein Warnzeichen?",
+              "options": [
+                "über 2 kg Gewichtszunahme in 3 Tagen",
+                "stabiles Gewicht",
+                "gleichbleibende Ödeme ohne Atemnot",
+                "Blutdruck 125/80 mmHg"
+              ],
+              "correctIndex": 0,
+              "explanation": "Rasche Gewichtszunahme zeigt Wassereinlagerung."
+            }
+          ],
+          "sourceIds": [
+            "esc-hf-2021",
+            "esc-hf-2023"
+          ],
+          "articleIds": [
+            "a-hfpef"
+          ],
+          "termIds": [
+            "t-insuffizienz"
+          ]
+        },
+        {
+          "id": "u13l2",
+          "title": "DCM und HCM",
+          "card": {
+            "title": "Zu weit oder zu dick",
+            "text": "Kardiomyopathien sind Erkrankungen des Herzmuskels selbst.",
+            "bullets": [
+              "DCM: Kammer weit, Pumpe schwach",
+              "HCM: Wand dick, oft genetisch",
+              "HOCM: keine Nitrate, kein Volumenmangel",
+              "beide: Rhythmusstörungen, ICD möglich"
+            ]
+          },
+          "questions": [
+            {
+              "id": "u13l2q1",
+              "type": "word_parts",
+              "term": "Hypertrophie",
+              "parts": [
+                {
+                  "part": "Hyper",
+                  "meaning": "über, zu viel",
+                  "origin": "griech. hypér"
+                },
+                {
+                  "part": "troph",
+                  "meaning": "Ernährung, Wachstum",
+                  "origin": "griech. trophḗ"
+                },
+                {
+                  "part": "ie",
+                  "meaning": "Zustand"
+                }
+              ],
+              "distractors": [
+                "Hypo",
+                "itis"
+              ],
+              "meaning": "Vergrößerung durch Zellwachstum",
+              "explanation": "Bei der HCM ist der Herzmuskel hypertrophiert."
+            },
+            {
+              "id": "u13l2q2",
+              "type": "matching",
+              "prompt": "Ordne zu.",
+              "pairs": [
+                {
+                  "left": "DCM",
+                  "right": "erweiterte Kammer, schwache Pumpe"
+                },
+                {
+                  "left": "HCM",
+                  "right": "verdickter Herzmuskel"
+                },
+                {
+                  "left": "HOCM",
+                  "right": "Ausfluss zur Aorta eingeengt"
+                },
+                {
+                  "left": "Tachymyopathie",
+                  "right": "Pumpschwäche durch dauerhaft schnellen Puls"
+                }
+              ],
+              "explanation": "Die Tachymyopathie ist oft rückbildungsfähig."
+            },
+            {
+              "id": "u13l2q3",
+              "type": "true_false",
+              "statement": "Bei HOCM sind Nitrate und Volumenmangel ungünstig.",
+              "correct": true,
+              "explanation": "Richtig. Sie verstärken die Einengung des Ausflusstrakts."
+            },
+            {
+              "id": "u13l2q4",
+              "type": "single_choice",
+              "prompt": "Warum werden bei HCM auch Angehörige untersucht?",
+              "options": [
+                "weil die Erkrankung oft vererbt wird",
+                "weil sie ansteckend ist",
+                "wegen der Besuchszeiten",
+                "weil es Pflicht für alle Patienten ist"
+              ],
+              "correctIndex": 0,
+              "explanation": "Verwandte ersten Grades sollten untersucht werden."
+            },
+            {
+              "id": "u13l2q5",
+              "type": "single_choice",
+              "prompt": "Was ist eine häufige Ursache einer DCM?",
+              "options": [
+                "Alkohol",
+                "Kurzsichtigkeit",
+                "Heuschnupfen",
+                "Karies"
+              ],
+              "correctIndex": 0,
+              "explanation": "Auch genetische Ursachen, Myokarditis und Chemotherapie kommen vor."
+            }
+          ],
+          "sourceIds": [
+            "esc-cmp-2023"
+          ],
+          "articleIds": [
+            "a-dcm",
+            "a-hcm"
+          ],
+          "termIds": [
+            "t-hypertrophie",
+            "t-kardiomyopathie"
+          ]
+        },
+        {
+          "id": "u13l3",
+          "title": "Takotsubo-Syndrom",
+          "card": {
+            "title": "Gebrochenes Herz",
+            "text": "Starker Stress kann eine plötzliche Pumpschwäche auslösen, die wie ein Herzinfarkt aussieht.",
+            "bullets": [
+              "meist Frauen nach den Wechseljahren",
+              "Herzkatheter: Gefäße offen",
+              "QT oft verlängert",
+              "erholt sich meist in Wochen"
+            ]
+          },
+          "questions": [
+            {
+              "id": "u13l3q1",
+              "type": "single_choice",
+              "prompt": "Wie unterscheidet man Takotsubo sicher von einem Herzinfarkt?",
+              "options": [
+                "Herzkatheter: keine verschlossenen Gefäße",
+                "nur am Brustschmerz",
+                "am Blutdruck",
+                "an der Körpertemperatur"
+              ],
+              "correctIndex": 0,
+              "explanation": "EKG und Troponin können ähnlich aussehen."
+            },
+            {
+              "id": "u13l3q2",
+              "type": "single_choice",
+              "prompt": "Was ist ein typischer Auslöser?",
+              "options": [
+                "emotionaler oder körperlicher Stress",
+                "Kälte",
+                "zu viel Schlaf",
+                "Vitaminmangel"
+              ],
+              "correctIndex": 0,
+              "explanation": "Stresshormone spielen eine zentrale Rolle."
+            },
+            {
+              "id": "u13l3q3",
+              "type": "true_false",
+              "statement": "Beim Takotsubo-Syndrom erholt sich die Pumpfunktion meist wieder.",
+              "correct": true,
+              "explanation": "Richtig, meist innerhalb von Tagen bis Wochen."
+            },
+            {
+              "id": "u13l3q4",
+              "type": "single_choice",
+              "prompt": "Auf welche Rhythmusgefahr achtest du besonders?",
+              "options": [
+                "QT-Verlängerung und Torsade de pointes",
+                "Sinusrhythmus",
+                "AV-Block I° allein",
+                "Sinusarrhythmie beim Atmen"
+              ],
+              "correctIndex": 0,
+              "explanation": "Die QT-Zeit ist beim Takotsubo oft deutlich verlängert."
+            },
+            {
+              "id": "u13l3q5",
+              "type": "single_choice",
+              "prompt": "Wer ist am häufigsten betroffen?",
+              "options": [
+                "Frauen nach den Wechseljahren",
+                "Kleinkinder",
+                "junge Männer",
+                "Leistungssportler"
+              ],
+              "correctIndex": 0,
+              "explanation": "Etwa 90 % sind Frauen, meist über 50."
+            }
+          ],
+          "sourceIds": [
+            "intertak-2018"
+          ],
+          "articleIds": [
+            "a-takotsubo"
+          ],
+          "termIds": [
+            "t-kardiomyopathie"
+          ]
+        },
+        {
+          "id": "u13l4",
+          "title": "Myokarditis",
+          "card": {
+            "title": "Entzündeter Herzmuskel",
+            "text": "Nach einem Infekt kann sich der Herzmuskel entzünden. Sport ist dann tabu.",
+            "bullets": [
+              "Brustschmerz, Herzstolpern nach Infekt",
+              "Troponin, Kardio-MRT",
+              "Sportpause meist 3–6 Monate",
+              "Monitor: VT, AV-Block"
+            ]
+          },
+          "questions": [
+            {
+              "id": "u13l4q1",
+              "type": "word_parts",
+              "term": "Myokarditis",
+              "parts": [
+                {
+                  "part": "Myo",
+                  "meaning": "Muskel",
+                  "origin": "griech. mỹs"
+                },
+                {
+                  "part": "kard",
+                  "meaning": "Herz",
+                  "origin": "griech. kardía"
+                },
+                {
+                  "part": "itis",
+                  "meaning": "Entzündung"
+                }
+              ],
+              "distractors": [
+                "Peri",
+                "Endo",
+                "ose"
+              ],
+              "meaning": "Entzündung des Herzmuskels",
+              "explanation": "Myo-kard = Herzmuskel."
+            },
+            {
+              "id": "u13l4q2",
+              "type": "single_choice",
+              "prompt": "Was ist die häufigste Ursache einer Myokarditis?",
+              "options": [
+                "Virusinfekt",
+                "Knochenbruch",
+                "Sonnenbrand",
+                "Unterzucker"
+              ],
+              "correctIndex": 0,
+              "explanation": "Oft geht eine Erkältung oder ein Magen-Darm-Infekt voraus."
+            },
+            {
+              "id": "u13l4q3",
+              "type": "true_false",
+              "statement": "Nach einer Myokarditis kann man sofort wieder Leistungssport machen.",
+              "correct": false,
+              "explanation": "Falsch. Meist gilt eine Sportpause von 3–6 Monaten bis zur Freigabe."
+            },
+            {
+              "id": "u13l4q4",
+              "type": "single_choice",
+              "prompt": "Welche Gefahr besteht bei Myokarditis am Monitor?",
+              "options": [
+                "ventrikuläre Rhythmusstörungen",
+                "keine",
+                "nur Sinustachykardie",
+                "Hypoglykämie"
+              ],
+              "correctIndex": 0,
+              "explanation": "VT, AV-Block und plötzlicher Herztod sind möglich."
+            },
+            {
+              "id": "u13l4q5",
+              "type": "single_choice",
+              "prompt": "Welche Untersuchung zeigt die Entzündung des Herzmuskels gut?",
+              "options": [
+                "Kardio-MRT",
+                "Ultraschall der Schilddrüse",
+                "Lungenfunktion",
+                "Augenhintergrund"
+              ],
+              "correctIndex": 0,
+              "explanation": "Das MRT zeigt Ödem und Narben im Herzmuskel."
+            }
+          ],
+          "sourceIds": [
+            "esc-myo-2013"
+          ],
+          "articleIds": [
+            "a-myokarditis"
+          ],
+          "termIds": [
+            "t-myokarditis"
+          ]
+        },
+        {
+          "id": "u13l5",
+          "title": "Perikarditis und Tamponade",
+          "card": {
+            "title": "Der Herzbeutel",
+            "text": "Perikarditis schmerzt im Liegen und bessert sich beim Vorbeugen. Ein großer Erguss kann das Herz abdrücken.",
+            "bullets": [
+              "EKG: ausgedehnte ST-Hebungen, PR-Senkung",
+              "ASS/NSAR + Colchicin",
+              "Tamponade: Beck-Trias",
+              "Notfall-Entlastung: Perikardpunktion"
+            ]
+          },
+          "questions": [
+            {
+              "id": "u13l5q1",
+              "type": "word_parts",
+              "term": "Perikarditis",
+              "parts": [
+                {
+                  "part": "Peri",
+                  "meaning": "um … herum",
+                  "origin": "griech. perí"
+                },
+                {
+                  "part": "kard",
+                  "meaning": "Herz",
+                  "origin": "griech. kardía"
+                },
+                {
+                  "part": "itis",
+                  "meaning": "Entzündung"
+                }
+              ],
+              "distractors": [
+                "Myo",
+                "Endo",
+                "ose"
+              ],
+              "meaning": "Entzündung des Herzbeutels",
+              "explanation": "Der Herzbeutel liegt um das Herz herum."
+            },
+            {
+              "id": "u13l5q2",
+              "type": "single_choice",
+              "prompt": "Wann ist der Schmerz bei Perikarditis typischerweise besser?",
+              "options": [
+                "im Sitzen mit Vorbeugen",
+                "flach auf dem Rücken",
+                "bei tiefer Einatmung",
+                "beim Husten"
+              ],
+              "correctIndex": 0,
+              "explanation": "Im Liegen und beim Einatmen wird er stärker."
+            },
+            {
+              "id": "u13l5q3",
+              "type": "matching",
+              "prompt": "Ordne die Beck-Trias der Tamponade zu.",
+              "pairs": [
+                {
+                  "left": "Kreislauf",
+                  "right": "Blutdruckabfall"
+                },
+                {
+                  "left": "Halsvenen",
+                  "right": "gestaut"
+                },
+                {
+                  "left": "Herztöne",
+                  "right": "leise"
+                },
+                {
+                  "left": "Behandlung",
+                  "right": "Perikardpunktion"
+                }
+              ],
+              "explanation": "Die Tamponade ist ein Notfall."
+            },
+            {
+              "id": "u13l5q4",
+              "type": "single_choice",
+              "prompt": "Welche Medikamente sind Standard bei akuter Perikarditis?",
+              "options": [
+                "ASS oder NSAR plus Colchicin",
+                "Antibiotika immer",
+                "Heparin hochdosiert",
+                "Kortison als erste Wahl"
+              ],
+              "correctIndex": 0,
+              "explanation": "Kortison nur, wenn die Standardtherapie nicht geht."
+            },
+            {
+              "id": "u13l5q5",
+              "type": "true_false",
+              "statement": "Nach einer Ablation oder Schrittmacher-Implantation kann eine Tamponade auftreten.",
+              "correct": true,
+              "explanation": "Richtig. Bei Blutdruckabfall und Herzrasen daran denken."
+            }
+          ],
+          "sourceIds": [
+            "esc-peri-2015"
+          ],
+          "articleIds": [
+            "a-perikarditis"
+          ],
+          "termIds": [
+            "t-perikarditis"
+          ]
+        }
+      ]
     }
   ]
 }
