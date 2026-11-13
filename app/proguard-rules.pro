@@ -8,3 +8,7 @@
     kotlinx.serialization.KSerializer serializer(...);
 }
 -keep,includedescriptorclasses class de.pflegefueranfaenger.**$$serializer { *; }
+
+# Datenmodell vollständig behalten (JSON-Inhalte, polymorphe Fragen, Enums mit @SerialName)
+-keep class de.pflegefueranfaenger.core.model.** { *; }
+-keep class de.pflegefueranfaenger.core.game.** { *; }
