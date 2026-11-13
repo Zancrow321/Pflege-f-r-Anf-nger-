@@ -1063,5 +1063,473 @@
       "t-koronar",
       "t-angioplastie"
     ]
+  },
+  {
+    "id": "a-pneumonie",
+    "title": "Pneumonie (Lungenentzündung)",
+    "category": "Lunge",
+    "summary": "Entzündung des Lungengewebes, meist durch Bakterien oder Viren. Bei Herzpatienten oft Auslöser für Dekompensation oder Vorhofflimmern.",
+    "kind": "diagnose",
+    "sections": [
+      {
+        "title": "Kurz erklärt",
+        "paragraphs": [
+          "Bei einer Pneumonie sind die Lungenbläschen und das umliegende Gewebe entzündet. Der Gasaustausch wird schlechter.",
+          "- ambulant erworben (CAP): außerhalb des Krankenhauses entstanden",
+          "- nosokomial (HAP): ab 48 Stunden nach Aufnahme im Krankenhaus entstanden",
+          "- Aspirationspneumonie: nach Einatmen von Mageninhalt oder Speichel (z.B. bei Schluckstörung)"
+        ]
+      },
+      {
+        "title": "Ursachen und Risikofaktoren",
+        "paragraphs": [
+          "- häufigster bakterieller Erreger: Pneumokokken; außerdem Viren (z.B. Influenza, SARS-CoV-2), Haemophilus, Mykoplasmen, Legionellen",
+          "- Risikofaktoren: hohes Alter, Herzinsuffizienz, COPD, Diabetes, Immunschwäche, Rauchen, Bettlägerigkeit, Schluckstörungen"
+        ]
+      },
+      {
+        "title": "Symptome",
+        "paragraphs": [
+          "- Fieber, Schüttelfrost, Husten, eitriger Auswurf",
+          "- Atemnot, schnelle Atmung, atemabhängige Brustschmerzen",
+          "- Ältere Menschen: oft nur Verwirrtheit, Schwäche, Sturz – manchmal ohne Fieber"
+        ]
+      },
+      {
+        "title": "Diagnostik",
+        "paragraphs": [
+          "- Röntgen-Thorax (neues Infiltrat), Auskultation (Rasselgeräusche)",
+          "- Labor: Entzündungswerte (CRP, ggf. PCT), Blutbild, Nierenwerte; Blutkulturen bei stationärer Aufnahme",
+          "- Sättigung und ggf. Blutgasanalyse",
+          "- Schweregrad: CRB-65 (Verwirrtheit, Atemfrequenz ab 30/min, niedriger Blutdruck, Alter ab 65); auf Sepsis achten"
+        ]
+      },
+      {
+        "title": "Therapie",
+        "paragraphs": [
+          "- Antibiotika so früh wie möglich, bei Sepsis innerhalb einer Stunde; Auswahl nach Leitlinie, Schweregrad und Risikofaktoren (z.B. Aminopenicillin mit Betalaktamase-Hemmer, ggf. plus Makrolid)",
+          "- Sauerstoff nach Zielwert, Flüssigkeit (bei Herzinsuffizienz vorsichtig), Fiebersenkung",
+          "- Frühmobilisation, Atemtherapie, Thromboseprophylaxe"
+        ]
+      },
+      {
+        "title": "Pflege und Beobachtung",
+        "paragraphs": [
+          "- Vitalzeichen mit Atemfrequenz (wichtigster Frühwarnwert), Temperatur, Sättigung, Bewusstsein",
+          "- Antibiotika pünktlich, Blutkulturen vor der ersten Gabe nach Anordnung",
+          "- Atemtherapie: Oberkörperhochlagerung, Mobilisation, Atemübungen, Sekret lösen und abhusten lassen",
+          "- Flüssigkeitsbilanz, bei Herzinsuffizienz auf Zeichen der Überwässerung achten",
+          "- Aspirationsprophylaxe bei Schluckstörungen, Mundpflege, Hygiene"
+        ]
+      },
+      {
+        "title": "Warnzeichen",
+        "paragraphs": [
+          "- Sepsis-Zeichen: Atemfrequenz ab 22/min, systolischer Blutdruck bis 100 mmHg, Bewusstseinsveränderung (qSOFA)",
+          "- fallende Sättigung, zunehmende Erschöpfung",
+          "- neue Rhythmusstörung oder Zeichen der kardialen Dekompensation"
+        ]
+      }
+    ],
+    "keywords": [
+      "Lungenentzündung",
+      "CAP",
+      "HAP",
+      "Infiltrat",
+      "Antibiotika",
+      "CRB-65",
+      "Sepsis",
+      "Fieber"
+    ],
+    "relatedArticleIds": [
+      "a-dekompensation",
+      "a-copd"
+    ],
+    "sourceIds": [
+      "s3-cap-2021"
+    ],
+    "lastChecked": "2026-11-13",
+    "houseSpecific": true,
+    "status": "unreviewed",
+    "termIds": [
+      "t-pneumonie",
+      "t-tachypnoe",
+      "t-dyspnoe"
+    ]
+  },
+  {
+    "id": "a-copd",
+    "title": "COPD (chronisch obstruktive Lungenerkrankung)",
+    "category": "Lunge",
+    "summary": "Dauerhaft verengte Atemwege, meist durch Rauchen. Häufige Begleiterkrankung bei Herzpatienten – mit Besonderheiten bei Sauerstoff und Medikamenten.",
+    "kind": "diagnose",
+    "sections": [
+      {
+        "title": "Kurz erklärt",
+        "paragraphs": [
+          "Bei der COPD sind die Atemwege chronisch entzündet und verengt (Obstruktion), oft kommt eine Überblähung der Lunge (Emphysem) hinzu. Die Verengung ist nicht vollständig rückbildbar.",
+          "- Exazerbation: akute Verschlechterung über Tage mit mehr Atemnot, Husten und Auswurf"
+        ]
+      },
+      {
+        "title": "Ursachen und Risikofaktoren",
+        "paragraphs": [
+          "- Rauchen (häufigste Ursache), Feinstaub und Schadstoffe am Arbeitsplatz",
+          "- selten genetisch (Alpha-1-Antitrypsin-Mangel)",
+          "- Auslöser von Exazerbationen: Infekte, Luftverschmutzung, Medikamente nicht genommen"
+        ]
+      },
+      {
+        "title": "Symptome",
+        "paragraphs": [
+          "- chronischer Husten mit Auswurf, Atemnot zuerst bei Belastung",
+          "- verlängerte Ausatmung, Giemen; Fassthorax bei Emphysem",
+          "- Exazerbation: mehr Atemnot, mehr und eitrigerer Auswurf"
+        ]
+      },
+      {
+        "title": "Diagnostik",
+        "paragraphs": [
+          "- Lungenfunktion (Spirometrie): FEV₁/FVC unter 0,7 nach Bronchodilatator",
+          "- Blutgasanalyse (Sauerstoffmangel, CO₂-Erhöhung), Röntgen-Thorax",
+          "- bei Exazerbation: Labor, ggf. Sputum; Herzinsuffizienz, Lungenembolie und Pneumonie abgrenzen"
+        ]
+      },
+      {
+        "title": "Therapie",
+        "paragraphs": [
+          "- Rauchstopp (wichtigste Maßnahme), Impfungen, Lungensport",
+          "- Inhalative Dauertherapie: langwirksame Bronchodilatatoren (LAMA, z.B. Tiotropium; LABA, z.B. Formoterol), ggf. inhalatives Kortison",
+          "- Exazerbation: kurzwirksame Bronchodilatatoren (z.B. Salbutamol, Ipratropium), systemisches Kortison für wenige Tage, Antibiotika bei eitrigem Auswurf, NIV bei CO₂-Anstieg mit Azidose",
+          "- Sauerstoff nach Zielwert, bei Exazerbation meist SpO₂ 88–92 %",
+          "- Kardioselektive Betablocker (z.B. Bisoprolol) sind bei COPD nicht verboten, wenn das Herz sie braucht"
+        ]
+      },
+      {
+        "title": "Pflege und Beobachtung",
+        "paragraphs": [
+          "- atemerleichternde Haltung (Kutschersitz, Torwartstellung), Lippenbremse anleiten",
+          "- Sauerstoff nur nach angeordnetem Zielbereich; Sättigung und Bewusstsein beobachten",
+          "- Inhalationstechnik kontrollieren und üben",
+          "- Sekretmanagement, ausreichend trinken (nach Anordnung bei Herzinsuffizienz), Ernährung",
+          "- Rauchstopp ansprechen und unterstützen",
+          "- Beta-2-Mimetika können Herzfrequenz erhöhen und Kalium senken: Monitor und Labor im Blick"
+        ]
+      },
+      {
+        "title": "Warnzeichen",
+        "paragraphs": [
+          "- zunehmende Schläfrigkeit, Kopfschmerz, Verwirrtheit: Verdacht auf CO₂-Anstieg, sofort Arzt",
+          "- Einsatz der Atemhilfsmuskulatur, Erschöpfung, Zyanose",
+          "- neue Tachykardie oder Rhythmusstörung"
+        ]
+      }
+    ],
+    "keywords": [
+      "COPD",
+      "Exazerbation",
+      "Lippenbremse",
+      "Bronchodilatator",
+      "Hyperkapnie",
+      "Sauerstoff",
+      "Emphysem",
+      "Rauchen"
+    ],
+    "relatedArticleIds": [
+      "a-pneumonie",
+      "a-dekompensation"
+    ],
+    "sourceIds": [
+      "gold-2026"
+    ],
+    "lastChecked": "2026-11-13",
+    "houseSpecific": true,
+    "status": "unreviewed",
+    "termIds": [
+      "t-obstruktion",
+      "t-exazerbation",
+      "t-zyanose"
+    ]
+  },
+  {
+    "id": "a-hfref",
+    "title": "HFrEF (Herzinsuffizienz mit reduzierter Pumpfunktion)",
+    "category": "Herzinsuffizienz",
+    "summary": "Chronische Herzschwäche mit einer Auswurffraktion von höchstens 40 %. Vier Medikamentengruppen verbessern das Überleben deutlich.",
+    "kind": "diagnose",
+    "sections": [
+      {
+        "title": "Kurz erklärt",
+        "paragraphs": [
+          "Die linke Kammer pumpt zu schwach. Gemessen wird das mit der Ejektionsfraktion (EF) im Echo.",
+          "- HFrEF: EF ≤ 40 %",
+          "- HFmrEF: EF 41–49 %",
+          "- HFpEF: EF ≥ 50 % (Pumpfunktion erhalten, Kammer steif)",
+          "Schweregrad nach Beschwerden: NYHA I (keine Beschwerden) bis NYHA IV (Beschwerden in Ruhe)."
+        ]
+      },
+      {
+        "title": "Ursachen und Risikofaktoren",
+        "paragraphs": [
+          "- koronare Herzkrankheit und Herzinfarkt (häufigste Ursache)",
+          "- Bluthochdruck, Herzklappenerkrankungen, dilatative Kardiomyopathie",
+          "- anhaltend schnelle Rhythmusstörungen (Tachymyopathie), Alkohol, bestimmte Chemotherapien, Myokarditis"
+        ]
+      },
+      {
+        "title": "Symptome",
+        "paragraphs": [
+          "- Atemnot, Leistungsschwäche, Müdigkeit",
+          "- Ödeme, Gewichtszunahme, Nykturie",
+          "- Schwindel und niedriger Blutdruck, auch durch die Medikamente"
+        ]
+      },
+      {
+        "title": "Diagnostik",
+        "paragraphs": [
+          "- Echokardiographie (EF, Klappen), NT-proBNP, EKG",
+          "- Labor: Niere, Elektrolyte, Blutbild, Eisenstatus, TSH",
+          "- Ursachensuche: Koronarangiographie, ggf. Kardio-MRT"
+        ]
+      },
+      {
+        "title": "Therapie",
+        "paragraphs": [
+          "Die vier Säulen der Basistherapie (ESC 2021):",
+          "- ACE-Hemmer oder ARNI (Sacubitril/Valsartan)",
+          "- Betablocker (Bisoprolol, Metoprololsuccinat, Carvedilol, Nebivolol)",
+          "- Mineralokortikoid-Rezeptor-Antagonist (Spironolacton, Eplerenon)",
+          "- SGLT2-Hemmer (Dapagliflozin, Empagliflozin)",
+          "Dazu: Diuretika bei Stauung, intravenöses Eisen bei Eisenmangel, Behandlung der Ursache. Geräte: ICD bei EF ≤ 35 % trotz mindestens 3 Monaten Therapie; CRT bei breitem QRS mit Linksschenkelblock."
+        ]
+      },
+      {
+        "title": "Pflege und Beobachtung",
+        "paragraphs": [
+          "- tägliches Gewicht, Ödeme, Atemnot, Ein- und Ausfuhr",
+          "- Blutdruck und Puls vor Gabe der Herzinsuffizienz-Medikamente; zu niedrige Werte vor der Gabe dem Arzt melden (nach Hausstandard)",
+          "- Kalium und Kreatinin unter ACE-Hemmer/ARNI und MRA beobachten",
+          "- SGLT2-Hemmer: Genitalhygiene (Pilzinfektionen); bei Nüchternheit oder akuter Erkrankung nach ärztlicher Anordnung pausieren",
+          "- Sturzprophylaxe bei Schwindel, langsam aufstehen",
+          "- Schulung: Gewicht, Warnzeichen, Medikamente, Salz, Bewegung"
+        ]
+      },
+      {
+        "title": "Warnzeichen",
+        "paragraphs": [
+          "- Zeichen der Dekompensation (Gewicht steigt, Atemnot, Ödeme)",
+          "- Kalium über 5,5 mmol/l, Kreatininanstieg",
+          "- symptomatische Hypotonie oder Bradykardie",
+          "- Synkope, Herzrasen, VT am Monitor: Gefahr des plötzlichen Herztods"
+        ]
+      }
+    ],
+    "keywords": [
+      "Herzinsuffizienz",
+      "HFrEF",
+      "EF",
+      "Ejektionsfraktion",
+      "NYHA",
+      "ARNI",
+      "SGLT2",
+      "MRA",
+      "ICD",
+      "CRT"
+    ],
+    "relatedArticleIds": [
+      "a-dekompensation",
+      "a-icmp"
+    ],
+    "sourceIds": [
+      "esc-hf-2021",
+      "esc-hf-2023"
+    ],
+    "lastChecked": "2026-11-13",
+    "houseSpecific": true,
+    "status": "unreviewed",
+    "termIds": [
+      "t-insuffizienz",
+      "t-kardiomyopathie",
+      "t-nykturie"
+    ]
+  },
+  {
+    "id": "a-icmp",
+    "title": "Ischämische Kardiomyopathie",
+    "category": "Koronare Herzkrankheit",
+    "summary": "Herzmuskelschwäche als Folge der koronaren Herzkrankheit, meist nach einem oder mehreren Herzinfarkten.",
+    "kind": "diagnose",
+    "sections": [
+      {
+        "title": "Kurz erklärt",
+        "paragraphs": [
+          "Abgestorbener Herzmuskel wird zu Narbe und pumpt nicht mehr mit. Dazu kann chronisch minderdurchbluteter, aber noch lebender Muskel kommen. Die Pumpfunktion sinkt, meist entsteht eine HFrEF."
+        ]
+      },
+      {
+        "title": "Ursachen und Risikofaktoren",
+        "paragraphs": [
+          "- koronare Herzkrankheit mit Herzinfarkt(en)",
+          "- Risikofaktoren der KHK: Rauchen, Hypertonie, Diabetes, Fettstoffwechselstörung, familiäre Belastung"
+        ]
+      },
+      {
+        "title": "Symptome",
+        "paragraphs": [
+          "- Zeichen der Herzinsuffizienz: Atemnot, Ödeme, Leistungsschwäche",
+          "- Angina pectoris bei weiter bestehender Ischämie",
+          "- Herzrasen, Schwindel oder Synkope bei Rhythmusstörungen"
+        ]
+      },
+      {
+        "title": "Diagnostik",
+        "paragraphs": [
+          "- Echokardiographie (EF, Wandbewegungsstörungen), EKG (z.B. Q-Zacken nach Infarkt)",
+          "- Koronarangiographie",
+          "- Kardio-MRT oder andere Verfahren zur Beurteilung von Narbe und lebensfähigem Muskel (Vitalität)"
+        ]
+      },
+      {
+        "title": "Therapie",
+        "paragraphs": [
+          "- Herzinsuffizienz-Therapie wie bei HFrEF (vier Säulen)",
+          "- KHK-Therapie: Plättchenhemmung, Statin, Risikofaktoren behandeln",
+          "- Revaskularisation (PCI oder Bypass-OP) nach Entscheidung im Heart Team",
+          "- ICD zur Vorbeugung des plötzlichen Herztods, ggf. CRT; kardiologische Rehabilitation"
+        ]
+      },
+      {
+        "title": "Pflege und Beobachtung",
+        "paragraphs": [
+          "- wie bei HFrEF: Gewicht, Bilanz, Vitalzeichen vor Medikamentengabe, Kalium und Niere",
+          "- Brustschmerz ernst nehmen: EKG und Arzt",
+          "- Monitor auf ventrikuläre Rhythmusstörungen",
+          "- Mobilisation nach Belastbarkeit, Schulung zu Risikofaktoren"
+        ]
+      },
+      {
+        "title": "Warnzeichen",
+        "paragraphs": [
+          "- VT oder Kammerflimmern (Narben begünstigen kreisende Erregungen)",
+          "- neuer oder zunehmender Brustschmerz",
+          "- Dekompensation, Hypotonie, Synkope"
+        ]
+      }
+    ],
+    "keywords": [
+      "iCMP",
+      "ICM",
+      "Kardiomyopathie",
+      "KHK",
+      "Narbe",
+      "Vitalität",
+      "Bypass",
+      "Revaskularisation"
+    ],
+    "relatedArticleIds": [
+      "a-hfref",
+      "a-stemi"
+    ],
+    "sourceIds": [
+      "esc-hf-2021",
+      "esc-ccs-2024",
+      "esc-va-2022"
+    ],
+    "lastChecked": "2026-11-13",
+    "houseSpecific": true,
+    "status": "unreviewed",
+    "termIds": [
+      "t-kardiomyopathie",
+      "t-ischaemie"
+    ]
+  },
+  {
+    "id": "a-bradykardie",
+    "title": "Bradykardie",
+    "category": "Herzrhythmus",
+    "summary": "Zu langsamer Herzschlag. Entscheidend ist nicht die Zahl allein, sondern ob der Patient Symptome hat oder instabil ist.",
+    "kind": "diagnose",
+    "sections": [
+      {
+        "title": "Kurz erklärt",
+        "paragraphs": [
+          "Von Bradykardie spricht man meist bei einer Herzfrequenz unter 60/min (manche Leitlinien: unter 50/min). Ursachen sind ein zu langsamer Taktgeber (Sinusknoten) oder eine gestörte Überleitung (AV-Block)."
+        ]
+      },
+      {
+        "title": "Ursachen und Risikofaktoren",
+        "paragraphs": [
+          "- harmlos: Schlaf, trainierte Menschen",
+          "- Medikamente: Betablocker, Digitalis, Verapamil/Diltiazem, Amiodaron, Ivabradin",
+          "- Erkrankung von Sinusknoten oder Reizleitung (Sick-Sinus-Syndrom, AV-Block), Hinterwandinfarkt",
+          "- Hyperkaliämie, Schilddrüsenunterfunktion, Unterkühlung, erhöhter Hirndruck, starker Vagusreiz (z.B. beim Pressen, Erbrechen)"
+        ]
+      },
+      {
+        "title": "Symptome",
+        "paragraphs": [
+          "- Schwindel, Synkope (Bewusstlosigkeit), Sturz",
+          "- Müdigkeit, Leistungsschwäche, Atemnot",
+          "- Verwirrtheit, Hypotonie, Brustschmerz"
+        ]
+      },
+      {
+        "title": "Diagnostik",
+        "paragraphs": [
+          "- 12-Kanal-EKG und Monitor: Sinusbradykardie, Pausen, AV-Block?",
+          "- Langzeit-EKG, ggf. Belastungs-EKG",
+          "- Labor: Kalium, TSH, ggf. Digitalisspiegel; Medikamentenplan prüfen"
+        ]
+      },
+      {
+        "title": "Therapie",
+        "paragraphs": [
+          "- Ursache beseitigen, z.B. bradykardisierende Medikamente nach ärztlicher Anordnung pausieren",
+          "- instabil (Schock, Synkope, Ischämie, Herzinsuffizienz): Atropin 500 µg i.v., bei Bedarf wiederholt bis 3 mg; danach z.B. Adrenalin-Infusion oder externer (transkutaner) Schrittmacher (ERC)",
+          "- dauerhaft bei symptomatischer Bradykardie oder hochgradigem AV-Block: Herzschrittmacher"
+        ]
+      },
+      {
+        "title": "Pflege und Beobachtung",
+        "paragraphs": [
+          "- Monitor, Alarmgrenzen nach Anordnung, Vitalzeichen und Bewusstsein",
+          "- Herzfrequenz vor Gabe bradykardisierender Medikamente prüfen; zu niedrige Werte vor der Gabe melden",
+          "- langsam aufstehen, Sturzprophylaxe, Klingel in Reichweite",
+          "- bei Hochrisiko-Befunden: Defibrillator mit Schrittmacherfunktion und Klebeelektroden bereitlegen (nach Hausstandard)"
+        ]
+      },
+      {
+        "title": "Warnzeichen",
+        "paragraphs": [
+          "- Schock, Synkope, Brustschmerz, akute Herzinsuffizienz: instabil, sofort Arzt",
+          "- hohes Asystolie-Risiko (ERC): AV-Block II° Typ Mobitz, AV-Block III° mit breiten QRS, Pausen über 3 Sekunden, vorangegangene Asystolie"
+        ]
+      }
+    ],
+    "keywords": [
+      "Bradykardie",
+      "langsamer Puls",
+      "Atropin",
+      "Schrittmacher",
+      "transkutan",
+      "Pause",
+      "Sick-Sinus"
+    ],
+    "relatedArticleIds": [
+      "a-av-block",
+      "a-sinusrhythmus"
+    ],
+    "sourceIds": [
+      "esc-pacing-2021",
+      "aha-brady-2018",
+      "erc-als-2021"
+    ],
+    "lastChecked": "2026-11-13",
+    "houseSpecific": true,
+    "status": "unreviewed",
+    "termIds": [
+      "t-bradykardie",
+      "t-synkope"
+    ]
   }
 ]

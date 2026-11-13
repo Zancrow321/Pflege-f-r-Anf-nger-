@@ -2448,6 +2448,484 @@
           ]
         }
       ]
+    },
+    {
+      "id": "u8",
+      "title": "Krankheitsbilder 2: Lunge, Herzschwäche, langsamer Puls",
+      "level": "station",
+      "description": "Pneumonie, COPD, HFrEF, ischämische Kardiomyopathie und Bradykardie.",
+      "lessons": [
+        {
+          "id": "u8l1",
+          "title": "Pneumonie",
+          "card": {
+            "title": "Lungenentzündung beim Herzpatienten",
+            "text": "Eine Pneumonie kann Vorhofflimmern oder eine Dekompensation auslösen. Die Atemfrequenz ist oft das erste Warnzeichen.",
+            "bullets": [
+              "Antibiotika früh, bei Sepsis innerhalb 1 Stunde",
+              "CRB-65: Verwirrtheit, Atemfrequenz ≥ 30, niedriger Blutdruck, Alter ≥ 65",
+              "Ältere: oft nur Verwirrtheit, kein Fieber"
+            ]
+          },
+          "questions": [
+            {
+              "id": "u8l1q1",
+              "type": "word_parts",
+              "term": "Pneumonie",
+              "parts": [
+                {
+                  "part": "Pneumon",
+                  "meaning": "Lunge",
+                  "origin": "griech. pneúmōn"
+                },
+                {
+                  "part": "ie",
+                  "meaning": "Krankheit, Zustand"
+                }
+              ],
+              "distractors": [
+                "Herz",
+                "Entzündung",
+                "Blut"
+              ],
+              "meaning": "Lungenentzündung",
+              "explanation": "Pneumon = Lunge. Achtung: Die Endung -itis wird hier nicht benutzt, obwohl es eine Entzündung ist."
+            },
+            {
+              "id": "u8l1q2",
+              "type": "single_choice",
+              "prompt": "Welcher Vitalwert verändert sich bei einer Pneumonie oft als Erstes?",
+              "options": [
+                "Atemfrequenz",
+                "Körpergröße",
+                "Pupillenweite",
+                "Blutzucker"
+              ],
+              "correctIndex": 0,
+              "explanation": "Eine steigende Atemfrequenz ist ein früher und oft übersehener Warnwert."
+            },
+            {
+              "id": "u8l1q3",
+              "type": "true_false",
+              "statement": "Bei älteren Menschen kann sich eine Pneumonie nur durch Verwirrtheit zeigen, auch ohne Fieber.",
+              "correct": true,
+              "explanation": "Richtig. Deshalb bei neuer Verwirrtheit auch an Infekte denken."
+            },
+            {
+              "id": "u8l1q4",
+              "type": "single_choice",
+              "prompt": "Wofür steht das „C“ im CRB-65?",
+              "options": [
+                "Confusion – Verwirrtheit",
+                "CRP-Wert",
+                "Cyanose",
+                "Cholesterin"
+              ],
+              "correctIndex": 0,
+              "explanation": "C = Confusion, R = Respiratory rate ≥ 30/min, B = Blood pressure niedrig, 65 = Alter ≥ 65."
+            },
+            {
+              "id": "u8l1q5",
+              "type": "single_choice",
+              "prompt": "Was gehört NICHT zur Pneumonieprophylaxe?",
+              "options": [
+                "strenge Bettruhe für alle",
+                "Frühmobilisation",
+                "Atemübungen",
+                "Mundpflege"
+              ],
+              "correctIndex": 0,
+              "explanation": "Bewegung und Atemtherapie beugen vor; unnötige Bettruhe fördert Pneumonien."
+            }
+          ],
+          "sourceIds": [
+            "s3-cap-2021"
+          ],
+          "articleIds": [
+            "a-pneumonie"
+          ],
+          "termIds": [
+            "t-pneumonie"
+          ]
+        },
+        {
+          "id": "u8l2",
+          "title": "COPD",
+          "card": {
+            "title": "Enge Atemwege",
+            "text": "Die COPD ist häufig und begleitet viele Herzpatienten. Wichtig: Sauerstoff nach Zielbereich und richtige Inhalation.",
+            "bullets": [
+              "Ursache meist Rauchen",
+              "Exazerbation: mehr Atemnot, Husten, Auswurf",
+              "Sauerstoff-Ziel bei Exazerbation meist 88–92 %",
+              "Lippenbremse und Kutschersitz erleichtern das Atmen"
+            ]
+          },
+          "questions": [
+            {
+              "id": "u8l2q1",
+              "type": "single_choice",
+              "prompt": "Welcher Sauerstoff-Zielbereich gilt bei einer COPD-Exazerbation meist?",
+              "options": [
+                "SpO₂ 88–92 %",
+                "SpO₂ 100 %",
+                "SpO₂ 80–84 %",
+                "kein Zielbereich"
+              ],
+              "correctIndex": 0,
+              "explanation": "Zu viel Sauerstoff kann bei manchen COPD-Patienten zu einem gefährlichen CO₂-Anstieg führen."
+            },
+            {
+              "id": "u8l2q2",
+              "type": "single_choice",
+              "prompt": "Ein COPD-Patient unter Sauerstoff wird immer schläfriger. Woran denkst du?",
+              "options": [
+                "CO₂-Anstieg (Hyperkapnie) – sofort Arzt",
+                "Er ist einfach müde",
+                "Unterzuckerung ist ausgeschlossen",
+                "Normale Nebenwirkung von Salbutamol"
+              ],
+              "correctIndex": 0,
+              "explanation": "Schläfrigkeit, Kopfschmerz und Verwirrtheit können auf eine CO₂-Narkose hinweisen. Blutgasanalyse nach Anordnung."
+            },
+            {
+              "id": "u8l2q3",
+              "type": "true_false",
+              "statement": "Kardioselektive Betablocker wie Bisoprolol sind bei COPD grundsätzlich verboten.",
+              "correct": false,
+              "explanation": "Falsch. Sie dürfen gegeben werden, wenn das Herz sie braucht."
+            },
+            {
+              "id": "u8l2q4",
+              "type": "word_parts",
+              "term": "Obstruktion",
+              "parts": [
+                {
+                  "part": "Ob",
+                  "meaning": "entgegen, vor",
+                  "origin": "lat. ob"
+                },
+                {
+                  "part": "struktion",
+                  "meaning": "bauen, aufschichten",
+                  "origin": "lat. struere"
+                }
+              ],
+              "distractors": [
+                "Lunge",
+                "Entzündung",
+                "schnell"
+              ],
+              "meaning": "Verengung, Verlegung",
+              "explanation": "Bei der COPD sind die Atemwege verengt (obstruiert)."
+            },
+            {
+              "id": "u8l2q5",
+              "type": "single_choice",
+              "prompt": "Wie hilft die Lippenbremse?",
+              "options": [
+                "Sie hält die Atemwege beim Ausatmen offen",
+                "Sie senkt den Blutdruck",
+                "Sie verhindert Husten",
+                "Sie erhöht den Puls"
+              ],
+              "correctIndex": 0,
+              "explanation": "Durch den Widerstand an den Lippen fallen die kleinen Atemwege beim Ausatmen weniger zusammen."
+            }
+          ],
+          "sourceIds": [
+            "gold-2026"
+          ],
+          "articleIds": [
+            "a-copd"
+          ],
+          "termIds": [
+            "t-obstruktion",
+            "t-exazerbation"
+          ]
+        },
+        {
+          "id": "u8l3",
+          "title": "HFrEF",
+          "card": {
+            "title": "Die vier Säulen",
+            "text": "Bei einer EF von höchstens 40 % verbessern vier Medikamentengruppen Beschwerden und Überleben.",
+            "bullets": [
+              "ACE-Hemmer oder ARNI",
+              "Betablocker",
+              "MRA (Spironolacton, Eplerenon)",
+              "SGLT2-Hemmer (Dapagliflozin, Empagliflozin)",
+              "Diuretika nur gegen Stauung"
+            ]
+          },
+          "questions": [
+            {
+              "id": "u8l3q1",
+              "type": "single_choice",
+              "prompt": "Ab welcher Ejektionsfraktion spricht man von HFrEF?",
+              "options": [
+                "EF ≤ 40 %",
+                "EF ≤ 60 %",
+                "EF ≥ 50 %",
+                "EF ≤ 10 %"
+              ],
+              "correctIndex": 0,
+              "explanation": "HFrEF ≤ 40 %, HFmrEF 41–49 %, HFpEF ≥ 50 %."
+            },
+            {
+              "id": "u8l3q2",
+              "type": "matching",
+              "prompt": "Ordne jedes Medikament seiner Gruppe zu.",
+              "pairs": [
+                {
+                  "left": "Bisoprolol",
+                  "right": "Betablocker"
+                },
+                {
+                  "left": "Sacubitril/Valsartan",
+                  "right": "ARNI"
+                },
+                {
+                  "left": "Spironolacton",
+                  "right": "MRA"
+                },
+                {
+                  "left": "Dapagliflozin",
+                  "right": "SGLT2-Hemmer"
+                }
+              ],
+              "explanation": "Das sind die vier Säulen der HFrEF-Therapie."
+            },
+            {
+              "id": "u8l3q3",
+              "type": "single_choice",
+              "prompt": "Was beobachtest du besonders unter Spironolacton und ACE-Hemmer/ARNI?",
+              "options": [
+                "Kalium und Kreatinin",
+                "Blutzucker",
+                "Körpertemperatur",
+                "Pupillen"
+              ],
+              "correctIndex": 0,
+              "explanation": "Beide können das Kalium erhöhen und die Nierenwerte verändern."
+            },
+            {
+              "id": "u8l3q4",
+              "type": "single_choice",
+              "prompt": "Was bedeutet NYHA III?",
+              "options": [
+                "Beschwerden schon bei leichter Belastung",
+                "keine Beschwerden",
+                "Beschwerden nur bei starker Belastung",
+                "Beschwerden in Ruhe"
+              ],
+              "correctIndex": 0,
+              "explanation": "NYHA I keine, II bei stärkerer, III bei leichter Belastung, IV in Ruhe."
+            },
+            {
+              "id": "u8l3q5",
+              "type": "true_false",
+              "statement": "Ein ICD kommt bei HFrEF in Frage, wenn die EF trotz mindestens 3 Monaten optimaler Therapie bei 35 % oder darunter bleibt.",
+              "correct": true,
+              "explanation": "Richtig. Er schützt vor dem plötzlichen Herztod durch Kammerrhythmusstörungen."
+            }
+          ],
+          "sourceIds": [
+            "esc-hf-2021",
+            "esc-hf-2023"
+          ],
+          "articleIds": [
+            "a-hfref"
+          ],
+          "termIds": [
+            "t-insuffizienz"
+          ]
+        },
+        {
+          "id": "u8l4",
+          "title": "Ischämische Kardiomyopathie",
+          "card": {
+            "title": "Herzschwäche nach Infarkt",
+            "text": "Narben nach Herzinfarkten schwächen die Pumpfunktion und können gefährliche Rhythmusstörungen auslösen.",
+            "bullets": [
+              "Therapie: HFrEF-Medikamente plus KHK-Therapie",
+              "Revaskularisation nach Heart-Team-Entscheidung",
+              "Monitor: Gefahr von VT und Kammerflimmern"
+            ]
+          },
+          "questions": [
+            {
+              "id": "u8l4q1",
+              "type": "single_choice",
+              "prompt": "Was ist die Ursache einer ischämischen Kardiomyopathie?",
+              "options": [
+                "koronare Herzkrankheit mit Herzinfarkten",
+                "Virusinfekt des Herzmuskels",
+                "angeborener Herzfehler",
+                "Alkohol allein"
+              ],
+              "correctIndex": 0,
+              "explanation": "Ischämisch = durch Minderdurchblutung, also durch die KHK."
+            },
+            {
+              "id": "u8l4q2",
+              "type": "true_false",
+              "statement": "Narben im Herzmuskel können kreisende Erregungen und damit VT begünstigen.",
+              "correct": true,
+              "explanation": "Richtig. Deshalb ist die Monitorüberwachung wichtig und manche Patienten bekommen einen ICD."
+            },
+            {
+              "id": "u8l4q3",
+              "type": "single_choice",
+              "prompt": "Welche Untersuchung zeigt, ob minderdurchbluteter Herzmuskel noch lebt (Vitalität)?",
+              "options": [
+                "Kardio-MRT",
+                "Lungenfunktion",
+                "Blutzucker",
+                "Ultraschall der Beine"
+              ],
+              "correctIndex": 0,
+              "explanation": "Mit dem Kardio-MRT lassen sich Narbe und lebensfähiges Gewebe unterscheiden."
+            },
+            {
+              "id": "u8l4q4",
+              "type": "word_parts",
+              "term": "Ischämie",
+              "parts": [
+                {
+                  "part": "Isch",
+                  "meaning": "zurückhalten, hemmen",
+                  "origin": "griech. íschein"
+                },
+                {
+                  "part": "ämie",
+                  "meaning": "Blut",
+                  "origin": "griech. haíma"
+                }
+              ],
+              "distractors": [
+                "Herz",
+                "Muskel",
+                "zu viel"
+              ],
+              "meaning": "Minderdurchblutung",
+              "explanation": "Isch = zurückhalten, -ämie = Blut: Das Blut wird zurückgehalten, das Gewebe ist minderversorgt."
+            },
+            {
+              "id": "u8l4q5",
+              "type": "single_choice",
+              "prompt": "Wer entscheidet bei komplexer KHK zwischen Stent und Bypass-OP?",
+              "options": [
+                "das Heart Team (Kardiologie und Herzchirurgie gemeinsam)",
+                "die Pflege",
+                "der Patient allein ohne Beratung",
+                "das Labor"
+              ],
+              "correctIndex": 0,
+              "explanation": "Das Heart Team berät die Behandlung gemeinsam mit dem Patienten."
+            }
+          ],
+          "sourceIds": [
+            "esc-hf-2021",
+            "esc-ccs-2024",
+            "esc-va-2022"
+          ],
+          "articleIds": [
+            "a-icmp"
+          ],
+          "termIds": [
+            "t-ischaemie",
+            "t-kardiomyopathie"
+          ]
+        },
+        {
+          "id": "u8l5",
+          "title": "Bradykardie",
+          "card": {
+            "title": "Zu langsam – aber wie schlimm?",
+            "text": "Entscheidend sind Symptome und Stabilität. Häufige Ursache auf Station: Medikamente.",
+            "bullets": [
+              "Medikamente: Betablocker, Digitalis, Verapamil, Amiodaron",
+              "Instabil: Atropin 500 µg i.v., dann ggf. Adrenalin oder externer Schrittmacher",
+              "Dauerhaft: Herzschrittmacher"
+            ],
+            "strip": "sinus_brady"
+          },
+          "questions": [
+            {
+              "id": "u8l5q1",
+              "type": "single_choice",
+              "prompt": "Welches Medikament kann eine Bradykardie verursachen?",
+              "options": [
+                "Bisoprolol",
+                "Furosemid",
+                "Paracetamol",
+                "Pantoprazol"
+              ],
+              "correctIndex": 0,
+              "explanation": "Betablocker senken die Herzfrequenz, ebenso Digitalis, Verapamil, Diltiazem und Amiodaron."
+            },
+            {
+              "id": "u8l5q2",
+              "type": "single_choice",
+              "prompt": "Was ist bei instabiler Bradykardie laut ERC das erste Medikament?",
+              "options": [
+                "Atropin 500 µg i.v.",
+                "Adenosin",
+                "Furosemid",
+                "Amiodaron"
+              ],
+              "correctIndex": 0,
+              "explanation": "Atropin 500 µg, wiederholbar bis 3 mg. Reicht das nicht: Adrenalin-Infusion oder externer Schrittmacher."
+            },
+            {
+              "id": "u8l5q3",
+              "type": "true_false",
+              "statement": "Eine Herzfrequenz von 52/min bei einem schlafenden, sonst stabilen Patienten ist meist kein Notfall.",
+              "correct": true,
+              "explanation": "Richtig. Im Schlaf sinkt die Frequenz. Wichtig sind Symptome und Stabilität."
+            },
+            {
+              "id": "u8l5q4",
+              "type": "single_choice",
+              "prompt": "Welche Situation hat laut ERC ein hohes Asystolie-Risiko?",
+              "options": [
+                "Pausen über 3 Sekunden",
+                "Sinusbradykardie bei einem Sportler",
+                "AV-Block I°",
+                "Frequenz 58/min im Schlaf"
+              ],
+              "correctIndex": 0,
+              "explanation": "Hohes Risiko: Mobitz II, AV-Block III° mit breiten QRS, Pausen über 3 s, vorangegangene Asystolie."
+            },
+            {
+              "id": "u8l5q5",
+              "type": "single_choice",
+              "prompt": "Was tust du vor der Gabe eines Betablockers bei einer Herzfrequenz von 45/min?",
+              "options": [
+                "Gabe zurückstellen und den Arzt informieren",
+                "trotzdem geben",
+                "doppelte Dosis geben",
+                "nichts dokumentieren"
+              ],
+              "correctIndex": 0,
+              "explanation": "Bradykardisierende Medikamente bei niedriger Frequenz erst nach Rücksprache (genaue Grenzen nach Anordnung bzw. Hausstandard)."
+            }
+          ],
+          "sourceIds": [
+            "esc-pacing-2021",
+            "aha-brady-2018",
+            "erc-als-2021"
+          ],
+          "articleIds": [
+            "a-bradykardie"
+          ],
+          "termIds": [
+            "t-bradykardie",
+            "t-synkope"
+          ]
+        }
+      ]
     }
   ]
 }
