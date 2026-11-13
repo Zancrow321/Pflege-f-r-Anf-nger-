@@ -3247,5 +3247,555 @@
     "termIds": [
       "t-hypokaliaemie"
     ]
+  },
+  {
+    "id": "a-hfpef",
+    "title": "Herzinsuffizienz mit erhaltener Pumpfunktion (HFpEF)",
+    "category": "Herzinsuffizienz",
+    "summary": "Das Herz pumpt kräftig genug (EF ab 50 %), füllt sich aber schlecht, weil es steif ist. Die Beschwerden gleichen einer HFrEF.",
+    "kind": "diagnose",
+    "sections": [
+      {
+        "title": "Kurz erklärt",
+        "paragraphs": [
+          "Bei der HFpEF ist die Auswurfleistung erhalten (EF ab 50 %), aber die linke Kammer ist steif und entspannt sich schlecht. Der Druck in Vorhof und Lunge steigt.",
+          "Einteilung nach EF (ESC): HFrEF bis 40 %, HFmrEF 41–49 %, HFpEF ab 50 %."
+        ]
+      },
+      {
+        "title": "Ursachen und Risikofaktoren",
+        "paragraphs": [
+          "- höheres Alter, häufiger bei Frauen",
+          "- Bluthochdruck, Übergewicht, Diabetes, Vorhofflimmern, chronische Nierenerkrankung",
+          "- seltener: Amyloidose, hypertrophe Kardiomyopathie, Klappenerkrankungen"
+        ]
+      },
+      {
+        "title": "Symptome",
+        "paragraphs": [
+          "- Belastungsatemnot, Müdigkeit, Leistungsabfall",
+          "- Ödeme, Gewichtszunahme, Orthopnoe, nächtliche Atemnot",
+          "- Dekompensation oft ausgelöst durch Vorhofflimmern, hohen Blutdruck, Infekte"
+        ]
+      },
+      {
+        "title": "Diagnostik",
+        "paragraphs": [
+          "- Echokardiographie: EF ab 50 %, Hinweise auf steife Kammer und hohen Füllungsdruck",
+          "- NT-proBNP erhöht (bei Übergewicht oft niedriger)",
+          "- EKG, Labor; bei Verdacht Abklärung seltener Ursachen (z.B. Amyloidose)"
+        ]
+      },
+      {
+        "title": "Therapie",
+        "paragraphs": [
+          "- Diuretika gegen Stauung",
+          "- SGLT2-Hemmer (Empagliflozin oder Dapagliflozin) – empfohlen seit dem ESC-Update 2023",
+          "- Begleiterkrankungen behandeln: Blutdruck, Vorhofflimmern, Gewicht, Diabetes",
+          "- körperliches Training"
+        ]
+      },
+      {
+        "title": "Pflege und Beobachtung",
+        "paragraphs": [
+          "- tägliches Gewicht, Ein- und Ausfuhr, Ödeme",
+          "- Blutdruck und Rhythmus (Vorhofflimmern?)",
+          "- Schulung: Gewicht kontrollieren, Medikamente, Salz in Maßen, Warnzeichen erkennen"
+        ]
+      },
+      {
+        "title": "Warnzeichen",
+        "paragraphs": [
+          "- Gewichtszunahme über 2 kg in 3 Tagen",
+          "- zunehmende Atemnot, Atemnot im Liegen",
+          "- neues Vorhofflimmern mit schneller Frequenz",
+          "- unter SGLT2-Hemmer: Übelkeit, Bauchschmerz, schnelle Atmung (seltene Ketoazidose)"
+        ]
+      }
+    ],
+    "keywords": [
+      "HFpEF",
+      "diastolische Herzinsuffizienz",
+      "erhaltene EF",
+      "SGLT2",
+      "steifes Herz",
+      "Herzinsuffizienz"
+    ],
+    "relatedArticleIds": [
+      "a-hfref",
+      "a-dekompensation",
+      "a-vorhofflimmern"
+    ],
+    "sourceIds": [
+      "esc-hf-2021",
+      "esc-hf-2023"
+    ],
+    "lastChecked": "2026-11-13",
+    "houseSpecific": true,
+    "status": "unreviewed",
+    "termIds": [
+      "t-insuffizienz",
+      "t-dyspnoe"
+    ]
+  },
+  {
+    "id": "a-dcm",
+    "title": "Dilatative Kardiomyopathie (DCM)",
+    "category": "Herzinsuffizienz",
+    "summary": "Die linke Kammer ist erweitert und pumpt schwach, ohne dass eine KHK oder ein Klappenfehler das erklärt.",
+    "kind": "diagnose",
+    "sections": [
+      {
+        "title": "Kurz erklärt",
+        "paragraphs": [
+          "Bei der DCM ist der Herzmuskel selbst erkrankt. Die Kammer weitet sich, die Pumpfunktion sinkt. Folge ist meist eine HFrEF."
+        ]
+      },
+      {
+        "title": "Ursachen und Risikofaktoren",
+        "paragraphs": [
+          "- genetisch (familiär gehäuft)",
+          "- nach Myokarditis",
+          "- Alkohol, bestimmte Chemotherapien, Drogen",
+          "- in der Schwangerschaft (peripartale Kardiomyopathie)",
+          "- dauerhaft schnelles Vorhofflimmern (Tachymyopathie, oft rückbildungsfähig)"
+        ]
+      },
+      {
+        "title": "Symptome",
+        "paragraphs": [
+          "- Zeichen der Herzinsuffizienz: Atemnot, Ödeme, Müdigkeit",
+          "- Herzrasen, Rhythmusstörungen, Synkope",
+          "- Embolien durch Gerinnsel in der erweiterten Kammer"
+        ]
+      },
+      {
+        "title": "Diagnostik",
+        "paragraphs": [
+          "- Echokardiographie, Kardio-MRT",
+          "- Herzkatheter, um eine KHK auszuschließen",
+          "- Langzeit-EKG, Labor, ggf. Gentest und Familienuntersuchung"
+        ]
+      },
+      {
+        "title": "Therapie",
+        "paragraphs": [
+          "- leitliniengerechte HFrEF-Therapie",
+          "- Ursache behandeln: Alkoholverzicht, Frequenzkontrolle",
+          "- ICD bzw. kardiale Resynchronisation (CRT) nach Leitlinie",
+          "- bei schwerer Form: Herzunterstützungssystem oder Transplantation"
+        ]
+      },
+      {
+        "title": "Pflege und Beobachtung",
+        "paragraphs": [
+          "- wie bei Herzinsuffizienz: Gewicht, Bilanz, Vitalzeichen",
+          "- Monitor: VES, VT, Vorhofflimmern",
+          "- Angehörige: Untersuchung kann sinnvoll sein (genetische Ursache)"
+        ]
+      },
+      {
+        "title": "Warnzeichen",
+        "paragraphs": [
+          "- Synkope, VT am Monitor, ICD-Schock",
+          "- zunehmende Atemnot, Blutdruckabfall",
+          "- Lähmung oder Sprachstörung (Embolie)"
+        ]
+      }
+    ],
+    "keywords": [
+      "DCM",
+      "dilatative Kardiomyopathie",
+      "erweitertes Herz",
+      "Kardiomyopathie",
+      "Tachymyopathie",
+      "CRT"
+    ],
+    "relatedArticleIds": [
+      "a-hfref",
+      "a-icmp",
+      "a-hcm",
+      "a-myokarditis"
+    ],
+    "sourceIds": [
+      "esc-cmp-2023",
+      "esc-hf-2021"
+    ],
+    "lastChecked": "2026-11-13",
+    "houseSpecific": true,
+    "status": "unreviewed",
+    "termIds": [
+      "t-kardiomyopathie"
+    ]
+  },
+  {
+    "id": "a-hcm",
+    "title": "Hypertrophe Kardiomyopathie (HCM)",
+    "category": "Herzinsuffizienz",
+    "summary": "Der Herzmuskel ist ohne erkennbare Ursache stark verdickt, oft genetisch. Bei manchen ist der Ausflusstrakt der linken Kammer eingeengt (HOCM).",
+    "kind": "diagnose",
+    "sections": [
+      {
+        "title": "Kurz erklärt",
+        "paragraphs": [
+          "Bei der HCM ist die Wand der linken Kammer verdickt (meist ab 15 mm), ohne dass Bluthochdruck oder eine Klappenstenose das erklären.",
+          "- obstruktiv (HOCM): Die verdickte Scheidewand engt den Ausfluss zur Aorta ein",
+          "- nicht obstruktiv",
+          "Häufige Ursache des plötzlichen Herztods bei jungen Menschen und Sportlern."
+        ]
+      },
+      {
+        "title": "Ursachen und Risikofaktoren",
+        "paragraphs": [
+          "- meist genetisch (Sarkomer-Gene), autosomal-dominant vererbt",
+          "- ähnliches Bild bei Amyloidose oder Speichererkrankungen (andere Behandlung)"
+        ]
+      },
+      {
+        "title": "Symptome",
+        "paragraphs": [
+          "- Belastungsatemnot, Brustschmerz, Herzstolpern",
+          "- Schwindel oder Synkope bei Belastung",
+          "- viele Betroffene haben keine Beschwerden"
+        ]
+      },
+      {
+        "title": "Diagnostik",
+        "paragraphs": [
+          "- Echokardiographie (Wanddicke, Ausflussgradient, auch unter Belastung)",
+          "- Kardio-MRT, EKG, Langzeit-EKG",
+          "- Gentest, Untersuchung der Verwandten ersten Grades",
+          "- Abschätzung des Risikos für plötzlichen Herztod (HCM Risk-SCD)"
+        ]
+      },
+      {
+        "title": "Therapie",
+        "paragraphs": [
+          "- Betablocker oder Verapamil gegen Beschwerden",
+          "- bei Obstruktion: Mavacamten (Myosin-Hemmer) möglich, Septumreduktion (Alkoholablation oder Operation)",
+          "- ICD bei hohem Risiko",
+          "- Vorhofflimmern: immer Antikoagulation"
+        ]
+      },
+      {
+        "title": "Pflege und Beobachtung",
+        "paragraphs": [
+          "- bei HOCM meiden: Volumenmangel, Nitrate, starke Gefäßerweiterer, Pressen – sie verstärken die Obstruktion",
+          "- genug Flüssigkeit, langsam aufstehen",
+          "- Monitor: Vorhofflimmern, VT",
+          "- bei Blutdruckabfall nicht automatisch Katecholamine – Arzt entscheidet"
+        ]
+      },
+      {
+        "title": "Warnzeichen",
+        "paragraphs": [
+          "- Synkope bei Belastung",
+          "- VT oder Kammerflimmern",
+          "- Blutdruckabfall nach Nitrat oder Diuretikum",
+          "- neues Vorhofflimmern"
+        ]
+      }
+    ],
+    "keywords": [
+      "HCM",
+      "HOCM",
+      "hypertrophe Kardiomyopathie",
+      "Septumhypertrophie",
+      "Mavacamten",
+      "plötzlicher Herztod",
+      "Obstruktion"
+    ],
+    "relatedArticleIds": [
+      "a-dcm",
+      "a-synkope",
+      "a-vt",
+      "a-aortenstenose"
+    ],
+    "sourceIds": [
+      "esc-cmp-2023"
+    ],
+    "lastChecked": "2026-11-13",
+    "houseSpecific": true,
+    "status": "unreviewed",
+    "termIds": [
+      "t-kardiomyopathie",
+      "t-hypertrophie",
+      "t-obstruktion"
+    ]
+  },
+  {
+    "id": "a-takotsubo",
+    "title": "Takotsubo-Syndrom (Stress-Kardiomyopathie)",
+    "category": "Herzinsuffizienz",
+    "summary": "Akute, meist rückbildungsfähige Pumpschwäche nach starkem Stress. Sieht aus wie ein Herzinfarkt, die Herzkranzgefäße sind aber offen.",
+    "kind": "diagnose",
+    "sections": [
+      {
+        "title": "Kurz erklärt",
+        "paragraphs": [
+          "Beim Takotsubo-Syndrom bewegt sich ein Teil der linken Kammer plötzlich kaum noch – typisch ist die Herzspitze, die sich ballonartig aufweitet.",
+          "Der Name kommt von einer japanischen Tintenfischfalle, der die Herzform ähnelt.",
+          "Meist erholt sich das Herz innerhalb von Tagen bis Wochen."
+        ]
+      },
+      {
+        "title": "Ursachen und Risikofaktoren",
+        "paragraphs": [
+          "- vor allem Frauen nach den Wechseljahren",
+          "- emotionaler Stress (z.B. Trauer, Streit, Angst) oder körperlicher Stress (Operation, Infekt, Asthmaanfall)",
+          "- Ausschüttung von Stresshormonen (Katecholaminen)",
+          "- teilweise ohne erkennbaren Auslöser"
+        ]
+      },
+      {
+        "title": "Symptome",
+        "paragraphs": [
+          "- Brustschmerz, Atemnot, wie beim Herzinfarkt",
+          "- Synkope, Herzrasen",
+          "- selten kardiogener Schock"
+        ]
+      },
+      {
+        "title": "Diagnostik",
+        "paragraphs": [
+          "- EKG: ST-Hebungen oder T-Negativierungen möglich, QT oft verlängert",
+          "- Troponin meist leicht erhöht, NT-proBNP deutlich erhöht",
+          "- Herzkatheter ist nötig, um einen Infarkt auszuschließen",
+          "- Echokardiographie oder Ventrikulographie, Kardio-MRT"
+        ]
+      },
+      {
+        "title": "Therapie",
+        "paragraphs": [
+          "- wie bei Herzinsuffizienz, je nach Kreislauf",
+          "- Monitor-Überwachung wegen Rhythmusstörungen",
+          "- bei Ausflusstrakt-Obstruktion: keine Nitrate und Katecholamine, vorsichtig Volumen",
+          "- bei Gerinnsel in der Kammer: Antikoagulation",
+          "- Kontroll-Echo, bis die Pumpfunktion erholt ist"
+        ]
+      },
+      {
+        "title": "Pflege und Beobachtung",
+        "paragraphs": [
+          "- Behandlung wie ACS, bis der Herzkatheter erfolgt ist",
+          "- Monitor: QT-Zeit, VT, Torsade de pointes",
+          "- QT-verlängernde Medikamente melden",
+          "- psychische Belastung ansprechen, Unterstützung anbieten"
+        ]
+      },
+      {
+        "title": "Warnzeichen",
+        "paragraphs": [
+          "- Blutdruckabfall, kalte Haut, weniger Urin (Schock)",
+          "- QTc-Verlängerung, Torsade de pointes, VT",
+          "- neues Herzgeräusch (Obstruktion)",
+          "- Lähmungen (Embolie aus einem Kammergerinnsel)"
+        ]
+      }
+    ],
+    "keywords": [
+      "Takotsubo",
+      "Stress-Kardiomyopathie",
+      "Broken-Heart-Syndrom",
+      "apikales Ballooning",
+      "Tintenfischfalle"
+    ],
+    "relatedArticleIds": [
+      "a-stemi",
+      "a-nstemi",
+      "a-long-qt",
+      "a-dekompensation"
+    ],
+    "sourceIds": [
+      "intertak-2018",
+      "esc-hf-2021"
+    ],
+    "lastChecked": "2026-11-13",
+    "houseSpecific": true,
+    "status": "unreviewed",
+    "termIds": [
+      "t-kardiomyopathie"
+    ]
+  },
+  {
+    "id": "a-myokarditis",
+    "title": "Myokarditis",
+    "category": "Entzündungen",
+    "summary": "Entzündung des Herzmuskels, meist nach Virusinfekt. Kann harmlos verlaufen, aber auch Rhythmusstörungen und Herzschwäche verursachen.",
+    "kind": "diagnose",
+    "sections": [
+      {
+        "title": "Kurz erklärt",
+        "paragraphs": [
+          "Bei der Myokarditis ist der Herzmuskel entzündet. Meist folgt sie auf einen Virusinfekt.",
+          "Die Verläufe reichen von kaum Beschwerden bis zu schwerer Herzschwäche oder plötzlichem Herztod. Ein Teil entwickelt später eine DCM."
+        ]
+      },
+      {
+        "title": "Ursachen und Risikofaktoren",
+        "paragraphs": [
+          "- Viren (z.B. Parvovirus B19, Herpesviren, Influenza, SARS-CoV-2)",
+          "- seltener Bakterien, Autoimmunerkrankungen, Medikamente (z.B. Checkpoint-Hemmer), Impfstoffe (selten, meist mild)",
+          "- Sport während oder kurz nach einem Infekt erhöht das Risiko schwerer Verläufe"
+        ]
+      },
+      {
+        "title": "Symptome",
+        "paragraphs": [
+          "- Brustschmerz, Atemnot, Müdigkeit, Herzstolpern",
+          "- häufig vorher Erkältung oder Magen-Darm-Infekt",
+          "- schwer: Herzinsuffizienz, Schock, Synkope"
+        ]
+      },
+      {
+        "title": "Diagnostik",
+        "paragraphs": [
+          "- EKG (ST-Veränderungen, Rhythmusstörungen), Troponin erhöht",
+          "- Echokardiographie, Kardio-MRT",
+          "- Herzkatheter zum Ausschluss eines Infarkts",
+          "- ggf. Herzmuskelbiopsie"
+        ]
+      },
+      {
+        "title": "Therapie",
+        "paragraphs": [
+          "- körperliche Schonung, Sportpause meist 3–6 Monate",
+          "- Herzinsuffizienz- und Rhythmustherapie nach Bedarf",
+          "- besondere Formen (z.B. Riesenzell-Myokarditis): Immunsuppression",
+          "- schwer: Intensivmedizin, mechanische Kreislaufunterstützung"
+        ]
+      },
+      {
+        "title": "Pflege und Beobachtung",
+        "paragraphs": [
+          "- Monitor: VES, VT, AV-Block",
+          "- Vitalzeichen, Bilanz, Belastung nach Anordnung",
+          "- Aufklärung: keine sportliche Belastung bis zur Freigabe"
+        ]
+      },
+      {
+        "title": "Warnzeichen",
+        "paragraphs": [
+          "- VT, Synkope, neuer AV-Block",
+          "- Blutdruckabfall, Atemnot, Lungenödem",
+          "- steigendes Troponin"
+        ]
+      }
+    ],
+    "keywords": [
+      "Myokarditis",
+      "Herzmuskelentzündung",
+      "Virusinfekt",
+      "Sportpause",
+      "Troponin"
+    ],
+    "relatedArticleIds": [
+      "a-perikarditis",
+      "a-dcm",
+      "a-vt"
+    ],
+    "sourceIds": [
+      "esc-myo-2013",
+      "esc-cmp-2023"
+    ],
+    "lastChecked": "2026-11-13",
+    "houseSpecific": true,
+    "status": "unreviewed",
+    "termIds": [
+      "t-myokarditis"
+    ]
+  },
+  {
+    "id": "a-perikarditis",
+    "title": "Perikarditis und Perikarderguss",
+    "category": "Entzündungen",
+    "summary": "Entzündung des Herzbeutels. Typisch ist Brustschmerz, der im Liegen stärker und beim Vorbeugen besser wird. Ein großer Erguss kann das Herz zusammendrücken (Tamponade).",
+    "kind": "diagnose",
+    "sections": [
+      {
+        "title": "Kurz erklärt",
+        "paragraphs": [
+          "Der Herzbeutel (Perikard) umhüllt das Herz. Bei einer Perikarditis ist er entzündet.",
+          "Ein Perikarderguss ist Flüssigkeit im Herzbeutel. Sammelt sie sich schnell oder in großer Menge, kann sich das Herz nicht mehr füllen: Herzbeuteltamponade, ein Notfall."
+        ]
+      },
+      {
+        "title": "Ursachen und Risikofaktoren",
+        "paragraphs": [
+          "- meist viral oder ohne erkennbare Ursache (idiopathisch)",
+          "- nach Herzinfarkt, Herzoperation oder Katheter-Eingriff",
+          "- Krebs, Tuberkulose, Nierenversagen (Urämie), Autoimmunerkrankungen",
+          "- Erguss mit Blut nach Verletzung des Herzens, z.B. bei Schrittmacher-Implantation oder Ablation"
+        ]
+      },
+      {
+        "title": "Symptome",
+        "paragraphs": [
+          "- stechender Brustschmerz, schlimmer im Liegen und beim Einatmen, besser im Sitzen mit Vorbeugen",
+          "- Fieber, Perikardreiben beim Abhören",
+          "- Tamponade: Atemnot, Herzrasen, Blutdruckabfall, gestaute Halsvenen, leise Herztöne (Beck-Trias), Pulsus paradoxus"
+        ]
+      },
+      {
+        "title": "Diagnostik",
+        "paragraphs": [
+          "- EKG: ausgedehnte ST-Hebungen, PR-Senkung",
+          "- Echokardiographie: Erguss? Zeichen der Tamponade?",
+          "- CRP, Troponin (bei Mitbeteiligung des Herzmuskels), Röntgen"
+        ]
+      },
+      {
+        "title": "Therapie",
+        "paragraphs": [
+          "- ASS oder NSAR (z.B. Ibuprofen) plus Colchicin über etwa 3 Monate (ESC 2015)",
+          "- Magenschutz, körperliche Schonung bis zur Beschwerdefreiheit",
+          "- Tamponade: Perikardpunktion (Entlastung) – Notfall",
+          "- Ursache behandeln"
+        ]
+      },
+      {
+        "title": "Pflege und Beobachtung",
+        "paragraphs": [
+          "- Schmerz und Lage beobachten, Oberkörper hoch oder vorgebeugt sitzen lassen",
+          "- Blutdruck, Puls, Atemfrequenz engmaschig",
+          "- nach Eingriffen am Herzen: auf Tamponade-Zeichen achten",
+          "- nach Perikardpunktion: Drainage, Fördermenge, Kreislauf"
+        ]
+      },
+      {
+        "title": "Warnzeichen",
+        "paragraphs": [
+          "- Blutdruckabfall mit Herzrasen und gestauten Halsvenen",
+          "- zunehmende Atemnot, Unruhe",
+          "- Abfall der EKG-Amplituden oder wechselnde QRS-Höhe",
+          "- Kreislaufstillstand mit elektrischer Aktivität (PEA): an Tamponade denken"
+        ]
+      }
+    ],
+    "keywords": [
+      "Perikarditis",
+      "Herzbeutelentzündung",
+      "Perikarderguss",
+      "Tamponade",
+      "Perikardpunktion",
+      "Colchicin",
+      "Beck-Trias",
+      "Pulsus paradoxus"
+    ],
+    "relatedArticleIds": [
+      "a-myokarditis",
+      "a-stemi",
+      "a-reanimation"
+    ],
+    "sourceIds": [
+      "esc-peri-2015",
+      "erc-special-2021"
+    ],
+    "lastChecked": "2026-11-13",
+    "houseSpecific": true,
+    "status": "unreviewed",
+    "termIds": [
+      "t-perikarditis"
+    ]
   }
 ]

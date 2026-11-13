@@ -158,5 +158,29 @@
     "citation": "Brignole M, Moya A, de Lange FJ, et al. 2018 ESC Guidelines for the diagnosis and management of syncope. Eur Heart J. 2018;39(21):1883–1948.",
     "url": "https://doi.org/10.1093/eurheartj/ehy037",
     "year": 2018
+  },
+  {
+    "id": "esc-cmp-2023",
+    "citation": "Arbelo E, Protonotarios A, Gimeno JR, et al. 2023 ESC Guidelines for the management of cardiomyopathies. Eur Heart J. 2023;44(37):3503–3626.",
+    "url": "https://doi.org/10.1093/eurheartj/ehad194",
+    "year": 2023
+  },
+  {
+    "id": "esc-peri-2015",
+    "citation": "Adler Y, Charron P, Imazio M, et al. 2015 ESC Guidelines for the diagnosis and management of pericardial diseases. Eur Heart J. 2015;36(42):2921–2964.",
+    "url": "https://doi.org/10.1093/eurheartj/ehv318",
+    "year": 2015
+  },
+  {
+    "id": "intertak-2018",
+    "citation": "Ghadri JR, Wittstein IS, Prasad A, et al. International Expert Consensus Document on Takotsubo Syndrome (Part I und II). Eur Heart J. 2018;39(22):2032–2046.",
+    "url": "https://doi.org/10.1093/eurheartj/ehy076",
+    "year": 2018
+  },
+  {
+    "id": "esc-myo-2013",
+    "citation": "Caforio ALP, Pankuweit S, Arbustini E, et al. Current state of knowledge on aetiology, diagnosis, management, and therapy of myocarditis: a position statement of the ESC Working Group on Myocardial and Pericardial Diseases. Eur Heart J. 2013;34(33):2636–2648.",
+    "url": "https://doi.org/10.1093/eurheartj/eht210",
+    "year": 2013
   }
 ]
