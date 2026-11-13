@@ -2926,6 +2926,375 @@
           ]
         }
       ]
+    },
+    {
+      "id": "u9",
+      "title": "Krankheitsbilder 3: Kammerrhythmen und Schenkelblock",
+      "level": "station",
+      "description": "Kammerflimmern, Extrasystolen, ventrikuläre Tachykardie und Rechtsschenkelblock.",
+      "lessons": [
+        {
+          "id": "u9l1",
+          "title": "Kammerflimmern",
+          "card": {
+            "title": "Kreislaufstillstand",
+            "text": "Kammerflimmern bedeutet: kein Auswurf. Jetzt zählen Herzdruckmassage und Defibrillation.",
+            "bullets": [
+              "chaotische Wellen, keine QRS-Komplexe",
+              "sofort CPR und Defibrillation",
+              "Adrenalin und Amiodaron nach dem 3. Schock",
+              "nach Überleben ohne behebbare Ursache: ICD"
+            ],
+            "strip": "vf"
+          },
+          "questions": [
+            {
+              "id": "u9l1q1",
+              "type": "single_choice",
+              "prompt": "Welcher Rhythmus ist das?",
+              "options": [
+                "Kammerflimmern",
+                "Vorhofflimmern",
+                "Asystolie",
+                "Vorhofflattern"
+              ],
+              "correctIndex": 0,
+              "explanation": "Chaotische Wellen ohne QRS: Kammerflimmern.",
+              "strip": "vf"
+            },
+            {
+              "id": "u9l1q2",
+              "type": "single_choice",
+              "prompt": "Was ist bei Kammerflimmern die wichtigste Maßnahme neben der Herzdruckmassage?",
+              "options": [
+                "Defibrillation so früh wie möglich",
+                "12-Kanal-EKG schreiben",
+                "Blutzucker messen",
+                "Sauerstoffbrille anlegen"
+              ],
+              "correctIndex": 0,
+              "explanation": "Jede Minute Verzögerung senkt die Überlebenschance. Defibrillieren, dann sofort weiter drücken."
+            },
+            {
+              "id": "u9l1q3",
+              "type": "true_false",
+              "statement": "Ein Patient mit Kammerflimmern hat noch einen tastbaren Puls.",
+              "correct": false,
+              "explanation": "Falsch. Kammerflimmern bedeutet Kreislaufstillstand – kein Puls, keine normale Atmung."
+            },
+            {
+              "id": "u9l1q4",
+              "type": "single_choice",
+              "prompt": "Welcher Befund am Monitor kann ein Vorbote von Kammerflimmern sein?",
+              "options": [
+                "gehäufte polymorphe VES und Salven",
+                "Sinusrhythmus mit 72/min",
+                "AV-Block I° seit Jahren",
+                "einzelne SVES"
+              ],
+              "correctIndex": 0,
+              "explanation": "Zunehmende ventrikuläre Ektopien, nicht anhaltende VT und QT-Verlängerung meldest du."
+            },
+            {
+              "id": "u9l1q5",
+              "type": "single_choice",
+              "prompt": "Warum bekommen manche Patienten nach überlebtem Kammerflimmern einen ICD?",
+              "options": [
+                "Er erkennt und beendet erneutes Kammerflimmern automatisch",
+                "Er senkt den Blutdruck",
+                "Er ersetzt Medikamente gegen Herzinsuffizienz",
+                "Er misst den Blutzucker"
+              ],
+              "correctIndex": 0,
+              "explanation": "Der ICD gibt bei Kammerflimmern selbstständig einen Schock ab."
+            }
+          ],
+          "sourceIds": [
+            "erc-als-2021",
+            "erc-2025",
+            "esc-va-2022"
+          ],
+          "articleIds": [
+            "a-kammerflimmern"
+          ],
+          "termIds": [
+            "t-defibrillation"
+          ]
+        },
+        {
+          "id": "u9l2",
+          "title": "Extrasystolen",
+          "card": {
+            "title": "Stolpern im Takt",
+            "text": "Extrasystolen sind häufig und oft harmlos. Wichtig ist, ob sie zunehmen, sich häufen oder ihre Form ändern.",
+            "bullets": [
+              "SVES: schmal, vorzeitige P-Welle",
+              "VES: breit, ohne P, kompensatorische Pause",
+              "Bigeminus = jeder 2. Schlag; Couplet = 2 in Folge; ab 3 = VT"
+            ],
+            "strip": "ves"
+          },
+          "questions": [
+            {
+              "id": "u9l2q1",
+              "type": "single_choice",
+              "prompt": "Was siehst du?",
+              "options": [
+                "Sinusrhythmus mit VES",
+                "AV-Block III°",
+                "Vorhofflattern",
+                "Kammerflimmern"
+              ],
+              "correctIndex": 0,
+              "explanation": "Ein vorzeitiger breiter Schlag ohne P-Welle mit Pause danach.",
+              "strip": "ves"
+            },
+            {
+              "id": "u9l2q2",
+              "type": "matching",
+              "prompt": "Ordne zu.",
+              "pairs": [
+                {
+                  "left": "Bigeminus",
+                  "right": "jeder 2. Schlag ist eine VES"
+                },
+                {
+                  "left": "Trigeminus",
+                  "right": "jeder 3. Schlag ist eine VES"
+                },
+                {
+                  "left": "Couplet",
+                  "right": "zwei VES hintereinander"
+                },
+                {
+                  "left": "Salve",
+                  "right": "drei oder mehr VES in Folge"
+                }
+              ],
+              "explanation": "Ab drei VES in Folge spricht man von einer (nicht anhaltenden) VT."
+            },
+            {
+              "id": "u9l2q3",
+              "type": "single_choice",
+              "prompt": "Woran erkennst du eine SVES?",
+              "options": [
+                "vorzeitig, schmaler QRS, oft veränderte P-Welle",
+                "breiter QRS ohne P",
+                "Nulllinie",
+                "Sägezahnwellen"
+              ],
+              "correctIndex": 0,
+              "explanation": "Supraventrikulär = oberhalb der Kammern, deshalb schmaler QRS."
+            },
+            {
+              "id": "u9l2q4",
+              "type": "true_false",
+              "statement": "Bei einem Bigeminus kann der Puls am Handgelenk nur halb so hoch wirken wie am Monitor.",
+              "correct": true,
+              "explanation": "Richtig. Die vorzeitigen Schläge werfen oft zu wenig Blut aus, um tastbar zu sein."
+            },
+            {
+              "id": "u9l2q5",
+              "type": "single_choice",
+              "prompt": "Welcher Laborwert ist bei gehäuften VES besonders wichtig?",
+              "options": [
+                "Kalium",
+                "Cholesterin",
+                "Harnsäure",
+                "Lipase"
+              ],
+              "correctIndex": 0,
+              "explanation": "Kalium und Magnesium beeinflussen die Erregbarkeit des Herzens stark."
+            }
+          ],
+          "sourceIds": [
+            "esc-va-2022",
+            "esc-svt-2019"
+          ],
+          "articleIds": [
+            "a-extrasystolen"
+          ],
+          "termIds": [
+            "t-extrasystole",
+            "t-supraventrikulaer"
+          ]
+        },
+        {
+          "id": "u9l3",
+          "title": "Ventrikuläre Tachykardie",
+          "card": {
+            "title": "Puls ja oder nein?",
+            "text": "Die Behandlung einer VT hängt davon ab, ob der Patient einen Puls hat und ob er stabil ist.",
+            "bullets": [
+              "pulslos → Reanimation + Defibrillation",
+              "instabil → synchronisierte Kardioversion",
+              "stabil → Amiodaron, Ursachen behandeln",
+              "Torsade de pointes → Magnesium"
+            ],
+            "strip": "vt"
+          },
+          "questions": [
+            {
+              "id": "u9l3q1",
+              "type": "single_choice",
+              "prompt": "Welcher Rhythmus ist das?",
+              "options": [
+                "Ventrikuläre Tachykardie",
+                "Sinustachykardie",
+                "Vorhofflimmern",
+                "AV-Block I°"
+              ],
+              "correctIndex": 0,
+              "explanation": "Breite, regelmäßige Komplexe mit ca. 180/min.",
+              "strip": "vt"
+            },
+            {
+              "id": "u9l3q2",
+              "type": "matching",
+              "prompt": "Ordne jeder Situation die Behandlung zu.",
+              "pairs": [
+                {
+                  "left": "VT ohne Puls",
+                  "right": "Reanimation und Defibrillation"
+                },
+                {
+                  "left": "VT mit Schock",
+                  "right": "synchronisierte Kardioversion"
+                },
+                {
+                  "left": "VT stabil",
+                  "right": "Amiodaron i.v. nach Anordnung"
+                },
+                {
+                  "left": "Torsade de pointes",
+                  "right": "Magnesium i.v."
+                }
+              ],
+              "explanation": "So steht es im ERC-Algorithmus für Tachykardien."
+            },
+            {
+              "id": "u9l3q3",
+              "type": "true_false",
+              "statement": "Eine Breitkomplextachykardie behandelt man bis zum Beweis des Gegenteils als VT.",
+              "correct": true,
+              "explanation": "Richtig. Eine VT für eine harmlosere Rhythmusstörung zu halten, kann tödlich sein."
+            },
+            {
+              "id": "u9l3q4",
+              "type": "single_choice",
+              "prompt": "Was ist ein „elektrischer Sturm“?",
+              "options": [
+                "drei oder mehr VT- oder Kammerflimmer-Episoden innerhalb von 24 Stunden",
+                "ein Gewitter",
+                "eine Störung des Monitors",
+                "ein Vorhofflimmern mit 200/min"
+              ],
+              "correctIndex": 0,
+              "explanation": "Ein elektrischer Sturm ist ein Notfall, oft mit mehreren ICD-Schocks."
+            },
+            {
+              "id": "u9l3q5",
+              "type": "single_choice",
+              "prompt": "Ein ICD-Patient berichtet, er habe einen Schock bekommen. Was tust du?",
+              "options": [
+                "Vitalzeichen und Monitor prüfen, Arzt informieren, Ereignis dokumentieren",
+                "nichts, der ICD regelt das",
+                "den ICD ausschalten",
+                "den Patienten nach Hause schicken"
+              ],
+              "correctIndex": 0,
+              "explanation": "Jeder Schock muss abgeklärt werden (Geräteabfrage, Ursache, Elektrolyte)."
+            }
+          ],
+          "sourceIds": [
+            "erc-als-2021",
+            "esc-va-2022"
+          ],
+          "articleIds": [
+            "a-vt"
+          ],
+          "termIds": [
+            "t-kardioversion"
+          ]
+        },
+        {
+          "id": "u9l4",
+          "title": "Rechtsschenkelblock",
+          "card": {
+            "title": "M-Form in V1",
+            "text": "Beim RSB wird die rechte Kammer verspätet erregt. Er macht selbst keine Beschwerden, kann aber auf eine Rechtsherzbelastung hinweisen.",
+            "bullets": [
+              "QRS ab 120 ms (komplett)",
+              "rSR' in V1/V2, breites S in I und V6",
+              "neu + Atemnot: an Lungenembolie denken",
+              "RSB + linksanteriorer Hemiblock = bifaszikulärer Block"
+            ]
+          },
+          "questions": [
+            {
+              "id": "u9l4q1",
+              "type": "single_choice",
+              "prompt": "Welches EKG-Zeichen ist typisch für einen Rechtsschenkelblock?",
+              "options": [
+                "rSR' (M-Form) in V1",
+                "Sägezahnwellen",
+                "fehlende P-Wellen",
+                "ST-Hebung in II, III, aVF"
+              ],
+              "correctIndex": 0,
+              "explanation": "Die verspätete Erregung der rechten Kammer erzeugt die zweite Zacke R' in V1."
+            },
+            {
+              "id": "u9l4q2",
+              "type": "single_choice",
+              "prompt": "Ab welcher QRS-Dauer spricht man von einem kompletten Schenkelblock?",
+              "options": [
+                "120 ms",
+                "80 ms",
+                "200 ms",
+                "60 ms"
+              ],
+              "correctIndex": 0,
+              "explanation": "Komplett ab 120 ms, inkomplett beim RSB 110–119 ms."
+            },
+            {
+              "id": "u9l4q3",
+              "type": "true_false",
+              "statement": "Ein Rechtsschenkelblock muss immer mit Medikamenten behandelt werden.",
+              "correct": false,
+              "explanation": "Falsch. Er braucht keine eigene Therapie; wichtig ist die Grunderkrankung."
+            },
+            {
+              "id": "u9l4q4",
+              "type": "single_choice",
+              "prompt": "Ein Patient hat einen neuen RSB und plötzlich Atemnot. Woran solltest du denken?",
+              "options": [
+                "Lungenembolie",
+                "Hypoglykämie",
+                "Harnwegsinfekt",
+                "Migräne"
+              ],
+              "correctIndex": 0,
+              "explanation": "Eine akute Rechtsherzbelastung durch eine Lungenembolie kann einen RSB auslösen."
+            },
+            {
+              "id": "u9l4q5",
+              "type": "true_false",
+              "statement": "Ein Sinusrhythmus mit Schenkelblock hat breite QRS-Komplexe, aber vor jedem QRS eine P-Welle.",
+              "correct": true,
+              "explanation": "Richtig. Daran unterscheidest du ihn am Monitor von VES oder einer VT."
+            }
+          ],
+          "sourceIds": [
+            "aha-ecg-conduction-2009",
+            "esc-pacing-2021"
+          ],
+          "articleIds": [
+            "a-rsb"
+          ],
+          "termIds": []
+        }
+      ]
     }
   ]
 }

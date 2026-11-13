@@ -1531,5 +1531,383 @@
       "t-bradykardie",
       "t-synkope"
     ]
+  },
+  {
+    "id": "a-kammerflimmern",
+    "title": "Kammerflimmern (VF)",
+    "category": "Herzrhythmus",
+    "summary": "Chaotische Erregung der Kammern ohne Pumpleistung: Kreislaufstillstand. Überleben hängt von sofortiger Herzdruckmassage und früher Defibrillation ab.",
+    "kind": "diagnose",
+    "sections": [
+      {
+        "title": "Kurz erklärt",
+        "paragraphs": [
+          "Beim Kammerflimmern zucken die Herzmuskelfasern der Kammern ungeordnet mit über 300/min. Das Herz wirft kein Blut mehr aus. Innerhalb von Sekunden wird der Patient bewusstlos. Kammerflimmern ist die häufigste Ursache des plötzlichen Herztods.",
+          "Jede Minute ohne Herzdruckmassage und Defibrillation senkt die Überlebenschance deutlich."
+        ]
+      },
+      {
+        "title": "Ursachen und Risikofaktoren",
+        "paragraphs": [
+          "- akuter Herzinfarkt (besonders in den ersten Stunden), Narben nach Infarkt",
+          "- Kardiomyopathien, schwere Herzinsuffizienz",
+          "- Elektrolytstörungen (Kalium, Magnesium), QT-Verlängerung mit Torsade de pointes",
+          "- angeborene Ionenkanalerkrankungen (z.B. Long-QT-, Brugada-Syndrom)",
+          "- Übergang aus einer VT, Stromunfall, Medikamente"
+        ]
+      },
+      {
+        "title": "Symptome",
+        "paragraphs": [
+          "- plötzliche Bewusstlosigkeit, keine normale Atmung (oft Schnappatmung), kein Puls",
+          "- manchmal kurze Krampfanfälle zu Beginn"
+        ]
+      },
+      {
+        "title": "Diagnostik",
+        "paragraphs": [
+          "- Monitor/EKG: unregelmäßige, unterschiedlich hohe Wellen ohne erkennbare QRS-Komplexe",
+          "- Immer am Patienten prüfen: Bewegungsartefakte sehen ähnlich aus",
+          "- nach erfolgreicher Reanimation Ursachensuche: 12-Kanal-EKG, Troponin, Elektrolyte, Echokardiographie, Koronarangiographie, ggf. Kardio-MRT"
+        ]
+      },
+      {
+        "title": "Therapie",
+        "paragraphs": [
+          "- sofort Herzdruckmassage und Defibrillation (ERC-Algorithmus)",
+          "- Adrenalin 1 mg und Amiodaron 300 mg nach dem 3. Schock",
+          "- am Monitor beobachtet mit sofort verfügbarem Defibrillator: bis zu 3 Schocks direkt hintereinander",
+          "- nach Wiederkehr des Kreislaufs (ROSC): Intensivbehandlung, Fieber vermeiden, Koronarangiographie bei Verdacht auf Infarkt",
+          "- Vorbeugung eines neuen Ereignisses: ICD, wenn keine behebbare Ursache vorlag"
+        ]
+      },
+      {
+        "title": "Pflege und Beobachtung",
+        "paragraphs": [
+          "- Notfall: Hilfe rufen, Herzdruckmassage beginnen, Defibrillator/Klebeelektroden, Notfallteam",
+          "- Zeiten dokumentieren (Beginn, Schocks, Medikamente)",
+          "- nach ROSC: Monitor, Vitalzeichen, Neurologie, Temperatur",
+          "- Angehörige begleiten; nach ICD-Implantation Schulung und psychische Unterstützung"
+        ]
+      },
+      {
+        "title": "Warnzeichen",
+        "paragraphs": [
+          "Vorboten am Monitor, die du melden solltest:",
+          "- gehäufte oder polymorphe VES, Couplets, Salven, nicht anhaltende VT",
+          "- QTc-Verlängerung, Torsade de pointes",
+          "- niedriges Kalium oder Magnesium, neuer Brustschmerz"
+        ]
+      }
+    ],
+    "keywords": [
+      "VF",
+      "KF",
+      "Kammerflimmern",
+      "Defibrillation",
+      "Reanimation",
+      "plötzlicher Herztod",
+      "ROSC",
+      "ICD"
+    ],
+    "relatedArticleIds": [
+      "a-reanimation",
+      "a-vt",
+      "a-stemi"
+    ],
+    "sourceIds": [
+      "erc-als-2021",
+      "erc-2025",
+      "esc-va-2022"
+    ],
+    "lastChecked": "2026-11-13",
+    "houseSpecific": true,
+    "status": "unreviewed",
+    "termIds": [
+      "t-defibrillation",
+      "t-asystolie"
+    ]
+  },
+  {
+    "id": "a-extrasystolen",
+    "title": "Extrasystolen (SVES und VES)",
+    "category": "Herzrhythmus",
+    "summary": "Zusätzliche, vorzeitige Herzschläge. Meist harmlos, in Häufung oder bei Herzkranken aber ein Warnzeichen.",
+    "kind": "diagnose",
+    "sections": [
+      {
+        "title": "Kurz erklärt",
+        "paragraphs": [
+          "Eine Extrasystole ist ein Herzschlag, der vorzeitig außerhalb des normalen Rhythmus entsteht.",
+          "- SVES (supraventrikulär): Ursprung im Vorhof oder AV-Knoten; vorzeitige, oft anders geformte P-Welle, schmaler QRS",
+          "- VES (ventrikulär): Ursprung in der Kammer; breiter, deformierter QRS ohne P-Welle, meist kompensatorische Pause",
+          "Muster bei VES:",
+          "- Bigeminus: jeder zweite Schlag ist eine VES; Trigeminus: jeder dritte",
+          "- Couplet: zwei VES hintereinander; ab drei in Folge spricht man von einer (nicht anhaltenden) VT",
+          "- monomorph (alle gleich) oder polymorph (verschieden geformt)"
+        ]
+      },
+      {
+        "title": "Ursachen und Risikofaktoren",
+        "paragraphs": [
+          "- auch bei Herzgesunden: Koffein, Nikotin, Alkohol, Stress, Schlafmangel",
+          "- Elektrolytstörungen (Kalium, Magnesium), Schilddrüsenüberfunktion",
+          "- Herzerkrankungen: KHK, Herzinsuffizienz, Kardiomyopathien",
+          "- Medikamente, z.B. Digitalis, Beta-2-Mimetika"
+        ]
+      },
+      {
+        "title": "Symptome",
+        "paragraphs": [
+          "- Herzstolpern, „Aussetzer“, Gefühl eines kräftigen Schlags",
+          "- häufig keine Beschwerden",
+          "- bei Bigeminus kann der getastete Puls halbiert wirken (Pulsdefizit)"
+        ]
+      },
+      {
+        "title": "Diagnostik",
+        "paragraphs": [
+          "- 12-Kanal-EKG, Langzeit-EKG (Anzahl, Formen, Salven)",
+          "- Echokardiographie: Herzerkrankung? Sehr häufige VES können die Pumpfunktion auf Dauer schwächen",
+          "- Labor: Kalium, Magnesium, TSH"
+        ]
+      },
+      {
+        "title": "Therapie",
+        "paragraphs": [
+          "- harmlose Extrasystolen: Aufklärung, Auslöser meiden",
+          "- Elektrolyte ausgleichen, Grunderkrankung behandeln",
+          "- bei Beschwerden: z.B. Betablocker",
+          "- bei sehr hoher VES-Last oder dadurch geschwächtem Herz: Katheterablation"
+        ]
+      },
+      {
+        "title": "Pflege und Beobachtung",
+        "paragraphs": [
+          "- Monitor: Häufigkeit und Muster dokumentieren, Veränderungen melden",
+          "- Puls bei Bigeminus am Herzen bzw. Monitor zählen",
+          "- Kalium und Magnesium im Blick, Kaffee und Nikotin ansprechen"
+        ]
+      },
+      {
+        "title": "Warnzeichen",
+        "paragraphs": [
+          "- zunehmende Häufung, Couplets, Salven, polymorphe VES",
+          "- VES, die in die T-Welle des vorherigen Schlags fallen (R-auf-T)",
+          "- Schwindel, Synkope, Brustschmerz, neue Herzinsuffizienz"
+        ]
+      }
+    ],
+    "keywords": [
+      "VES",
+      "SVES",
+      "Extrasystole",
+      "Bigeminus",
+      "Trigeminus",
+      "Couplet",
+      "Salve",
+      "Herzstolpern"
+    ],
+    "relatedArticleIds": [
+      "a-vt",
+      "a-ves-vt",
+      "a-kalium"
+    ],
+    "sourceIds": [
+      "esc-va-2022",
+      "esc-svt-2019"
+    ],
+    "lastChecked": "2026-11-13",
+    "houseSpecific": true,
+    "status": "unreviewed",
+    "termIds": [
+      "t-extrasystole",
+      "t-supraventrikulaer"
+    ]
+  },
+  {
+    "id": "a-vt",
+    "title": "Ventrikuläre Tachykardie (VT)",
+    "category": "Herzrhythmus",
+    "summary": "Schnelle Kammerrhythmusstörung mit breiten QRS-Komplexen. Kann stabil, instabil oder pulslos sein – das bestimmt die Behandlung.",
+    "kind": "diagnose",
+    "sections": [
+      {
+        "title": "Kurz erklärt",
+        "paragraphs": [
+          "Eine VT besteht aus mindestens drei Kammerschlägen in Folge mit über 100/min.",
+          "- nicht anhaltend: unter 30 Sekunden; anhaltend: ab 30 Sekunden oder hämodynamisch instabil",
+          "- monomorph: alle Komplexe gleich; polymorph: wechselnde Form",
+          "- Torsade de pointes: polymorphe VT, die um die Grundlinie „dreht“, typisch bei QT-Verlängerung",
+          "- elektrischer Sturm: drei oder mehr VT- oder Kammerflimmer-Episoden innerhalb von 24 Stunden"
+        ]
+      },
+      {
+        "title": "Ursachen und Risikofaktoren",
+        "paragraphs": [
+          "- Narbe nach Herzinfarkt (häufigste Ursache), Kardiomyopathien, schwere Herzinsuffizienz",
+          "- akute Ischämie, Elektrolytstörungen, QT-verlängernde Medikamente",
+          "- selten bei Herzgesunden (idiopathische VT)"
+        ]
+      },
+      {
+        "title": "Symptome",
+        "paragraphs": [
+          "- Herzrasen, Schwindel, Atemnot, Brustschmerz",
+          "- Synkope, Schock",
+          "- pulslose VT: Kreislaufstillstand"
+        ]
+      },
+      {
+        "title": "Diagnostik",
+        "paragraphs": [
+          "- 12-Kanal-EKG, wenn der Patient stabil ist: Eine Breitkomplextachykardie gilt bis zum Beweis des Gegenteils als VT",
+          "- Labor (Kalium, Magnesium, Troponin), Echokardiographie, Koronarangiographie, Kardio-MRT",
+          "- bei ICD-Trägern: Geräteabfrage"
+        ]
+      },
+      {
+        "title": "Therapie",
+        "paragraphs": [
+          "Nach dem ERC-Algorithmus:",
+          "- pulslos: Reanimation und Defibrillation wie bei Kammerflimmern",
+          "- mit Puls, aber instabil (Schock, Synkope, Ischämie, Herzinsuffizienz): synchronisierte elektrische Kardioversion unter Sedierung",
+          "- stabil: Amiodaron 300 mg i.v. über 10–60 Minuten (nach Anordnung), Ursachen behandeln",
+          "- Torsade de pointes: Magnesium i.v., QT-verlängernde Medikamente absetzen, Kalium ausgleichen",
+          "- langfristig: Betablocker, ICD, Katheterablation, ggf. Antiarrhythmika"
+        ]
+      },
+      {
+        "title": "Pflege und Beobachtung",
+        "paragraphs": [
+          "- zuerst zum Patienten: Bewusstsein, Atmung, Puls; Hilfe rufen",
+          "- Defibrillator und Klebeelektroden bereit, Monitor, venöser Zugang",
+          "- 12-Kanal-EKG nur, wenn der Patient stabil ist und es nichts verzögert",
+          "- Elektrolyte und QTc beobachten, neue Medikamente auf QT-Verlängerung prüfen lassen",
+          "- ICD-Patienten: Schockabgaben dokumentieren und melden, Ängste begleiten"
+        ]
+      },
+      {
+        "title": "Warnzeichen",
+        "paragraphs": [
+          "- Bewusstlosigkeit oder fehlender Puls: sofort Reanimation",
+          "- Blutdruckabfall, Brustschmerz, Atemnot während der VT",
+          "- wiederholte Episoden oder mehrere ICD-Schocks (elektrischer Sturm)"
+        ]
+      }
+    ],
+    "keywords": [
+      "VT",
+      "Kammertachykardie",
+      "Breitkomplextachykardie",
+      "Torsade",
+      "Kardioversion",
+      "Amiodaron",
+      "ICD",
+      "elektrischer Sturm"
+    ],
+    "relatedArticleIds": [
+      "a-kammerflimmern",
+      "a-extrasystolen",
+      "a-ves-vt",
+      "a-qt-zeit"
+    ],
+    "sourceIds": [
+      "erc-als-2021",
+      "esc-va-2022"
+    ],
+    "lastChecked": "2026-11-13",
+    "houseSpecific": true,
+    "status": "unreviewed",
+    "termIds": [
+      "t-kardioversion"
+    ]
+  },
+  {
+    "id": "a-rsb",
+    "title": "Rechtsschenkelblock (RSB)",
+    "category": "Herzrhythmus",
+    "summary": "Der rechte Tawara-Schenkel leitet nicht. Die rechte Kammer wird verspätet erregt; im EKG ist der QRS-Komplex breit mit M-Form in V1.",
+    "kind": "diagnose",
+    "sections": [
+      {
+        "title": "Kurz erklärt",
+        "paragraphs": [
+          "Beim Rechtsschenkelblock läuft die Erregung nur über den linken Schenkel. Die rechte Kammer wird über den Herzmuskel verspätet miterregt.",
+          "- kompletter RSB: QRS ab 120 ms; inkompletter RSB: QRS 110–119 ms",
+          "- EKG: rSR' („M-Form“) in V1/V2, breites, plumpes S in I und V6"
+        ]
+      },
+      {
+        "title": "Ursachen und Risikofaktoren",
+        "paragraphs": [
+          "- häufig auch bei Gesunden, zunehmend im Alter",
+          "- Rechtsherzbelastung: Lungenembolie, pulmonale Hypertonie, COPD",
+          "- KHK und Infarkt, angeborene Herzfehler (z.B. Vorhofseptumdefekt)",
+          "- nach Herzoperationen oder Klappeneingriffen"
+        ]
+      },
+      {
+        "title": "Symptome",
+        "paragraphs": [
+          "- Der RSB selbst macht keine Beschwerden",
+          "- Beschwerden stammen von der Grunderkrankung (z.B. Atemnot bei Lungenembolie)"
+        ]
+      },
+      {
+        "title": "Diagnostik",
+        "paragraphs": [
+          "- 12-Kanal-EKG und Vergleich mit Vor-EKGs: Ist der RSB neu?",
+          "- Echokardiographie bei neuem RSB oder Symptomen",
+          "- neuer RSB mit Atemnot oder Brustschmerz: an Lungenembolie und akutes Koronarsyndrom denken"
+        ]
+      },
+      {
+        "title": "Therapie",
+        "paragraphs": [
+          "- keine eigene Behandlung nötig, Grunderkrankung behandeln",
+          "- RSB plus linksanteriorer Hemiblock (bifaszikulärer Block) mit Synkope: Abklärung, ob ein Schrittmacher nötig ist"
+        ]
+      },
+      {
+        "title": "Pflege und Beobachtung",
+        "paragraphs": [
+          "- neue EKG-Veränderungen dokumentieren und dem Arzt zeigen",
+          "- am Monitor: Breite QRS-Komplexe im Grundrhythmus nicht mit VES oder VT verwechseln – P-Welle vor jedem QRS spricht für Sinusrhythmus mit Schenkelblock",
+          "- auf Atemnot, Brustschmerz und Synkope achten"
+        ]
+      },
+      {
+        "title": "Warnzeichen",
+        "paragraphs": [
+          "- neuer RSB zusammen mit Brustschmerz oder plötzlicher Atemnot",
+          "- Synkope oder Schwindel bei bifaszikulärem Block",
+          "- Übergang in höhergradige AV-Blöcke (Pausen, langsame Frequenz)"
+        ]
+      }
+    ],
+    "keywords": [
+      "RSB",
+      "Schenkelblock",
+      "M-Form",
+      "rSR",
+      "bifaszikulär",
+      "Hemiblock",
+      "QRS breit"
+    ],
+    "relatedArticleIds": [
+      "a-reizleitung",
+      "a-ekg-papier",
+      "a-av-block"
+    ],
+    "sourceIds": [
+      "aha-ecg-conduction-2009",
+      "esc-pacing-2021",
+      "esc-acs-2023"
+    ],
+    "lastChecked": "2026-11-13",
+    "houseSpecific": true,
+    "status": "unreviewed",
+    "termIds": []
   }
 ]
