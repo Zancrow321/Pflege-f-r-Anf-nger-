@@ -666,25 +666,77 @@
   },
   {
     "id": "a-herzkatheter",
-    "title": "Pflege nach Herzkatheter",
-    "category": "Telemetrie-Alltag",
-    "summary": "Punktionsstelle, Durchblutung und Warnzeichen nach Koronarangiographie oder PCI.",
-    "body": [
-      "Zugang: radial (Handgelenk, laut ESC 2023 beim ACS der Standard) oder femoral (Leiste).",
-      "Kontrollen (Intervalle nach Hausstandard):",
-      "- Punktionsstelle: Blutung, Hämatom, Schwellung, Schmerz",
-      "- DMS distal: Durchblutung (Farbe, Temperatur, Pulse), Motorik, Sensibilität",
-      "- Vitalzeichen und Monitor (Rhythmusstörungen nach PCI möglich)",
-      "Radialer Zugang: Kompressionsarmband nach Schema entlasten. Blasse, kalte, taube oder stark schmerzende Hand sofort melden.",
-      "Femoraler Zugang: Druckverband und Bettruhe nach Standard. Warnzeichen einer retroperitonealen Blutung: Rücken- oder Flankenschmerz, Blutdruckabfall, Tachykardie, Blässe – sofort Arzt.",
-      "Blutung: manuell komprimieren (knapp oberhalb der Hautpunktion über der Arterie), Hilfe rufen, nicht loslassen.",
-      "Außerdem: Kontrastmittel kann die Nieren belasten. Trinkmenge und Ausscheidung nach Anordnung beachten."
+    "title": "Herzkatheter (Koronarangiographie und PCI)",
+    "category": "Prozeduren",
+    "summary": "Darstellung der Herzkranzgefäße mit Kontrastmittel und, wenn nötig, Aufdehnung mit Ballon und Stent. Danach stehen Punktionsstelle, Durchblutung und Warnzeichen im Mittelpunkt.",
+    "kind": "prozedur",
+    "sections": [
+      {
+        "title": "Kurz erklärt",
+        "paragraphs": [
+          "- Koronarangiographie: Ein Katheter wird über eine Arterie zum Herzen geschoben, Kontrastmittel macht die Herzkranzgefäße im Röntgen sichtbar",
+          "- PCI (perkutane Koronarintervention): Engstelle wird mit Ballon aufgedehnt und meist mit einem medikamentenbeschichteten Stent offen gehalten",
+          "- Zugang: radial (Handgelenk, laut ESC 2023 beim ACS der Standard) oder femoral (Leiste)"
+        ]
+      },
+      {
+        "title": "Indikationen",
+        "paragraphs": [
+          "- STEMI (sofort), NSTEMI (je nach Risiko innerhalb von 24 Stunden oder früher)",
+          "- chronische KHK mit Beschwerden trotz Medikamenten oder auffälligen Tests",
+          "- vor Herzklappen-Operation, unklare Herzinsuffizienz"
+        ]
+      },
+      {
+        "title": "Ablauf",
+        "paragraphs": [
+          "- örtliche Betäubung, Punktion der Arterie, Schleuse",
+          "- Kontrastmittel, Röntgenaufnahmen, ggf. Druckmessung (FFR/iFR)",
+          "- bei PCI: Heparin, Ballon, Stent",
+          "- Verschluss: Kompressionsarmband (radial), Verschlusssystem oder Druckverband (femoral)"
+        ]
+      },
+      {
+        "title": "Vorbereitung",
+        "paragraphs": [
+          "- Aufklärung und Einverständnis",
+          "- Labor: Kreatinin, Kalium, Blutbild, Gerinnung, TSH (jodhaltiges Kontrastmittel)",
+          "- Nüchternheit und Medikamente (z.B. Metformin, Antikoagulation) nach Hausstandard und Anordnung",
+          "- Kontrastmittelallergie erfragen, venöser Zugang, Rasur nach Standard"
+        ]
+      },
+      {
+        "title": "Nachsorge und Pflege",
+        "paragraphs": [
+          "Kontrollen (Intervalle nach Hausstandard):",
+          "- Punktionsstelle: Blutung, Hämatom, Schwellung, Schmerz",
+          "- DMS distal: Durchblutung (Farbe, Temperatur, Pulse), Motorik, Sensibilität",
+          "- Vitalzeichen und Monitor (Rhythmusstörungen nach PCI möglich)",
+          "Radialer Zugang: Kompressionsarmband nach Schema entlasten. Blasse, kalte, taube oder stark schmerzende Hand sofort melden.",
+          "Femoraler Zugang: Druckverband und Bettruhe nach Standard.",
+          "Blutung: manuell komprimieren (knapp oberhalb der Hautpunktion über der Arterie), Hilfe rufen, nicht loslassen.",
+          "Kontrastmittel kann die Nieren belasten: Trinkmenge und Ausscheidung nach Anordnung.",
+          "Nach Stent: Plättchenhemmer-Einnahme schulen, nicht eigenmächtig absetzen."
+        ]
+      },
+      {
+        "title": "Komplikationen",
+        "paragraphs": [
+          "- Hämatom, Nachblutung, Pseudoaneurysma (pulsierende Schwellung, Geräusch in der Leiste)",
+          "- retroperitoneale Blutung nach femoralem Zugang: Rücken- oder Flankenschmerz, Blutdruckabfall, Tachykardie, Blässe – sofort Arzt",
+          "- Verschluss der Radialarterie, Durchblutungsstörung der Hand",
+          "- Rhythmusstörungen, erneuter Brustschmerz (Stentverschluss)",
+          "- Kontrastmittelreaktion, Nierenfunktionsverschlechterung",
+          "- selten Schlaganfall, Perforation mit Tamponade"
+        ]
+      }
     ],
     "keywords": [
       "Herzkatheter",
       "HKU",
       "PCI",
       "Koronarangiographie",
+      "Stent",
       "Punktion",
       "Leiste",
       "radial",
@@ -692,8 +744,15 @@
       "Druckverband",
       "TR-Band"
     ],
+    "relatedArticleIds": [
+      "a-nstemi",
+      "a-stemi",
+      "a-khk-3gefaess",
+      "m-plaettchenhemmer"
+    ],
     "sourceIds": [
-      "esc-acs-2023"
+      "esc-acs-2023",
+      "esc-ccs-2024"
     ],
     "lastChecked": "2026-11-13",
     "houseSpecific": true,
@@ -5534,5 +5593,555 @@
     "houseSpecific": true,
     "status": "unreviewed",
     "termIds": []
+  },
+  {
+    "id": "p-kardioversion",
+    "title": "Elektrische Kardioversion",
+    "category": "Prozeduren",
+    "summary": "Ein synchronisierter Stromstoß in Kurznarkose bringt das Herz aus Vorhofflimmern, Vorhofflattern oder einer Tachykardie zurück in den Sinusrhythmus.",
+    "kind": "prozedur",
+    "sections": [
+      {
+        "title": "Kurz erklärt",
+        "paragraphs": [
+          "- Anders als bei der Defibrillation wird der Schock auf die R-Zacke synchronisiert (Taste „Sync“), damit er nicht in die verletzliche Phase fällt",
+          "- geplant (elektiv) oder als Notfall bei instabiler Tachykardie"
+        ]
+      },
+      {
+        "title": "Indikationen",
+        "paragraphs": [
+          "- Vorhofflimmern/-flattern zur Rhythmuskontrolle",
+          "- instabile Tachykardie mit Puls (ERC)",
+          "- VT mit Puls, wenn Medikamente nicht wirken"
+        ]
+      },
+      {
+        "title": "Ablauf",
+        "paragraphs": [
+          "- Monitor, Klebeelektroden (oft vorne-hinten), Sauerstoff und Absaugung bereit",
+          "- kurze Sedierung durch Arzt",
+          "- Sync-Modus einschalten und Markierungen auf den R-Zacken prüfen; nach jedem Schock ist der Sync-Modus oft wieder aus",
+          "- Schock, Rhythmuskontrolle, 12-Kanal-EKG"
+        ]
+      },
+      {
+        "title": "Vorbereitung",
+        "paragraphs": [
+          "- Einverständnis, nüchtern nach Standard, venöser Zugang",
+          "- Antikoagulation: Vorhofflimmern über 24 Stunden ohne mindestens 3 Wochen wirksame Antikoagulation → vorher TEE oder Aufschub (ESC 2024)",
+          "- Kalium im Normbereich, Digitalis-Überdosierung ausschließen",
+          "- Schrittmacher/ICD: Abfrage nach dem Eingriff einplanen"
+        ]
+      },
+      {
+        "title": "Nachsorge und Pflege",
+        "paragraphs": [
+          "- Überwachung bis wach: Atmung, Sättigung, Blutdruck, Monitor",
+          "- Haut an den Elektroden auf Rötung/Verbrennung prüfen",
+          "- nichts essen und trinken, bis der Patient sicher wach ist",
+          "- Antikoagulation mindestens 4 Wochen weiterführen (nach Anordnung)"
+        ]
+      },
+      {
+        "title": "Komplikationen",
+        "paragraphs": [
+          "- Atemdepression durch Sedierung",
+          "- Bradykardie, Pausen, selten Kammerflimmern (v.a. bei fehlender Synchronisation)",
+          "- Schlaganfall/Embolie, Hautverbrennungen",
+          "- Rückfall in Vorhofflimmern"
+        ]
+      }
+    ],
+    "keywords": [
+      "Kardioversion",
+      "EKV",
+      "Sync",
+      "synchronisiert",
+      "Schock",
+      "Sinusrhythmus",
+      "TEE"
+    ],
+    "relatedArticleIds": [
+      "a-vorhofflimmern",
+      "a-vorhofflattern",
+      "a-vt",
+      "p-tee"
+    ],
+    "sourceIds": [
+      "esc-af-2024",
+      "erc-als-2021"
+    ],
+    "lastChecked": "2026-11-13",
+    "houseSpecific": true,
+    "status": "unreviewed",
+    "termIds": [
+      "t-kardioversion"
+    ]
+  },
+  {
+    "id": "p-ablation",
+    "title": "Katheterablation und elektrophysiologische Untersuchung (EPU)",
+    "category": "Prozeduren",
+    "summary": "Über Katheter in der Leistenvene werden Rhythmusstörungen untersucht und das auslösende Gewebe gezielt verödet.",
+    "kind": "prozedur",
+    "sections": [
+      {
+        "title": "Kurz erklärt",
+        "paragraphs": [
+          "- EPU: Messung der elektrischen Leitung im Herzen, Auslösen von Rhythmusstörungen",
+          "- Ablation: Verödung durch Hitze (Radiofrequenz), Kälte (Kryo) oder gepulste Felder (Pulsed Field)",
+          "- Pulmonalvenenisolation (PVI): Standard bei Vorhofflimmern"
+        ]
+      },
+      {
+        "title": "Indikationen",
+        "paragraphs": [
+          "- Vorhofflimmern (Rhythmuskontrolle)",
+          "- AVNRT, WPW, typisches Vorhofflattern (sehr hohe Erfolgsraten)",
+          "- VT, häufige VES mit Beschwerden oder Pumpschwäche"
+        ]
+      },
+      {
+        "title": "Ablauf",
+        "paragraphs": [
+          "- Sedierung oder Narkose, Punktion der Leistenvene(n)",
+          "- Katheter ins Herz, bei PVI Punktion der Vorhofscheidewand",
+          "- dreidimensionale Kartierung, Ablation, Erfolgskontrolle",
+          "- Heparin während des Eingriffs"
+        ]
+      },
+      {
+        "title": "Vorbereitung",
+        "paragraphs": [
+          "- Aufklärung, nüchtern, Labor",
+          "- Antikoagulation häufig ununterbrochen (nach Anordnung)",
+          "- ggf. TEE oder CT vorher (Thrombus im Vorhofohr ausschließen)",
+          "- Antiarrhythmika nach Anordnung pausieren"
+        ]
+      },
+      {
+        "title": "Nachsorge und Pflege",
+        "paragraphs": [
+          "- Leiste: Blutung, Hämatom, Schwellung; Bettruhe/Druckverband nach Standard",
+          "- Monitor, Vitalzeichen, Schmerz",
+          "- Tamponade-Zeichen: Blutdruckabfall, Herzrasen, Atemnot",
+          "- Neurologie beobachten",
+          "- Entlassungsschulung: Fieber, Brustschmerz, Schluckbeschwerden oder neurologische Ausfälle in den Wochen danach sofort melden"
+        ]
+      },
+      {
+        "title": "Komplikationen",
+        "paragraphs": [
+          "- Leistenhämatom, AV-Fistel, Pseudoaneurysma",
+          "- Perikarderguss/Tamponade",
+          "- Schlaganfall, TIA",
+          "- AV-Block (v.a. bei AVNRT-Ablation)",
+          "- selten, aber gefährlich: Fistel zwischen Vorhof und Speiseröhre (atrioösophageale Fistel) – meist 1–4 Wochen später mit Fieber, Brustschmerz, neurologischen Zeichen"
+        ]
+      }
+    ],
+    "keywords": [
+      "Ablation",
+      "EPU",
+      "Pulmonalvenenisolation",
+      "PVI",
+      "Kryoablation",
+      "Pulsed Field",
+      "Verödung"
+    ],
+    "relatedArticleIds": [
+      "a-vorhofflimmern",
+      "a-avnrt",
+      "a-wpw",
+      "a-vorhofflattern",
+      "a-perikarditis"
+    ],
+    "sourceIds": [
+      "esc-af-2024",
+      "esc-svt-2019",
+      "esc-va-2022"
+    ],
+    "lastChecked": "2026-11-13",
+    "houseSpecific": true,
+    "status": "unreviewed",
+    "termIds": []
+  },
+  {
+    "id": "p-tavi",
+    "title": "TAVI (Transkatheter-Aortenklappenimplantation)",
+    "category": "Prozeduren",
+    "summary": "Eine neue Aortenklappe wird per Katheter, meist über die Leistenarterie, in die verengte Klappe eingesetzt – ohne Öffnen des Brustkorbs.",
+    "kind": "prozedur",
+    "sections": [
+      {
+        "title": "Kurz erklärt",
+        "paragraphs": [
+          "- zusammengefaltete biologische Klappe auf einem Katheter, Entfaltung in der alten Klappe",
+          "- meist transfemoral (Leiste), selten andere Zugänge"
+        ]
+      },
+      {
+        "title": "Indikationen",
+        "paragraphs": [
+          "- schwere Aortenstenose mit Beschwerden, Entscheidung im Herzteam",
+          "- ESC 2021: eher bei Älteren (ab etwa 75 Jahren) oder erhöhtem OP-Risiko"
+        ]
+      },
+      {
+        "title": "Ablauf",
+        "paragraphs": [
+          "- örtliche Betäubung mit Sedierung oder Narkose",
+          "- schnelle Stimulation über eine Schrittmachersonde während der Implantation",
+          "- Kontrolle der Klappe, Verschluss der Leistenarterie"
+        ]
+      },
+      {
+        "title": "Vorbereitung",
+        "paragraphs": [
+          "- CT der Aorta und Beckengefäße, Herzkatheter, Labor",
+          "- Aufklärung, nüchtern, Zugänge",
+          "- Zahnstatus (Endokarditisrisiko)"
+        ]
+      },
+      {
+        "title": "Nachsorge und Pflege",
+        "paragraphs": [
+          "- Monitor: neuer AV-Block oder Linksschenkelblock (Schrittmacherbedarf möglich)",
+          "- Leiste und Beinpulse, DMS",
+          "- Neurologie (Schlaganfall), Nierenwerte, Urin",
+          "- frühe Mobilisation nach Standard",
+          "- Schulung: Plättchenhemmer/Antikoagulation, Endokarditis-Prophylaxe, Klappenausweis"
+        ]
+      },
+      {
+        "title": "Komplikationen",
+        "paragraphs": [
+          "- AV-Block mit Schrittmacherbedarf",
+          "- Gefäßverletzung, Blutung",
+          "- Schlaganfall",
+          "- Undichtigkeit neben der Klappe (paravalvuläres Leck)",
+          "- akutes Nierenversagen, selten Tamponade oder Klappenembolisation"
+        ]
+      }
+    ],
+    "keywords": [
+      "TAVI",
+      "TAVR",
+      "Klappenersatz",
+      "Katheterklappe",
+      "Aortenklappe",
+      "Herzteam"
+    ],
+    "relatedArticleIds": [
+      "a-aortenstenose",
+      "a-av-block",
+      "a-schrittmacher-icd",
+      "a-endokarditis"
+    ],
+    "sourceIds": [
+      "esc-vhd-2021"
+    ],
+    "lastChecked": "2026-11-13",
+    "houseSpecific": true,
+    "status": "unreviewed",
+    "termIds": []
+  },
+  {
+    "id": "p-tee",
+    "title": "Transösophageale Echokardiographie (TEE, „Schluckecho“)",
+    "category": "Prozeduren",
+    "summary": "Ultraschall des Herzens von der Speiseröhre aus. Zeigt Vorhöfe, Klappen und Gerinnsel viel besser als ein Echo von außen.",
+    "kind": "prozedur",
+    "sections": [
+      {
+        "title": "Kurz erklärt",
+        "paragraphs": [
+          "- Eine schlauchförmige Ultraschallsonde wird über den Mund in die Speiseröhre geschoben, direkt hinter das Herz"
+        ]
+      },
+      {
+        "title": "Indikationen",
+        "paragraphs": [
+          "- Gerinnsel im linken Vorhofohr vor Kardioversion oder Ablation",
+          "- Endokarditis (Vegetationen, Abszesse)",
+          "- Klappenerkrankungen, Herzklappenprothesen",
+          "- Suche nach Emboliequelle nach Schlaganfall"
+        ]
+      },
+      {
+        "title": "Ablauf",
+        "paragraphs": [
+          "- Rachenbetäubung mit Spray, meist leichte Sedierung",
+          "- Beißring, Sonde wird geschluckt, Untersuchung etwa 15–30 Minuten",
+          "- Monitor, Sättigung, Blutdruck während der Untersuchung"
+        ]
+      },
+      {
+        "title": "Vorbereitung",
+        "paragraphs": [
+          "- nüchtern nach Standard (meist mindestens 6 Stunden)",
+          "- Zahnprothesen entfernen, Schluckstörungen oder Speiseröhrenerkrankungen erfragen",
+          "- venöser Zugang, Einverständnis"
+        ]
+      },
+      {
+        "title": "Nachsorge und Pflege",
+        "paragraphs": [
+          "- nichts essen und trinken, bis die Rachenbetäubung nachlässt (meist 1–2 Stunden) – Aspirationsgefahr",
+          "- Überwachung nach Sedierung: Atmung, Sättigung, Bewusstsein",
+          "- Halsschmerzen sind häufig und harmlos"
+        ]
+      },
+      {
+        "title": "Komplikationen",
+        "paragraphs": [
+          "- Atemdepression durch Sedierung, Aspiration",
+          "- Verletzung von Rachen oder Speiseröhre (selten)",
+          "- Rhythmusstörungen, Blutdruckabfall"
+        ]
+      }
+    ],
+    "keywords": [
+      "TEE",
+      "Schluckecho",
+      "transösophageal",
+      "Echokardiographie",
+      "Vorhofohr",
+      "Thrombus"
+    ],
+    "relatedArticleIds": [
+      "p-kardioversion",
+      "a-endokarditis",
+      "p-ablation"
+    ],
+    "sourceIds": [
+      "esc-endo-2023",
+      "esc-af-2024"
+    ],
+    "lastChecked": "2026-11-13",
+    "houseSpecific": true,
+    "status": "unreviewed",
+    "termIds": []
+  },
+  {
+    "id": "th-sauerstoff",
+    "title": "Sauerstofftherapie",
+    "category": "Therapien",
+    "summary": "Sauerstoff ist ein Medikament: Er wird nach Zielsättigung gegeben – zu wenig und zu viel können schaden.",
+    "kind": "therapie",
+    "sections": [
+      {
+        "title": "Kurz erklärt",
+        "paragraphs": [
+          "- Ziel ist eine ausreichende, aber nicht zu hohe Sauerstoffsättigung",
+          "- Zielbereich meist 94–98 %, bei Risiko für Hyperkapnie (z.B. COPD) 88–92 % (BTS)"
+        ]
+      },
+      {
+        "title": "Indikationen",
+        "paragraphs": [
+          "- Hypoxämie (niedrige Sättigung), z.B. bei Lungenödem, Pneumonie, Lungenembolie",
+          "- akutes Koronarsyndrom nur bei Sättigung unter 90 % (ESC 2023)",
+          "- Notfall und Reanimation: hochdosiert"
+        ]
+      },
+      {
+        "title": "Ablauf",
+        "paragraphs": [
+          "- Nasenbrille (1–4 l/min), Maske (5–10 l/min), Maske mit Reservoir (10–15 l/min)",
+          "- High-Flow über Nasenkanüle auf Intensiv- oder Überwachungsstation",
+          "- Dosis nach Anordnung und Zielsättigung anpassen"
+        ]
+      },
+      {
+        "title": "Pflege und Beobachtung",
+        "paragraphs": [
+          "- Sättigung, Atemfrequenz, Bewusstsein regelmäßig",
+          "- bei COPD auf Schläfrigkeit und Kopfschmerz achten (CO₂-Anstieg)",
+          "- Befeuchtung nach Standard, Nasen- und Mundpflege",
+          "- kein offenes Feuer, nicht rauchen"
+        ]
+      },
+      {
+        "title": "Risiken",
+        "paragraphs": [
+          "- Hyperkapnie bei COPD durch zu viel Sauerstoff",
+          "- trockene Schleimhäute, Nasenbluten",
+          "- Brandgefahr",
+          "- unnötiger Sauerstoff beim Herzinfarkt ohne Hypoxämie bringt keinen Nutzen"
+        ]
+      }
+    ],
+    "keywords": [
+      "Sauerstoff",
+      "O2",
+      "Zielsättigung",
+      "Nasenbrille",
+      "Hyperkapnie",
+      "High-Flow",
+      "SpO2"
+    ],
+    "relatedArticleIds": [
+      "a-copd",
+      "a-pneumonie",
+      "a-dekompensation",
+      "a-stemi"
+    ],
+    "sourceIds": [
+      "bts-o2-2017",
+      "esc-acs-2023",
+      "gold-2026"
+    ],
+    "lastChecked": "2026-11-13",
+    "houseSpecific": true,
+    "status": "unreviewed",
+    "termIds": [
+      "t-hypoxie"
+    ]
+  },
+  {
+    "id": "th-niv",
+    "title": "Nicht-invasive Beatmung (NIV) und CPAP",
+    "category": "Therapien",
+    "summary": "Beatmung über eine dicht sitzende Maske, ohne Intubation. Entlastet die Atmung bei Lungenödem und bei COPD mit CO₂-Anstieg.",
+    "kind": "therapie",
+    "sections": [
+      {
+        "title": "Kurz erklärt",
+        "paragraphs": [
+          "- CPAP: kontinuierlicher Überdruck, hält Lungenbläschen offen (v.a. Lungenödem)",
+          "- NIV mit Druckunterstützung: unterstützt die Einatmung, senkt CO₂ (v.a. COPD)"
+        ]
+      },
+      {
+        "title": "Indikationen",
+        "paragraphs": [
+          "- akutes kardiales Lungenödem mit Atemnot (ESC HF)",
+          "- COPD-Exazerbation mit Azidose (pH unter 7,35) und erhöhtem CO₂ (GOLD)"
+        ]
+      },
+      {
+        "title": "Ablauf",
+        "paragraphs": [
+          "- Maske passend auswählen, Patient aufklären und beruhigen",
+          "- Einstellungen nach ärztlicher Anordnung, Blutgaskontrollen",
+          "- Durchführung nach Hausstandard meist auf Intensiv- oder Überwachungsstation"
+        ]
+      },
+      {
+        "title": "Pflege und Beobachtung",
+        "paragraphs": [
+          "- Atemfrequenz, Sättigung, Blutdruck, Bewusstsein, Blutgase",
+          "- Maskensitz und Druckstellen (Nasenrücken), Hautschutz",
+          "- Mundpflege, Augenpflege, Aspiration vermeiden",
+          "- Angst begleiten, Klingel in Reichweite"
+        ]
+      },
+      {
+        "title": "Risiken",
+        "paragraphs": [
+          "- Blutdruckabfall (durch Überdruck)",
+          "- Druckstellen, Augenreizung",
+          "- Luft im Magen, Erbrechen, Aspiration",
+          "- Verschlechterung trotz NIV: Intubation nicht verzögern"
+        ]
+      }
+    ],
+    "keywords": [
+      "NIV",
+      "CPAP",
+      "Maskenbeatmung",
+      "Lungenödem",
+      "Hyperkapnie",
+      "Beatmung"
+    ],
+    "relatedArticleIds": [
+      "a-dekompensation",
+      "a-copd",
+      "th-sauerstoff"
+    ],
+    "sourceIds": [
+      "esc-hf-2021",
+      "gold-2026"
+    ],
+    "lastChecked": "2026-11-13",
+    "houseSpecific": true,
+    "status": "unreviewed",
+    "termIds": [
+      "t-dyspnoe"
+    ]
+  },
+  {
+    "id": "th-pacing",
+    "title": "Transkutane Stimulation (externes Pacing)",
+    "category": "Therapien",
+    "summary": "Notfall-Schrittmacher über Klebeelektroden auf der Haut, bis ein Schrittmacher über eine Vene gelegt werden kann.",
+    "kind": "therapie",
+    "sections": [
+      {
+        "title": "Kurz erklärt",
+        "paragraphs": [
+          "- Der Defibrillator gibt über die Klebeelektroden Stimulationsimpulse ab",
+          "- Überbrückung bei lebensbedrohlicher Bradykardie"
+        ]
+      },
+      {
+        "title": "Indikationen",
+        "paragraphs": [
+          "- instabile Bradykardie, wenn Atropin nicht wirkt oder nicht geeignet ist (ERC)",
+          "- AV-Block III° oder Mobitz II mit Instabilität"
+        ]
+      },
+      {
+        "title": "Ablauf",
+        "paragraphs": [
+          "- Klebeelektroden (vorne-hinten oder vorne-seitlich), EKG-Ableitung des Geräts anschließen",
+          "- Modus „Demand“, Frequenz (oft 60–70/min) und Stromstärke nach Arzt",
+          "- Strom steigern, bis jeder Spike einen breiten QRS auslöst (elektrisches Capture)",
+          "- Puls tasten (Femoralis) zur Kontrolle der mechanischen Antwort"
+        ]
+      },
+      {
+        "title": "Pflege und Beobachtung",
+        "paragraphs": [
+          "- Analgesie und Sedierung nach Anordnung – die Stimulation ist schmerzhaft",
+          "- Monitor, Blutdruck, Puls, Bewusstsein",
+          "- Haut unter den Elektroden kontrollieren",
+          "- transvenösen Schrittmacher vorbereiten"
+        ]
+      },
+      {
+        "title": "Risiken",
+        "paragraphs": [
+          "- Schmerzen, Muskelzuckungen",
+          "- Hautverbrennungen",
+          "- fehlendes Capture wird übersehen (Muskelzucken als Puls fehlgedeutet)"
+        ]
+      }
+    ],
+    "keywords": [
+      "Pacing",
+      "externer Schrittmacher",
+      "transkutan",
+      "Capture",
+      "Bradykardie",
+      "Demand"
+    ],
+    "relatedArticleIds": [
+      "a-av-block",
+      "a-bradykardie",
+      "m-akutmedikamente",
+      "a-schrittmacher-icd"
+    ],
+    "sourceIds": [
+      "erc-als-2021"
+    ],
+    "lastChecked": "2026-11-13",
+    "houseSpecific": true,
+    "status": "unreviewed",
+    "termIds": [
+      "t-bradykardie"
+    ]
   }
 ]

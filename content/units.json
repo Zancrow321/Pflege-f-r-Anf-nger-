@@ -6377,6 +6377,367 @@
           "termIds": []
         }
       ]
+    },
+    {
+      "id": "u17",
+      "title": "Prozeduren und Therapien",
+      "level": "station",
+      "description": "Herzkatheter, Kardioversion, Ablation, TAVI, TEE, Sauerstoff, NIV und externes Pacing.",
+      "lessons": [
+        {
+          "id": "u17l1",
+          "title": "Herzkatheter und TAVI",
+          "card": {
+            "title": "Über die Arterie zum Herzen",
+            "text": "Nach Herzkatheter und TAVI zählen Punktionsstelle, Durchblutung und Monitor.",
+            "bullets": [
+              "radial: Kompressionsarmband nach Schema",
+              "femoral: Druckverband, Bettruhe",
+              "Flankenschmerz + RR-Abfall = retroperitoneale Blutung?",
+              "TAVI: neuer AV-Block möglich"
+            ]
+          },
+          "questions": [
+            {
+              "id": "u17l1q1",
+              "type": "single_choice",
+              "prompt": "Welche Warnzeichen passen zu einer retroperitonealen Blutung nach femoralem Zugang?",
+              "options": [
+                "Rücken- oder Flankenschmerz, Blutdruckabfall, Tachykardie",
+                "Juckreiz am Arm",
+                "Durst",
+                "warme rosige Haut"
+              ],
+              "correctIndex": 0,
+              "explanation": "Die Blutung ist von außen nicht sichtbar – sofort Arzt."
+            },
+            {
+              "id": "u17l1q2",
+              "type": "single_choice",
+              "prompt": "Was tust du bei einer spritzenden Blutung aus der Leiste?",
+              "options": [
+                "manuell komprimieren, Hilfe rufen, nicht loslassen",
+                "Pflaster drauf und weggehen",
+                "Bein hochlagern und abwarten",
+                "Druckverband lösen"
+              ],
+              "correctIndex": 0,
+              "explanation": "Druck knapp oberhalb der Hautpunktion über der Arterie."
+            },
+            {
+              "id": "u17l1q3",
+              "type": "true_false",
+              "statement": "Nach radialem Zugang ist eine kalte, blasse, taube Hand normal.",
+              "correct": false,
+              "explanation": "Falsch. Das ist ein Warnzeichen für eine Durchblutungsstörung – sofort melden."
+            },
+            {
+              "id": "u17l1q4",
+              "type": "single_choice",
+              "prompt": "Welche Rhythmusstörung tritt nach TAVI typischerweise neu auf?",
+              "options": [
+                "AV-Block",
+                "Vorhofflattern immer",
+                "Sinusrhythmus",
+                "keine"
+              ],
+              "correctIndex": 0,
+              "explanation": "Die Klappe liegt nahe am Reizleitungssystem."
+            },
+            {
+              "id": "u17l1q5",
+              "type": "single_choice",
+              "prompt": "Welche Laborwerte sind vor einem Herzkatheter besonders wichtig?",
+              "options": [
+                "Kreatinin, Kalium, Gerinnung",
+                "Vitamin D",
+                "Cholesterin allein",
+                "Harnsäure allein"
+              ],
+              "correctIndex": 0,
+              "explanation": "Kontrastmittel belastet die Niere."
+            }
+          ],
+          "sourceIds": [
+            "esc-acs-2023",
+            "esc-vhd-2021"
+          ],
+          "articleIds": [
+            "a-herzkatheter",
+            "p-tavi"
+          ],
+          "termIds": []
+        },
+        {
+          "id": "u17l2",
+          "title": "Kardioversion, TEE und Ablation",
+          "card": {
+            "title": "Zurück in den Takt",
+            "text": "Kardioversion und Ablation bringen den Rhythmus zurück. Das TEE schließt vorher Gerinnsel aus.",
+            "bullets": [
+              "Sync-Taste: Schock auf die R-Zacke",
+              "VHF über 24 h ohne Antikoagulation → TEE vorher",
+              "nach TEE: nichts essen bis Rachen wieder fühlt",
+              "nach Ablation: Tamponade, Leiste, später Fieber"
+            ]
+          },
+          "questions": [
+            {
+              "id": "u17l2q1",
+              "type": "single_choice",
+              "prompt": "Was unterscheidet die Kardioversion von der Defibrillation?",
+              "options": [
+                "Der Schock wird auf die R-Zacke synchronisiert",
+                "Es gibt keinen Strom",
+                "Sie ist nur für Asystolie",
+                "Sie wird ohne Monitor gemacht"
+              ],
+              "correctIndex": 0,
+              "explanation": "Deshalb muss der Sync-Modus aktiv sein."
+            },
+            {
+              "id": "u17l2q2",
+              "type": "true_false",
+              "statement": "Nach einem TEE darf der Patient sofort essen und trinken.",
+              "correct": false,
+              "explanation": "Falsch. Erst wenn die Rachenbetäubung nachgelassen hat – sonst Aspirationsgefahr."
+            },
+            {
+              "id": "u17l2q3",
+              "type": "single_choice",
+              "prompt": "Warum wird vor einer Kardioversion manchmal ein TEE gemacht?",
+              "options": [
+                "um Gerinnsel im linken Vorhofohr auszuschließen",
+                "um den Blutzucker zu messen",
+                "um die Lunge zu röntgen",
+                "um Kalium zu senken"
+              ],
+              "correctIndex": 0,
+              "explanation": "Ein Gerinnsel könnte nach Wiederherstellen des Rhythmus ausgeschwemmt werden."
+            },
+            {
+              "id": "u17l2q4",
+              "type": "single_choice",
+              "prompt": "Was berichtet ein Patient 2 Wochen nach Vorhofflimmern-Ablation, das dringend abgeklärt werden muss?",
+              "options": [
+                "Fieber, Brustschmerz, Schluckbeschwerden",
+                "leichter Muskelkater",
+                "guter Appetit",
+                "ruhiger Schlaf"
+              ],
+              "correctIndex": 0,
+              "explanation": "Verdacht auf atrioösophageale Fistel – Notfall."
+            },
+            {
+              "id": "u17l2q5",
+              "type": "single_choice",
+              "prompt": "Welche Ablation ist Standard bei Vorhofflimmern?",
+              "options": [
+                "Pulmonalvenenisolation",
+                "Bypass",
+                "Klappenersatz",
+                "Stent in der Beinarterie"
+              ],
+              "correctIndex": 0,
+              "explanation": "Die Auslöser sitzen meist an den Lungenvenen."
+            }
+          ],
+          "sourceIds": [
+            "esc-af-2024",
+            "esc-svt-2019"
+          ],
+          "articleIds": [
+            "p-kardioversion",
+            "p-tee",
+            "p-ablation"
+          ],
+          "termIds": [
+            "t-kardioversion"
+          ]
+        },
+        {
+          "id": "u17l3",
+          "title": "Sauerstoff und NIV",
+          "card": {
+            "title": "Luft nach Maß",
+            "text": "Sauerstoff wird nach Zielsättigung gegeben. NIV hilft bei Lungenödem und COPD mit CO₂-Anstieg.",
+            "bullets": [
+              "Ziel meist 94–98 %",
+              "COPD-Risiko: 88–92 %",
+              "ACS: O₂ nur unter 90 %",
+              "NIV: Maskensitz, Blutdruck, Blutgas"
+            ]
+          },
+          "questions": [
+            {
+              "id": "u17l3q1",
+              "type": "single_choice",
+              "prompt": "Welche Zielsättigung gilt meist bei Patienten mit Hyperkapnie-Risiko (z.B. COPD)?",
+              "options": [
+                "88–92 %",
+                "100 %",
+                "70–75 %",
+                "egal"
+              ],
+              "correctIndex": 0,
+              "explanation": "Zu viel Sauerstoff kann das CO₂ steigen lassen."
+            },
+            {
+              "id": "u17l3q2",
+              "type": "true_false",
+              "statement": "Jeder Herzinfarkt-Patient bekommt Sauerstoff, auch bei Sättigung 97 %.",
+              "correct": false,
+              "explanation": "Falsch. Laut ESC nur bei Sättigung unter 90 %."
+            },
+            {
+              "id": "u17l3q3",
+              "type": "matching",
+              "prompt": "Ordne zu.",
+              "pairs": [
+                {
+                  "left": "Nasenbrille",
+                  "right": "1–4 l/min"
+                },
+                {
+                  "left": "Maske mit Reservoir",
+                  "right": "10–15 l/min"
+                },
+                {
+                  "left": "CPAP",
+                  "right": "kontinuierlicher Überdruck"
+                },
+                {
+                  "left": "NIV bei COPD",
+                  "right": "senkt CO₂"
+                }
+              ],
+              "explanation": "Die Dosis immer nach Anordnung und Ziel."
+            },
+            {
+              "id": "u17l3q4",
+              "type": "single_choice",
+              "prompt": "Worauf achtest du bei einem COPD-Patienten unter Sauerstoff besonders?",
+              "options": [
+                "zunehmende Schläfrigkeit",
+                "Haarfarbe",
+                "Schuhgröße",
+                "Appetit"
+              ],
+              "correctIndex": 0,
+              "explanation": "Schläfrigkeit kann ein Zeichen für CO₂-Anstieg sein."
+            },
+            {
+              "id": "u17l3q5",
+              "type": "single_choice",
+              "prompt": "Welche Nebenwirkung kann NIV am Kreislauf auslösen?",
+              "options": [
+                "Blutdruckabfall",
+                "Blutdruckanstieg immer",
+                "Fieber",
+                "Hypoglykämie"
+              ],
+              "correctIndex": 0,
+              "explanation": "Der Überdruck vermindert den Rückstrom zum Herzen."
+            }
+          ],
+          "sourceIds": [
+            "bts-o2-2017",
+            "gold-2026",
+            "esc-hf-2021"
+          ],
+          "articleIds": [
+            "th-sauerstoff",
+            "th-niv"
+          ],
+          "termIds": [
+            "t-hypoxie"
+          ]
+        },
+        {
+          "id": "u17l4",
+          "title": "Externes Pacing",
+          "card": {
+            "title": "Notfall-Schrittmacher",
+            "text": "Wenn Atropin nicht hilft, stimuliert der Defibrillator über Klebeelektroden.",
+            "bullets": [
+              "Demand-Modus, Frequenz und Strom nach Arzt",
+              "Capture: Spike → breiter QRS",
+              "Puls an der Leiste tasten",
+              "Analgesie und Sedierung"
+            ]
+          },
+          "questions": [
+            {
+              "id": "u17l4q1",
+              "type": "single_choice",
+              "prompt": "Wann wird externes Pacing eingesetzt?",
+              "options": [
+                "instabile Bradykardie, wenn Atropin nicht wirkt",
+                "bei Vorhofflimmern mit 80/min",
+                "bei Fieber",
+                "bei Bluthochdruck"
+              ],
+              "correctIndex": 0,
+              "explanation": "Laut ERC-Bradykardie-Algorithmus."
+            },
+            {
+              "id": "u17l4q2",
+              "type": "single_choice",
+              "prompt": "Woran erkennst du elektrisches Capture?",
+              "options": [
+                "Jeder Spike löst einen breiten QRS aus",
+                "Spikes ohne QRS",
+                "Nulllinie",
+                "Flimmerwellen"
+              ],
+              "correctIndex": 0,
+              "explanation": "Dann noch den Puls als mechanische Antwort prüfen."
+            },
+            {
+              "id": "u17l4q3",
+              "type": "true_false",
+              "statement": "Muskelzuckungen beweisen, dass das Herz stimuliert wird.",
+              "correct": false,
+              "explanation": "Falsch. Deshalb den Puls tasten, am besten an der Leiste."
+            },
+            {
+              "id": "u17l4q4",
+              "type": "single_choice",
+              "prompt": "Was braucht der Patient während externer Stimulation?",
+              "options": [
+                "Schmerzmittel und Sedierung nach Anordnung",
+                "nichts",
+                "Kühlpack",
+                "Abführmittel"
+              ],
+              "correctIndex": 0,
+              "explanation": "Die Stimulation ist schmerzhaft."
+            },
+            {
+              "id": "u17l4q5",
+              "type": "single_choice",
+              "prompt": "Was ist der nächste Schritt nach erfolgreichem externen Pacing?",
+              "options": [
+                "transvenösen Schrittmacher vorbereiten",
+                "Elektroden entfernen",
+                "Patient entlassen",
+                "Pacing ausschalten"
+              ],
+              "correctIndex": 0,
+              "explanation": "Externes Pacing ist nur eine Überbrückung."
+            }
+          ],
+          "sourceIds": [
+            "erc-als-2021"
+          ],
+          "articleIds": [
+            "th-pacing"
+          ],
+          "termIds": [
+            "t-bradykardie"
+          ]
+        }
+      ]
     }
   ]
 }
