@@ -204,6 +204,27 @@
     ]
   },
   {
+    "id": "t-dekompensation",
+    "term": "Dekompensation",
+    "parts": [
+      {
+        "part": "De",
+        "meaning": "weg, ent-",
+        "origin": "lat. de"
+      },
+      {
+        "part": "kompensation",
+        "meaning": "Ausgleich",
+        "origin": "lat. compensare"
+      }
+    ],
+    "meaning": "Ein Organ kann eine Störung nicht mehr ausgleichen, z.B. das Herz bei Herzinsuffizienz",
+    "example": "kardiale Dekompensation mit Lungenödem",
+    "sourceIds": [
+      "pschyrembel"
+    ]
+  },
+  {
     "id": "t-diaphorese",
     "term": "Diaphorese",
     "parts": [
@@ -696,6 +717,32 @@
       "pschyrembel"
     ],
     "example": "koronare Herzkrankheit (KHK)"
+  },
+  {
+    "id": "t-myokardinfarkt",
+    "term": "Myokardinfarkt",
+    "parts": [
+      {
+        "part": "Myo",
+        "meaning": "Muskel",
+        "origin": "griech. mỹs"
+      },
+      {
+        "part": "kard",
+        "meaning": "Herz",
+        "origin": "griech. kardía"
+      },
+      {
+        "part": "infarkt",
+        "meaning": "hineinstopfen, Gewebeuntergang",
+        "origin": "lat. infarcire"
+      }
+    ],
+    "meaning": "Herzinfarkt: Absterben von Herzmuskelgewebe durch unterbrochene Blutversorgung",
+    "example": "NSTEMI, STEMI",
+    "sourceIds": [
+      "pschyrembel"
+    ]
   },
   {
     "id": "t-myokarditis",

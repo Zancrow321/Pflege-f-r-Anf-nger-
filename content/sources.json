@@ -86,5 +86,17 @@
     "id": "pschyrembel",
     "citation": "Pschyrembel Online – Klinisches Wörterbuch. Berlin/Boston: De Gruyter. Stichworte zu den jeweiligen Fachbegriffen und Wortbausteinen.",
     "url": "https://www.pschyrembel.de"
+  },
+  {
+    "id": "esc-hf-2023",
+    "citation": "McDonagh TA, Metra M, Adamo M, et al. 2023 Focused Update of the 2021 ESC Guidelines for the diagnosis and treatment of acute and chronic heart failure. Eur Heart J. 2023;44(37):3627–3639.",
+    "url": "https://doi.org/10.1093/eurheartj/ehad195",
+    "year": 2023
+  },
+  {
+    "id": "udmi-2018",
+    "citation": "Thygesen K, Alpert JS, Jaffe AS, et al. Fourth Universal Definition of Myocardial Infarction (2018). Eur Heart J. 2019;40(3):237–269.",
+    "url": "https://doi.org/10.1093/eurheartj/ehy462",
+    "year": 2018
   }
 ]

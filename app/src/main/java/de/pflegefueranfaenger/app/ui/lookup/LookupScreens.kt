@@ -12,6 +12,8 @@ import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.lazy.LazyColumn
 import androidx.compose.foundation.lazy.items
+import androidx.compose.foundation.horizontalScroll
+import androidx.compose.material3.FilterChip
 import androidx.compose.foundation.rememberScrollState
 import androidx.compose.foundation.verticalScroll
 import androidx.compose.material.icons.Icons
@@ -27,8 +29,6 @@ import androidx.compose.material3.ListItem
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.OutlinedTextField
 import androidx.compose.material3.Scaffold
-import androidx.compose.material3.Tab
-import androidx.compose.material3.TabRow
 import androidx.compose.material3.Text
 import androidx.compose.material3.TopAppBar
 import androidx.compose.runtime.Composable
@@ -48,6 +48,7 @@ import de.pflegefueranfaenger.app.LoadedContent
 import de.pflegefueranfaenger.app.ui.components.HouseSpecificBadge
 import de.pflegefueranfaenger.app.ui.components.UnreviewedBadge
 import de.pflegefueranfaenger.app.ui.components.WordPartsBreakdown
+import de.pflegefueranfaenger.core.model.ArticleKind
 import de.pflegefueranfaenger.core.model.Source
 import de.pflegefueranfaenger.core.search.SearchHit
 
@@ -60,7 +61,7 @@ fun LookupScreen(
     modifier: Modifier = Modifier,
 ) {
     var query by rememberSaveable { mutableStateOf("") }
-    var tab by rememberSaveable { mutableIntStateOf(0) }
+    var filter by rememberSaveable { mutableIntStateOf(0) } // 0..4 = ArticleKind-Reihenfolge, 5 = Wortbausteine
     val bundle = content.bundle
     val hits = remember(query) { content.search.search(query) }
 
@@ -88,7 +89,7 @@ fun LookupScreen(
                         is SearchHit.ArticleHit -> ListItem(
                             headlineContent = { Text(hit.article.title) },
                             supportingContent = { Text(hit.article.summary, maxLines = 2) },
-                            overlineContent = { Text("Artikel · ${hit.article.category}") },
+                            overlineContent = { Text("${hit.article.kind.label} · ${hit.article.category}") },
                             modifier = Modifier.clickable { onOpenArticle(hit.article.id) },
                         )
                         is SearchHit.TermHit -> ListItem(
@@ -102,18 +103,30 @@ fun LookupScreen(
                 }
             }
         } else {
-            TabRow(selectedTabIndex = tab) {
-                Tab(selected = tab == 0, onClick = { tab = 0 }, text = { Text("Artikel") })
-                Tab(selected = tab == 1, onClick = { tab = 1 }, text = { Text("Wortbausteine A–Z") })
+            val kinds = listOf(ArticleKind.DIAGNOSE, ArticleKind.MEDIKAMENT, ArticleKind.PROZEDUR, ArticleKind.THERAPIE, ArticleKind.WISSEN)
+            Row(
+                Modifier.fillMaxWidth().horizontalScroll(rememberScrollState()).padding(horizontal = 16.dp),
+                horizontalArrangement = Arrangement.spacedBy(8.dp),
+            ) {
+                kinds.forEachIndexed { i, k ->
+                    val count = bundle.articles.count { it.kind == k }
+                    FilterChip(selected = filter == i, onClick = { filter = i }, label = { Text("${k.plural} ($count)") })
+                }
+                FilterChip(selected = filter == kinds.size, onClick = { filter = kinds.size }, label = { Text("Wortbausteine (${bundle.terms.size})") })
             }
             LazyColumn(contentPadding = PaddingValues(bottom = 24.dp)) {
-                if (tab == 0) {
-                    bundle.articles.groupBy { it.category }.forEach { (category, articles) ->
+                if (filter < kinds.size) {
+                    val kind = kinds[filter]
+                    val list = bundle.articles.filter { it.kind == kind }
+                    if (list.isEmpty()) item {
+                        Text("Hier kommen bald Inhalte dazu.", modifier = Modifier.padding(20.dp))
+                    }
+                    list.groupBy { it.category }.toSortedMap().forEach { (category, articles) ->
                         item(key = "c:$category") {
                             Text(category, style = MaterialTheme.typography.titleSmall, color = MaterialTheme.colorScheme.primary,
                                 modifier = Modifier.padding(start = 20.dp, top = 16.dp, bottom = 4.dp))
                         }
-                        items(articles, key = { it.id }) { a ->
+                        items(articles.sortedBy { it.title }, key = { it.id }) { a ->
                             ListItem(
                                 headlineContent = { Text(a.title) },
                                 supportingContent = { Text(a.summary, maxLines = 2) },
@@ -158,28 +171,31 @@ private fun DetailScaffold(title: String, onBack: () -> Unit, body: @Composable 
 
 @OptIn(ExperimentalLayoutApi::class)
 @Composable
-fun ArticleScreen(content: LoadedContent, articleId: String, onBack: () -> Unit, onOpenTerm: (String) -> Unit) {
+fun ArticleScreen(
+    content: LoadedContent,
+    articleId: String,
+    onBack: () -> Unit,
+    onOpenTerm: (String) -> Unit,
+    onOpenArticle: (String) -> Unit,
+    onOpenLesson: (String) -> Unit,
+) {
     val bundle = content.bundle
     val a = bundle.article(articleId) ?: run {
         LaunchedEffect(Unit) { onBack() }
         return
     }
-    DetailScaffold(a.category, onBack) {
+    DetailScaffold("${a.kind.label} · ${a.category}", onBack) {
         Text(a.title, style = MaterialTheme.typography.headlineSmall, fontWeight = FontWeight.Bold)
         FlowRow(horizontalArrangement = Arrangement.spacedBy(8.dp), verticalArrangement = Arrangement.spacedBy(8.dp)) {
             UnreviewedBadge()
             if (a.houseSpecific) HouseSpecificBadge()
         }
         Text(a.summary, style = MaterialTheme.typography.titleMedium)
-        a.body.forEach { para ->
-            if (para.startsWith("- ")) {
-                Row(Modifier.padding(start = 8.dp)) {
-                    Text("•  ", color = MaterialTheme.colorScheme.primary)
-                    Text(para.removePrefix("- "), style = MaterialTheme.typography.bodyLarge)
-                }
-            } else {
-                Text(para, style = MaterialTheme.typography.bodyLarge)
-            }
+        Paragraphs(a.body)
+        a.sections.forEach { section ->
+            Text(section.title, style = MaterialTheme.typography.titleMedium, fontWeight = FontWeight.Bold,
+                color = MaterialTheme.colorScheme.primary, modifier = Modifier.padding(top = 8.dp))
+            Paragraphs(section.paragraphs)
         }
         if (a.houseSpecific) {
             Text(
@@ -193,6 +209,20 @@ fun ArticleScreen(content: LoadedContent, articleId: String, onBack: () -> Unit,
             Text("Fachbegriffe", style = MaterialTheme.typography.titleSmall, modifier = Modifier.padding(top = 8.dp))
             FlowRow(horizontalArrangement = Arrangement.spacedBy(8.dp)) {
                 terms.forEach { t -> AssistChip(onClick = { onOpenTerm(t.id) }, label = { Text(t.term) }) }
+            }
+        }
+        val related = bundle.relatedTo(a.id)
+        if (related.isNotEmpty()) {
+            Text("Siehe auch", style = MaterialTheme.typography.titleSmall, modifier = Modifier.padding(top = 8.dp))
+            FlowRow(horizontalArrangement = Arrangement.spacedBy(8.dp)) {
+                related.forEach { r -> AssistChip(onClick = { onOpenArticle(r.id) }, label = { Text(r.title) }) }
+            }
+        }
+        val lessons = bundle.lessonsFor(a.id)
+        if (lessons.isNotEmpty()) {
+            Text("Dazu lernen", style = MaterialTheme.typography.titleSmall, modifier = Modifier.padding(top = 8.dp))
+            FlowRow(horizontalArrangement = Arrangement.spacedBy(8.dp)) {
+                lessons.forEach { l -> AssistChip(onClick = { onOpenLesson(l.id) }, label = { Text("🎓 ${l.title}") }) }
             }
         }
         Sources(a.sourceIds.mapNotNull { bundle.source(it) }, "Quellen · geprüft am ${a.lastChecked}")
@@ -234,5 +264,19 @@ fun Sources(sources: List<Source>, title: String) {
             color = if (url != null) MaterialTheme.colorScheme.primary else MaterialTheme.colorScheme.onSurfaceVariant,
             modifier = if (url != null) Modifier.clickable { runCatching { uri.openUri(url) } } else Modifier,
         )
+    }
+}
+
+@Composable
+private fun Paragraphs(paragraphs: List<String>) {
+    paragraphs.forEach { para ->
+        if (para.startsWith("- ")) {
+            Row(Modifier.padding(start = 8.dp)) {
+                Text("•  ", color = MaterialTheme.colorScheme.primary)
+                Text(para.removePrefix("- "), style = MaterialTheme.typography.bodyLarge)
+            }
+        } else {
+            Text(para, style = MaterialTheme.typography.bodyLarge)
+        }
     }
 }

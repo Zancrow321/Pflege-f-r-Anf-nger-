@@ -1948,6 +1948,506 @@
           ]
         }
       ]
+    },
+    {
+      "id": "u7",
+      "title": "Krankheitsbilder 1: Vorhof, Herzschwäche, Infarkt",
+      "level": "station",
+      "description": "Vorhofflimmern, Vorhofflattern, kardiale Dekompensation, NSTEMI und STEMI.",
+      "lessons": [
+        {
+          "id": "u7l1",
+          "title": "Vorhofflimmern",
+          "card": {
+            "title": "Vorhofflimmern auf einen Blick",
+            "text": "Die häufigste Rhythmusstörung auf der Station. Entscheidend sind Frequenz, Beschwerden und der Schutz vor Schlaganfällen.",
+            "bullets": [
+              "Formen: paroxysmal (bis 7 Tage), persistierend (über 7 Tage), permanent",
+              "Behandlung nach AF-CARE: Begleiterkrankungen, Schlaganfallschutz, Frequenz/Rhythmus, Neubewertung",
+              "Pflege: Frequenz am Monitor zählen, Antikoagulation pünktlich, Blutungs- und Schlaganfallzeichen"
+            ],
+            "strip": "afib"
+          },
+          "questions": [
+            {
+              "id": "u7l1q1",
+              "type": "single_choice",
+              "prompt": "Wie lange dauert paroxysmales Vorhofflimmern laut ESC 2024 höchstens?",
+              "options": [
+                "24 Stunden",
+                "7 Tage",
+                "4 Wochen",
+                "1 Jahr"
+              ],
+              "correctIndex": 1,
+              "explanation": "Paroxysmal = endet innerhalb von 7 Tagen von selbst oder durch Behandlung. Länger = persistierend."
+            },
+            {
+              "id": "u7l1q2",
+              "type": "single_choice",
+              "prompt": "Wofür steht das „A“ in AF-CARE?",
+              "options": [
+                "Atemwege sichern",
+                "Avoid stroke – Schlaganfall vermeiden",
+                "Amiodaron geben",
+                "Ablation planen"
+              ],
+              "correctIndex": 1,
+              "explanation": "A = Avoid stroke: Schlaganfallschutz durch orale Antikoagulation je nach Risiko, bevorzugt mit DOAK."
+            },
+            {
+              "id": "u7l1q3",
+              "type": "true_false",
+              "statement": "Bei Vorhofflimmern zählst du die Herzfrequenz am besten am Monitor oder per Auskultation statt nur am Handgelenk.",
+              "correct": true,
+              "explanation": "Richtig, wegen des Pulsdefizits ist die getastete Frequenz oft zu niedrig."
+            },
+            {
+              "id": "u7l1q4",
+              "type": "single_choice",
+              "prompt": "Ein Patient mit VHF bekommt plötzlich einen hängenden Mundwinkel und spricht verwaschen. Was tust du?",
+              "options": [
+                "sofort Arzt rufen und den Zeitpunkt des Beginns notieren – Verdacht auf Schlaganfall",
+                "bis zur Visite abwarten",
+                "ein Schmerzmittel geben",
+                "den Patienten hinlegen und schlafen lassen"
+              ],
+              "correctIndex": 0,
+              "explanation": "Bei VHF ist das Schlaganfallrisiko erhöht. Jede Minute zählt; der Symptombeginn entscheidet über die Therapie."
+            },
+            {
+              "id": "u7l1q5",
+              "type": "matching",
+              "prompt": "Ordne zu: Was gehört zu welcher Behandlung?",
+              "pairs": [
+                {
+                  "left": "Frequenzkontrolle",
+                  "right": "Betablocker"
+                },
+                {
+                  "left": "Rhythmuskontrolle",
+                  "right": "Kardioversion"
+                },
+                {
+                  "left": "Schlaganfallschutz",
+                  "right": "DOAK, z.B. Apixaban"
+                },
+                {
+                  "left": "Dauerhafte Heilung möglich",
+                  "right": "Pulmonalvenenisolation (Ablation)"
+                }
+              ],
+              "explanation": "Frequenz senken, Rhythmus wiederherstellen und Schlaganfälle verhindern sind drei verschiedene Ziele."
+            }
+          ],
+          "sourceIds": [
+            "esc-af-2024"
+          ],
+          "articleIds": [
+            "a-vorhofflimmern"
+          ],
+          "termIds": [
+            "t-kardioversion",
+            "t-tachyarrhythmie"
+          ]
+        },
+        {
+          "id": "u7l2",
+          "title": "Vorhofflattern",
+          "card": {
+            "title": "Sägezahn mit 300/min",
+            "text": "Beim typischen Vorhofflattern kreist eine Erregung im rechten Vorhof. Die Kammer schlägt oft regelmäßig mit ca. 150/min.",
+            "bullets": [
+              "Sägezahnwellen in II, III, aVF",
+              "Überleitung meist 2:1, auch 3:1 oder 4:1",
+              "Therapie der Wahl bei typischem Flattern: Isthmusablation",
+              "Antikoagulation wie bei Vorhofflimmern"
+            ],
+            "strip": "flutter"
+          },
+          "questions": [
+            {
+              "id": "u7l2q1",
+              "type": "single_choice",
+              "prompt": "Welcher Rhythmus ist das?",
+              "options": [
+                "Vorhofflattern",
+                "Vorhofflimmern",
+                "Sinustachykardie",
+                "Kammertachykardie"
+              ],
+              "correctIndex": 0,
+              "explanation": "Sägezahnartige Flatterwellen mit regelmäßiger Überleitung: Vorhofflattern.",
+              "strip": "flutter"
+            },
+            {
+              "id": "u7l2q2",
+              "type": "single_choice",
+              "prompt": "Flatterwellen mit 300/min und 2:1-Überleitung ergeben eine Kammerfrequenz von …",
+              "options": [
+                "75/min",
+                "100/min",
+                "150/min",
+                "300/min"
+              ],
+              "correctIndex": 2,
+              "explanation": "300 ÷ 2 = 150/min."
+            },
+            {
+              "id": "u7l2q3",
+              "type": "true_false",
+              "statement": "Bei Vorhofflattern gelten für die Antikoagulation die gleichen Regeln wie bei Vorhofflimmern.",
+              "correct": true,
+              "explanation": "Richtig. Auch beim Flattern können sich Thromben bilden."
+            },
+            {
+              "id": "u7l2q4",
+              "type": "single_choice",
+              "prompt": "Welche Behandlung beseitigt typisches Vorhofflattern meist dauerhaft?",
+              "options": [
+                "Isthmusablation per Herzkatheter",
+                "Digitalis",
+                "Sauerstoff",
+                "Bettruhe"
+              ],
+              "correctIndex": 0,
+              "explanation": "Die Ablation des cavotrikuspidalen Isthmus unterbricht die Kreisbahn mit hoher Erfolgsrate."
+            },
+            {
+              "id": "u7l2q5",
+              "type": "true_false",
+              "statement": "Ein plötzlicher Sprung der Herzfrequenz von 75 auf 150/min bei bekanntem Vorhofflattern kann an einem Wechsel der Überleitung liegen (z.B. 4:1 auf 2:1).",
+              "correct": true,
+              "explanation": "Richtig. Deshalb die Frequenz im Verlauf beobachten und Sprünge melden."
+            }
+          ],
+          "sourceIds": [
+            "esc-svt-2019",
+            "esc-af-2024"
+          ],
+          "articleIds": [
+            "a-vorhofflattern"
+          ],
+          "termIds": []
+        },
+        {
+          "id": "u7l3",
+          "title": "Kardiale Dekompensation",
+          "card": {
+            "title": "Wenn das Herz nicht mehr hinterherkommt",
+            "text": "Flüssigkeit staut sich zurück in Lunge und Körper. Typische Zeichen sind Atemnot, Ödeme und Gewichtszunahme.",
+            "bullets": [
+              "Auslöser: Infekt, Rhythmusstörung, Ischämie, Medikamentenpause, Salz, NSAR",
+              "Therapie: Oberkörper hoch, Schleifendiuretika i.v., O₂ bei SpO₂ unter 90 %",
+              "Pflege: tägliches Gewicht, Bilanz, Atmung, Kalium und Niere"
+            ]
+          },
+          "questions": [
+            {
+              "id": "u7l3q1",
+              "type": "word_parts",
+              "term": "Dekompensation",
+              "parts": [
+                {
+                  "part": "De",
+                  "meaning": "weg, ent-",
+                  "origin": "lat. de"
+                },
+                {
+                  "part": "kompensation",
+                  "meaning": "Ausgleich",
+                  "origin": "lat. compensare"
+                }
+              ],
+              "distractors": [
+                "Herz",
+                "zu viel",
+                "Entzündung"
+              ],
+              "meaning": "Störung kann nicht mehr ausgeglichen werden",
+              "explanation": "De = weg, Kompensation = Ausgleich. Das Herz kann die Schwäche nicht mehr ausgleichen."
+            },
+            {
+              "id": "u7l3q2",
+              "type": "single_choice",
+              "prompt": "Wie wiegst du einen Patienten mit Herzinsuffizienz richtig?",
+              "options": [
+                "täglich morgens nach dem Wasserlassen vor dem Frühstück, gleiche Waage",
+                "einmal pro Woche nach dem Mittagessen",
+                "nur bei Aufnahme",
+                "abends angezogen"
+              ],
+              "correctIndex": 0,
+              "explanation": "Nur unter gleichen Bedingungen sind die Werte vergleichbar. Das Gewicht zeigt Wassereinlagerungen früher als Ödeme."
+            },
+            {
+              "id": "u7l3q3",
+              "type": "single_choice",
+              "prompt": "Welches Zeichen spricht für ein beginnendes Lungenödem?",
+              "options": [
+                "schaumiges Sputum und schwerste Atemnot",
+                "trockene Haut",
+                "Bradykardie ohne Beschwerden",
+                "Hunger"
+              ],
+              "correctIndex": 0,
+              "explanation": "Schaumiges, evtl. rötliches Sputum, Rasselgeräusche und schwere Atemnot: Notfall, sofort Arzt."
+            },
+            {
+              "id": "u7l3q4",
+              "type": "true_false",
+              "statement": "Ibuprofen und Diclofenac können eine Herzinsuffizienz verschlechtern.",
+              "correct": true,
+              "explanation": "Richtig. NSAR halten Salz und Wasser zurück und belasten die Nieren."
+            },
+            {
+              "id": "u7l3q5",
+              "type": "single_choice",
+              "prompt": "Welche Lagerung hilft bei Atemnot durch Stauung (ausreichender Blutdruck)?",
+              "options": [
+                "Oberkörper hoch, Beine tief",
+                "flach auf dem Rücken",
+                "Beine hoch",
+                "Bauchlage"
+              ],
+              "correctIndex": 0,
+              "explanation": "So sinkt der Rückstrom zum Herzen und die Atemarbeit wird leichter."
+            },
+            {
+              "id": "u7l3q6",
+              "type": "matching",
+              "prompt": "Ordne zu.",
+              "pairs": [
+                {
+                  "left": "NT-proBNP",
+                  "right": "Laborwert bei Herzinsuffizienz"
+                },
+                {
+                  "left": "Furosemid",
+                  "right": "Schleifendiuretikum"
+                },
+                {
+                  "left": "Orthopnoe",
+                  "right": "Atemnot im Liegen"
+                },
+                {
+                  "left": "Kardiogener Schock",
+                  "right": "Pumpversagen mit Minderdurchblutung"
+                }
+              ],
+              "explanation": "Diese Begriffe hörst du bei fast jeder Aufnahme mit Dekompensation."
+            }
+          ],
+          "sourceIds": [
+            "esc-hf-2021",
+            "esc-hf-2023"
+          ],
+          "articleIds": [
+            "a-dekompensation"
+          ],
+          "termIds": [
+            "t-dekompensation",
+            "t-orthopnoe"
+          ]
+        },
+        {
+          "id": "u7l4",
+          "title": "NSTEMI",
+          "card": {
+            "title": "Infarkt ohne ST-Hebung",
+            "text": "Das Troponin steigt, das EKG zeigt ST-Senkungen, T-Negativierungen oder nichts Auffälliges.",
+            "bullets": [
+              "Instabile Angina: gleiche Beschwerden, Troponin normal",
+              "Troponin nach festem Zeitschema abnehmen",
+              "Herzkatheter innerhalb von 24 h, bei sehr hohem Risiko sofort",
+              "DAPT: ASS + P2Y12-Hemmer"
+            ]
+          },
+          "questions": [
+            {
+              "id": "u7l4q1",
+              "type": "single_choice",
+              "prompt": "Was unterscheidet einen NSTEMI von einer instabilen Angina pectoris?",
+              "options": [
+                "Beim NSTEMI ist das Troponin erhöht",
+                "Beim NSTEMI gibt es ST-Hebungen",
+                "Die instabile Angina tut mehr weh",
+                "Kein Unterschied"
+              ],
+              "correctIndex": 0,
+              "explanation": "Ein erhöhtes Troponin zeigt, dass Herzmuskelzellen untergegangen sind."
+            },
+            {
+              "id": "u7l4q2",
+              "type": "true_false",
+              "statement": "Ein normales EKG schließt einen NSTEMI aus.",
+              "correct": false,
+              "explanation": "Falsch. Das EKG kann beim NSTEMI unauffällig sein. Deshalb Troponin-Verlauf und erneute EKGs bei Beschwerden."
+            },
+            {
+              "id": "u7l4q3",
+              "type": "single_choice",
+              "prompt": "Warum ist die genaue Abnahmezeit der Troponin-Kontrolle wichtig?",
+              "options": [
+                "Die Auswertung (z.B. 0 h/1 h) beruht auf dem Anstieg in einer festen Zeit",
+                "Das Labor schließt sonst",
+                "Troponin verdirbt schnell",
+                "Sie ist egal"
+              ],
+              "correctIndex": 0,
+              "explanation": "Die Algorithmen bewerten den Anstieg innerhalb eines festen Zeitfensters."
+            },
+            {
+              "id": "u7l4q4",
+              "type": "matching",
+              "prompt": "Ordne zu.",
+              "pairs": [
+                {
+                  "left": "ASS",
+                  "right": "Plättchenhemmer"
+                },
+                {
+                  "left": "Ticagrelor",
+                  "right": "P2Y12-Hemmer"
+                },
+                {
+                  "left": "Heparin",
+                  "right": "Antikoagulans"
+                },
+                {
+                  "left": "Atorvastatin",
+                  "right": "Statin"
+                }
+              ],
+              "explanation": "ASS plus P2Y12-Hemmer = duale Plättchenhemmung (DAPT)."
+            },
+            {
+              "id": "u7l4q5",
+              "type": "single_choice",
+              "prompt": "Patient mit NSTEMI bekommt erneut Brustschmerz. Was zuerst?",
+              "options": [
+                "12-Kanal-EKG schreiben und sofort Arzt informieren",
+                "bis zur nächsten Troponin-Kontrolle warten",
+                "Mobilisieren",
+                "Trinken anbieten"
+              ],
+              "correctIndex": 0,
+              "explanation": "Erneuter Schmerz kann ein Übergang in einen STEMI sein."
+            }
+          ],
+          "sourceIds": [
+            "esc-acs-2023",
+            "udmi-2018"
+          ],
+          "articleIds": [
+            "a-nstemi"
+          ],
+          "termIds": [
+            "t-myokardinfarkt"
+          ]
+        },
+        {
+          "id": "u7l5",
+          "title": "STEMI",
+          "card": {
+            "title": "Zeit ist Herzmuskel",
+            "text": "Ein Herzkranzgefäß ist verschlossen. Ziel: Wiedereröffnung im Herzkatheterlabor so schnell wie möglich.",
+            "bullets": [
+              "ST-Hebungen in mindestens zwei benachbarten Ableitungen",
+              "Primäre PCI, Ziel unter 120 min ab Diagnose",
+              "Hinterwand (II, III, aVF): Bradykardie und AV-Block möglich",
+              "Größte Gefahr in den ersten Stunden: Kammerflimmern"
+            ]
+          },
+          "questions": [
+            {
+              "id": "u7l5q1",
+              "type": "single_choice",
+              "prompt": "In welchen Ableitungen zeigt sich ein Hinterwandinfarkt (inferior)?",
+              "options": [
+                "II, III, aVF",
+                "V1–V4",
+                "I, aVL",
+                "nur V6"
+              ],
+              "correctIndex": 0,
+              "explanation": "Inferior = II, III, aVF, meist durch einen Verschluss der rechten Koronararterie."
+            },
+            {
+              "id": "u7l5q2",
+              "type": "single_choice",
+              "prompt": "Welche Behandlung ist beim STEMI die erste Wahl?",
+              "options": [
+                "primäre PCI (Herzkatheter mit Stent)",
+                "Abwarten bis zum Troponin-Ergebnis",
+                "nur Sauerstoff",
+                "Diuretika"
+              ],
+              "correctIndex": 0,
+              "explanation": "Die Wiedereröffnung des Gefäßes so schnell wie möglich rettet Herzmuskel. Das Troponin wird nicht abgewartet."
+            },
+            {
+              "id": "u7l5q3",
+              "type": "true_false",
+              "statement": "Nach einem Hinterwandinfarkt können Bradykardien und AV-Blöcke auftreten.",
+              "correct": true,
+              "explanation": "Richtig. Die rechte Koronararterie versorgt häufig Sinus- und AV-Knoten."
+            },
+            {
+              "id": "u7l5q4",
+              "type": "single_choice",
+              "prompt": "Was ist in den ersten Stunden nach einem STEMI die gefährlichste Rhythmusstörung?",
+              "options": [
+                "Kammerflimmern",
+                "Sinusbradykardie im Schlaf",
+                "AV-Block I°",
+                "einzelne SVES"
+              ],
+              "correctIndex": 0,
+              "explanation": "Deshalb Monitor und Defibrillator bereit, Patient nicht unbeobachtet."
+            },
+            {
+              "id": "u7l5q5",
+              "type": "word_parts",
+              "term": "Myokardinfarkt",
+              "parts": [
+                {
+                  "part": "Myo",
+                  "meaning": "Muskel",
+                  "origin": "griech. mỹs"
+                },
+                {
+                  "part": "kard",
+                  "meaning": "Herz",
+                  "origin": "griech. kardía"
+                },
+                {
+                  "part": "infarkt",
+                  "meaning": "Gewebeuntergang",
+                  "origin": "lat. infarcire"
+                }
+              ],
+              "distractors": [
+                "Gefäß",
+                "Entzündung",
+                "Blut"
+              ],
+              "meaning": "Herzinfarkt",
+              "explanation": "Myo = Muskel, kard = Herz, Infarkt = Gewebeuntergang durch fehlende Durchblutung."
+            }
+          ],
+          "sourceIds": [
+            "esc-acs-2023",
+            "udmi-2018"
+          ],
+          "articleIds": [
+            "a-stemi"
+          ],
+          "termIds": [
+            "t-myokardinfarkt"
+          ]
+        }
+      ]
     }
   ]
 }
