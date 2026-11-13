@@ -1119,5 +1119,58 @@
     "sourceIds": [
       "pschyrembel"
     ]
+  },
+  {
+    "id": "t-arteriosklerose",
+    "term": "Arteriosklerose",
+    "parts": [
+      {
+        "part": "Arterio",
+        "meaning": "Schlagader",
+        "origin": "griech. artēría"
+      },
+      {
+        "part": "skler",
+        "meaning": "hart",
+        "origin": "griech. sklērós"
+      },
+      {
+        "part": "ose",
+        "meaning": "Zustand, krankhafter Vorgang"
+      }
+    ],
+    "meaning": "Verhärtung und Verengung der Arterien durch Ablagerungen in der Gefäßwand; Grundlage von KHK und pAVK",
+    "sourceIds": [
+      "pschyrembel"
+    ],
+    "example": "Die pAVK ist meist Folge einer Arteriosklerose der Beinarterien."
+  },
+  {
+    "id": "t-revaskularisation",
+    "term": "Revaskularisation",
+    "parts": [
+      {
+        "part": "Re",
+        "meaning": "wieder",
+        "origin": "lat. re-"
+      },
+      {
+        "part": "vaskul",
+        "meaning": "Gefäß",
+        "origin": "lat. vasculum"
+      },
+      {
+        "part": "ar",
+        "meaning": "betreffend"
+      },
+      {
+        "part": "isation",
+        "meaning": "Herstellen, Vorgang"
+      }
+    ],
+    "meaning": "Wiederherstellung der Durchblutung, z.B. durch Stent (PCI) oder Bypass-Operation",
+    "sourceIds": [
+      "pschyrembel"
+    ]
   }
 ]

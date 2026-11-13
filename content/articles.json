@@ -1909,5 +1909,422 @@
     "houseSpecific": true,
     "status": "unreviewed",
     "termIds": []
+  },
+  {
+    "id": "a-khk-3gefaess",
+    "title": "Koronare 3-Gefäß-Erkrankung (3-Gefäß-KHK)",
+    "category": "Herz und Gefäße",
+    "summary": "Alle drei großen Herzkranzgefäße sind relevant verengt. Neben Medikamenten entscheidet das Herzteam, ob Stents (PCI) oder eine Bypass-Operation besser sind.",
+    "kind": "diagnose",
+    "sections": [
+      {
+        "title": "Kurz erklärt",
+        "paragraphs": [
+          "Bei der koronaren Herzkrankheit (KHK) verengen Ablagerungen (Arteriosklerose) die Herzkranzgefäße. Es gibt drei große Äste: RIVA (LAD), RCX und RCA.",
+          "Bei der 3-Gefäß-KHK sind alle drei relevant verengt. Ein großer Teil des Herzmuskels ist dadurch gefährdet.",
+          "Eine Hauptstammstenose (Stamm der linken Koronararterie) gilt als besonders gefährlich."
+        ]
+      },
+      {
+        "title": "Ursachen und Risikofaktoren",
+        "paragraphs": [
+          "- Rauchen, Bluthochdruck, Diabetes mellitus, erhöhtes LDL-Cholesterin",
+          "- Übergewicht, Bewegungsmangel, familiäre Belastung, Alter, männliches Geschlecht",
+          "- chronische Nierenerkrankung"
+        ]
+      },
+      {
+        "title": "Symptome",
+        "paragraphs": [
+          "- Angina pectoris: Druck oder Enge in der Brust bei Belastung, Ausstrahlung in Arm, Hals oder Kiefer",
+          "- Belastungsatemnot, Leistungsminderung",
+          "- bei Diabetikern, Frauen und Älteren oft untypisch oder ohne Schmerz",
+          "- bei Herzinfarkt: anhaltender Schmerz in Ruhe"
+        ]
+      },
+      {
+        "title": "Diagnostik",
+        "paragraphs": [
+          "- Ruhe-EKG, Labor, Echokardiographie (Pumpfunktion, Wandbewegungsstörungen)",
+          "- nicht-invasive Tests: CT-Koronarangiographie oder Belastungstests (Stress-Echo, Myokardszintigraphie, Stress-MRT)",
+          "- Herzkatheter (Koronarangiographie): zeigt Ort und Ausmaß der Stenosen, ggf. Druckmessung (FFR/iFR)",
+          "- SYNTAX-Score: beschreibt, wie komplex die Verengungen sind"
+        ]
+      },
+      {
+        "title": "Therapie",
+        "paragraphs": [
+          "Medikamente für alle (nach Anordnung):",
+          "- Plättchenhemmer (z.B. ASS), hochdosiertes Statin, Blutdruck- und Diabeteseinstellung",
+          "- gegen Angina: Betablocker, Calciumantagonisten, Nitrate bei Bedarf",
+          "Revaskularisation:",
+          "- Entscheidung im Herzteam (Kardiologie und Herzchirurgie) zusammen mit dem Patienten",
+          "- PCI (Stents) oder aortokoronarer Bypass (ACB/CABG)",
+          "- bei komplexer 3-Gefäß-KHK und besonders bei Diabetes wird häufig die Bypass-Operation bevorzugt",
+          "Lebensstil: Rauchstopp, Bewegung, Ernährung, Herzsportgruppe/Rehabilitation"
+        ]
+      },
+      {
+        "title": "Pflege und Beobachtung",
+        "paragraphs": [
+          "- Brustschmerz ernst nehmen: Vitalzeichen, 12-Kanal-EKG nach Hausstandard, Arzt informieren",
+          "- Monitor: ST-Veränderungen, Rhythmusstörungen",
+          "- vor Herzkatheter: Nüchternheit, Labor (Nierenwerte, Gerinnung), Einverständnis, Zugang",
+          "- vor Bypass-OP: Vorbereitung nach Klinikstandard, Ängste ansprechen",
+          "- Schulung: Medikamente regelmäßig nehmen, Nitrospray richtig anwenden, Risikofaktoren"
+        ]
+      },
+      {
+        "title": "Warnzeichen",
+        "paragraphs": [
+          "- Brustschmerz in Ruhe oder länger als 15–20 Minuten",
+          "- neue ST-Hebungen oder -Senkungen am Monitor",
+          "- Kaltschweißigkeit, Blutdruckabfall, Atemnot, Rhythmusstörungen"
+        ]
+      }
+    ],
+    "keywords": [
+      "KHK",
+      "3-Gefäß-KHK",
+      "Dreigefäßerkrankung",
+      "Hauptstamm",
+      "Bypass",
+      "ACB",
+      "CABG",
+      "PCI",
+      "Angina pectoris",
+      "Herzteam",
+      "SYNTAX"
+    ],
+    "relatedArticleIds": [
+      "a-nstemi",
+      "a-stemi",
+      "a-icmp",
+      "a-herzkatheter",
+      "a-acs"
+    ],
+    "sourceIds": [
+      "esc-ccs-2024",
+      "esc-revasc-2018",
+      "esc-acs-2023"
+    ],
+    "lastChecked": "2026-11-13",
+    "houseSpecific": true,
+    "status": "unreviewed",
+    "termIds": [
+      "t-koronar",
+      "t-stenose",
+      "t-arteriosklerose",
+      "t-revaskularisation",
+      "t-ischaemie"
+    ]
+  },
+  {
+    "id": "a-stauungspneumonie",
+    "title": "Stauungspneumonie",
+    "category": "Lunge",
+    "summary": "Lungenentzündung in einer durch Herzschwäche gestauten Lunge. Stauung und Entzündung sehen sich ähnlich und verstärken sich gegenseitig.",
+    "kind": "diagnose",
+    "sections": [
+      {
+        "title": "Kurz erklärt",
+        "paragraphs": [
+          "Bei Linksherzschwäche staut sich Blut in die Lunge zurück. Flüssigkeit tritt ins Lungengewebe, die Belüftung wird schlechter und Keime können sich leichter festsetzen.",
+          "Entsteht dort eine Lungenentzündung, spricht man von einer Stauungspneumonie. Umgekehrt kann eine Pneumonie eine Herzinsuffizienz dekompensieren lassen."
+        ]
+      },
+      {
+        "title": "Ursachen und Risikofaktoren",
+        "paragraphs": [
+          "- Herzinsuffizienz, kardiale Dekompensation, Klappenfehler",
+          "- Bettlägerigkeit, flache Atmung, hohes Alter",
+          "- Schluckstörungen (Aspiration), COPD, Diabetes"
+        ]
+      },
+      {
+        "title": "Symptome",
+        "paragraphs": [
+          "- Atemnot, schnelle Atmung, Orthopnoe",
+          "- Fieber oder Temperaturanstieg, Husten mit Auswurf",
+          "- feuchte Rasselgeräusche, Sauerstoffsättigung sinkt",
+          "- Zeichen der Stauung: Ödeme, Gewichtszunahme, gestaute Halsvenen",
+          "- bei Älteren oft nur Verwirrtheit oder Schwäche"
+        ]
+      },
+      {
+        "title": "Diagnostik",
+        "paragraphs": [
+          "- Röntgen-Thorax oder Lungenultraschall: Stauung, Erguss, Infiltrat",
+          "- Labor: Entzündungswerte (CRP, Leukozyten, ggf. PCT), NT-proBNP, Blutgase",
+          "- Blutkulturen und Sputum vor Beginn der Antibiotika",
+          "- Echokardiographie: Pumpfunktion, Klappen",
+          "- Schwierig: Stauung und Infiltrat lassen sich im Röntgenbild oft nicht sicher trennen"
+        ]
+      },
+      {
+        "title": "Therapie",
+        "paragraphs": [
+          "- Stauung behandeln: Diuretika i.v., Herzinsuffizienz-Therapie anpassen",
+          "- Antibiotika nach Leitlinie und Hausstandard",
+          "- Sauerstoff nach Zielsättigung, ggf. nicht-invasive Beatmung",
+          "- Atemtherapie und frühe Mobilisation"
+        ]
+      },
+      {
+        "title": "Pflege und Beobachtung",
+        "paragraphs": [
+          "- Atemfrequenz, Sättigung, Temperatur, Blutdruck, Puls regelmäßig",
+          "- Oberkörper hoch lagern, Atemübungen, Mobilisation",
+          "- Ein- und Ausfuhr bilanzieren, tägliches Gewicht",
+          "- Antibiotika pünktlich geben, Infusionsmengen bei Herzinsuffizienz beachten",
+          "- Schluckstörung beachten, Mundpflege"
+        ]
+      },
+      {
+        "title": "Warnzeichen",
+        "paragraphs": [
+          "- Atemfrequenz ab 22/min, sinkende Sättigung trotz Sauerstoff",
+          "- Blutdruckabfall, Verwirrtheit (Sepsis-Verdacht)",
+          "- schaumiger Auswurf, massive Atemnot im Liegen (Lungenödem)",
+          "- weniger Urin"
+        ]
+      }
+    ],
+    "keywords": [
+      "Stauungspneumonie",
+      "Stauung",
+      "Lungenstauung",
+      "Pneumonie",
+      "Herzinsuffizienz",
+      "Lungenödem",
+      "Infiltrat"
+    ],
+    "relatedArticleIds": [
+      "a-pneumonie",
+      "a-dekompensation",
+      "a-hfref"
+    ],
+    "sourceIds": [
+      "s3-cap-2021",
+      "esc-hf-2021",
+      "esc-hf-2023"
+    ],
+    "lastChecked": "2026-11-13",
+    "houseSpecific": true,
+    "status": "unreviewed",
+    "termIds": [
+      "t-pneumonie",
+      "t-dekompensation",
+      "t-dyspnoe",
+      "t-orthopnoe"
+    ]
+  },
+  {
+    "id": "a-endokarditis",
+    "title": "Infektiöse Endokarditis",
+    "category": "Herz und Gefäße",
+    "summary": "Infektion der Herzinnenhaut, meist der Herzklappen. Lebensgefährlich durch Klappenzerstörung, Herzinsuffizienz und Embolien.",
+    "kind": "diagnose",
+    "sections": [
+      {
+        "title": "Kurz erklärt",
+        "paragraphs": [
+          "Bakterien (selten Pilze) gelangen ins Blut und setzen sich an Herzklappen fest. Dort bilden sich Auflagerungen (Vegetationen).",
+          "Diese können die Klappe zerstören oder als Embolie abreißen, z.B. ins Gehirn, in Milz, Niere oder Beine.",
+          "Häufige Erreger: Staphylococcus aureus, Streptokokken, Enterokokken."
+        ]
+      },
+      {
+        "title": "Ursachen und Risikofaktoren",
+        "paragraphs": [
+          "- künstliche Herzklappen (auch TAVI), frühere Endokarditis, angeborene Herzfehler",
+          "- Schrittmacher- oder ICD-Sonden",
+          "- intravenöser Drogenkonsum, liegende Katheter, Dialyse",
+          "- schlechter Zahnstatus, Eingriffe mit Bakterien im Blut"
+        ]
+      },
+      {
+        "title": "Symptome",
+        "paragraphs": [
+          "- Fieber (häufigstes Zeichen), Schüttelfrost, Nachtschweiß, Schwäche, Gewichtsverlust",
+          "- neues Herzgeräusch, Atemnot bei Klappenschaden",
+          "- Embolie-Zeichen: Schlaganfall-Symptome, Flanken- oder Bauchschmerz, kalte Extremität",
+          "- Haut: kleine Einblutungen unter den Nägeln (Splitterblutungen), Janeway-Läsionen, schmerzhafte Osler-Knötchen"
+        ]
+      },
+      {
+        "title": "Diagnostik",
+        "paragraphs": [
+          "- mindestens drei Blutkultur-Paare aus getrennten Punktionen, vor dem ersten Antibiotikum",
+          "- Echokardiographie: transthorakal (TTE) und meist transösophageal (TEE)",
+          "- ggf. CT, PET-CT oder MRT (Embolien, Abszesse, Klappenprothesen)",
+          "- Diagnose nach den Duke-Kriterien (ESC 2023: modifizierte Duke-ISCVID-Kriterien)"
+        ]
+      },
+      {
+        "title": "Therapie",
+        "paragraphs": [
+          "- Antibiotika hochdosiert i.v. über mehrere Wochen (meist 2–6), nach Erreger und Klappenart",
+          "- stabile Patienten können nach der ersten Phase teils oral weiterbehandelt werden (ESC 2023)",
+          "- Operation bei Herzinsuffizienz durch Klappenzerstörung, unkontrollierter Infektion (z.B. Abszess) oder hohem Embolie-Risiko",
+          "- Entscheidung im Endokarditis-Team",
+          "- Infektionsquelle sanieren, z.B. Zähne, infizierte Sonden entfernen"
+        ]
+      },
+      {
+        "title": "Pflege und Beobachtung",
+        "paragraphs": [
+          "- Blutkulturen korrekt abnehmen (Hautdesinfektion, Menge, Zeitpunkt dokumentieren)",
+          "- Temperaturverlauf, Vitalzeichen, Bilanz",
+          "- Antibiotika streng pünktlich, Spiegelkontrollen nach Anordnung, Venenzugang pflegen (oft PICC)",
+          "- Neurologie beobachten: Sprache, Kraft, Gesichtsfeld, Bewusstsein",
+          "- Monitor: neue AV-Blockierungen können auf einen Abszess hinweisen",
+          "- Schulung: Zahnpflege, Endokarditis-Ausweis bei Hochrisiko-Patienten"
+        ]
+      },
+      {
+        "title": "Warnzeichen",
+        "paragraphs": [
+          "- plötzliche Lähmung, Sprachstörung, Verwirrtheit (Embolie ins Gehirn)",
+          "- zunehmende Atemnot, Lungenödem (Klappe akut undicht)",
+          "- neuer AV-Block oder verlängerte PQ-Zeit",
+          "- anhaltendes Fieber trotz Antibiotika, Blutdruckabfall (Sepsis)"
+        ]
+      }
+    ],
+    "keywords": [
+      "Endokarditis",
+      "Klappeninfektion",
+      "Vegetation",
+      "Blutkultur",
+      "Duke",
+      "TEE",
+      "Embolie",
+      "Osler",
+      "Janeway",
+      "Splitterblutung"
+    ],
+    "relatedArticleIds": [
+      "a-dekompensation",
+      "a-av-block",
+      "a-herz-anatomie"
+    ],
+    "sourceIds": [
+      "esc-endo-2023"
+    ],
+    "lastChecked": "2026-11-13",
+    "houseSpecific": true,
+    "status": "unreviewed",
+    "termIds": [
+      "t-endokarditis",
+      "t-embolie",
+      "t-insuffizienz"
+    ]
+  },
+  {
+    "id": "a-pavk",
+    "title": "Periphere arterielle Verschlusskrankheit (pAVK)",
+    "category": "Herz und Gefäße",
+    "summary": "Verengung der Beinarterien durch Arteriosklerose. Typisch sind Schmerzen beim Gehen. Wer eine pAVK hat, hat oft auch eine KHK.",
+    "kind": "diagnose",
+    "sections": [
+      {
+        "title": "Kurz erklärt",
+        "paragraphs": [
+          "Bei der pAVK verengen Ablagerungen die Arterien, meist der Beine. Die Muskeln bekommen bei Belastung zu wenig Blut.",
+          "Stadien nach Fontaine:",
+          "- I: keine Beschwerden",
+          "- II: Schmerzen beim Gehen („Schaufensterkrankheit“, Claudicatio intermittens); IIa über 200 m, IIb unter 200 m",
+          "- III: Ruheschmerz, v.a. nachts im Liegen",
+          "- IV: Wunden oder Gewebsuntergang (Nekrose, Gangrän)",
+          "III und IV heißen chronische extremitätenbedrohende Ischämie (CLTI)."
+        ]
+      },
+      {
+        "title": "Ursachen und Risikofaktoren",
+        "paragraphs": [
+          "- Rauchen (wichtigster Faktor), Diabetes mellitus",
+          "- Bluthochdruck, erhöhtes Cholesterin, Alter, Nierenerkrankung",
+          "- häufig gleichzeitig KHK oder Halsschlagader-Stenose"
+        ]
+      },
+      {
+        "title": "Symptome",
+        "paragraphs": [
+          "- krampfartiger Wadenschmerz beim Gehen, der im Stehen nach kurzer Zeit nachlässt",
+          "- kalte, blasse Füße, schwache oder fehlende Fußpulse",
+          "- Haarverlust, glänzende Haut, schlecht heilende Wunden",
+          "- Ruheschmerz, der besser wird, wenn das Bein herabhängt"
+        ]
+      },
+      {
+        "title": "Diagnostik",
+        "paragraphs": [
+          "- Pulse tasten, Inspektion von Füßen und Zehenzwischenräumen",
+          "- Knöchel-Arm-Index (ABI): Blutdruck am Knöchel geteilt durch Blutdruck am Arm; unter 0,9 spricht für eine pAVK",
+          "- bei Diabetes oder Dialyse kann der ABI falsch hoch sein (starre Gefäße): dann Zehendruck",
+          "- Duplex-Ultraschall, Laufbandtest, CT- oder MR-Angiographie, Katheter-Angiographie"
+        ]
+      },
+      {
+        "title": "Therapie",
+        "paragraphs": [
+          "- Rauchstopp, strukturiertes Gehtraining",
+          "- Plättchenhemmer (ASS oder Clopidogrel), Statin, Blutdruck- und Diabeteseinstellung",
+          "- in ausgewählten Fällen zusätzlich niedrig dosiertes Rivaroxaban (nach Anordnung)",
+          "- Revaskularisation (Ballon/Stent oder Bypass) bei starker Einschränkung oder CLTI",
+          "- Wundversorgung; Amputation nur als letzter Schritt"
+        ]
+      },
+      {
+        "title": "Pflege und Beobachtung",
+        "paragraphs": [
+          "- Füße täglich ansehen: Farbe, Temperatur, Wunden, Druckstellen",
+          "- Beine nicht hochlagern; bei Ruheschmerz eher leicht tief lagern (nach Anordnung)",
+          "- keine Wärmflaschen oder Heizkissen (Verbrennungsgefahr bei gestörter Durchblutung und Gefühl)",
+          "- Kompressionsstrümpfe nur nach ärztlicher Freigabe (ABI)",
+          "- Druckentlastung der Fersen, gut passende Schuhe, Fußpflege bei Diabetikern",
+          "- nach Angiographie oder Intervention: Punktionsstelle, Pulse, Farbe und Temperatur des Beins kontrollieren"
+        ]
+      },
+      {
+        "title": "Warnzeichen",
+        "paragraphs": [
+          "Akuter Gefäßverschluss ist ein Notfall. Zeichen (6 P nach Pratt):",
+          "- Pain (Schmerz), Paleness (Blässe), Pulselessness (Pulslosigkeit)",
+          "- Paresthesia (Gefühlsstörung), Paralysis (Lähmung), Prostration (Schock)",
+          "Außerdem: neue Wunden, schwarze Zehen, Ruheschmerz."
+        ]
+      }
+    ],
+    "keywords": [
+      "pAVK",
+      "Schaufensterkrankheit",
+      "Claudicatio",
+      "Fontaine",
+      "ABI",
+      "Knöchel-Arm-Index",
+      "CLTI",
+      "Gehtraining",
+      "Beinarterien",
+      "akuter Gefäßverschluss"
+    ],
+    "relatedArticleIds": [
+      "a-khk-3gefaess",
+      "a-herzkatheter"
+    ],
+    "sourceIds": [
+      "esc-paad-2024"
+    ],
+    "lastChecked": "2026-11-13",
+    "houseSpecific": true,
+    "status": "unreviewed",
+    "termIds": [
+      "t-arteriosklerose",
+      "t-stenose",
+      "t-ischaemie",
+      "t-perfusion",
+      "t-revaskularisation"
+    ]
   }
 ]

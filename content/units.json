@@ -3295,6 +3295,413 @@
           "termIds": []
         }
       ]
+    },
+    {
+      "id": "u10",
+      "title": "Krankheitsbilder 4: Gefäße und Infektionen",
+      "level": "station",
+      "description": "3-Gefäß-KHK, Stauungspneumonie, Endokarditis und pAVK.",
+      "lessons": [
+        {
+          "id": "u10l1",
+          "title": "3-Gefäß-KHK",
+          "card": {
+            "title": "Drei Gefäße, ein Team",
+            "text": "Bei einer 3-Gefäß-KHK entscheidet das Herzteam, ob Stents oder Bypässe besser sind.",
+            "bullets": [
+              "RIVA, RCX und RCA verengt",
+              "Medikamente: ASS, Statin, Anti-Angina",
+              "Revaskularisation: PCI oder Bypass-OP",
+              "bei Diabetes oft Bypass bevorzugt"
+            ]
+          },
+          "questions": [
+            {
+              "id": "u10l1q1",
+              "type": "single_choice",
+              "prompt": "Welche drei Herzkranzgefäße sind bei einer 3-Gefäß-KHK gemeint?",
+              "options": [
+                "RIVA, RCX und RCA",
+                "Aorta, Pulmonalis, Hohlvene",
+                "Karotis links, rechts, Basilaris",
+                "drei Beinarterien"
+              ],
+              "correctIndex": 0,
+              "explanation": "Linke Koronararterie mit RIVA (LAD) und RCX sowie die rechte Koronararterie (RCA)."
+            },
+            {
+              "id": "u10l1q2",
+              "type": "word_parts",
+              "term": "Revaskularisation",
+              "parts": [
+                {
+                  "part": "Re",
+                  "meaning": "wieder",
+                  "origin": "lat."
+                },
+                {
+                  "part": "vaskul",
+                  "meaning": "Gefäß",
+                  "origin": "lat. vasculum"
+                },
+                {
+                  "part": "ar",
+                  "meaning": "betreffend"
+                },
+                {
+                  "part": "isation",
+                  "meaning": "Herstellen, Vorgang"
+                }
+              ],
+              "distractors": [
+                "Hypo",
+                "kard"
+              ],
+              "meaning": "Wiederherstellung der Durchblutung",
+              "explanation": "Stent oder Bypass stellen den Blutfluss wieder her."
+            },
+            {
+              "id": "u10l1q3",
+              "type": "single_choice",
+              "prompt": "Wer entscheidet über PCI oder Bypass-OP?",
+              "options": [
+                "das Herzteam aus Kardiologie und Herzchirurgie mit dem Patienten",
+                "die Pflege allein",
+                "der Hausarzt",
+                "die Krankenkasse"
+              ],
+              "correctIndex": 0,
+              "explanation": "So empfehlen es die ESC-Leitlinien."
+            },
+            {
+              "id": "u10l1q4",
+              "type": "true_false",
+              "statement": "Bei Diabetikern mit komplexer 3-Gefäß-KHK wird häufig eine Bypass-Operation bevorzugt.",
+              "correct": true,
+              "explanation": "Richtig. Studien zeigen hier Vorteile für die Bypass-OP."
+            },
+            {
+              "id": "u10l1q5",
+              "type": "single_choice",
+              "prompt": "Ein KHK-Patient klagt über Brustdruck in Ruhe seit 20 Minuten. Was tust du zuerst?",
+              "options": [
+                "Vitalzeichen, EKG nach Standard, sofort Arzt informieren",
+                "bis zur Visite warten",
+                "ein Schmerzmittel ohne Anordnung geben",
+                "den Patienten spazieren schicken"
+              ],
+              "correctIndex": 0,
+              "explanation": "Ruheschmerz kann ein akutes Koronarsyndrom sein."
+            }
+          ],
+          "sourceIds": [
+            "esc-ccs-2024",
+            "esc-revasc-2018"
+          ],
+          "articleIds": [
+            "a-khk-3gefaess"
+          ],
+          "termIds": [
+            "t-revaskularisation",
+            "t-koronar"
+          ]
+        },
+        {
+          "id": "u10l2",
+          "title": "Stauungspneumonie",
+          "card": {
+            "title": "Stau plus Infekt",
+            "text": "Eine gestaute Lunge entzündet sich leichter. Behandelt werden beide Seiten: Stauung und Infektion.",
+            "bullets": [
+              "Diuretika gegen die Stauung",
+              "Antibiotika gegen die Infektion",
+              "Blutkulturen vor Antibiotikum",
+              "Bilanz, Gewicht, Atemfrequenz"
+            ]
+          },
+          "questions": [
+            {
+              "id": "u10l2q1",
+              "type": "single_choice",
+              "prompt": "Was ist eine Stauungspneumonie?",
+              "options": [
+                "Lungenentzündung in einer durch Herzschwäche gestauten Lunge",
+                "eine Verstopfung der Bronchien durch Schleim",
+                "eine Thrombose in der Lunge",
+                "eine allergische Reaktion"
+              ],
+              "correctIndex": 0,
+              "explanation": "Die Stauung begünstigt die Infektion."
+            },
+            {
+              "id": "u10l2q2",
+              "type": "single_choice",
+              "prompt": "Welche zwei Therapien gehören typischerweise zusammen?",
+              "options": [
+                "Diuretika und Antibiotika",
+                "Insulin und Heparin",
+                "Kortison und Antihistaminika",
+                "Abführmittel und Schmerzmittel"
+              ],
+              "correctIndex": 0,
+              "explanation": "Stauung ausschwemmen und Infektion behandeln."
+            },
+            {
+              "id": "u10l2q3",
+              "type": "true_false",
+              "statement": "Bei Herzinsuffizienz ist es egal, wie viel Infusion ein Patient bekommt.",
+              "correct": false,
+              "explanation": "Falsch. Zu viel Flüssigkeit verstärkt die Stauung. Infusionen nach Anordnung, Bilanz führen."
+            },
+            {
+              "id": "u10l2q4",
+              "type": "single_choice",
+              "prompt": "Welche Lagerung hilft bei Atemnot durch Stauung?",
+              "options": [
+                "Oberkörper hoch",
+                "flach auf dem Rücken",
+                "Kopf tief",
+                "Bauchlage ohne Anordnung"
+              ],
+              "correctIndex": 0,
+              "explanation": "Oberkörperhochlage entlastet Herz und Lunge."
+            },
+            {
+              "id": "u10l2q5",
+              "type": "single_choice",
+              "prompt": "Welcher Befund ist ein Warnzeichen?",
+              "options": [
+                "Atemfrequenz 26/min und sinkende Sättigung",
+                "Temperatur 36,8 °C",
+                "Sättigung stabil bei 95 %",
+                "Gewicht unverändert"
+              ],
+              "correctIndex": 0,
+              "explanation": "Steigende Atemfrequenz ist oft das früheste Warnzeichen."
+            }
+          ],
+          "sourceIds": [
+            "s3-cap-2021",
+            "esc-hf-2021"
+          ],
+          "articleIds": [
+            "a-stauungspneumonie"
+          ],
+          "termIds": [
+            "t-pneumonie",
+            "t-orthopnoe"
+          ]
+        },
+        {
+          "id": "u10l3",
+          "title": "Endokarditis",
+          "card": {
+            "title": "Keime auf der Klappe",
+            "text": "Bei der Endokarditis sitzen Bakterien auf den Herzklappen. Blutkulturen kommen vor dem ersten Antibiotikum.",
+            "bullets": [
+              "Fieber + neues Herzgeräusch = daran denken",
+              "3 Blutkultur-Paare, dann Antibiotika",
+              "Echo: TTE und TEE",
+              "Embolie-Zeichen beobachten"
+            ]
+          },
+          "questions": [
+            {
+              "id": "u10l3q1",
+              "type": "word_parts",
+              "term": "Endokarditis",
+              "parts": [
+                {
+                  "part": "Endo",
+                  "meaning": "innen",
+                  "origin": "griech. éndon"
+                },
+                {
+                  "part": "kard",
+                  "meaning": "Herz",
+                  "origin": "griech. kardía"
+                },
+                {
+                  "part": "itis",
+                  "meaning": "Entzündung"
+                }
+              ],
+              "distractors": [
+                "Peri",
+                "Myo",
+                "ose"
+              ],
+              "meaning": "Entzündung der Herzinnenhaut",
+              "explanation": "Die Herzinnenhaut überzieht auch die Herzklappen."
+            },
+            {
+              "id": "u10l3q2",
+              "type": "single_choice",
+              "prompt": "Was muss vor der ersten Antibiotikagabe passieren?",
+              "options": [
+                "mehrere Blutkultur-Paare abnehmen",
+                "eine Bypass-OP",
+                "ein Belastungs-EKG",
+                "nichts, die Antibiotika haben Vorrang vor allem"
+              ],
+              "correctIndex": 0,
+              "explanation": "Nach dem Antibiotikum wachsen die Keime oft nicht mehr an. Bei Sepsis aber nicht verzögern."
+            },
+            {
+              "id": "u10l3q3",
+              "type": "single_choice",
+              "prompt": "Welche Patienten haben ein besonders hohes Endokarditis-Risiko?",
+              "options": [
+                "Patienten mit künstlicher Herzklappe",
+                "Patienten mit Sinusrhythmus",
+                "junge Sportler ohne Vorerkrankung",
+                "Patienten mit Kurzsichtigkeit"
+              ],
+              "correctIndex": 0,
+              "explanation": "Auch frühere Endokarditis, angeborene Herzfehler, Sonden und i.v.-Drogenkonsum erhöhen das Risiko."
+            },
+            {
+              "id": "u10l3q4",
+              "type": "true_false",
+              "statement": "Eine plötzliche Sprachstörung bei Endokarditis kann eine Embolie ins Gehirn sein.",
+              "correct": true,
+              "explanation": "Richtig. Sofort Arzt informieren – Notfall."
+            },
+            {
+              "id": "u10l3q5",
+              "type": "single_choice",
+              "prompt": "Was kann ein neuer AV-Block bei Endokarditis bedeuten?",
+              "options": [
+                "einen Abszess nahe dem Reizleitungssystem",
+                "dass die Antibiotika wirken",
+                "eine harmlose Normvariante",
+                "eine Unterzuckerung"
+              ],
+              "correctIndex": 0,
+              "explanation": "Neue Leitungsstörungen sind ein Warnzeichen und gehören sofort gemeldet."
+            }
+          ],
+          "sourceIds": [
+            "esc-endo-2023"
+          ],
+          "articleIds": [
+            "a-endokarditis"
+          ],
+          "termIds": [
+            "t-endokarditis",
+            "t-embolie"
+          ]
+        },
+        {
+          "id": "u10l4",
+          "title": "pAVK",
+          "card": {
+            "title": "Schaufensterkrankheit",
+            "text": "Bei der pAVK bekommen die Beinmuskeln zu wenig Blut. Wer gehen kann, soll gehen – wer Ruheschmerz hat, braucht schnell Hilfe.",
+            "bullets": [
+              "Fontaine I–IV",
+              "ABI unter 0,9",
+              "Rauchstopp, Gehtraining, ASS, Statin",
+              "Beine nicht hochlagern, keine Wärmflasche"
+            ]
+          },
+          "questions": [
+            {
+              "id": "u10l4q1",
+              "type": "matching",
+              "prompt": "Ordne die Fontaine-Stadien zu.",
+              "pairs": [
+                {
+                  "left": "I",
+                  "right": "keine Beschwerden"
+                },
+                {
+                  "left": "II",
+                  "right": "Schmerz beim Gehen"
+                },
+                {
+                  "left": "III",
+                  "right": "Ruheschmerz"
+                },
+                {
+                  "left": "IV",
+                  "right": "Wunde oder Nekrose"
+                }
+              ],
+              "explanation": "III und IV bedrohen das Bein (CLTI)."
+            },
+            {
+              "id": "u10l4q2",
+              "type": "word_parts",
+              "term": "Arteriosklerose",
+              "parts": [
+                {
+                  "part": "Arterio",
+                  "meaning": "Schlagader",
+                  "origin": "griech. artēría"
+                },
+                {
+                  "part": "skler",
+                  "meaning": "hart",
+                  "origin": "griech. sklērós"
+                },
+                {
+                  "part": "ose",
+                  "meaning": "Zustand, krankhafter Vorgang"
+                }
+              ],
+              "distractors": [
+                "itis",
+                "Hypo"
+              ],
+              "meaning": "Verhärtung und Verengung der Arterien",
+              "explanation": "Sie ist die Ursache von pAVK und KHK."
+            },
+            {
+              "id": "u10l4q3",
+              "type": "single_choice",
+              "prompt": "Wie lagerst du das Bein bei pAVK mit Ruheschmerz?",
+              "options": [
+                "nicht hochlagern, eher leicht tief",
+                "stark hochlagern",
+                "mit Wärmflasche wärmen",
+                "eng wickeln"
+              ],
+              "correctIndex": 0,
+              "explanation": "Hochlagern verschlechtert die arterielle Durchblutung."
+            },
+            {
+              "id": "u10l4q4",
+              "type": "true_false",
+              "statement": "Eine Wärmflasche am Fuß ist bei pAVK eine gute Idee.",
+              "correct": false,
+              "explanation": "Falsch. Durchblutung und Gefühl sind gestört, es drohen Verbrennungen."
+            },
+            {
+              "id": "u10l4q5",
+              "type": "single_choice",
+              "prompt": "Ein Bein ist plötzlich blass, kalt, schmerzhaft und ohne Puls. Was bedeutet das?",
+              "options": [
+                "akuter Gefäßverschluss – Notfall",
+                "harmloser Muskelkater",
+                "normale Folge von Bettruhe",
+                "Venenentzündung ohne Eile"
+              ],
+              "correctIndex": 0,
+              "explanation": "Die 6 P nach Pratt: Pain, Paleness, Pulselessness, Paresthesia, Paralysis, Prostration."
+            }
+          ],
+          "sourceIds": [
+            "esc-paad-2024"
+          ],
+          "articleIds": [
+            "a-pavk"
+          ],
+          "termIds": [
+            "t-arteriosklerose"
+          ]
+        }
+      ]
     }
   ]
 }
