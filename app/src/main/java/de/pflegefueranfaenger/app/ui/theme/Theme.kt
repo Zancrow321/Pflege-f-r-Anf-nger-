@@ -13,30 +13,36 @@ val WrongRed = Color(0xFFC62828)
 val StreakOrange = Color(0xFFEF6C00)
 val XpGold = Color(0xFFF9A825)
 
+/** Logo-Farben: Dunkelblau und Türkis. */
+val LogoNavy = Color(0xFF011753)
+val LogoTurquoise = Color(0xFF38F5C3)
+
 private val Light = lightColorScheme(
-    primary = HeartRed,
+    primary = LogoNavy,
     onPrimary = Color.White,
-    primaryContainer = Color(0xFFFFDAD6),
-    onPrimaryContainer = Color(0xFF410002),
-    secondary = Color(0xFF00796B),
+    primaryContainer = Color(0xFFDDE1FF),
+    onPrimaryContainer = Color(0xFF00164F),
+    secondary = Color(0xFF006B55),
     onSecondary = Color.White,
-    secondaryContainer = Color(0xFFB2DFDB),
-    onSecondaryContainer = Color(0xFF00251F),
+    secondaryContainer = Color(0xFFB4F5E1),
+    onSecondaryContainer = Color(0xFF002118),
     tertiary = Color(0xFF3949AB),
-    background = Color(0xFFFFFBFA),
-    surface = Color(0xFFFFFBFA),
+    background = Color(0xFFF8F9FF),
+    surface = Color(0xFFF8F9FF),
 )
 
 private val Dark = darkColorScheme(
-    primary = Color(0xFFFFB4AB),
-    onPrimary = Color(0xFF690005),
-    primaryContainer = Color(0xFF93000A),
-    onPrimaryContainer = Color(0xFFFFDAD6),
-    secondary = Color(0xFF80CBC4),
-    onSecondary = Color(0xFF003731),
-    secondaryContainer = Color(0xFF00504A),
-    onSecondaryContainer = Color(0xFFB2DFDB),
+    primary = LogoTurquoise,
+    onPrimary = Color(0xFF00382B),
+    primaryContainer = Color(0xFF1C2E6B),
+    onPrimaryContainer = Color(0xFFDDE1FF),
+    secondary = Color(0xFF8FD8C2),
+    onSecondary = Color(0xFF00382B),
+    secondaryContainer = Color(0xFF005141),
+    onSecondaryContainer = Color(0xFFB4F5E1),
     tertiary = Color(0xFF9FA8DA),
+    background = Color(0xFF060D2B),
+    surface = Color(0xFF060D2B),
 )
 
 @Composable

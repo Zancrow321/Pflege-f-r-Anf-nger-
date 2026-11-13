@@ -1,6 +1,14 @@
 package de.pflegefueranfaenger.app.ui.onboarding
 
+import androidx.compose.foundation.Image
+import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.Arrangement
+import androidx.compose.foundation.layout.size
+import androidx.compose.foundation.shape.RoundedCornerShape
+import androidx.compose.ui.draw.clip
+import androidx.compose.ui.res.painterResource
+import de.pflegefueranfaenger.app.R
+import de.pflegefueranfaenger.app.ui.theme.LogoNavy
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.fillMaxWidth
@@ -35,7 +43,11 @@ fun DisclaimerScreen(onAccept: () -> Unit) {
         horizontalAlignment = Alignment.CenterHorizontally,
         verticalArrangement = Arrangement.spacedBy(20.dp),
     ) {
-        Text("🫀", style = MaterialTheme.typography.displayLarge, modifier = Modifier.padding(top = 32.dp))
+        Image(
+            painter = painterResource(R.mipmap.ic_launcher_foreground),
+            contentDescription = "Logo Pflege für Anfänger",
+            modifier = Modifier.padding(top = 32.dp).size(120.dp).clip(RoundedCornerShape(28.dp)).background(LogoNavy),
+        )
         Text("Pflege für Anfänger", style = MaterialTheme.typography.headlineMedium, fontWeight = FontWeight.Bold)
         Text(
             "Lerne in kurzen Lektionen alles für den Start auf der kardiologischen Telemetrie-Station: Fachsprache, EKG, Rhythmen, Alarme und Notfälle. Dazu gibt es ein Nachschlagewerk zum schnellen Nachlesen.",
