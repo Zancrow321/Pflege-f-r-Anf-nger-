@@ -131,6 +131,46 @@ sealed interface Question {
     ) : Question
 }
 
+/** Art eines Wiki-Artikels. Diagnosen, Prozeduren, Therapien und Medikamente folgen einer festen Gliederung. */
+@Serializable
+enum class ArticleKind(val label: String, val plural: String) {
+    @SerialName("wissen") WISSEN("Wissen", "Wissen"),
+    @SerialName("diagnose") DIAGNOSE("Diagnose", "Diagnosen"),
+    @SerialName("prozedur") PROZEDUR("Prozedur", "Prozeduren"),
+    @SerialName("therapie") THERAPIE("Therapie", "Therapien"),
+    @SerialName("medikament") MEDIKAMENT("Medikament", "Medikamente"),
+}
+
+/** Abschnitt eines Wiki-Artikels. Absätze mit „- “ am Anfang werden als Aufzählung dargestellt. */
+@Serializable
+data class Section(val title: String, val paragraphs: List<String>)
+
+/** Feste Gliederung je Artikelart, damit alle Wiki-Seiten gleich aufgebaut sind. */
+object ArticleTemplate {
+    val DIAGNOSE = listOf(
+        "Kurz erklärt", "Ursachen und Risikofaktoren", "Symptome", "Diagnostik",
+        "Therapie", "Pflege und Beobachtung", "Warnzeichen",
+    )
+    val PROZEDUR = listOf(
+        "Kurz erklärt", "Indikationen", "Ablauf", "Vorbereitung", "Nachsorge und Pflege", "Komplikationen",
+    )
+    val THERAPIE = listOf(
+        "Kurz erklärt", "Indikationen", "Ablauf", "Pflege und Beobachtung", "Risiken",
+    )
+    val MEDIKAMENT = listOf(
+        "Wirkstoffe und Beispiele", "Wirkung", "Indikationen", "Nebenwirkungen",
+        "Kontraindikationen und Vorsicht", "Pflege und Beobachtung",
+    )
+
+    fun requiredSections(kind: ArticleKind): List<String> = when (kind) {
+        ArticleKind.WISSEN -> emptyList()
+        ArticleKind.DIAGNOSE -> DIAGNOSE
+        ArticleKind.PROZEDUR -> PROZEDUR
+        ArticleKind.THERAPIE -> THERAPIE
+        ArticleKind.MEDIKAMENT -> MEDIKAMENT
+    }
+}
+
 @Serializable
 data class Article(
     val id: String,
@@ -138,7 +178,12 @@ data class Article(
     val category: String,
     val summary: String,
     /** Absätze. Zeilen, die mit „- “ beginnen, werden als Aufzählung dargestellt. */
-    val body: List<String>,
+    val body: List<String> = emptyList(),
+    val kind: ArticleKind = ArticleKind.WISSEN,
+    /** Gegliederte Abschnitte (Pflicht für Diagnosen, Prozeduren, Therapien, Medikamente). */
+    val sections: List<Section> = emptyList(),
+    /** Querverweise auf andere Artikel („Siehe auch“). */
+    val relatedArticleIds: List<String> = emptyList(),
     val keywords: List<String> = emptyList(),
     val sourceIds: List<String>,
     /** Datum der letzten Quellenprüfung (ISO, yyyy-MM-dd). */
@@ -196,4 +241,20 @@ data class ContentBundle(
     fun unitOf(lessonId: String): LearningUnit? = unitOfLesson[lessonId]
 
     fun placementQuestions(): List<Question> = placement.questionIds.mapNotNull { question(it) }
+
+    private val lessonsByArticle by lazy {
+        lessons.flatMap { l -> l.articleIds.map { it to l } }.groupBy({ it.first }, { it.second })
+    }
+    private val referencingArticles by lazy {
+        articles.flatMap { a -> a.relatedArticleIds.map { it to a } }.groupBy({ it.first }, { it.second })
+    }
+
+    /** Lektionen, die auf diesen Artikel verweisen („Dazu lernen“). */
+    fun lessonsFor(articleId: String): List<Lesson> = lessonsByArticle[articleId].orEmpty()
+
+    /** Querverweise in beide Richtungen, ohne Doppelte. */
+    fun relatedTo(articleId: String): List<Article> {
+        val own = article(articleId)?.relatedArticleIds.orEmpty().mapNotNull { article(it) }
+        return (own + referencingArticles[articleId].orEmpty()).distinctBy { it.id }.filter { it.id != articleId }
+    }
 }

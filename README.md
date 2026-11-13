@@ -19,6 +19,14 @@ Android-App zum Lernen für die **kardiologische Telemetrie-Station**: kurze Lek
 Offline zuerst: Es gibt kein Login und keinen Server. Das Datenmodell ist so geschnitten, dass Inhalte
 und Fortschritt später nach Supabase wandern können.
 
+## Wiki-Aufbau
+
+Artikel haben eine Art (`kind`): Wissen, Diagnose, Prozedur, Therapie oder Medikament. Diagnosen, Prozeduren,
+Therapien und Medikamente folgen einer festen Gliederung (siehe `ArticleTemplate` in `core/.../model/Content.kt`),
+z.B. Diagnose: Kurz erklärt · Ursachen und Risikofaktoren · Symptome · Diagnostik · Therapie · Pflege und Beobachtung · Warnzeichen.
+Artikel verweisen über `relatedArticleIds` aufeinander („Siehe auch“), Lektionen über `articleIds` auf Artikel
+(im Artikel als „Dazu lernen“ sichtbar). Die Tests prüfen Gliederung und Verweise.
+
 ## Inhalte (Stand 13.11.2026)
 
 - 6 Einheiten, 18 Lektionen, 98 Fragen

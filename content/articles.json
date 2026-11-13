@@ -316,34 +316,105 @@
   },
   {
     "id": "a-vorhofflimmern",
-    "title": "Vorhofflimmern und Vorhofflattern",
-    "category": "Rhythmen",
-    "summary": "Häufigste Rhythmusstörung; wichtig sind Frequenz und Schlaganfallschutz.",
-    "body": [
-      "Vorhofflimmern (VHF):",
-      "- absolut unregelmäßige RR-Abstände, keine P-Wellen, Flimmerwellen",
-      "- mit schneller Kammerfrequenz auch „Tachyarrhythmia absoluta“ genannt",
-      "- erhöhtes Schlaganfallrisiko durch Gerinnsel im linken Herzohr; Risiko-Einschätzung nach ESC 2024 mit dem CHA₂DS₂-VA-Score",
-      "Vorhofflattern:",
-      "- Sägezahnwellen (ca. 300/min), oft 2:1-Überleitung mit Kammerfrequenz um 150/min",
-      "Pflege: Pulsdefizit beachten, Herzfrequenz am Monitor beurteilen, Symptome (Herzrasen, Atemnot, Schwindel) und die Gabe von Antikoagulanzien dokumentieren. Vor einer Kardioversion klärt der Arzt die Antikoagulation bzw. schließt Gerinnsel aus."
+    "title": "Vorhofflimmern (VHF)",
+    "category": "Herzrhythmus",
+    "summary": "Häufigste anhaltende Rhythmusstörung: Die Vorhöfe flimmern, die Kammern schlagen unregelmäßig. Wichtig sind Frequenz, Symptome und Schlaganfallschutz.",
+    "kind": "diagnose",
+    "sections": [
+      {
+        "title": "Kurz erklärt",
+        "paragraphs": [
+          "Beim Vorhofflimmern kreisen in den Vorhöfen ungeordnete Erregungen mit etwa 350–600/min. Die Vorhöfe ziehen sich nicht mehr wirksam zusammen. Der AV-Knoten leitet nur einen Teil der Erregungen unregelmäßig weiter, deshalb ist der Puls „absolut arrhythmisch“.",
+          "Formen (ESC 2024):",
+          "- erstmals diagnostiziert",
+          "- paroxysmal: endet von selbst oder durch Behandlung innerhalb von 7 Tagen",
+          "- persistierend: dauert länger als 7 Tage",
+          "- permanent: Es wird bewusst kein Sinusrhythmus mehr angestrebt",
+          "Mit schneller Kammerfrequenz heißt es auch Tachyarrhythmia absoluta (TAA)."
+        ]
+      },
+      {
+        "title": "Ursachen und Risikofaktoren",
+        "paragraphs": [
+          "- höheres Alter, arterielle Hypertonie, Herzinsuffizienz, Herzklappenerkrankungen (v.a. Mitralklappe), KHK",
+          "- Diabetes, Adipositas, Schlafapnoe, Alkohol",
+          "- Schilddrüsenüberfunktion, Infekte und Sepsis, Elektrolytstörungen",
+          "- nach Herzoperationen"
+        ]
+      },
+      {
+        "title": "Symptome",
+        "paragraphs": [
+          "- Herzrasen oder Herzstolpern, unregelmäßiger Puls",
+          "- Leistungsminderung, Atemnot, Schwindel, Brustdruck, Angst",
+          "- Viele Patienten merken nichts (asymptomatisches VHF)",
+          "- Pulsdefizit: Der getastete Puls ist niedriger als die Herzfrequenz am Monitor"
+        ]
+      },
+      {
+        "title": "Diagnostik",
+        "paragraphs": [
+          "- EKG: unregelmäßige RR-Abstände, keine P-Wellen, Flimmerwellen. Laut ESC reicht ein 12-Kanal-EKG oder ein Rhythmusstreifen von mindestens 30 Sekunden",
+          "- Langzeit-EKG bei anfallsartigem VHF",
+          "- Echokardiographie (Pumpfunktion, Klappen, Vorhofgröße); vor einer Kardioversion ggf. TEE zum Ausschluss eines Thrombus",
+          "- Labor: TSH, Elektrolyte, Nierenwerte, Blutbild",
+          "- Risikoscores: CHA₂DS₂-VA für das Schlaganfallrisiko"
+        ]
+      },
+      {
+        "title": "Therapie",
+        "paragraphs": [
+          "Die ESC-Leitlinie 2024 fasst die Behandlung als AF-CARE zusammen:",
+          "- C – Comorbidities: Begleiterkrankungen behandeln (Blutdruck, Gewicht, Alkohol, Schlafapnoe, Diabetes)",
+          "- A – Avoid stroke: orale Antikoagulation je nach Risiko, bevorzugt DOAK (z.B. Apixaban, Edoxaban, Rivaroxaban, Dabigatran)",
+          "- R – Reduce symptoms by rate and rhythm control: Frequenzkontrolle mit Betablockern, Digitalis oder (bei erhaltener Pumpfunktion) Verapamil/Diltiazem; Rhythmuskontrolle mit Kardioversion (elektrisch oder medikamentös), Antiarrhythmika oder Katheterablation (Pulmonalvenenisolation)",
+          "- E – Evaluation: regelmäßige Neubewertung",
+          "Vor einer geplanten Kardioversion bei VHF, das länger als 24 Stunden besteht, ist eine mindestens dreiwöchige Antikoagulation oder ein Thrombusausschluss per TEE nötig. Die Entscheidung trifft der Arzt."
+        ]
+      },
+      {
+        "title": "Pflege und Beobachtung",
+        "paragraphs": [
+          "- Monitorüberwachung, Herzfrequenz am Monitor oder per Auskultation zählen (nicht nur peripher tasten)",
+          "- Blutdruck, Symptome und Belastbarkeit beobachten und dokumentieren",
+          "- Antikoagulanzien pünktlich nach Plan geben, auf Blutungszeichen achten (Zahnfleisch, Urin, Stuhl, Hämatome)",
+          "- Neurologie im Blick behalten: Gesichtslähmung, Armschwäche, Sprachstörung (BE-FAST)",
+          "- Sturzprophylaxe bei Schwindel und unter Antikoagulation",
+          "- Vor Kardioversion oder TEE: Nüchternheit, Aufklärung, Zugang und Kalium nach Anordnung bzw. Hausstandard",
+          "- Elektrolyte (Kalium, Magnesium) und Flüssigkeitsbilanz bei Herzinsuffizienz"
+        ]
+      },
+      {
+        "title": "Warnzeichen",
+        "paragraphs": [
+          "- sehr schnelle Frequenz mit Blutdruckabfall, Brustschmerz, Atemnot oder Bewusstseinsstörung: instabil, sofort Arzt (ggf. Notfallkardioversion)",
+          "- neue neurologische Ausfälle: Verdacht auf Schlaganfall, sofort Arzt, Zeitpunkt notieren",
+          "- Blutungen unter Antikoagulation",
+          "- lange Pausen nach Ende eines VHF-Anfalls (Tachykardie-Bradykardie-Syndrom)"
+        ]
+      }
     ],
     "keywords": [
       "VHF",
       "AF",
       "Flimmern",
-      "Flattern",
       "absolute Arrhythmie",
+      "TAA",
       "Antikoagulation",
       "CHA2DS2-VA",
-      "Schlaganfall"
+      "Kardioversion",
+      "Ablation",
+      "Pulmonalvenenisolation"
+    ],
+    "relatedArticleIds": [
+      "a-vorhofflattern",
+      "a-dekompensation"
     ],
     "sourceIds": [
-      "esc-af-2024",
-      "esc-svt-2019"
+      "esc-af-2024"
     ],
     "lastChecked": "2026-11-13",
-    "houseSpecific": false,
+    "houseSpecific": true,
     "status": "unreviewed",
     "termIds": [
       "t-tachyarrhythmie",
@@ -598,6 +669,399 @@
       "t-infarkt",
       "t-ischaemie",
       "t-diaphorese"
+    ]
+  },
+  {
+    "id": "a-vorhofflattern",
+    "title": "Vorhofflattern",
+    "category": "Herzrhythmus",
+    "summary": "Eine kreisende Erregung im Vorhof erzeugt Sägezahnwellen mit ca. 300/min. Oft wird jede zweite Welle übergeleitet, das ergibt eine Kammerfrequenz um 150/min.",
+    "kind": "diagnose",
+    "sections": [
+      {
+        "title": "Kurz erklärt",
+        "paragraphs": [
+          "Beim typischen Vorhofflattern kreist eine Erregung (Makro-Reentry) im rechten Vorhof um die Trikuspidalklappe. Der Engpass dieser Kreisbahn ist der cavotrikuspidale Isthmus.",
+          "- Flatterwellen mit ca. 250–350/min, im EKG als Sägezahn in II, III und aVF",
+          "- Überleitung meist regelmäßig 2:1 (Kammerfrequenz ca. 150/min), auch 3:1 oder 4:1",
+          "- Vorhofflattern und Vorhofflimmern treten oft beim gleichen Patienten auf"
+        ]
+      },
+      {
+        "title": "Ursachen und Risikofaktoren",
+        "paragraphs": [
+          "- wie beim Vorhofflimmern: Hypertonie, Herzinsuffizienz, Klappenerkrankungen, COPD, Alter",
+          "- nach Herzoperationen oder Ablationen im linken Vorhof"
+        ]
+      },
+      {
+        "title": "Symptome",
+        "paragraphs": [
+          "- Herzrasen (oft gleichmäßig schnell), Atemnot, Schwindel, Leistungsminderung",
+          "- Brustdruck bei schneller Überleitung"
+        ]
+      },
+      {
+        "title": "Diagnostik",
+        "paragraphs": [
+          "- EKG: Sägezahnwellen, regelmäßige Kammerfrequenz; eine regelmäßige schmale Tachykardie mit ca. 150/min ist verdächtig",
+          "- Flatterwellen verstecken sich oft im QRS oder der T-Welle; vagale Manöver oder Adenosin (ärztlich) machen sie kurz sichtbar",
+          "- Echokardiographie, Labor wie bei VHF"
+        ]
+      },
+      {
+        "title": "Therapie",
+        "paragraphs": [
+          "- Antikoagulation nach den gleichen Regeln wie beim Vorhofflimmern",
+          "- Frequenzkontrolle ist schwieriger als bei VHF (Betablocker, Calciumantagonisten)",
+          "- Rhythmuskontrolle: elektrische Kardioversion",
+          "- Katheterablation des cavotrikuspidalen Isthmus: Therapie der Wahl bei typischem, wiederkehrendem Flattern mit hoher Erfolgsrate"
+        ]
+      },
+      {
+        "title": "Pflege und Beobachtung",
+        "paragraphs": [
+          "- Monitor: Frequenz und Wechsel der Überleitung (z.B. von 4:1 auf 2:1) beobachten",
+          "- Vitalzeichen, Symptome, Antikoagulation und Blutungszeichen wie bei VHF",
+          "- Vorbereitung auf Kardioversion oder Ablation nach Hausstandard"
+        ]
+      },
+      {
+        "title": "Warnzeichen",
+        "paragraphs": [
+          "- plötzlicher Frequenzsprung, z.B. auf 1:1-Überleitung mit sehr hoher Frequenz (z.B. unter bestimmten Antiarrhythmika): sofort Arzt",
+          "- Blutdruckabfall, Brustschmerz, Bewusstseinsstörung"
+        ]
+      }
+    ],
+    "keywords": [
+      "Flattern",
+      "Sägezahn",
+      "Isthmusablation",
+      "2:1",
+      "Makro-Reentry"
+    ],
+    "relatedArticleIds": [
+      "a-vorhofflimmern"
+    ],
+    "sourceIds": [
+      "esc-svt-2019",
+      "esc-af-2024"
+    ],
+    "lastChecked": "2026-11-13",
+    "houseSpecific": true,
+    "status": "unreviewed",
+    "termIds": []
+  },
+  {
+    "id": "a-dekompensation",
+    "title": "Kardiale Dekompensation (akute Herzinsuffizienz)",
+    "category": "Herzinsuffizienz",
+    "summary": "Das Herz schafft die Pumparbeit plötzlich nicht mehr: Blut staut sich in Lunge und Körper zurück. Häufigster Aufnahmegrund in der Kardiologie.",
+    "kind": "diagnose",
+    "sections": [
+      {
+        "title": "Kurz erklärt",
+        "paragraphs": [
+          "Bei einer Dekompensation verschlechtert sich eine Herzinsuffizienz rasch oder tritt neu auf. Es kommt zu Stauung (zu viel Flüssigkeit) und/oder zu geringem Auswurf (Minderdurchblutung).",
+          "Formen nach ESC 2021:",
+          "- akut dekompensierte Herzinsuffizienz (am häufigsten, entwickelt sich über Tage)",
+          "- akutes Lungenödem",
+          "- isoliertes Rechtsherzversagen",
+          "- kardiogener Schock"
+        ]
+      },
+      {
+        "title": "Ursachen und Risikofaktoren",
+        "paragraphs": [
+          "Häufige Auslöser:",
+          "- akutes Koronarsyndrom, Rhythmusstörungen (z.B. Vorhofflimmern)",
+          "- hypertensive Entgleisung, Infekte (z.B. Pneumonie)",
+          "- Medikamente nicht eingenommen, zu viel Salz oder Flüssigkeit",
+          "- NSAR (z.B. Ibuprofen, Diclofenac), Verschlechterung der Nierenfunktion, Herzklappenerkrankungen"
+        ]
+      },
+      {
+        "title": "Symptome",
+        "paragraphs": [
+          "- Atemnot bei Belastung, später in Ruhe; Orthopnoe (Atemnot im Liegen), nächtliche Atemnot",
+          "- Beinödeme, Gewichtszunahme, gestaute Halsvenen, Rasselgeräusche über der Lunge",
+          "- Müdigkeit, Leistungsschwäche, Nykturie",
+          "- Lungenödem: schwerste Atemnot, schaumiges Sputum, Unruhe, Kaltschweißigkeit"
+        ]
+      },
+      {
+        "title": "Diagnostik",
+        "paragraphs": [
+          "- Klinik und Vitalzeichen (Blutdruck, Sättigung, Atemfrequenz)",
+          "- natriuretische Peptide (BNP, NT-proBNP)",
+          "- EKG, Röntgen-Thorax oder Lungenultraschall, Echokardiographie",
+          "- Labor: Troponin, Kreatinin, Elektrolyte, Blutbild; Blutgasanalyse bei schwerer Atemnot"
+        ]
+      },
+      {
+        "title": "Therapie",
+        "paragraphs": [
+          "- Oberkörper hoch lagern",
+          "- Sauerstoff bei SpO₂ unter 90 %; bei Lungenödem ggf. nicht-invasive Beatmung (NIV)",
+          "- Schleifendiuretika i.v. (z.B. Furosemid) zur Entstauung",
+          "- Vasodilatatoren (z.B. Nitrate) bei erhöhtem Blutdruck",
+          "- Auslöser behandeln (Infekt, Rhythmusstörung, Ischämie)",
+          "- bei kardiogenem Schock: Intensivstation, Inotropika, ggf. mechanische Kreislaufunterstützung",
+          "- vor Entlassung: Herzinsuffizienz-Basistherapie beginnen bzw. optimieren"
+        ]
+      },
+      {
+        "title": "Pflege und Beobachtung",
+        "paragraphs": [
+          "- Oberkörperhochlagerung, Beine tief (bei ausreichendem Blutdruck)",
+          "- Vitalzeichen, Atemfrequenz, Sättigung, Bewusstsein engmaschig",
+          "- Ein- und Ausfuhrbilanz, Diurese nach Diuretikagabe beobachten",
+          "- tägliches Gewicht: morgens, nach dem Wasserlassen, vor dem Frühstück, gleiche Waage",
+          "- Trinkmengenbeschränkung nur nach ärztlicher Anordnung",
+          "- Kalium und Kreatinin unter Diuretika im Blick (Labor nach Anordnung)",
+          "- Hautpflege und Dekubitusprophylaxe bei Ödemen",
+          "- Schulung: Gewicht, Symptome, Medikamente, Salz; Arzt kontaktieren z.B. bei mehr als 2 kg Zunahme in 3 Tagen"
+        ]
+      },
+      {
+        "title": "Warnzeichen",
+        "paragraphs": [
+          "- zunehmende Atemnot, fallende Sättigung, steigende Atemfrequenz",
+          "- schaumiges, evtl. rötliches Sputum (Lungenödem)",
+          "- Blutdruckabfall, kalte und marmorierte Haut, Verwirrtheit, wenig Urin: Verdacht auf kardiogenen Schock",
+          "- neue Rhythmusstörungen"
+        ]
+      }
+    ],
+    "keywords": [
+      "Herzinsuffizienz",
+      "Dekompensation",
+      "Lungenödem",
+      "Ödeme",
+      "Diuretika",
+      "Furosemid",
+      "BNP",
+      "NT-proBNP",
+      "kardiogener Schock",
+      "Gewicht"
+    ],
+    "relatedArticleIds": [
+      "a-vorhofflimmern",
+      "a-nstemi"
+    ],
+    "sourceIds": [
+      "esc-hf-2021",
+      "esc-hf-2023"
+    ],
+    "lastChecked": "2026-11-13",
+    "houseSpecific": true,
+    "status": "unreviewed",
+    "termIds": [
+      "t-dekompensation",
+      "t-orthopnoe",
+      "t-dyspnoe",
+      "t-insuffizienz",
+      "t-nykturie"
+    ]
+  },
+  {
+    "id": "a-nstemi",
+    "title": "NSTEMI (Nicht-ST-Hebungsinfarkt)",
+    "category": "Koronare Herzkrankheit",
+    "summary": "Herzinfarkt ohne anhaltende ST-Hebung: Das Troponin steigt, das EKG zeigt oft ST-Senkungen oder T-Negativierungen – oder ist unauffällig.",
+    "kind": "diagnose",
+    "sections": [
+      {
+        "title": "Kurz erklärt",
+        "paragraphs": [
+          "Beim NSTEMI ist ein Herzkranzgefäß meist nicht vollständig verschlossen, aber der Herzmuskel wird so schlecht versorgt, dass Zellen absterben. Das zeigt sich am Anstieg des Troponins.",
+          "- Instabile Angina pectoris: gleiche Beschwerden, aber Troponin nicht erhöht",
+          "- NSTEMI und instabile Angina werden zusammen als NSTE-ACS bezeichnet",
+          "- Typ-2-Infarkt: kein Gefäßverschluss, sondern Missverhältnis zwischen Bedarf und Angebot (z.B. Anämie, Tachykardie, Hypotonie)"
+        ]
+      },
+      {
+        "title": "Ursachen und Risikofaktoren",
+        "paragraphs": [
+          "- Einriss oder Erosion einer arteriosklerotischen Plaque mit Thrombus (Typ-1-Infarkt)",
+          "- Risikofaktoren: Rauchen, Hypertonie, Diabetes, Fettstoffwechselstörung, familiäre Belastung, Alter, Bewegungsmangel"
+        ]
+      },
+      {
+        "title": "Symptome",
+        "paragraphs": [
+          "- Brustschmerz, Druck- oder Engegefühl, oft länger als 20 Minuten oder in Ruhe",
+          "- Ausstrahlung in Arm, Hals, Kiefer, Rücken oder Oberbauch",
+          "- Atemnot, Übelkeit, Kaltschweißigkeit, Angst",
+          "- Frauen, Ältere und Diabetiker haben häufiger untypische Beschwerden (nur Atemnot, Schwäche, Oberbauchschmerz)"
+        ]
+      },
+      {
+        "title": "Diagnostik",
+        "paragraphs": [
+          "- 12-Kanal-EKG innerhalb von 10 Minuten: ST-Senkungen, T-Negativierungen oder unauffällig; bei neuen Beschwerden wiederholen",
+          "- hochsensitives Troponin nach festem Schema (z.B. 0 h/1 h oder 0 h/2 h) – Abnahmezeiten genau einhalten",
+          "- Echokardiographie, Labor (Blutbild, Niere, Elektrolyte, Gerinnung)",
+          "- Koronarangiographie"
+        ]
+      },
+      {
+        "title": "Therapie",
+        "paragraphs": [
+          "- Herzkatheter: sofort (unter 2 Stunden) bei sehr hohem Risiko (z.B. instabil, anhaltender Schmerz, Rhythmusstörungen, Schock); innerhalb von 24 Stunden bei gesichertem NSTEMI",
+          "- Plättchenhemmung: ASS plus P2Y12-Hemmer (z.B. Prasugrel, Ticagrelor, Clopidogrel) = duale Plättchenhemmung (DAPT)",
+          "- Antikoagulation (z.B. Heparin) um die Katheteruntersuchung",
+          "- hochdosiertes Statin, je nach Situation Betablocker, ACE-Hemmer, Nitrate gegen Schmerzen",
+          "- Sauerstoff nur bei SpO₂ unter 90 %"
+        ]
+      },
+      {
+        "title": "Pflege und Beobachtung",
+        "paragraphs": [
+          "- Monitorüberwachung, Vitalzeichen, Schmerzerfassung (z.B. Skala 0–10)",
+          "- bei erneutem Brustschmerz: 12-Kanal-EKG und sofort Arzt",
+          "- Troponin-Kontrollen zur richtigen Zeit abnehmen",
+          "- Vorbereitung auf den Herzkatheter nach Hausstandard; danach Punktionsstelle und DMS",
+          "- Blutungszeichen unter Plättchenhemmung und Antikoagulation",
+          "- Schonung und Mobilisation nach Anordnung, Angst ernst nehmen, Risikofaktoren ansprechen"
+        ]
+      },
+      {
+        "title": "Warnzeichen",
+        "paragraphs": [
+          "- erneuter oder anhaltender Brustschmerz, neue ST-Hebungen (Übergang in STEMI)",
+          "- ventrikuläre Rhythmusstörungen",
+          "- Blutdruckabfall, Zeichen des kardiogenen Schocks, Lungenödem"
+        ]
+      }
+    ],
+    "keywords": [
+      "ACS",
+      "NSTE-ACS",
+      "Herzinfarkt",
+      "Troponin",
+      "instabile Angina",
+      "Brustschmerz",
+      "DAPT",
+      "Herzkatheter"
+    ],
+    "relatedArticleIds": [
+      "a-stemi",
+      "a-acs",
+      "a-herzkatheter"
+    ],
+    "sourceIds": [
+      "esc-acs-2023",
+      "udmi-2018"
+    ],
+    "lastChecked": "2026-11-13",
+    "houseSpecific": true,
+    "status": "unreviewed",
+    "termIds": [
+      "t-infarkt",
+      "t-ischaemie",
+      "t-koronar"
+    ]
+  },
+  {
+    "id": "a-stemi",
+    "title": "STEMI (ST-Hebungsinfarkt)",
+    "category": "Koronare Herzkrankheit",
+    "summary": "Kompletter Verschluss eines Herzkranzgefäßes mit ST-Hebungen im EKG. Zeit ist Herzmuskel: so schnell wie möglich ins Herzkatheterlabor.",
+    "kind": "diagnose",
+    "sections": [
+      {
+        "title": "Kurz erklärt",
+        "paragraphs": [
+          "Beim STEMI ist ein Herzkranzgefäß meist vollständig verschlossen. Ohne schnelle Wiedereröffnung stirbt der versorgte Herzmuskel ab.",
+          "Wo der Infarkt sitzt, zeigt das EKG:",
+          "- Vorderwand: V1–V4 (meist RIVA/LAD)",
+          "- Seitenwand: I, aVL, V5–V6 (meist RCX)",
+          "- Hinterwand/inferior: II, III, aVF (meist RCA); oft mit Bradykardie oder AV-Block, ggf. Beteiligung der rechten Kammer"
+        ]
+      },
+      {
+        "title": "Ursachen und Risikofaktoren",
+        "paragraphs": [
+          "- Plaqueruptur mit thrombotischem Verschluss",
+          "- Risikofaktoren wie beim NSTEMI: Rauchen, Hypertonie, Diabetes, Fettstoffwechselstörung, familiäre Belastung"
+        ]
+      },
+      {
+        "title": "Symptome",
+        "paragraphs": [
+          "- starker, anhaltender Brustschmerz mit Ausstrahlung, Vernichtungsgefühl",
+          "- Atemnot, Übelkeit, Erbrechen, Kaltschweißigkeit, Blässe",
+          "- Rhythmusstörungen bis zum Kammerflimmern, Synkope"
+        ]
+      },
+      {
+        "title": "Diagnostik",
+        "paragraphs": [
+          "- 12-Kanal-EKG innerhalb von 10 Minuten: ST-Hebungen in mindestens zwei benachbarten Ableitungen (Grenzwerte nach Ableitung, Alter und Geschlecht)",
+          "- auch ein Schenkelblock mit typischen Beschwerden oder ein Hinterwandinfarkt mit ST-Senkungen in V1–V3 kann eine sofortige Katheteruntersuchung erfordern",
+          "- Troponin abnehmen, aber das Ergebnis nicht abwarten"
+        ]
+      },
+      {
+        "title": "Therapie",
+        "paragraphs": [
+          "- primäre PCI (Herzkatheter mit Wiedereröffnung und Stent) so schnell wie möglich; Ziel laut ESC: unter 120 Minuten von der Diagnose bis zur Wiedereröffnung",
+          "- wenn das nicht rechtzeitig möglich ist: Fibrinolyse innerhalb von 10 Minuten nach Diagnose",
+          "- ASS, Heparin, P2Y12-Hemmer nach Anordnung; Schmerztherapie (z.B. Morphin), Sauerstoff nur bei SpO₂ unter 90 %",
+          "- Nitrate nicht bei Hypotonie oder Rechtsherzbeteiligung",
+          "- danach: DAPT, hochdosiertes Statin, Betablocker, ACE-Hemmer, Rehabilitation"
+        ]
+      },
+      {
+        "title": "Pflege und Beobachtung",
+        "paragraphs": [
+          "- nicht allein lassen, Hilfe holen, Defibrillator bereit, Monitor",
+          "- Zugang, Blutabnahme und Transport ins Katheterlabor nach Hausstandard ohne Zeitverlust",
+          "- nach PCI: Punktionsstelle, DMS, Vitalzeichen, Rhythmus, Schmerzen",
+          "- Mobilisation nach Anordnung; Ängste begleiten; Raucherentwöhnung und Risikofaktoren ansprechen"
+        ]
+      },
+      {
+        "title": "Warnzeichen",
+        "paragraphs": [
+          "- Kammerflimmern und VT, besonders in den ersten Stunden: sofort Reanimation und Defibrillation",
+          "- Bradykardie und AV-Block (v.a. Hinterwandinfarkt)",
+          "- kardiogener Schock, Lungenödem",
+          "- Tage später: neues Herzgeräusch mit plötzlicher Atemnot oder Schock (z.B. Papillarmuskelabriss, Ventrikelseptumruptur), erneuter Brustschmerz (Re-Infarkt, Stentthrombose)"
+        ]
+      }
+    ],
+    "keywords": [
+      "ACS",
+      "Herzinfarkt",
+      "ST-Hebung",
+      "PCI",
+      "Lyse",
+      "Fibrinolyse",
+      "Vorderwand",
+      "Hinterwand",
+      "Stent"
+    ],
+    "relatedArticleIds": [
+      "a-nstemi",
+      "a-acs",
+      "a-reanimation",
+      "a-herzkatheter"
+    ],
+    "sourceIds": [
+      "esc-acs-2023",
+      "udmi-2018"
+    ],
+    "lastChecked": "2026-11-13",
+    "houseSpecific": true,
+    "status": "unreviewed",
+    "termIds": [
+      "t-infarkt",
+      "t-ischaemie",
+      "t-koronar",
+      "t-angioplastie"
     ]
   }
 ]

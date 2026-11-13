@@ -184,6 +184,8 @@ fun PflegeApp(vm: AppViewModel = viewModel()) {
                     articleId = entry.arguments?.getString("id").orEmpty(),
                     onBack = { nav.popBackStack() },
                     onOpenTerm = { nav.navigate(Routes.term(it)) },
+                    onOpenArticle = { nav.navigate(Routes.article(it)) },
+                    onOpenLesson = { nav.navigate(Routes.lesson(it)) },
                 )
             }
             composable(Routes.TERM) { entry ->

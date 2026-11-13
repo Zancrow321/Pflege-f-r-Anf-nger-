@@ -1,5 +1,7 @@
 package de.pflegefueranfaenger.core
 
+import de.pflegefueranfaenger.core.model.ArticleKind
+import de.pflegefueranfaenger.core.model.ArticleTemplate
 import de.pflegefueranfaenger.core.model.Level
 import de.pflegefueranfaenger.core.model.Question
 import java.time.LocalDate
@@ -110,5 +112,25 @@ class ContentValidationTest {
         val wordParts = c.lessons.flatMap { it.questions }.filterIsInstance<Question.WordParts>()
         assertTrue(wordParts.size >= 10, "Mindestens 10 Wortbaustein-Fragen erwartet, gefunden: ${wordParts.size}")
         assertTrue(c.terms.size >= 30)
+    }
+
+    @Test
+    fun `Wiki-Artikel folgen der Gliederung ihrer Art`() {
+        val problems = mutableListOf<String>()
+        c.articles.forEach { a ->
+            val required = ArticleTemplate.requiredSections(a.kind)
+            val titles = a.sections.map { it.title }
+            if (a.kind == ArticleKind.WISSEN && a.body.isEmpty() && a.sections.isEmpty()) problems += "${a.id}: kein Inhalt"
+            val missing = required.filter { it !in titles }
+            if (missing.isNotEmpty()) problems += "${a.id} (${a.kind.label}): Abschnitte fehlen: $missing"
+            // Reihenfolge der Pflichtabschnitte einhalten
+            val order = titles.filter { it in required }
+            if (order != required.filter { it in titles }) problems += "${a.id}: Abschnitte in falscher Reihenfolge"
+            a.sections.filter { it.paragraphs.isEmpty() || it.paragraphs.any(String::isBlank) }
+                .forEach { problems += "${a.id}: Abschnitt „${it.title}“ ist leer" }
+            a.relatedArticleIds.filter { c.article(it) == null }.forEach { problems += "${a.id}: Querverweis $it fehlt" }
+            if (a.id in a.relatedArticleIds) problems += "${a.id}: verweist auf sich selbst"
+        }
+        assertTrue(problems.isEmpty(), problems.joinToString("\n"))
     }
 }

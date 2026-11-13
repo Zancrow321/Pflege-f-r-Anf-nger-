@@ -32,8 +32,10 @@ class SearchIndex(private val content: ContentBundle) {
         Doc(
             hit = { s -> SearchHit.ArticleHit(a, s) },
             title = normalize(a.title),
-            strong = normalize((a.keywords + a.category).joinToString(" ")),
-            weak = normalize((listOf(a.summary) + a.body).joinToString(" ")),
+            strong = normalize((a.keywords + a.category + a.kind.label).joinToString(" ")),
+            weak = normalize(
+                (listOf(a.summary) + a.body + a.sections.flatMap { listOf(it.title) + it.paragraphs }).joinToString(" "),
+            ),
         )
     } + content.terms.map { t ->
         Doc(
