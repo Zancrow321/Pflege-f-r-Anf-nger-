@@ -5158,6 +5158,481 @@
           ]
         }
       ]
+    },
+    {
+      "id": "u14",
+      "title": "Krankheitsbilder 8: Gefäße, Elektrolyte, Geräte",
+      "level": "station",
+      "description": "TVT, Kalium, kardiorenales Syndrom, Aortendissektion, Schrittmacher und ICD.",
+      "lessons": [
+        {
+          "id": "u14l1",
+          "title": "Tiefe Venenthrombose",
+          "card": {
+            "title": "Gerinnsel im Bein",
+            "text": "Eine TVT kann sich lösen und zur Lungenembolie werden.",
+            "bullets": [
+              "einseitig dick, warm, schmerzhaft",
+              "Kompressions-Ultraschall",
+              "Antikoagulation, Mobilisation erlaubt",
+              "Bein nicht massieren"
+            ]
+          },
+          "questions": [
+            {
+              "id": "u14l1q1",
+              "type": "single_choice",
+              "prompt": "Welcher Befund passt zur TVT?",
+              "options": [
+                "einseitig geschwollene, warme, schmerzhafte Wade",
+                "beidseits kalte Füße",
+                "Juckreiz am ganzen Körper",
+                "Bauchschmerz"
+              ],
+              "correctIndex": 0,
+              "explanation": "Typisch einseitig."
+            },
+            {
+              "id": "u14l1q2",
+              "type": "matching",
+              "prompt": "Ordne die Virchow-Trias zu.",
+              "pairs": [
+                {
+                  "left": "Strömung",
+                  "right": "langsamer Blutfluss, z.B. Immobilität"
+                },
+                {
+                  "left": "Gefäßwand",
+                  "right": "Schaden, z.B. nach OP"
+                },
+                {
+                  "left": "Blut",
+                  "right": "erhöhte Gerinnbarkeit, z.B. Krebs"
+                },
+                {
+                  "left": "Folge",
+                  "right": "Thrombose"
+                }
+              ],
+              "explanation": "Alle drei Faktoren begünstigen eine Thrombose."
+            },
+            {
+              "id": "u14l1q3",
+              "type": "true_false",
+              "statement": "Unter wirksamer Antikoagulation dürfen Patienten mit TVT meist mobilisiert werden.",
+              "correct": true,
+              "explanation": "Richtig – nach ärztlicher Anordnung."
+            },
+            {
+              "id": "u14l1q4",
+              "type": "single_choice",
+              "prompt": "Was solltest du am betroffenen Bein nicht tun?",
+              "options": [
+                "massieren",
+                "Umfang messen",
+                "Hautfarbe beobachten",
+                "nach Schmerzen fragen"
+              ],
+              "correctIndex": 0,
+              "explanation": "Massage ist nicht sinnvoll und kann schaden."
+            },
+            {
+              "id": "u14l1q5",
+              "type": "single_choice",
+              "prompt": "Welche Komplikation ist bei TVT am gefährlichsten?",
+              "options": [
+                "Lungenembolie",
+                "Sonnenbrand",
+                "Kopfschmerz",
+                "Heiserkeit"
+              ],
+              "correctIndex": 0,
+              "explanation": "Plötzliche Atemnot sofort melden."
+            }
+          ],
+          "sourceIds": [
+            "esvs-vt-2021"
+          ],
+          "articleIds": [
+            "a-tvt"
+          ],
+          "termIds": [
+            "t-thrombose"
+          ]
+        },
+        {
+          "id": "u14l2",
+          "title": "Hypo- und Hyperkaliämie",
+          "card": {
+            "title": "Kalium ist Herzsache",
+            "text": "Zu wenig und zu viel Kalium können gefährliche Rhythmusstörungen auslösen.",
+            "bullets": [
+              "Hypo: flaches T, U-Welle, VES",
+              "Hyper: spitzes T, breiter QRS, Bradykardie",
+              "Kalium i.v. nie als Bolus",
+              "Hyper: Calcium, Insulin-Glukose"
+            ]
+          },
+          "questions": [
+            {
+              "id": "u14l2q1",
+              "type": "matching",
+              "prompt": "Ordne die EKG-Zeichen zu.",
+              "pairs": [
+                {
+                  "left": "hohe spitze T-Wellen",
+                  "right": "Hyperkaliämie"
+                },
+                {
+                  "left": "U-Welle",
+                  "right": "Hypokaliämie"
+                },
+                {
+                  "left": "Calcium i.v.",
+                  "right": "schützt die Herzmuskelmembran"
+                },
+                {
+                  "left": "Insulin mit Glukose",
+                  "right": "verschiebt Kalium in die Zellen"
+                }
+              ],
+              "explanation": "Zu viel und zu wenig Kalium können lebensbedrohlich sein."
+            },
+            {
+              "id": "u14l2q2",
+              "type": "true_false",
+              "statement": "Kalium darf als schneller i.v.-Bolus gegeben werden.",
+              "correct": false,
+              "explanation": "Falsch. Kalium i.v. nur verdünnt über Pumpe – ein Bolus kann zum Herzstillstand führen."
+            },
+            {
+              "id": "u14l2q3",
+              "type": "single_choice",
+              "prompt": "Welches Medikament schützt bei Hyperkaliämie mit EKG-Veränderungen zuerst das Herz?",
+              "options": [
+                "Calcium i.v.",
+                "Kaliumchlorid",
+                "Spironolacton",
+                "Digitalis"
+              ],
+              "correctIndex": 0,
+              "explanation": "Calcium stabilisiert die Herzmuskelmembran, senkt Kalium aber nicht."
+            },
+            {
+              "id": "u14l2q4",
+              "type": "single_choice",
+              "prompt": "Worauf achtest du nach Insulin-Glukose-Gabe?",
+              "options": [
+                "Blutzucker engmaschig messen",
+                "Augeninnendruck",
+                "Körpergröße",
+                "Hörvermögen"
+              ],
+              "correctIndex": 0,
+              "explanation": "Es droht Unterzuckerung."
+            },
+            {
+              "id": "u14l2q5",
+              "type": "single_choice",
+              "prompt": "Welche Medikamente erhöhen häufig das Kalium?",
+              "options": [
+                "ACE-Hemmer und Spironolacton",
+                "Schleifendiuretika",
+                "Salbutamol",
+                "Insulin"
+              ],
+              "correctIndex": 0,
+              "explanation": "Schleifendiuretika, Salbutamol und Insulin senken Kalium eher."
+            }
+          ],
+          "sourceIds": [
+            "erc-special-2021"
+          ],
+          "articleIds": [
+            "a-hypokaliaemie",
+            "a-hyperkaliaemie"
+          ],
+          "termIds": [
+            "t-hypokaliaemie",
+            "t-hyperkaliaemie"
+          ]
+        },
+        {
+          "id": "u14l3",
+          "title": "Kardiorenales Syndrom",
+          "card": {
+            "title": "Herz und Niere im Teufelskreis",
+            "text": "Herzschwäche schadet der Niere und eine kranke Niere belastet das Herz.",
+            "bullets": [
+              "Stauung + schlechte Durchblutung",
+              "Bilanz und Gewicht",
+              "Kreatinin und Kalium im Verlauf",
+              "NSAR meiden"
+            ]
+          },
+          "questions": [
+            {
+              "id": "u14l3q1",
+              "type": "single_choice",
+              "prompt": "Was bedeutet kardiorenales Syndrom?",
+              "options": [
+                "Herz- und Nierenfunktion verschlechtern sich gegenseitig",
+                "eine Lungenentzündung",
+                "eine Herzklappenentzündung",
+                "ein Magengeschwür"
+              ],
+              "correctIndex": 0,
+              "explanation": "Beide Organe beeinflussen sich."
+            },
+            {
+              "id": "u14l3q2",
+              "type": "true_false",
+              "statement": "Ein leichter Kreatininanstieg beim Entwässern kann akzeptabel sein, wenn die Stauung abnimmt.",
+              "correct": true,
+              "explanation": "Richtig. Der Arzt bewertet den Verlauf."
+            },
+            {
+              "id": "u14l3q3",
+              "type": "single_choice",
+              "prompt": "Welche Medikamentengruppe schadet häufig der Niere?",
+              "options": [
+                "NSAR wie Ibuprofen oder Diclofenac",
+                "Vitamin D",
+                "Paracetamol in normaler Dosis",
+                "Magnesium"
+              ],
+              "correctIndex": 0,
+              "explanation": "NSAR melden, besonders bei Herzinsuffizienz."
+            },
+            {
+              "id": "u14l3q4",
+              "type": "single_choice",
+              "prompt": "Was dokumentierst du nach Diuretika-Gabe besonders?",
+              "options": [
+                "Urinmenge",
+                "Haarfarbe",
+                "Schuhgröße",
+                "Lieblingsessen"
+              ],
+              "correctIndex": 0,
+              "explanation": "Die Urinmenge zeigt, ob das Diuretikum wirkt."
+            },
+            {
+              "id": "u14l3q5",
+              "type": "single_choice",
+              "prompt": "Welcher Laborwert steigt bei Nierenversagen gefährlich an und beeinflusst das Herz?",
+              "options": [
+                "Kalium",
+                "Hämoglobin",
+                "Cholesterin",
+                "Vitamin B12"
+              ],
+              "correctIndex": 0,
+              "explanation": "Hyperkaliämie kann Rhythmusstörungen auslösen."
+            }
+          ],
+          "sourceIds": [
+            "aha-crs-2019",
+            "esc-hf-2021"
+          ],
+          "articleIds": [
+            "a-kardiorenal"
+          ],
+          "termIds": [
+            "t-oligurie"
+          ]
+        },
+        {
+          "id": "u14l4",
+          "title": "Aortendissektion",
+          "card": {
+            "title": "Riss in der Hauptschlagader",
+            "text": "Reißender Schmerz in Brust oder Rücken mit Blutdruckunterschied an den Armen – denk an eine Dissektion.",
+            "bullets": [
+              "Stanford A: Notfall-OP",
+              "Stanford B: Blutdruck und Puls senken",
+              "beide Arme messen",
+              "keine Lyse, keine Antikoagulation bei Verdacht"
+            ]
+          },
+          "questions": [
+            {
+              "id": "u14l4q1",
+              "type": "word_parts",
+              "term": "Dissektion",
+              "parts": [
+                {
+                  "part": "Dis",
+                  "meaning": "auseinander",
+                  "origin": "lat. dis-"
+                },
+                {
+                  "part": "sektion",
+                  "meaning": "Schnitt, Trennung",
+                  "origin": "lat. sectio"
+                }
+              ],
+              "distractors": [
+                "Hyper",
+                "itis"
+              ],
+              "meaning": "Aufspaltung der Gefäßwand",
+              "explanation": "Die Wandschichten der Aorta trennen sich."
+            },
+            {
+              "id": "u14l4q2",
+              "type": "single_choice",
+              "prompt": "Was ist typisch für eine Aortendissektion?",
+              "options": [
+                "plötzlicher reißender Schmerz in Brust oder Rücken",
+                "langsam zunehmender Husten",
+                "Juckreiz",
+                "Wadenkrampf beim Gehen"
+              ],
+              "correctIndex": 0,
+              "explanation": "Oft wandert der Schmerz."
+            },
+            {
+              "id": "u14l4q3",
+              "type": "single_choice",
+              "prompt": "Was misst du bei Verdacht auf Aortendissektion?",
+              "options": [
+                "Blutdruck an beiden Armen",
+                "nur Temperatur",
+                "nur Blutzucker",
+                "nur Gewicht"
+              ],
+              "correctIndex": 0,
+              "explanation": "Ein deutlicher Unterschied ist ein wichtiger Hinweis."
+            },
+            {
+              "id": "u14l4q4",
+              "type": "true_false",
+              "statement": "Bei Verdacht auf Aortendissektion ist eine Thrombolyse sinnvoll.",
+              "correct": false,
+              "explanation": "Falsch. Lyse und Antikoagulation können tödliche Blutungen auslösen."
+            },
+            {
+              "id": "u14l4q5",
+              "type": "single_choice",
+              "prompt": "Wie wird eine Stanford-A-Dissektion behandelt?",
+              "options": [
+                "Notfall-Operation",
+                "nur Tabletten",
+                "Physiotherapie",
+                "abwarten"
+              ],
+              "correctIndex": 0,
+              "explanation": "Typ A betrifft die aufsteigende Aorta und ist ein chirurgischer Notfall."
+            }
+          ],
+          "sourceIds": [
+            "esc-paad-2024"
+          ],
+          "articleIds": [
+            "a-aortendissektion"
+          ],
+          "termIds": [
+            "t-dissektion"
+          ]
+        },
+        {
+          "id": "u14l5",
+          "title": "Schrittmacher und ICD",
+          "card": {
+            "title": "Kleine Helfer unter der Haut",
+            "text": "Der Schrittmacher hilft bei zu langsamem Puls. Der ICD kann zusätzlich Kammerflimmern beenden.",
+            "bullets": [
+              "Spike vor P oder QRS am Monitor",
+              "Arm nach Standard schonen",
+              "Wunde: Hämatom, Infekt",
+              "ICD-Schock immer melden"
+            ]
+          },
+          "questions": [
+            {
+              "id": "u14l5q1",
+              "type": "matching",
+              "prompt": "Ordne zu.",
+              "pairs": [
+                {
+                  "left": "Schrittmacher",
+                  "right": "stimuliert bei zu langsamem Puls"
+                },
+                {
+                  "left": "ICD",
+                  "right": "beendet VT/Kammerflimmern"
+                },
+                {
+                  "left": "CRT",
+                  "right": "stimuliert beide Kammern gleichzeitig"
+                },
+                {
+                  "left": "Magnet auf ICD",
+                  "right": "setzt Schocktherapie aus"
+                }
+              ],
+              "explanation": "Ein Magnet nur nach Anordnung oder im Notfallstandard."
+            },
+            {
+              "id": "u14l5q2",
+              "type": "single_choice",
+              "prompt": "Wie siehst du am Monitor, dass der Schrittmacher die Kammer stimuliert?",
+              "options": [
+                "Spike direkt vor einem breiten QRS",
+                "Sägezahnwellen",
+                "Nulllinie",
+                "Flimmerwellen"
+              ],
+              "correctIndex": 0,
+              "explanation": "Kammerstimulation erzeugt breite QRS-Komplexe."
+            },
+            {
+              "id": "u14l5q3",
+              "type": "single_choice",
+              "prompt": "Welche Komplikation kann direkt nach der Implantation auftreten?",
+              "options": [
+                "Pneumothorax",
+                "Kurzsichtigkeit",
+                "Karies",
+                "Haarausfall"
+              ],
+              "correctIndex": 0,
+              "explanation": "Atemnot und Brustschmerz nach Implantation sofort melden."
+            },
+            {
+              "id": "u14l5q4",
+              "type": "true_false",
+              "statement": "Den Arm auf der OP-Seite darf der Patient sofort über den Kopf heben.",
+              "correct": false,
+              "explanation": "Falsch. Nach Hausstandard schonen, damit die Sonden einwachsen."
+            },
+            {
+              "id": "u14l5q5",
+              "type": "single_choice",
+              "prompt": "Ein Patient berichtet von einem ICD-Schock. Was tust du?",
+              "options": [
+                "Patient untersuchen, Vitalzeichen, Arzt informieren, Geräteabfrage veranlassen",
+                "nichts",
+                "das Gerät selbst ausschalten",
+                "den Patienten entlassen"
+              ],
+              "correctIndex": 0,
+              "explanation": "Jeder Schock muss abgeklärt werden."
+            }
+          ],
+          "sourceIds": [
+            "esc-pacing-2021",
+            "esc-va-2022"
+          ],
+          "articleIds": [
+            "a-schrittmacher-icd"
+          ],
+          "termIds": [
+            "t-defibrillation"
+          ]
+        }
+      ]
     }
   ]
 }

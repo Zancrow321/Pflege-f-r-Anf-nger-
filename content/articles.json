@@ -3797,5 +3797,574 @@
     "termIds": [
       "t-perikarditis"
     ]
+  },
+  {
+    "id": "a-tvt",
+    "title": "Tiefe Venenthrombose (TVT)",
+    "category": "Herz und Gefäße",
+    "summary": "Ein Blutgerinnsel in einer tiefen Vene, meist im Bein. Gefährlich, weil es sich lösen und eine Lungenembolie verursachen kann.",
+    "kind": "diagnose",
+    "sections": [
+      {
+        "title": "Kurz erklärt",
+        "paragraphs": [
+          "Bei einer TVT verschließt ein Gerinnsel eine tiefe Vene, meist im Unterschenkel, Oberschenkel oder Becken.",
+          "Gefahren: Lungenembolie und später ein postthrombotisches Syndrom (dauerhafte Schwellung, Hautschäden)."
+        ]
+      },
+      {
+        "title": "Ursachen und Risikofaktoren",
+        "paragraphs": [
+          "Virchow-Trias: langsamer Blutfluss, Gefäßwandschaden, erhöhte Gerinnbarkeit",
+          "- Immobilität, Operation, Gips, lange Reisen",
+          "- Krebserkrankung, frühere Thrombose, Gerinnungsstörung",
+          "- Schwangerschaft, Hormone, Übergewicht, Herzinsuffizienz"
+        ]
+      },
+      {
+        "title": "Symptome",
+        "paragraphs": [
+          "- einseitige Schwellung, Spannungsgefühl, Schmerz in Wade oder Bein",
+          "- Überwärmung, bläulich-rote Verfärbung, sichtbare Venen",
+          "- oft wenig Beschwerden, besonders bei Bettlägerigen"
+        ]
+      },
+      {
+        "title": "Diagnostik",
+        "paragraphs": [
+          "- klinische Wahrscheinlichkeit (Wells-Score)",
+          "- D-Dimere bei niedriger Wahrscheinlichkeit",
+          "- Kompressions-Ultraschall der Beinvenen"
+        ]
+      },
+      {
+        "title": "Therapie",
+        "paragraphs": [
+          "- Antikoagulation (meist DOAK, sonst Heparin), mindestens 3 Monate",
+          "- Mobilisation unter Antikoagulation erlaubt, wenn ärztlich nichts dagegen spricht",
+          "- Kompression zur Linderung der Beschwerden nach Anordnung",
+          "- selten Katheterverfahren bei ausgedehnter Becken-Bein-Thrombose"
+        ]
+      },
+      {
+        "title": "Pflege und Beobachtung",
+        "paragraphs": [
+          "- Beinumfang messen (immer an gleicher markierter Stelle), Hautfarbe, Schmerz",
+          "- Antikoagulation pünktlich, Blutungszeichen beobachten",
+          "- betroffenes Bein nicht massieren",
+          "- Thromboseprophylaxe bei allen Risikopatienten: Bewegung, Medikamente nach Anordnung"
+        ]
+      },
+      {
+        "title": "Warnzeichen",
+        "paragraphs": [
+          "- plötzliche Atemnot, Brustschmerz, Herzrasen (Lungenembolie)",
+          "- sehr starke Schwellung, kaltes oder blaues Bein",
+          "- Blutungen unter Antikoagulation"
+        ]
+      }
+    ],
+    "keywords": [
+      "TVT",
+      "Thrombose",
+      "Beinvenenthrombose",
+      "Phlebothrombose",
+      "D-Dimere",
+      "Kompressionsultraschall",
+      "Virchow",
+      "Thromboseprophylaxe"
+    ],
+    "relatedArticleIds": [
+      "a-lungenembolie"
+    ],
+    "sourceIds": [
+      "esvs-vt-2021",
+      "esc-pe-2019"
+    ],
+    "lastChecked": "2026-11-13",
+    "houseSpecific": true,
+    "status": "unreviewed",
+    "termIds": [
+      "t-thrombose",
+      "t-embolie"
+    ]
+  },
+  {
+    "id": "a-hypokaliaemie",
+    "title": "Hypokaliämie",
+    "category": "Elektrolyte",
+    "summary": "Zu wenig Kalium im Blut (unter 3,5 mmol/l). Auf der Kardiologie besonders wichtig, weil sie Rhythmusstörungen begünstigt.",
+    "kind": "diagnose",
+    "sections": [
+      {
+        "title": "Kurz erklärt",
+        "paragraphs": [
+          "Kalium steuert die elektrische Erregbarkeit von Herz und Muskeln. Bei Hypokaliämie liegt es unter 3,5 mmol/l; unter 2,5 mmol/l ist sie schwer.",
+          "Bei Herzpatienten wird Kalium oft hochnormal angestrebt (nach Anordnung)."
+        ]
+      },
+      {
+        "title": "Ursachen und Risikofaktoren",
+        "paragraphs": [
+          "- Diuretika (Schleifen- und Thiazid-Diuretika)",
+          "- Erbrechen, Durchfall, Abführmittel",
+          "- Insulin, Beta-2-Mimetika (verschieben Kalium in die Zellen)",
+          "- Magnesiummangel, geringe Zufuhr"
+        ]
+      },
+      {
+        "title": "Symptome",
+        "paragraphs": [
+          "- Muskelschwäche, Krämpfe, Verstopfung",
+          "- Herzstolpern, Rhythmusstörungen",
+          "- EKG: flache T-Welle, U-Welle, ST-Senkung, verlängerte QT(U)-Zeit"
+        ]
+      },
+      {
+        "title": "Diagnostik",
+        "paragraphs": [
+          "- Kalium im Blut, Magnesium mitbestimmen",
+          "- EKG",
+          "- Medikamente und Verluste prüfen"
+        ]
+      },
+      {
+        "title": "Therapie",
+        "paragraphs": [
+          "- Ursache beheben, Magnesium mit ausgleichen",
+          "- Kalium oral, wenn möglich",
+          "- Kalium i.v. nur verdünnt, über Infusionspumpe und mit Höchstrate nach Hausstandard – niemals als Bolus",
+          "- bei schweren Rhythmusstörungen schnellerer Ersatz nur unter Monitorüberwachung nach ärztlicher Anordnung (ERC)"
+        ]
+      },
+      {
+        "title": "Pflege und Beobachtung",
+        "paragraphs": [
+          "- Monitor: VES, Salven, QT-Zeit",
+          "- Kalium-Infusion: Pumpe, Laufrate prüfen, Einstichstelle (brennt, reizt Venen)",
+          "- Laborkontrollen nach Anordnung",
+          "- Ein- und Ausfuhr, Erbrechen und Durchfall dokumentieren"
+        ]
+      },
+      {
+        "title": "Warnzeichen",
+        "paragraphs": [
+          "- Kalium unter 3,0 mmol/l bei Herzpatienten, unter 2,5 mmol/l immer",
+          "- gehäufte VES, VT, Torsade de pointes",
+          "- starke Muskelschwäche"
+        ]
+      }
+    ],
+    "keywords": [
+      "Hypokaliämie",
+      "Kaliummangel",
+      "Kalium niedrig",
+      "U-Welle",
+      "KCl",
+      "Diuretika"
+    ],
+    "relatedArticleIds": [
+      "a-kalium",
+      "a-hyperkaliaemie",
+      "a-magnesium",
+      "a-long-qt",
+      "a-extrasystolen"
+    ],
+    "sourceIds": [
+      "erc-special-2021",
+      "esc-va-2022"
+    ],
+    "lastChecked": "2026-11-13",
+    "houseSpecific": true,
+    "status": "unreviewed",
+    "termIds": [
+      "t-hypokaliaemie"
+    ]
+  },
+  {
+    "id": "a-hyperkaliaemie",
+    "title": "Hyperkaliämie",
+    "category": "Elektrolyte",
+    "summary": "Zu viel Kalium im Blut (über 5,5 mmol/l). Kann ohne Vorwarnung zu Bradykardie, Asystolie oder Kammerflimmern führen.",
+    "kind": "diagnose",
+    "sections": [
+      {
+        "title": "Kurz erklärt",
+        "paragraphs": [
+          "Einteilung nach ERC:",
+          "- leicht: 5,5–5,9 mmol/l",
+          "- mittel: 6,0–6,4 mmol/l",
+          "- schwer: ab 6,5 mmol/l"
+        ]
+      },
+      {
+        "title": "Ursachen und Risikofaktoren",
+        "paragraphs": [
+          "- Niereninsuffizienz, akutes Nierenversagen",
+          "- Medikamente: ACE-Hemmer, Sartane, ARNI, MRA (Spironolacton, Eplerenon), Kaliumpräparate, NSAR",
+          "- Zellzerfall (Rhabdomyolyse, Hämolyse), Azidose, Diabetes-Entgleisung",
+          "- Pseudohyperkaliämie: falsch hoher Wert durch Hämolyse bei der Blutabnahme"
+        ]
+      },
+      {
+        "title": "Symptome",
+        "paragraphs": [
+          "- oft keine Beschwerden",
+          "- Muskelschwäche, Kribbeln, Lähmungen",
+          "- Bradykardie, Rhythmusstörungen",
+          "- EKG: hohe spitze T-Wellen, flache oder fehlende P-Wellen, breiter QRS, Sinuswellen-Muster, Bradykardie, Kammerflimmern, Asystolie"
+        ]
+      },
+      {
+        "title": "Diagnostik",
+        "paragraphs": [
+          "- Kalium (bei Verdacht auf Pseudohyperkaliämie Wiederholung, Blutgas)",
+          "- 12-Kanal-EKG, Nierenwerte, Blutgas (Azidose)",
+          "- Medikamentenliste"
+        ]
+      },
+      {
+        "title": "Therapie",
+        "paragraphs": [
+          "Nach ERC, je nach Schwere und EKG:",
+          "- Herz schützen: Calcium i.v. bei EKG-Veränderungen",
+          "- Kalium in die Zellen verschieben: Insulin mit Glukose, Salbutamol-Inhalation",
+          "- Kalium entfernen: Kaliumbinder, Diuretika, Dialyse",
+          "- Kalium-erhöhende Medikamente stoppen"
+        ]
+      },
+      {
+        "title": "Pflege und Beobachtung",
+        "paragraphs": [
+          "- Monitor anlegen, Defibrillator mit Schrittmacherfunktion bereit",
+          "- nach Insulin-Glukose: Blutzucker engmaschig (Hypoglykämie-Gefahr)",
+          "- Kaliumhaltige Infusionen stoppen und melden",
+          "- Blutabnahme schonend (Stau kurz, nicht pumpen lassen)",
+          "- Urinausscheidung, Bilanz"
+        ]
+      },
+      {
+        "title": "Warnzeichen",
+        "paragraphs": [
+          "- Kalium ab 6,5 mmol/l oder EKG-Veränderungen",
+          "- breite QRS-Komplexe, Bradykardie",
+          "- Kreislaufstillstand: Reanimation, an Hyperkaliämie als reversible Ursache denken (4 H und HITS)"
+        ]
+      }
+    ],
+    "keywords": [
+      "Hyperkaliämie",
+      "Kalium hoch",
+      "spitze T-Welle",
+      "Calcium",
+      "Insulin Glukose",
+      "Dialyse",
+      "Kaliumbinder"
+    ],
+    "relatedArticleIds": [
+      "a-kalium",
+      "a-hypokaliaemie",
+      "a-kardiorenal",
+      "a-reanimation",
+      "a-bradykardie"
+    ],
+    "sourceIds": [
+      "erc-special-2021",
+      "erc-als-2021"
+    ],
+    "lastChecked": "2026-11-13",
+    "houseSpecific": true,
+    "status": "unreviewed",
+    "termIds": [
+      "t-hyperkaliaemie"
+    ]
+  },
+  {
+    "id": "a-kardiorenal",
+    "title": "Kardiorenales Syndrom",
+    "category": "Herzinsuffizienz",
+    "summary": "Herz und Nieren schwächen sich gegenseitig: Eine Herzinsuffizienz verschlechtert die Nierenfunktion und umgekehrt.",
+    "kind": "diagnose",
+    "sections": [
+      {
+        "title": "Kurz erklärt",
+        "paragraphs": [
+          "Beim kardiorenalen Syndrom beeinflussen sich Herz- und Nierenerkrankung gegenseitig ungünstig.",
+          "- Stauung: Venöser Rückstau erhöht den Druck in der Niere",
+          "- zu wenig Auswurf: Die Niere wird schlecht durchblutet",
+          "- Niereninsuffizienz: Wasser und Salz werden zurückgehalten, das Herz wird belastet"
+        ]
+      },
+      {
+        "title": "Ursachen und Risikofaktoren",
+        "paragraphs": [
+          "- akute oder chronische Herzinsuffizienz",
+          "- Diabetes, Bluthochdruck, chronische Nierenerkrankung",
+          "- nephrotoxische Medikamente (z.B. NSAR), Kontrastmittel, Volumenmangel durch zu starke Entwässerung"
+        ]
+      },
+      {
+        "title": "Symptome",
+        "paragraphs": [
+          "- Zeichen der Herzinsuffizienz: Atemnot, Ödeme, Gewichtszunahme",
+          "- wenig Urin trotz Diuretika",
+          "- Müdigkeit, Übelkeit, Juckreiz"
+        ]
+      },
+      {
+        "title": "Diagnostik",
+        "paragraphs": [
+          "- Kreatinin, eGFR, Harnstoff, Kalium im Verlauf",
+          "- NT-proBNP, Echokardiographie",
+          "- Urinmenge und -natrium (Ansprechen auf Diuretika)",
+          "- Ultraschall der Nieren und Venen"
+        ]
+      },
+      {
+        "title": "Therapie",
+        "paragraphs": [
+          "- Stauung behandeln: Diuretika, ggf. kombiniert",
+          "- ein leichter Kreatininanstieg beim Entwässern ist oft akzeptabel, wenn die Stauung abnimmt (ESC)",
+          "- Herzinsuffizienz-Medikamente möglichst fortführen, Dosis anpassen",
+          "- Kalium überwachen, nephrotoxische Medikamente meiden",
+          "- wenn Diuretika nicht reichen: Ultrafiltration oder Dialyse"
+        ]
+      },
+      {
+        "title": "Pflege und Beobachtung",
+        "paragraphs": [
+          "- Ein- und Ausfuhr genau bilanzieren, tägliches Gewicht",
+          "- Urinmenge nach Diuretika-Gabe dokumentieren",
+          "- Blutdruck (Hypotonie bei Übertherapie)",
+          "- Laborwerte Kalium und Kreatinin im Blick, NSAR melden"
+        ]
+      },
+      {
+        "title": "Warnzeichen",
+        "paragraphs": [
+          "- kaum Urin trotz Diuretika",
+          "- Kalium steigt, Kreatinin steigt stark",
+          "- Blutdruckabfall, Verwirrtheit",
+          "- zunehmende Atemnot trotz Therapie"
+        ]
+      }
+    ],
+    "keywords": [
+      "kardiorenales Syndrom",
+      "Niereninsuffizienz",
+      "Kreatinin",
+      "Diuretikaresistenz",
+      "Ultrafiltration",
+      "eGFR"
+    ],
+    "relatedArticleIds": [
+      "a-dekompensation",
+      "a-hfref",
+      "a-hyperkaliaemie"
+    ],
+    "sourceIds": [
+      "aha-crs-2019",
+      "esc-hf-2021"
+    ],
+    "lastChecked": "2026-11-13",
+    "houseSpecific": true,
+    "status": "unreviewed",
+    "termIds": [
+      "t-insuffizienz",
+      "t-oligurie",
+      "t-anurie"
+    ]
+  },
+  {
+    "id": "a-aortendissektion",
+    "title": "Aortendissektion",
+    "category": "Herz und Gefäße",
+    "summary": "Die Innenschicht der Hauptschlagader reißt ein, Blut wühlt sich in die Wand. Lebensbedrohlicher Notfall mit reißendem Brust- oder Rückenschmerz.",
+    "kind": "diagnose",
+    "sections": [
+      {
+        "title": "Kurz erklärt",
+        "paragraphs": [
+          "Bei der Aortendissektion reißt die innere Wandschicht ein. Blut fließt zwischen die Schichten und bildet ein falsches Lumen.",
+          "Einteilung nach Stanford:",
+          "- Typ A: Die aufsteigende Aorta ist betroffen – sofortige Operation",
+          "- Typ B: nur die absteigende Aorta – meist medikamentös, bei Komplikationen Stentgraft (TEVAR)"
+        ]
+      },
+      {
+        "title": "Ursachen und Risikofaktoren",
+        "paragraphs": [
+          "- Bluthochdruck (wichtigster Faktor)",
+          "- Bindegewebserkrankungen (z.B. Marfan-Syndrom), bikuspide Aortenklappe, Aortenaneurysma",
+          "- Kokain, Verletzungen, nach Herzkatheter oder Herzoperation"
+        ]
+      },
+      {
+        "title": "Symptome",
+        "paragraphs": [
+          "- plötzlicher, stärkster, reißender Schmerz in Brust oder Rücken, oft wandernd",
+          "- Blutdruck- oder Pulsunterschied zwischen beiden Armen",
+          "- Synkope, Schlaganfall-Zeichen, Bauchschmerz, kaltes Bein (verschlossene Abgänge)",
+          "- Schock, Herzbeuteltamponade"
+        ]
+      },
+      {
+        "title": "Diagnostik",
+        "paragraphs": [
+          "- CT-Angiographie der gesamten Aorta",
+          "- Echokardiographie (auch TEE), EKG (Infarkt ausschließen)",
+          "- D-Dimere bei niedriger Wahrscheinlichkeit"
+        ]
+      },
+      {
+        "title": "Therapie",
+        "paragraphs": [
+          "- Schmerztherapie, Blutdruck und Puls senken (ESC: Ziel etwa systolisch 100–120 mmHg und Herzfrequenz unter 60/min) mit i.v.-Betablocker",
+          "- Typ A: Notfall-Operation",
+          "- Typ B: Intensivüberwachung; TEVAR bei Komplikationen",
+          "- KEINE Thrombolyse, Antikoagulation oder Plättchenhemmer bei Verdacht – kann tödlich sein"
+        ]
+      },
+      {
+        "title": "Pflege und Beobachtung",
+        "paragraphs": [
+          "- Blutdruck an beiden Armen messen, Pulse an allen Extremitäten tasten",
+          "- engmaschige Vitalzeichen, Monitor, großlumige Zugänge",
+          "- Neurologie, Urinmenge, Bauchschmerz beobachten",
+          "- Ruhe, Pressen vermeiden, Schmerz behandeln"
+        ]
+      },
+      {
+        "title": "Warnzeichen",
+        "paragraphs": [
+          "- reißender Schmerz mit Blutdruckunterschied zwischen den Armen",
+          "- Blutdruckabfall, Bewusstseinsstörung",
+          "- neue Lähmung, kaltes Bein, Bauchschmerz, kein Urin",
+          "- Achtung: bei Brustschmerz mit Verdacht auf Dissektion keine Antikoagulation ohne ärztliche Klärung"
+        ]
+      }
+    ],
+    "keywords": [
+      "Aortendissektion",
+      "Dissektion",
+      "Stanford",
+      "TEVAR",
+      "reißender Schmerz",
+      "Marfan",
+      "Aorta"
+    ],
+    "relatedArticleIds": [
+      "a-hypertensive-krise",
+      "a-stemi",
+      "a-pavk"
+    ],
+    "sourceIds": [
+      "esc-paad-2024"
+    ],
+    "lastChecked": "2026-11-13",
+    "houseSpecific": true,
+    "status": "unreviewed",
+    "termIds": [
+      "t-dissektion",
+      "t-hypertonie"
+    ]
+  },
+  {
+    "id": "a-schrittmacher-icd",
+    "title": "Herzschrittmacher und ICD",
+    "category": "Geräte",
+    "summary": "Ein Schrittmacher springt bei zu langsamem Herzschlag ein. Ein ICD erkennt zusätzlich lebensgefährliche Kammerrhythmen und beendet sie durch Überstimulation oder Schock.",
+    "kind": "prozedur",
+    "sections": [
+      {
+        "title": "Kurz erklärt",
+        "paragraphs": [
+          "- Herzschrittmacher (SM): gibt elektrische Impulse ab, wenn der eigene Rhythmus zu langsam ist",
+          "- ICD (implantierbarer Kardioverter-Defibrillator): wie ein Schrittmacher, zusätzlich antitachykarde Stimulation (ATP) und Schock bei VT/Kammerflimmern",
+          "- CRT (kardiale Resynchronisation): stimuliert beide Kammern gleichzeitig bei Herzinsuffizienz mit Linksschenkelblock",
+          "Ein- und Zweikammersysteme (Sonden im Vorhof und/oder in der Kammer), sondenlose Schrittmacher, subkutaner ICD.",
+          "Am Monitor: Schrittmacher-Spike vor P-Welle (Vorhofstimulation) oder vor breitem QRS (Kammerstimulation)."
+        ]
+      },
+      {
+        "title": "Indikationen",
+        "paragraphs": [
+          "Schrittmacher (ESC 2021):",
+          "- AV-Block III° oder Mobitz II, symptomatisches Sick-Sinus-Syndrom, bradykardes Vorhofflimmern mit Beschwerden",
+          "ICD (ESC 2022):",
+          "- nach überlebtem Kammerflimmern oder anhaltender VT ohne behebbare Ursache",
+          "- Primärprophylaxe bei schwer eingeschränkter Pumpfunktion oder hohem Risiko (z.B. HCM)"
+        ]
+      },
+      {
+        "title": "Ablauf",
+        "paragraphs": [
+          "- Eingriff meist in örtlicher Betäubung, Gerät unter dem Schlüsselbein",
+          "- Sonden über eine Vene ins Herz, Messung und Programmierung",
+          "- Röntgenkontrolle und Geräteabfrage nach dem Eingriff"
+        ]
+      },
+      {
+        "title": "Vorbereitung",
+        "paragraphs": [
+          "- Einverständnis, Labor (Gerinnung, Kalium), nüchtern nach Hausstandard",
+          "- Antikoagulation nach ärztlicher Anordnung (oft nicht unterbrochen)",
+          "- Antibiotika-Prophylaxe nach Anordnung, Rasur/Hautvorbereitung nach Standard"
+        ]
+      },
+      {
+        "title": "Nachsorge und Pflege",
+        "paragraphs": [
+          "- Wunde: Blutung, Hämatom, Schwellung, Infektzeichen",
+          "- Arm auf der OP-Seite nach Hausstandard schonen (nicht über Kopf heben), damit die Sonden einwachsen",
+          "- Monitor: regelmäßige Stimulation? Wahrnehmungs- oder Stimulationsfehler?",
+          "- Schrittmacher-Ausweis aushändigen, Nachsorgetermine",
+          "- Alltag: Handy nicht direkt über dem Gerät, MRT nur nach Prüfung, Magnet legt beim ICD die Schocktherapie still",
+          "- ICD-Schock: Patient untersuchen, Arzt informieren, Geräteabfrage veranlassen"
+        ]
+      },
+      {
+        "title": "Komplikationen",
+        "paragraphs": [
+          "- Pneumothorax (Atemnot, Brustschmerz)",
+          "- Hämatom in der Gerätetasche, besonders unter Antikoagulation",
+          "- Sondendislokation: Stimulation fällt aus oder Zwerchfellzucken",
+          "- Perikarderguss/Tamponade durch Sondenperforation",
+          "- Infektion des Systems (später auch Endokarditis)",
+          "- unangemessene ICD-Schocks (z.B. bei Vorhofflimmern)"
+        ]
+      }
+    ],
+    "keywords": [
+      "Schrittmacher",
+      "SM",
+      "ICD",
+      "CRT",
+      "Defibrillator",
+      "Sonde",
+      "Spike",
+      "Geräteabfrage",
+      "Magnet",
+      "Schock"
+    ],
+    "relatedArticleIds": [
+      "a-av-block",
+      "a-sick-sinus",
+      "a-kammerflimmern",
+      "a-vt",
+      "a-perikarditis",
+      "a-endokarditis"
+    ],
+    "sourceIds": [
+      "esc-pacing-2021",
+      "esc-va-2022"
+    ],
+    "lastChecked": "2026-11-13",
+    "houseSpecific": true,
+    "status": "unreviewed",
+    "termIds": [
+      "t-defibrillation",
+      "t-bradykardie"
+    ]
   }
 ]

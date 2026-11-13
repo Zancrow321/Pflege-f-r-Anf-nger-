@@ -182,5 +182,17 @@
     "citation": "Caforio ALP, Pankuweit S, Arbustini E, et al. Current state of knowledge on aetiology, diagnosis, management, and therapy of myocarditis: a position statement of the ESC Working Group on Myocardial and Pericardial Diseases. Eur Heart J. 2013;34(33):2636–2648.",
     "url": "https://doi.org/10.1093/eurheartj/eht210",
     "year": 2013
+  },
+  {
+    "id": "esvs-vt-2021",
+    "citation": "Kakkos SK, Gohel M, Baekgaard N, et al. European Society for Vascular Surgery (ESVS) 2021 Clinical Practice Guidelines on the Management of Venous Thrombosis. Eur J Vasc Endovasc Surg. 2021;61(1):9–82.",
+    "url": "https://doi.org/10.1016/j.ejvs.2020.09.023",
+    "year": 2021
+  },
+  {
+    "id": "aha-crs-2019",
+    "citation": "Rangaswami J, Bhalla V, Blair JEA, et al. Cardiorenal Syndrome: Classification, Pathophysiology, Diagnosis, and Treatment Strategies. A Scientific Statement From the American Heart Association. Circulation. 2019;139(16):e840–e878.",
+    "url": "https://doi.org/10.1161/CIR.0000000000000664",
+    "year": 2019
   }
 ]

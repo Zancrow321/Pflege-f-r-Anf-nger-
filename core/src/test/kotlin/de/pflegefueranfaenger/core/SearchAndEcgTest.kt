@@ -17,7 +17,7 @@ class SearchAndEcgTest {
         val a = index.search("Hypokaliämie").first()
         val b = index.search("hypokaliaemie").first()
         assertEquals(a.title, b.title)
-        assertTrue(a is SearchHit.TermHit)
+        assertTrue(index.search("hypokaliaemie").any { it is SearchHit.TermHit && it.term.id == "t-hypokaliaemie" })
     }
 
     @Test

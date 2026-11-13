@@ -1238,5 +1238,26 @@
       "pschyrembel"
     ],
     "example": "hypertrophe Kardiomyopathie"
+  },
+  {
+    "id": "t-dissektion",
+    "term": "Dissektion",
+    "parts": [
+      {
+        "part": "Dis",
+        "meaning": "auseinander",
+        "origin": "lat. dis-"
+      },
+      {
+        "part": "sektion",
+        "meaning": "Schnitt, Trennung",
+        "origin": "lat. sectio"
+      }
+    ],
+    "meaning": "Einriss und Aufspaltung der Gefäßwandschichten, z.B. der Aorta",
+    "sourceIds": [
+      "pschyrembel"
+    ],
+    "example": "Aortendissektion"
   }
 ]
