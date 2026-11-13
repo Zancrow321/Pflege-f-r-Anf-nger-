@@ -5633,6 +5633,372 @@
           ]
         }
       ]
+    },
+    {
+      "id": "u15",
+      "title": "Medikamente 1: Herzinsuffizienz und Rhythmus",
+      "level": "station",
+      "description": "Betablocker, RAAS-Hemmer, MRA, SGLT2-Hemmer, Diuretika, Amiodaron und Digitalis.",
+      "lessons": [
+        {
+          "id": "u15l1",
+          "title": "Die vier Säulen der HFrEF-Therapie",
+          "card": {
+            "title": "Vier Säulen",
+            "text": "Bei HFrEF verlängern vier Medikamentengruppen gemeinsam das Leben.",
+            "bullets": [
+              "Betablocker",
+              "ARNI oder ACE-Hemmer",
+              "MRA",
+              "SGLT2-Hemmer"
+            ]
+          },
+          "questions": [
+            {
+              "id": "u15l1q1",
+              "type": "matching",
+              "prompt": "Ordne den Wirkstoff seiner Gruppe zu.",
+              "pairs": [
+                {
+                  "left": "Bisoprolol",
+                  "right": "Betablocker"
+                },
+                {
+                  "left": "Sacubitril/Valsartan",
+                  "right": "ARNI"
+                },
+                {
+                  "left": "Spironolacton",
+                  "right": "MRA"
+                },
+                {
+                  "left": "Dapagliflozin",
+                  "right": "SGLT2-Hemmer"
+                }
+              ],
+              "explanation": "Diese vier Gruppen bilden die Basistherapie der HFrEF."
+            },
+            {
+              "id": "u15l1q2",
+              "type": "single_choice",
+              "prompt": "Was kontrollierst du vor der Gabe eines Betablockers?",
+              "options": [
+                "Puls und Blutdruck",
+                "Körpergröße",
+                "Augenfarbe",
+                "Temperatur allein"
+              ],
+              "correctIndex": 0,
+              "explanation": "Bei Bradykardie oder Hypotonie Rücksprache nach Anordnung."
+            },
+            {
+              "id": "u15l1q3",
+              "type": "single_choice",
+              "prompt": "Welche Nebenwirkung ist bei ACE-Hemmern typisch?",
+              "options": [
+                "trockener Reizhusten",
+                "Haarwuchs",
+                "Gelbsehen",
+                "Durchfall immer"
+              ],
+              "correctIndex": 0,
+              "explanation": "Dann wird oft auf ein Sartan oder ARNI gewechselt."
+            },
+            {
+              "id": "u15l1q4",
+              "type": "true_false",
+              "statement": "Spironolacton und ACE-Hemmer zusammen können das Kalium gefährlich erhöhen.",
+              "correct": true,
+              "explanation": "Richtig. Kalium und Kreatinin regelmäßig kontrollieren."
+            },
+            {
+              "id": "u15l1q5",
+              "type": "single_choice",
+              "prompt": "Was solltest du bei einem Patienten unter SGLT2-Hemmer mit Übelkeit, Bauchschmerz und schneller Atmung bedenken?",
+              "options": [
+                "euglykämische Ketoazidose",
+                "Sonnenbrand",
+                "Heuschnupfen",
+                "Muskelkater"
+              ],
+              "correctIndex": 0,
+              "explanation": "Der Blutzucker kann dabei normal sein. Arzt informieren."
+            }
+          ],
+          "sourceIds": [
+            "esc-hf-2021",
+            "esc-hf-2023"
+          ],
+          "articleIds": [
+            "m-betablocker",
+            "m-raas-hemmer",
+            "m-mra",
+            "m-sglt2"
+          ],
+          "termIds": []
+        },
+        {
+          "id": "u15l2",
+          "title": "Angioödem und RAAS-Hemmer",
+          "card": {
+            "title": "Achtung Schwellung",
+            "text": "ACE-Hemmer und ARNI können selten eine gefährliche Schwellung von Lippen, Zunge und Rachen auslösen.",
+            "bullets": [
+              "„-pril“ = ACE-Hemmer",
+              "„-sartan“ = Sartan",
+              "36 h Abstand ACE-Hemmer → ARNI",
+              "Schwellung: sofort Arzt"
+            ]
+          },
+          "questions": [
+            {
+              "id": "u15l2q1",
+              "type": "single_choice",
+              "prompt": "Woran erkennst du einen ACE-Hemmer am Namen?",
+              "options": [
+                "Endung „-pril“",
+                "Endung „-olol“",
+                "Endung „-statin“",
+                "Endung „-gliflozin“"
+              ],
+              "correctIndex": 0,
+              "explanation": "Ramipril, Enalapril, Lisinopril."
+            },
+            {
+              "id": "u15l2q2",
+              "type": "matching",
+              "prompt": "Ordne die Endung zu.",
+              "pairs": [
+                {
+                  "left": "-olol",
+                  "right": "Betablocker"
+                },
+                {
+                  "left": "-pril",
+                  "right": "ACE-Hemmer"
+                },
+                {
+                  "left": "-sartan",
+                  "right": "Sartan"
+                },
+                {
+                  "left": "-gliflozin",
+                  "right": "SGLT2-Hemmer"
+                }
+              ],
+              "explanation": "Endungen helfen beim schnellen Einordnen."
+            },
+            {
+              "id": "u15l2q3",
+              "type": "true_false",
+              "statement": "Ein ARNI darf direkt am selben Tag wie der letzte ACE-Hemmer begonnen werden.",
+              "correct": false,
+              "explanation": "Falsch. Mindestens 36 Stunden Abstand – sonst steigt das Angioödem-Risiko."
+            },
+            {
+              "id": "u15l2q4",
+              "type": "single_choice",
+              "prompt": "Ein Patient unter Ramipril hat plötzlich eine geschwollene Zunge. Was tust du?",
+              "options": [
+                "sofort Arzt/Notfall, Atemweg beobachten",
+                "abwarten bis morgen",
+                "Kühlpack und weiter Ramipril",
+                "Patient schlafen lassen"
+              ],
+              "correctIndex": 0,
+              "explanation": "Ein Angioödem kann die Atemwege verschließen."
+            },
+            {
+              "id": "u15l2q5",
+              "type": "single_choice",
+              "prompt": "Welche Laborwerte kontrollierst du unter RAAS-Hemmern?",
+              "options": [
+                "Kalium und Kreatinin",
+                "Cholesterin und Harnsäure",
+                "nur Blutzucker",
+                "Vitamin D"
+              ],
+              "correctIndex": 0,
+              "explanation": "Hyperkaliämie und Nierenwertanstieg sind typische Probleme."
+            }
+          ],
+          "sourceIds": [
+            "esc-hf-2021",
+            "esc-htn-2024"
+          ],
+          "articleIds": [
+            "m-raas-hemmer"
+          ],
+          "termIds": []
+        },
+        {
+          "id": "u15l3",
+          "title": "Diuretika",
+          "card": {
+            "title": "Wasser raus",
+            "text": "Schleifendiuretika sind das wichtigste Mittel gegen Stauung. Sie spülen aber auch Kalium und Magnesium aus.",
+            "bullets": [
+              "Furosemid, Torasemid",
+              "Gewicht und Bilanz",
+              "Kalium, Natrium, Kreatinin",
+              "morgens geben, Sturzgefahr"
+            ]
+          },
+          "questions": [
+            {
+              "id": "u15l3q1",
+              "type": "single_choice",
+              "prompt": "Welche Elektrolytstörung verursachen Schleifendiuretika häufig?",
+              "options": [
+                "Hypokaliämie",
+                "Hyperkaliämie",
+                "Hyperkalzämie",
+                "Hypernatriämie immer"
+              ],
+              "correctIndex": 0,
+              "explanation": "Deshalb Kalium und Magnesium kontrollieren."
+            },
+            {
+              "id": "u15l3q2",
+              "type": "single_choice",
+              "prompt": "Wie überprüfst du, ob die Entwässerung wirkt?",
+              "options": [
+                "Gewicht und Bilanz",
+                "Pupillenreaktion",
+                "Hautfarbe allein",
+                "Haarwachstum"
+              ],
+              "correctIndex": 0,
+              "explanation": "Tägliches Gewicht gleiche Uhrzeit, gleiche Waage."
+            },
+            {
+              "id": "u15l3q3",
+              "type": "true_false",
+              "statement": "Diuretika gibt man möglichst morgens oder mittags.",
+              "correct": true,
+              "explanation": "Richtig. So muss der Patient nachts seltener auf die Toilette."
+            },
+            {
+              "id": "u15l3q4",
+              "type": "single_choice",
+              "prompt": "Welche Gefahr besteht nach Furosemid-Gabe bei älteren Patienten?",
+              "options": [
+                "Sturz auf dem Weg zur Toilette",
+                "Hautausschlag immer",
+                "Fieber",
+                "Haarausfall"
+              ],
+              "correctIndex": 0,
+              "explanation": "Harndrang plus Blutdruckabfall: Begleitung und Urinflasche anbieten."
+            },
+            {
+              "id": "u15l3q5",
+              "type": "single_choice",
+              "prompt": "Was ist Torasemid?",
+              "options": [
+                "ein Schleifendiuretikum",
+                "ein Betablocker",
+                "ein Antibiotikum",
+                "ein Statin"
+              ],
+              "correctIndex": 0,
+              "explanation": "Wie Furosemid, aber länger wirksam."
+            }
+          ],
+          "sourceIds": [
+            "esc-hf-2021"
+          ],
+          "articleIds": [
+            "m-diuretika"
+          ],
+          "termIds": []
+        },
+        {
+          "id": "u15l4",
+          "title": "Amiodaron und Digitalis",
+          "card": {
+            "title": "Starke Mittel, enge Grenzen",
+            "text": "Amiodaron und Digitalis helfen bei Rhythmusstörungen, haben aber viele Nebenwirkungen und Wechselwirkungen.",
+            "bullets": [
+              "Amiodaron: QT, Schilddrüse, Lunge, Venenreizung",
+              "nur in Glukose 5 % verdünnen",
+              "Digitalis: Übelkeit, Gelbsehen, Bradykardie",
+              "Hypokaliämie erhöht Digitalis-Giftigkeit"
+            ]
+          },
+          "questions": [
+            {
+              "id": "u15l4q1",
+              "type": "single_choice",
+              "prompt": "Wann wird Amiodaron in der Reanimation gegeben?",
+              "options": [
+                "nach dem 3. Schock (300 mg)",
+                "vor dem ersten Schock",
+                "nie",
+                "nur bei Asystolie"
+              ],
+              "correctIndex": 0,
+              "explanation": "So im ERC-Algorithmus bei defibrillierbaren Rhythmen."
+            },
+            {
+              "id": "u15l4q2",
+              "type": "single_choice",
+              "prompt": "In welcher Lösung wird Amiodaron i.v. verdünnt?",
+              "options": [
+                "Glukose 5 %",
+                "NaCl 0,9 %",
+                "Ringer-Laktat",
+                "Wasser für Injektionszwecke"
+              ],
+              "correctIndex": 0,
+              "explanation": "Laut Fachinformation in Glukose 5 %."
+            },
+            {
+              "id": "u15l4q3",
+              "type": "single_choice",
+              "prompt": "Welches Symptom passt zu einer Digitalis-Vergiftung?",
+              "options": [
+                "Gelb-Grün-Sehen und Übelkeit",
+                "Fieber und Husten",
+                "Juckreiz",
+                "Haarausfall"
+              ],
+              "correctIndex": 0,
+              "explanation": "Auch Bradykardie und Rhythmusstörungen sind typisch."
+            },
+            {
+              "id": "u15l4q4",
+              "type": "true_false",
+              "statement": "Hypokaliämie erhöht das Risiko einer Digitalis-Vergiftung.",
+              "correct": true,
+              "explanation": "Richtig. Kalium im Normbereich halten."
+            },
+            {
+              "id": "u15l4q5",
+              "type": "single_choice",
+              "prompt": "Welche Organe schädigt Amiodaron bei Langzeitgabe?",
+              "options": [
+                "Schilddrüse, Lunge, Leber",
+                "nur die Haare",
+                "Zähne",
+                "keine"
+              ],
+              "correctIndex": 0,
+              "explanation": "Deshalb regelmäßige Kontrollen von TSH und Leberwerten."
+            }
+          ],
+          "sourceIds": [
+            "esc-va-2022",
+            "erc-als-2021",
+            "esc-af-2024"
+          ],
+          "articleIds": [
+            "m-amiodaron",
+            "m-digitalis"
+          ],
+          "termIds": []
+        }
+      ]
     }
   ]
 }
