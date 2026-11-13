@@ -503,6 +503,618 @@
       ]
     },
     {
+      "id": "u18",
+      "title": "Lage- und Richtungsbegriffe",
+      "description": "Wo liegt was? Dexter, sinister, proximal, distal & Co. – mit Bildern.",
+      "level": "grundlagen",
+      "lessons": [
+        {
+          "id": "u18l1",
+          "title": "Rechts, links, oben, unten",
+          "card": {
+            "title": "Immer aus Sicht der Person",
+            "text": "Lagebegriffe gelten immer aus Sicht der Patientin oder des Patienten, nicht aus deiner. Steht oder liegt jemand vor dir und schaut dich an, ist seine rechte Seite für dich links.",
+            "bullets": [
+              "dexter = rechts, sinister = links",
+              "kranial = kopfwärts, kaudal = steißwärts (am Rumpf: fußwärts)",
+              "median = genau in der Mittellinie",
+              "Tipp: Stell dir vor, du stehst im Körper der Person."
+            ],
+            "illustration": {
+              "figure": "body_front"
+            }
+          },
+          "questions": [
+            {
+              "id": "u18l1q1",
+              "type": "single_choice",
+              "prompt": "Wie heißt die markierte Richtung?",
+              "options": [
+                "dexter (rechts)",
+                "sinister (links)",
+                "kranial",
+                "lateral"
+              ],
+              "correctIndex": 0,
+              "explanation": "Der Pfeil zeigt zur rechten Körperseite der Person = dexter. Die Person schaut dich an. Ihr rechts ist für dich links.",
+              "illustration": {
+                "figure": "body_front",
+                "highlight": "dexter",
+                "labels": false
+              }
+            },
+            {
+              "id": "u18l1q2",
+              "type": "single_choice",
+              "prompt": "Wie heißt die markierte Richtung?",
+              "options": [
+                "kranial",
+                "kaudal",
+                "dorsal",
+                "distal"
+              ],
+              "correctIndex": 0,
+              "explanation": "Kranial = kopfwärts (griech. kraníon = Schädel).",
+              "illustration": {
+                "figure": "body_front",
+                "highlight": "kranial",
+                "labels": false
+              }
+            },
+            {
+              "id": "u18l1q3",
+              "type": "true_false",
+              "statement": "„Sinister“ bedeutet rechts.",
+              "correct": false,
+              "explanation": "Falsch. Sinister = links, dexter = rechts. Eselsbrücke: Dexterität heißt Geschicklichkeit – bei den meisten Menschen ist das die rechte Hand."
+            },
+            {
+              "id": "u18l1q4",
+              "type": "matching",
+              "prompt": "Ordne die Begriffe zu.",
+              "pairs": [
+                {
+                  "left": "dexter",
+                  "right": "rechts"
+                },
+                {
+                  "left": "sinister",
+                  "right": "links"
+                },
+                {
+                  "left": "kranial",
+                  "right": "kopfwärts"
+                },
+                {
+                  "left": "kaudal",
+                  "right": "steißwärts, fußwärts"
+                }
+              ],
+              "explanation": "Dexter/sinister beschreiben die Seite, kranial/kaudal die Richtung entlang der Körperlängsachse."
+            },
+            {
+              "id": "u18l1q5",
+              "type": "single_choice",
+              "prompt": "Dein Patient liegt im Bett und schaut dich an. Er hat Schmerzen im Arm sinister. Welcher Arm ist das von dir aus gesehen?",
+              "options": [
+                "der Arm auf deiner rechten Seite",
+                "der Arm auf deiner linken Seite"
+              ],
+              "correctIndex": 0,
+              "explanation": "Sinister = sein linker Arm. Da er dich anschaut, liegt sein linker Arm auf deiner rechten Seite.",
+              "illustration": {
+                "figure": "body_front",
+                "highlight": "sinister"
+              }
+            },
+            {
+              "id": "u18l1q6",
+              "type": "word_parts",
+              "term": "kranial",
+              "parts": [
+                {
+                  "part": "krani",
+                  "meaning": "Schädel, Kopf",
+                  "origin": "griech. kraníon"
+                },
+                {
+                  "part": "al",
+                  "meaning": "betreffend, zugehörig",
+                  "origin": "lat. -alis"
+                }
+              ],
+              "distractors": [
+                "Bauch",
+                "Rücken"
+              ],
+              "meaning": "zum Kopf hin, kopfwärts",
+              "explanation": "Krani|al = den Schädel betreffend → kopfwärts."
+            }
+          ],
+          "sourceIds": [
+            "prometheus-2018",
+            "fipat-ta-2019",
+            "pschyrembel"
+          ],
+          "articleIds": [
+            "a-lagebegriffe"
+          ],
+          "termIds": [
+            "t-dexter",
+            "t-sinister",
+            "t-kranial",
+            "t-kaudal",
+            "t-median"
+          ]
+        },
+        {
+          "id": "u18l2",
+          "title": "Vorne, hinten, Mitte, Seite",
+          "card": {
+            "title": "Bauch, Rücken, Mitte, Seite",
+            "text": "Ventral und anterior meinen vorne (bauchwärts), dorsal und posterior hinten (rückenwärts). Medial heißt zur Mitte hin, lateral zur Seite hin.",
+            "bullets": [
+              "ventral / anterior = vorne",
+              "dorsal / posterior = hinten",
+              "superior = oben, inferior = unten (z.B. Vena cava superior / inferior)",
+              "medial = zur Mitte, lateral = zur Seite",
+              "bilateral = beidseits, z.B. bilaterale Beinödeme"
+            ],
+            "illustration": {
+              "figure": "body_side"
+            }
+          },
+          "questions": [
+            {
+              "id": "u18l2q1",
+              "type": "single_choice",
+              "prompt": "Wie heißt die markierte Richtung?",
+              "options": [
+                "ventral",
+                "dorsal",
+                "kaudal",
+                "medial"
+              ],
+              "correctIndex": 0,
+              "explanation": "Ventral = bauchwärts (lat. venter = Bauch). Gleichbedeutend am Rumpf: anterior = vorne.",
+              "illustration": {
+                "figure": "body_side",
+                "highlight": "ventral",
+                "labels": false
+              }
+            },
+            {
+              "id": "u18l2q2",
+              "type": "single_choice",
+              "prompt": "Wie heißt die markierte Richtung?",
+              "options": [
+                "dorsal / posterior",
+                "ventral / anterior",
+                "superior",
+                "lateral"
+              ],
+              "correctIndex": 0,
+              "explanation": "Dorsal = rückenwärts (lat. dorsum = Rücken), posterior = hinten.",
+              "illustration": {
+                "figure": "body_side",
+                "highlight": "dorsal",
+                "labels": false
+              }
+            },
+            {
+              "id": "u18l2q3",
+              "type": "single_choice",
+              "prompt": "Wie heißt die markierte Richtung?",
+              "options": [
+                "medial",
+                "lateral",
+                "median",
+                "distal"
+              ],
+              "correctIndex": 0,
+              "explanation": "Medial = zur Mitte hin. Median wäre genau auf der Mittellinie.",
+              "illustration": {
+                "figure": "body_front",
+                "highlight": "medial",
+                "labels": false
+              }
+            },
+            {
+              "id": "u18l2q4",
+              "type": "single_choice",
+              "prompt": "Wie heißt die markierte Richtung?",
+              "options": [
+                "lateral",
+                "medial",
+                "dorsal",
+                "proximal"
+              ],
+              "correctIndex": 0,
+              "explanation": "Lateral = zur Seite hin (lat. latus = Seite).",
+              "illustration": {
+                "figure": "body_front",
+                "highlight": "lateral",
+                "labels": false
+              }
+            },
+            {
+              "id": "u18l2q5",
+              "type": "matching",
+              "prompt": "Ordne die Begriffe zu.",
+              "pairs": [
+                {
+                  "left": "ventral",
+                  "right": "bauchwärts"
+                },
+                {
+                  "left": "dorsal",
+                  "right": "rückenwärts"
+                },
+                {
+                  "left": "medial",
+                  "right": "zur Mitte hin"
+                },
+                {
+                  "left": "lateral",
+                  "right": "zur Seite hin"
+                }
+              ],
+              "explanation": "Ventral/dorsal: vorne/hinten. Medial/lateral: Mitte/Seite."
+            },
+            {
+              "id": "u18l2q6",
+              "type": "word_parts",
+              "term": "bilateral",
+              "parts": [
+                {
+                  "part": "bi",
+                  "meaning": "zwei, doppelt",
+                  "origin": "lat. bis"
+                },
+                {
+                  "part": "later",
+                  "meaning": "Seite",
+                  "origin": "lat. latus, lateris"
+                },
+                {
+                  "part": "al",
+                  "meaning": "betreffend, zugehörig",
+                  "origin": "lat. -alis"
+                }
+              ],
+              "distractors": [
+                "Mitte",
+                "Rücken"
+              ],
+              "meaning": "beidseits, auf beiden Seiten",
+              "explanation": "Bi|later|al = zwei Seiten betreffend → beidseits."
+            }
+          ],
+          "sourceIds": [
+            "prometheus-2018",
+            "fipat-ta-2019",
+            "pschyrembel"
+          ],
+          "articleIds": [
+            "a-lagebegriffe"
+          ],
+          "termIds": [
+            "t-ventral",
+            "t-dorsal",
+            "t-anterior",
+            "t-posterior",
+            "t-superior",
+            "t-inferior",
+            "t-medial",
+            "t-lateral",
+            "t-bilateral"
+          ]
+        },
+        {
+          "id": "u18l3",
+          "title": "Rumpfnah, rumpffern",
+          "card": {
+            "title": "Proximal und distal",
+            "text": "An Armen und Beinen zählt der Abstand zum Rumpf: proximal = rumpfnah, distal = rumpffern. Der Ellenbogen liegt proximal der Hand, die Hand distal des Ellenbogens.",
+            "bullets": [
+              "zentral = in der Körpermitte, peripher = am Rand (Arme, Beine)",
+              "PVK = periphere Venenverweilkanüle, ZVK = zentraler Venenkatheter",
+              "Nach einer Punktion: Durchblutung distal davon prüfen (Pulse, Farbe, Temperatur)",
+              "ipsilateral = gleiche Seite, kontralateral = Gegenseite"
+            ],
+            "illustration": {
+              "figure": "limb"
+            }
+          },
+          "questions": [
+            {
+              "id": "u18l3q1",
+              "type": "single_choice",
+              "prompt": "Wie heißt die markierte Richtung?",
+              "options": [
+                "distal",
+                "proximal",
+                "lateral",
+                "kaudal"
+              ],
+              "correctIndex": 0,
+              "explanation": "Distal = vom Rumpf weg (lat. distare = entfernt sein).",
+              "illustration": {
+                "figure": "limb",
+                "highlight": "distal",
+                "labels": false
+              }
+            },
+            {
+              "id": "u18l3q2",
+              "type": "single_choice",
+              "prompt": "Wie heißt die markierte Richtung?",
+              "options": [
+                "proximal",
+                "distal",
+                "medial",
+                "dorsal"
+              ],
+              "correctIndex": 0,
+              "explanation": "Proximal = zum Rumpf hin (lat. proximus = der Nächste).",
+              "illustration": {
+                "figure": "limb",
+                "highlight": "proximal",
+                "labels": false
+              }
+            },
+            {
+              "id": "u18l3q3",
+              "type": "true_false",
+              "statement": "Die Hand liegt distal vom Ellenbogen.",
+              "correct": true,
+              "explanation": "Richtig. Die Hand ist weiter vom Rumpf entfernt als der Ellenbogen.",
+              "illustration": {
+                "figure": "limb"
+              }
+            },
+            {
+              "id": "u18l3q4",
+              "type": "single_choice",
+              "prompt": "Nach einem Herzkatheter über die rechte Leiste kontrollierst du die Durchblutung des Beins. Wo prüfst du die Pulse?",
+              "options": [
+                "distal der Punktionsstelle, z.B. an den Fußpulsen",
+                "proximal der Punktionsstelle, am Bauch",
+                "nur direkt an der Punktionsstelle",
+                "am linken Handgelenk"
+              ],
+              "correctIndex": 0,
+              "explanation": "Ein Hämatom oder Verschluss stört die Durchblutung unterhalb, also distal der Punktion. Deshalb Fußpulse, Hautfarbe, Temperatur und Gefühl im Bein prüfen."
+            },
+            {
+              "id": "u18l3q5",
+              "type": "matching",
+              "prompt": "Ordne die Begriffe zu.",
+              "pairs": [
+                {
+                  "left": "proximal",
+                  "right": "rumpfnah"
+                },
+                {
+                  "left": "distal",
+                  "right": "rumpffern"
+                },
+                {
+                  "left": "ipsilateral",
+                  "right": "auf derselben Seite"
+                },
+                {
+                  "left": "kontralateral",
+                  "right": "auf der Gegenseite"
+                }
+              ],
+              "explanation": "Proximal/distal: Abstand zum Rumpf. Ipsi-/kontralateral: gleiche Seite oder Gegenseite."
+            },
+            {
+              "id": "u18l3q6",
+              "type": "word_parts",
+              "term": "peripher",
+              "parts": [
+                {
+                  "part": "peri",
+                  "meaning": "um … herum",
+                  "origin": "griech. perí"
+                },
+                {
+                  "part": "pher",
+                  "meaning": "tragen",
+                  "origin": "griech. phérein"
+                }
+              ],
+              "distractors": [
+                "Mitte",
+                "zwischen"
+              ],
+              "meaning": "am Rand gelegen, fern vom Körperzentrum",
+              "explanation": "Peri|pher kommt von periphéreia = Umfang, Rand. Periphere Zugänge liegen an Armen oder Beinen."
+            }
+          ],
+          "sourceIds": [
+            "prometheus-2018",
+            "fipat-ta-2019",
+            "pschyrembel"
+          ],
+          "articleIds": [
+            "a-lagebegriffe"
+          ],
+          "termIds": [
+            "t-proximal",
+            "t-distal",
+            "t-peripher",
+            "t-ipsilateral",
+            "t-kontralateral"
+          ]
+        },
+        {
+          "id": "u18l4",
+          "title": "Lagebegriffe auf der Telemetrie",
+          "card": {
+            "title": "Wo genau? Herz, Elektroden, Lagerung",
+            "text": "Infarkte, Elektroden und Lagerungen werden mit Lagebegriffen beschrieben. Wer sie kennt, versteht Befunde und Übergaben schneller.",
+            "bullets": [
+              "Vorderwand = anterior (meist RIVA/LAD), Hinterwand = inferior (meist RCA), Seitenwand = lateral (meist RCX)",
+              "Interkostalraum (ICR) = Raum zwischen zwei Rippen",
+              "parasternal = neben dem Brustbein: V1 im 4. ICR rechts parasternal",
+              "Herzbettlage = Oberkörper hoch, Beine tief"
+            ],
+            "illustration": {
+              "figure": "coronaries"
+            }
+          },
+          "questions": [
+            {
+              "id": "u18l4q1",
+              "type": "single_choice",
+              "prompt": "Wie heißt diese Lagerung?",
+              "options": [
+                "Herzbettlage",
+                "Flachlage",
+                "Oberkörperhochlage 30°",
+                "Schocklage"
+              ],
+              "correctIndex": 0,
+              "explanation": "Herzbettlage: Oberkörper hoch, Beine tief. Weniger Blut fließt zum Herzen zurück, die Lunge wird entlastet. Nicht bei niedrigem Blutdruck oder Schock.",
+              "illustration": {
+                "figure": "positioning",
+                "highlight": "herzbett",
+                "labels": false
+              }
+            },
+            {
+              "id": "u18l4q2",
+              "type": "single_choice",
+              "prompt": "V1 klebt im 4. ICR rechts parasternal (markiert). Was bedeutet parasternal?",
+              "options": [
+                "neben dem Brustbein",
+                "unter dem Schlüsselbein",
+                "in der Achselhöhle",
+                "über dem Rippenbogen"
+              ],
+              "correctIndex": 0,
+              "explanation": "Para = neben, Sternum = Brustbein. V1 liegt rechts neben dem Brustbein im 4. Zwischenrippenraum.",
+              "illustration": {
+                "figure": "electrodes",
+                "highlight": "weiss",
+                "labels": false
+              }
+            },
+            {
+              "id": "u18l4q3",
+              "type": "single_choice",
+              "prompt": "Das markierte Gefäß versorgt vor allem die Vorderwand. Wie heißt es?",
+              "options": [
+                "RIVA / LAD",
+                "RCA",
+                "RCX",
+                "Hauptstamm"
+              ],
+              "correctIndex": 0,
+              "explanation": "Der RIVA (Ramus interventricularis anterior, engl. LAD) läuft vorne zwischen den Kammern zur Herzspitze. Ein Verschluss führt zum Vorderwandinfarkt.",
+              "illustration": {
+                "figure": "coronaries",
+                "highlight": "lad",
+                "labels": false
+              }
+            },
+            {
+              "id": "u18l4q4",
+              "type": "single_choice",
+              "prompt": "Ein Hinterwandinfarkt wird im EKG-Befund meist als … bezeichnet.",
+              "options": [
+                "inferior",
+                "anterior",
+                "lateral",
+                "septal"
+              ],
+              "correctIndex": 0,
+              "explanation": "Hinterwand = inferior (Ableitungen II, III, aVF), meist durch Verschluss der RCA. Achte dabei auf Bradykardie und AV-Block.",
+              "illustration": {
+                "figure": "coronaries",
+                "highlight": "rca"
+              }
+            },
+            {
+              "id": "u18l4q5",
+              "type": "matching",
+              "prompt": "Ordne die Begriffe zu.",
+              "pairs": [
+                {
+                  "left": "Interkostalraum",
+                  "right": "Raum zwischen zwei Rippen"
+                },
+                {
+                  "left": "parasternal",
+                  "right": "neben dem Brustbein"
+                },
+                {
+                  "left": "anterior",
+                  "right": "vorne"
+                },
+                {
+                  "left": "inferior",
+                  "right": "unten"
+                }
+              ],
+              "explanation": "Diese Begriffe brauchst du für Elektroden und Infarktlokalisation."
+            },
+            {
+              "id": "u18l4q6",
+              "type": "word_parts",
+              "term": "interkostal",
+              "parts": [
+                {
+                  "part": "inter",
+                  "meaning": "zwischen",
+                  "origin": "lat. inter"
+                },
+                {
+                  "part": "kost",
+                  "meaning": "Rippe",
+                  "origin": "lat. costa"
+                },
+                {
+                  "part": "al",
+                  "meaning": "betreffend, zugehörig",
+                  "origin": "lat. -alis"
+                }
+              ],
+              "distractors": [
+                "unter",
+                "Brustbein"
+              ],
+              "meaning": "zwischen den Rippen gelegen",
+              "explanation": "Inter|kost|al = zwischen den Rippen. ICR = Interkostalraum."
+            }
+          ],
+          "sourceIds": [
+            "prometheus-2018",
+            "fipat-ta-2019",
+            "pschyrembel",
+            "aha-monitoring-2017",
+            "esc-acs-2023",
+            "icare-2020"
+          ],
+          "articleIds": [
+            "a-lagebegriffe",
+            "a-elektroden",
+            "a-stemi",
+            "a-lagerung-herz"
+          ],
+          "termIds": [
+            "t-interkostal",
+            "t-parasternal",
+            "t-anterior",
+            "t-inferior"
+          ]
+        }
+      ]
+    },
+    {
       "id": "u2",
       "title": "Herz & Kreislauf",
       "level": "grundlagen",
@@ -519,7 +1131,10 @@
               "→ Pulmonalklappe → Lungenarterie → Lunge",
               "→ Lungenvenen → linker Vorhof → Mitralklappe → linke Kammer",
               "→ Aortenklappe → Aorta → Körper"
-            ]
+            ],
+            "illustration": {
+              "figure": "heart_anatomy"
+            }
           },
           "questions": [
             {
@@ -591,6 +1206,24 @@
                 }
               ],
               "explanation": "Die linke Kammer hat die dickste Wand, weil sie gegen den hohen Druck im Körperkreislauf pumpt."
+            },
+            {
+              "id": "u2l1q6",
+              "type": "single_choice",
+              "prompt": "Welche Klappe ist markiert?",
+              "options": [
+                "Mitralklappe",
+                "Trikuspidalklappe",
+                "Aortenklappe",
+                "Pulmonalklappe"
+              ],
+              "correctIndex": 0,
+              "explanation": "Die Mitralklappe liegt zwischen linkem Vorhof und linker Kammer.",
+              "illustration": {
+                "figure": "heart_anatomy",
+                "highlight": "mitralklappe",
+                "labels": false
+              }
             }
           ],
           "sourceIds": [
@@ -612,7 +1245,10 @@
               "AV-Knoten: verzögert die Überleitung; Ersatzrhythmus ca. 40–60/min",
               "His-Bündel → Tawara-Schenkel → Purkinje-Fasern",
               "Kammer-Ersatzrhythmus: ca. 20–40/min, breite QRS-Komplexe"
-            ]
+            ],
+            "illustration": {
+              "figure": "conduction"
+            }
           },
           "questions": [
             {
@@ -684,6 +1320,24 @@
               ],
               "correctIndex": 2,
               "explanation": "Kammereigene Ersatzrhythmen sind langsam und breit, weil die Erregung nicht über das schnelle Leitungssystem läuft."
+            },
+            {
+              "id": "u2l2q6",
+              "type": "single_choice",
+              "prompt": "Welche Struktur ist markiert?",
+              "options": [
+                "AV-Knoten",
+                "Sinusknoten",
+                "His-Bündel",
+                "Purkinje-Fasern"
+              ],
+              "correctIndex": 0,
+              "explanation": "Der AV-Knoten liegt zwischen Vorhöfen und Kammern und verzögert die Überleitung (PQ-Zeit).",
+              "illustration": {
+                "figure": "conduction",
+                "highlight": "av_knoten",
+                "labels": false
+              }
             }
           ],
           "sourceIds": [
@@ -798,7 +1452,10 @@
               "Schwarz: rechts unten (Neutralelektrode)",
               "Weiß: Brustwandelektrode (bei 5-Kanal)",
               "Merkhilfe: Ampel im Uhrzeigersinn ab rechter Schulter – rot, gelb, grün"
-            ]
+            ],
+            "illustration": {
+              "figure": "electrodes"
+            }
           },
           "questions": [
             {
@@ -864,6 +1521,24 @@
               "statement": "Bei AHA-Farben (z.B. Geräte aus den USA) ist die Elektrode für den rechten Arm weiß. Achte deshalb immer auf die Beschriftung (R/RA).",
               "correct": true,
               "explanation": "Richtig. Es gibt zwei Farbsysteme (IEC und AHA). Die Buchstaben auf der Elektrode sind eindeutig."
+            },
+            {
+              "id": "u3l1q6",
+              "type": "single_choice",
+              "prompt": "Welche Elektrode (IEC) gehört an die markierte Stelle?",
+              "options": [
+                "Gelb (L)",
+                "Rot (R)",
+                "Grün (F)",
+                "Schwarz (N)"
+              ],
+              "correctIndex": 0,
+              "explanation": "Links unter dem Schlüsselbein klebt Gelb. Ampel im Uhrzeigersinn ab rechter Schulter: rot, gelb, grün.",
+              "illustration": {
+                "figure": "electrodes",
+                "highlight": "gelb",
+                "labels": false
+              }
             }
           ],
           "sourceIds": [
@@ -886,7 +1561,10 @@
               "Herzfrequenz ≈ 300 ÷ Anzahl großer Kästchen zwischen zwei R-Zacken",
               "PQ-Zeit: 0,12–0,20 s · QRS: unter 0,12 s",
               "QTc: Männer bis 450 ms, Frauen bis 460 ms"
-            ]
+            ],
+            "illustration": {
+              "figure": "ecg_waves"
+            }
           },
           "questions": [
             {
@@ -1044,6 +1722,24 @@
               ],
               "correctIndex": 0,
               "explanation": "Eine Sinustachykardie ist meist eine Reaktion des Körpers. Suche die Ursache und behandle nicht nur die Frequenz."
+            },
+            {
+              "id": "u3l3q6",
+              "type": "single_choice",
+              "prompt": "Was ist in der EKG-Kurve markiert?",
+              "options": [
+                "P-Welle",
+                "T-Welle",
+                "QRS-Komplex",
+                "U-Welle"
+              ],
+              "correctIndex": 0,
+              "explanation": "Die P-Welle zeigt die Erregung der Vorhöfe. Beim Sinusrhythmus steht vor jedem QRS-Komplex eine P-Welle.",
+              "illustration": {
+                "figure": "ecg_waves",
+                "highlight": "p",
+                "labels": false
+              }
             }
           ],
           "sourceIds": [
@@ -2140,7 +2836,11 @@
               "Auslöser: Infekt, Rhythmusstörung, Ischämie, Medikamentenpause, Salz, NSAR",
               "Therapie: Oberkörper hoch, Schleifendiuretika i.v., O₂ bei SpO₂ unter 90 %",
               "Pflege: tägliches Gewicht, Bilanz, Atmung, Kalium und Niere"
-            ]
+            ],
+            "illustration": {
+              "figure": "positioning",
+              "highlight": "herzbett"
+            }
           },
           "questions": [
             {
@@ -2261,7 +2961,10 @@
               "Troponin nach festem Zeitschema abnehmen",
               "Herzkatheter innerhalb von 24 h, bei sehr hohem Risiko sofort",
               "DAPT: ASS + P2Y12-Hemmer"
-            ]
+            ],
+            "illustration": {
+              "figure": "coronaries"
+            }
           },
           "questions": [
             {
@@ -2357,7 +3060,10 @@
               "Primäre PCI, Ziel unter 120 min ab Diagnose",
               "Hinterwand (II, III, aVF): Bradykardie und AV-Block möglich",
               "Größte Gefahr in den ersten Stunden: Kammerflimmern"
-            ]
+            ],
+            "illustration": {
+              "figure": "coronaries"
+            }
           },
           "questions": [
             {
@@ -2434,6 +3140,24 @@
               ],
               "meaning": "Herzinfarkt",
               "explanation": "Myo = Muskel, kard = Herz, Infarkt = Gewebeuntergang durch fehlende Durchblutung."
+            },
+            {
+              "id": "u7l5q6",
+              "type": "single_choice",
+              "prompt": "Welches Herzkranzgefäß ist markiert?",
+              "options": [
+                "RCA (rechte Koronararterie)",
+                "RIVA / LAD",
+                "RCX",
+                "Hauptstamm"
+              ],
+              "correctIndex": 0,
+              "explanation": "Die RCA verläuft rechts in der Herzkranzfurche zur Hinterwand. Ihr Verschluss führt meist zum Hinterwandinfarkt (inferior).",
+              "illustration": {
+                "figure": "coronaries",
+                "highlight": "rca",
+                "labels": false
+              }
             }
           ],
           "sourceIds": [
@@ -3228,7 +3952,11 @@
               "rSR' in V1/V2, breites S in I und V6",
               "neu + Atemnot: an Lungenembolie denken",
               "RSB + linksanteriorer Hemiblock = bifaszikulärer Block"
-            ]
+            ],
+            "illustration": {
+              "figure": "conduction",
+              "highlight": "tawara"
+            }
           },
           "questions": [
             {
@@ -3313,7 +4041,10 @@
               "Medikamente: ASS, Statin, Anti-Angina",
               "Revaskularisation: PCI oder Bypass-OP",
               "bei Diabetes oft Bypass bevorzugt"
-            ]
+            ],
+            "illustration": {
+              "figure": "coronaries"
+            }
           },
           "questions": [
             {
@@ -3720,7 +4451,11 @@
               "Echo: Schweregrad",
               "TAVI oder OP – das Herzteam entscheidet",
               "Vorsicht mit Nitraten"
-            ]
+            ],
+            "illustration": {
+              "figure": "heart_anatomy",
+              "highlight": "aortenklappe"
+            }
           },
           "questions": [
             {
@@ -3804,7 +4539,11 @@
               "sekundär: Kammer/Vorhof erweitert",
               "Reparatur vor Ersatz",
               "TEER (MitraClip) bei hohem OP-Risiko"
-            ]
+            ],
+            "illustration": {
+              "figure": "heart_anatomy",
+              "highlight": "mitralklappe"
+            }
           },
           "questions": [
             {
@@ -3898,7 +4637,11 @@
               "D-Dimere, CT-Angiographie",
               "Antikoagulation schon bei Verdacht",
               "Schock → Thrombolyse"
-            ]
+            ],
+            "illustration": {
+              "figure": "heart_anatomy",
+              "highlight": "lungenarterie"
+            }
           },
           "questions": [
             {
@@ -4202,7 +4945,11 @@
               "Mobitz II: plötzlicher Ausfall",
               "III°: P und QRS unabhängig – Schrittmacher"
             ],
-            "strip": "av3"
+            "strip": "av3",
+            "illustration": {
+              "figure": "conduction",
+              "highlight": "av_knoten"
+            }
           },
           "questions": [
             {
@@ -4300,7 +5047,11 @@
               "Tachy-Brady: Pause nach Herzrasen",
               "Symptom und Monitor zuordnen",
               "Therapie: Schrittmacher"
-            ]
+            ],
+            "illustration": {
+              "figure": "conduction",
+              "highlight": "sinusknoten"
+            }
           },
           "questions": [
             {

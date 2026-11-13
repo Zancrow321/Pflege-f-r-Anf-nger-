@@ -40,6 +40,8 @@ data class LearnCard(
     val bullets: List<String> = emptyList(),
     /** Optionaler EKG-Streifen, der auf der Lernkarte gezeichnet wird. */
     val strip: Rhythm? = null,
+    /** Optionales Schaubild auf der Lernkarte. */
+    val illustration: Illustration? = null,
 )
 
 @Serializable
@@ -77,6 +79,8 @@ sealed interface Question {
     val id: String
     val explanation: String
     val strip: Rhythm?
+    /** Optionales Schaubild über der Frage. */
+    val illustration: Illustration?
 
     @Serializable
     @SerialName("single_choice")
@@ -87,6 +91,7 @@ sealed interface Question {
         val correctIndex: Int,
         override val explanation: String,
         override val strip: Rhythm? = null,
+        override val illustration: Illustration? = null,
     ) : Question
 
     @Serializable
@@ -97,6 +102,7 @@ sealed interface Question {
         val correct: Boolean,
         override val explanation: String,
         override val strip: Rhythm? = null,
+        override val illustration: Illustration? = null,
     ) : Question
 
     @Serializable
@@ -107,6 +113,7 @@ sealed interface Question {
         val pairs: List<Pair>,
         override val explanation: String,
         override val strip: Rhythm? = null,
+        override val illustration: Illustration? = null,
     ) : Question {
         @Serializable
         data class Pair(val left: String, val right: String)
@@ -128,6 +135,7 @@ sealed interface Question {
         val meaning: String,
         override val explanation: String,
         override val strip: Rhythm? = null,
+        override val illustration: Illustration? = null,
     ) : Question
 }
 
@@ -192,6 +200,8 @@ data class Article(
     val houseSpecific: Boolean = false,
     val status: ReviewStatus = ReviewStatus.UNREVIEWED,
     val termIds: List<String> = emptyList(),
+    /** Schaubilder, die oben im Artikel gezeigt werden. */
+    val illustrations: List<Illustration> = emptyList(),
 )
 
 @Serializable
@@ -202,6 +212,8 @@ data class Term(
     val meaning: String,
     val example: String? = null,
     val sourceIds: List<String>,
+    /** Optionales Schaubild zum Begriff. */
+    val illustration: Illustration? = null,
     val status: ReviewStatus = ReviewStatus.UNREVIEWED,
 )
 

@@ -31,6 +31,7 @@ import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.unit.dp
 import de.pflegefueranfaenger.app.ui.components.EcgStrip
+import de.pflegefueranfaenger.app.ui.components.IllustrationView
 import de.pflegefueranfaenger.app.ui.components.PartColors
 import de.pflegefueranfaenger.core.game.Answer
 import de.pflegefueranfaenger.core.model.Question
@@ -43,6 +44,7 @@ import de.pflegefueranfaenger.core.model.Question
 fun QuestionView(question: Question, locked: Boolean, onAnswerChanged: (Answer?) -> Unit) {
     Column(verticalArrangement = Arrangement.spacedBy(16.dp)) {
         question.strip?.let { EcgStrip(it) }
+        question.illustration?.let { IllustrationView(it) }
         when (question) {
             is Question.SingleChoice -> SingleChoiceView(question, locked, onAnswerChanged)
             is Question.TrueFalse -> TrueFalseView(question, locked, onAnswerChanged)

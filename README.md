@@ -29,15 +29,32 @@ Artikel verweisen über `relatedArticleIds` aufeinander („Siehe auch“), Lekt
 
 ## Inhalte (Stand 13.11.2026)
 
-- 6 Einheiten, 18 Lektionen, 98 Fragen
-  1. Fachsprache: Wortbausteine *(Grundlagen)*
-  2. Herz & Kreislauf *(Grundlagen)*
-  3. EKG & Monitor
-  4. Rhythmusstörungen am Monitor (mit gezeichneten EKG-Streifen)
-  5. Telemetrie-Alltag (Alarme, Elektrolyte, nach Herzkatheter)
-  6. Notfälle (Brustschmerz, Reanimation)
-- 17 Nachschlage-Artikel, 48 Fachbegriffe mit Wortbausteinen, 15 Quellen
-- Fragetypen: Einfachauswahl, Richtig/Falsch, Zuordnen, Wortbausteine; optional mit EKG-Streifen
+- 18 Einheiten, 72 Lektionen, 378 Fragen; 78 Nachschlage-Artikel, 80 Fachbegriffe mit Wortbausteinen
+- Grundlagen: Fachsprache (Wortbausteine), **Lage- und Richtungsbegriffe** (dexter/sinister, kranial/kaudal,
+  ventral/dorsal, medial/lateral, proximal/distal …), Herz & Kreislauf
+- Station: EKG & Monitor, Rhythmusstörungen, Telemetrie-Alltag, Notfälle, Krankheitsbilder 1–8, Medikamente, Prozeduren
+- Fragetypen: Einfachauswahl, Richtig/Falsch, Zuordnen, Wortbausteine; optional mit EKG-Streifen oder Schaubild
+
+## Schaubilder
+
+Alle Grafiken sind selbst gezeichnete Vektorschemata (keine fremden Bilder). Sie entstehen im Code
+(`core/.../figure/Figures.kt`) und werden in der App mit Compose-Canvas gezeichnet, in hellem und dunklem Design:
+
+| Schaubild (`figure`) | Inhalt | hervorhebbare Teile (`highlight`) |
+|---|---|---|
+| `heart_anatomy` | Vorhöfe, Kammern, Klappen, große Gefäße, Blutfluss | `rechter_vorhof`, `mitralklappe`, `aorta` … |
+| `conduction` | Sinusknoten bis Purkinje-Fasern mit Eigenfrequenzen | `sinusknoten`, `av_knoten`, `his`, `tawara`, `purkinje` |
+| `coronaries` | RCA, Hauptstamm, RIVA/LAD, RCX mit Versorgungsgebieten | `rca`, `hauptstamm`, `lad`, `rcx` |
+| `ecg_waves` | P, QRS, T, PQ-, ST- und QT-Strecke auf EKG-Papier | `p`, `qrs`, `t`, `pq`, `st`, `qt` |
+| `electrodes` | 5-Kanal-Elektroden nach IEC (Ampel-Regel) | `rot`, `gelb`, `gruen`, `schwarz`, `weiss` |
+| `body_front`, `body_side`, `limb` | Lage- und Richtungsbegriffe am Körper | `dexter`, `sinister`, `kranial`, `ventral`, `proximal` … |
+| `positioning` | Flachlage, Oberkörperhochlage, Herzbettlage | `flach`, `oberkoerper`, `herzbett` |
+
+In den JSON-Inhalten: `"illustration": {"figure": "conduction", "highlight": "av_knoten"}` an Lernkarte, Frage oder
+Begriff, bzw. `"illustrations": [...]` am Artikel. Mit `"labels": false` werden die Beschriftungen ausgeblendet
+und der gesuchte Teil mit „?“ markiert – das Bild wird zur Frage. Auf Lernkarten und im Wiki lassen sich die Teile
+per Chip antippen und hervorheben. `FigureTest` prüft alle Varianten und schreibt Vorschaubilder (SVG) nach
+`core/build/figures/`.
 
 Inhalte bearbeiten: JSON in `content/` ändern und `./gradlew -PcoreOnly :core:test` laufen lassen.
 Die Tests prüfen u.a., dass jede Lektion, jeder Artikel und jeder Begriff gültige Quellen hat,
