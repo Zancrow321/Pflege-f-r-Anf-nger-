@@ -4366,5 +4366,578 @@
       "t-defibrillation",
       "t-bradykardie"
     ]
+  },
+  {
+    "id": "m-betablocker",
+    "title": "Betablocker",
+    "category": "Medikamente",
+    "summary": "Bremsen Herzfrequenz und Blutdruck, schützen das Herz bei Herzinsuffizienz, nach Infarkt und bei Rhythmusstörungen.",
+    "kind": "medikament",
+    "sections": [
+      {
+        "title": "Wirkstoffe und Beispiele",
+        "paragraphs": [
+          "- Bisoprolol, Metoprolol(succinat), Carvedilol, Nebivolol (bei HFrEF mit Wirksamkeitsnachweis)",
+          "- i.v.: z.B. Metoprolol, Esmolol (sehr kurz wirksam)",
+          "Dosierung immer nach ärztlicher Anordnung und Fachinformation."
+        ]
+      },
+      {
+        "title": "Wirkung",
+        "paragraphs": [
+          "- blockieren Beta-Rezeptoren für Stresshormone (Adrenalin, Noradrenalin)",
+          "- senken Herzfrequenz, Kontraktionskraft, Blutdruck und Sauerstoffbedarf",
+          "- verlangsamen die Überleitung im AV-Knoten"
+        ]
+      },
+      {
+        "title": "Indikationen",
+        "paragraphs": [
+          "- HFrEF (verlängern das Leben)",
+          "- KHK, nach Herzinfarkt, Angina pectoris",
+          "- Frequenzkontrolle bei Vorhofflimmern/-flattern",
+          "- Bluthochdruck, ventrikuläre Rhythmusstörungen, Long-QT (angeboren)"
+        ]
+      },
+      {
+        "title": "Nebenwirkungen",
+        "paragraphs": [
+          "- Bradykardie, AV-Block, Blutdruckabfall",
+          "- Müdigkeit, kalte Hände und Füße, Schwindel",
+          "- Bronchospasmus (v.a. nicht selektive Betablocker)",
+          "- kann Unterzuckerungszeichen verschleiern",
+          "- anfangs Verschlechterung der Herzinsuffizienz möglich (deshalb langsam steigern)"
+        ]
+      },
+      {
+        "title": "Kontraindikationen und Vorsicht",
+        "paragraphs": [
+          "- ausgeprägte Bradykardie, AV-Block II°/III° ohne Schrittmacher, Schock, akute Dekompensation (dann Dosis meist reduzieren, nicht abrupt absetzen)",
+          "- Asthma: Vorsicht, kardioselektive Mittel bevorzugt",
+          "- nicht mit Verapamil oder Diltiazem i.v. kombinieren",
+          "- nicht abrupt absetzen (Rebound: Herzrasen, Angina)"
+        ]
+      },
+      {
+        "title": "Pflege und Beobachtung",
+        "paragraphs": [
+          "- vor jeder Gabe Puls und Blutdruck; Grenzwerte zum Pausieren nach Anordnung",
+          "- Monitor: Bradykardie, Pausen, AV-Block",
+          "- Diabetiker: Blutzucker im Blick",
+          "- Schulung: regelmäßig einnehmen, nicht selbst absetzen"
+        ]
+      }
+    ],
+    "keywords": [
+      "Betablocker",
+      "Bisoprolol",
+      "Metoprolol",
+      "Carvedilol",
+      "Nebivolol",
+      "Esmolol",
+      "Frequenzkontrolle"
+    ],
+    "relatedArticleIds": [
+      "a-hfref",
+      "a-vorhofflimmern",
+      "a-nstemi",
+      "a-bradykardie"
+    ],
+    "sourceIds": [
+      "esc-hf-2021",
+      "esc-af-2024",
+      "esc-acs-2023"
+    ],
+    "lastChecked": "2026-11-13",
+    "houseSpecific": true,
+    "status": "unreviewed",
+    "termIds": [
+      "t-bradykardie"
+    ]
+  },
+  {
+    "id": "m-raas-hemmer",
+    "title": "ACE-Hemmer, Sartane und ARNI",
+    "category": "Medikamente",
+    "summary": "Hemmen das Renin-Angiotensin-Aldosteron-System. Grundpfeiler bei Herzinsuffizienz und Bluthochdruck.",
+    "kind": "medikament",
+    "sections": [
+      {
+        "title": "Wirkstoffe und Beispiele",
+        "paragraphs": [
+          "- ACE-Hemmer: Ramipril, Enalapril, Lisinopril („-pril“)",
+          "- Sartane (AT1-Blocker): Candesartan, Valsartan, Losartan („-sartan“)",
+          "- ARNI: Sacubitril/Valsartan",
+          "Dosierung immer nach ärztlicher Anordnung und Fachinformation."
+        ]
+      },
+      {
+        "title": "Wirkung",
+        "paragraphs": [
+          "- erweitern die Gefäße, senken Blutdruck und Nachlast",
+          "- vermindern Salz- und Wasserrückhalt",
+          "- bremsen den Umbau (Remodeling) des Herzens"
+        ]
+      },
+      {
+        "title": "Indikationen",
+        "paragraphs": [
+          "- HFrEF (ARNI oder ACE-Hemmer; Sartan bei Unverträglichkeit)",
+          "- Bluthochdruck, nach Herzinfarkt",
+          "- diabetische Nierenerkrankung mit Eiweiß im Urin"
+        ]
+      },
+      {
+        "title": "Nebenwirkungen",
+        "paragraphs": [
+          "- Blutdruckabfall, Schwindel (v.a. beim Aufstehen)",
+          "- Hyperkaliämie, Kreatininanstieg",
+          "- ACE-Hemmer: trockener Reizhusten",
+          "- Angioödem (Schwellung von Lippen, Zunge, Rachen) – selten, aber lebensbedrohlich"
+        ]
+      },
+      {
+        "title": "Kontraindikationen und Vorsicht",
+        "paragraphs": [
+          "- Schwangerschaft",
+          "- früheres Angioödem",
+          "- ARNI nicht zusammen mit ACE-Hemmer: mindestens 36 Stunden Abstand nach dem letzten ACE-Hemmer",
+          "- Vorsicht bei Nierenarterienstenose, Hyperkaliämie, Volumenmangel",
+          "- nicht ACE-Hemmer und Sartan kombinieren"
+        ]
+      },
+      {
+        "title": "Pflege und Beobachtung",
+        "paragraphs": [
+          "- Blutdruck vor Gabe, langsam aufstehen lassen",
+          "- Kalium und Kreatinin nach Anordnung kontrollieren",
+          "- Schwellung im Gesicht oder am Hals: sofort Arzt (Angioödem)",
+          "- NSAR und Kaliumpräparate melden (Hyperkaliämie-Risiko)"
+        ]
+      }
+    ],
+    "keywords": [
+      "ACE-Hemmer",
+      "Ramipril",
+      "Enalapril",
+      "Sartan",
+      "Candesartan",
+      "Valsartan",
+      "ARNI",
+      "Sacubitril",
+      "Entresto",
+      "Angioödem",
+      "Reizhusten"
+    ],
+    "relatedArticleIds": [
+      "a-hfref",
+      "a-hyperkaliaemie",
+      "a-kardiorenal"
+    ],
+    "sourceIds": [
+      "esc-hf-2021",
+      "esc-htn-2024"
+    ],
+    "lastChecked": "2026-11-13",
+    "houseSpecific": true,
+    "status": "unreviewed",
+    "termIds": [
+      "t-hypotonie",
+      "t-hyperkaliaemie"
+    ]
+  },
+  {
+    "id": "m-mra",
+    "title": "Mineralokortikoid-Rezeptor-Antagonisten (MRA)",
+    "category": "Medikamente",
+    "summary": "Spironolacton und Eplerenon blockieren Aldosteron. Sie verlängern bei HFrEF das Leben, können aber Kalium gefährlich erhöhen.",
+    "kind": "medikament",
+    "sections": [
+      {
+        "title": "Wirkstoffe und Beispiele",
+        "paragraphs": [
+          "- Spironolacton, Eplerenon",
+          "- Finerenon (nicht steroidal, v.a. bei Diabetes mit Nierenerkrankung)",
+          "Dosierung immer nach ärztlicher Anordnung und Fachinformation."
+        ]
+      },
+      {
+        "title": "Wirkung",
+        "paragraphs": [
+          "- blockieren Aldosteron: weniger Salz- und Wasserrückhalt, Kalium wird gespart",
+          "- bremsen Vernarbung (Fibrose) im Herzmuskel"
+        ]
+      },
+      {
+        "title": "Indikationen",
+        "paragraphs": [
+          "- HFrEF",
+          "- nach Herzinfarkt mit eingeschränkter Pumpfunktion",
+          "- therapieresistenter Bluthochdruck"
+        ]
+      },
+      {
+        "title": "Nebenwirkungen",
+        "paragraphs": [
+          "- Hyperkaliämie (wichtigste Gefahr)",
+          "- Kreatininanstieg",
+          "- Spironolacton: Brustvergrößerung bzw. -spannen (Gynäkomastie)"
+        ]
+      },
+      {
+        "title": "Kontraindikationen und Vorsicht",
+        "paragraphs": [
+          "- Kalium über 5,0 mmol/l, schwere Niereninsuffizienz",
+          "- Vorsicht mit ACE-Hemmer/Sartan/ARNI und Kaliumpräparaten gleichzeitig: Kalium engmaschig"
+        ]
+      },
+      {
+        "title": "Pflege und Beobachtung",
+        "paragraphs": [
+          "- Kalium und Kreatinin nach Anordnung (besonders in den ersten Wochen)",
+          "- bei Durchfall oder Erbrechen Arzt informieren (Nierenversagen, Hyperkaliämie)",
+          "- Kaliumhaltige Infusionen und Präparate kritisch prüfen"
+        ]
+      }
+    ],
+    "keywords": [
+      "MRA",
+      "Spironolacton",
+      "Eplerenon",
+      "Finerenon",
+      "Aldosteron",
+      "kaliumsparend"
+    ],
+    "relatedArticleIds": [
+      "a-hfref",
+      "a-hyperkaliaemie"
+    ],
+    "sourceIds": [
+      "esc-hf-2021"
+    ],
+    "lastChecked": "2026-11-13",
+    "houseSpecific": true,
+    "status": "unreviewed",
+    "termIds": [
+      "t-hyperkaliaemie"
+    ]
+  },
+  {
+    "id": "m-sglt2",
+    "title": "SGLT2-Hemmer (Gliflozine)",
+    "category": "Medikamente",
+    "summary": "Ursprünglich Diabetesmittel, heute fester Bestandteil der Herzinsuffizienz-Therapie – bei jeder Pumpfunktion.",
+    "kind": "medikament",
+    "sections": [
+      {
+        "title": "Wirkstoffe und Beispiele",
+        "paragraphs": [
+          "- Dapagliflozin, Empagliflozin („-gliflozin“)",
+          "Dosierung immer nach ärztlicher Anordnung und Fachinformation."
+        ]
+      },
+      {
+        "title": "Wirkung",
+        "paragraphs": [
+          "- hemmen die Zuckerrückaufnahme in der Niere: Zucker und etwas Salz/Wasser werden ausgeschieden",
+          "- entlasten Herz und Niere, senken Krankenhausaufnahmen"
+        ]
+      },
+      {
+        "title": "Indikationen",
+        "paragraphs": [
+          "- Herzinsuffizienz (HFrEF, HFmrEF, HFpEF)",
+          "- chronische Nierenerkrankung",
+          "- Typ-2-Diabetes"
+        ]
+      },
+      {
+        "title": "Nebenwirkungen",
+        "paragraphs": [
+          "- Genitalinfektionen (Pilz), Harnwegsinfekte",
+          "- Volumenmangel, Blutdruckabfall (besonders mit Diuretika)",
+          "- euglykämische Ketoazidose: selten, Zucker kann dabei normal sein"
+        ]
+      },
+      {
+        "title": "Kontraindikationen und Vorsicht",
+        "paragraphs": [
+          "- Typ-1-Diabetes",
+          "- vor größeren Operationen und bei schwerer Akuterkrankung oder Nüchternheit pausieren (nach Anordnung)",
+          "- sehr niedrige Nierenfunktion: Fachinformation beachten"
+        ]
+      },
+      {
+        "title": "Pflege und Beobachtung",
+        "paragraphs": [
+          "- Intimhygiene ansprechen",
+          "- Trinkmenge, Bilanz, Blutdruck",
+          "- Übelkeit, Erbrechen, Bauchschmerz, schnelle Atmung: an Ketoazidose denken, Arzt informieren (Blutgas, Ketone)",
+          "- häufigeres Wasserlassen erklären"
+        ]
+      }
+    ],
+    "keywords": [
+      "SGLT2",
+      "Gliflozin",
+      "Dapagliflozin",
+      "Empagliflozin",
+      "Ketoazidose"
+    ],
+    "relatedArticleIds": [
+      "a-hfref",
+      "a-hfpef",
+      "a-kardiorenal"
+    ],
+    "sourceIds": [
+      "esc-hf-2021",
+      "esc-hf-2023"
+    ],
+    "lastChecked": "2026-11-13",
+    "houseSpecific": true,
+    "status": "unreviewed",
+    "termIds": []
+  },
+  {
+    "id": "m-diuretika",
+    "title": "Diuretika (Schleifen- und Thiaziddiuretika)",
+    "category": "Medikamente",
+    "summary": "Entwässern. Schleifendiuretika sind das wichtigste Mittel gegen Stauung bei Herzinsuffizienz.",
+    "kind": "medikament",
+    "sections": [
+      {
+        "title": "Wirkstoffe und Beispiele",
+        "paragraphs": [
+          "- Schleifendiuretika: Furosemid, Torasemid",
+          "- Thiazide und Verwandte: Hydrochlorothiazid, Chlortalidon, Xipamid",
+          "- kaliumsparend: siehe MRA",
+          "Dosierung immer nach ärztlicher Anordnung und Fachinformation."
+        ]
+      },
+      {
+        "title": "Wirkung",
+        "paragraphs": [
+          "- vermehrte Ausscheidung von Salz und Wasser über die Niere",
+          "- Furosemid i.v. wirkt nach wenigen Minuten, die Hauptwirkung hält einige Stunden"
+        ]
+      },
+      {
+        "title": "Indikationen",
+        "paragraphs": [
+          "- Stauung bei Herzinsuffizienz, Lungenödem",
+          "- Ödeme, kardiorenales Syndrom",
+          "- Thiazide: Bluthochdruck; zusammen mit Schleifendiuretika bei Diuretikaresistenz"
+        ]
+      },
+      {
+        "title": "Nebenwirkungen",
+        "paragraphs": [
+          "- Hypokaliämie, Hyponatriämie, Hypomagnesiämie",
+          "- Volumenmangel, Blutdruckabfall, Nierenwertanstieg",
+          "- Gicht (Harnsäure steigt), Blutzuckeranstieg (Thiazide)",
+          "- hohe i.v.-Dosen Furosemid: Hörstörungen, besonders bei schneller Gabe"
+        ]
+      },
+      {
+        "title": "Kontraindikationen und Vorsicht",
+        "paragraphs": [
+          "- Volumenmangel, Anurie",
+          "- schwere Elektrolytstörungen",
+          "- Vorsicht bei Aortenstenose und HOCM (Blutdruckabfall)"
+        ]
+      },
+      {
+        "title": "Pflege und Beobachtung",
+        "paragraphs": [
+          "- Gewicht täglich, Ein- und Ausfuhr bilanzieren, Urinmenge nach Gabe",
+          "- Elektrolyte und Kreatinin nach Anordnung",
+          "- Gabe morgens/mittags, damit der Patient nachts schlafen kann",
+          "- Sturzgefahr: Toilettengang begleiten, Urinflasche bereitstellen",
+          "- Furosemid i.v. langsam geben (nach Standard)"
+        ]
+      }
+    ],
+    "keywords": [
+      "Diuretika",
+      "Furosemid",
+      "Lasix",
+      "Torasemid",
+      "HCT",
+      "Hydrochlorothiazid",
+      "Xipamid",
+      "Wassertablette",
+      "Entwässerung"
+    ],
+    "relatedArticleIds": [
+      "a-dekompensation",
+      "a-hypokaliaemie",
+      "a-kardiorenal"
+    ],
+    "sourceIds": [
+      "esc-hf-2021",
+      "esc-hf-2023"
+    ],
+    "lastChecked": "2026-11-13",
+    "houseSpecific": true,
+    "status": "unreviewed",
+    "termIds": [
+      "t-hypokaliaemie",
+      "t-polyurie"
+    ]
+  },
+  {
+    "id": "m-amiodaron",
+    "title": "Amiodaron",
+    "category": "Medikamente",
+    "summary": "Starkes Antiarrhythmikum für Kammer- und Vorhofrhythmusstörungen, auch in der Reanimation. Viele Nebenwirkungen und Wechselwirkungen.",
+    "kind": "medikament",
+    "sections": [
+      {
+        "title": "Wirkstoffe und Beispiele",
+        "paragraphs": [
+          "- Amiodaron (i.v. und Tabletten)",
+          "- verwandt: Dronedaron (nicht bei Herzinsuffizienz)",
+          "Dosierung immer nach ärztlicher Anordnung und Fachinformation."
+        ]
+      },
+      {
+        "title": "Wirkung",
+        "paragraphs": [
+          "- verlängert die Erregungsrückbildung (Klasse-III-Antiarrhythmikum), wirkt zusätzlich bremsend",
+          "- sehr lange Halbwertszeit (Wochen), Aufsättigung nötig"
+        ]
+      },
+      {
+        "title": "Indikationen",
+        "paragraphs": [
+          "- VT, Reanimation bei Kammerflimmern/pulsloser VT (300 mg nach dem 3. Schock, ERC)",
+          "- Rhythmisierung und Frequenzkontrolle bei Vorhofflimmern, auch bei Herzinsuffizienz"
+        ]
+      },
+      {
+        "title": "Nebenwirkungen",
+        "paragraphs": [
+          "- Bradykardie, AV-Block, QT-Verlängerung, Blutdruckabfall (i.v.)",
+          "- Venenreizung bis Venenentzündung bei peripherer Gabe",
+          "- langfristig: Schilddrüsenstörungen, Lungenfibrose, Leberschäden, Lichtempfindlichkeit, Ablagerungen in der Hornhaut"
+        ]
+      },
+      {
+        "title": "Kontraindikationen und Vorsicht",
+        "paragraphs": [
+          "- Bradykardie, AV-Block ohne Schrittmacher, Schilddrüsenüberfunktion",
+          "- Wechselwirkungen: erhöht Spiegel von Digoxin, Vitamin-K-Antagonisten (INR steigt), einigen Statinen",
+          "- weitere QT-verlängernde Medikamente meiden"
+        ]
+      },
+      {
+        "title": "Pflege und Beobachtung",
+        "paragraphs": [
+          "- i.v. möglichst über zentralen oder großlumigen Zugang, nur in Glukose 5 % verdünnt (Fachinformation)",
+          "- Einstichstelle kontrollieren, Monitor: Frequenz, QTc",
+          "- Laborkontrollen: TSH, Leberwerte nach Anordnung",
+          "- Sonnenschutz empfehlen"
+        ]
+      }
+    ],
+    "keywords": [
+      "Amiodaron",
+      "Cordarex",
+      "Antiarrhythmikum",
+      "Dronedaron",
+      "Klasse III"
+    ],
+    "relatedArticleIds": [
+      "a-vt",
+      "a-kammerflimmern",
+      "a-vorhofflimmern",
+      "a-long-qt"
+    ],
+    "sourceIds": [
+      "esc-va-2022",
+      "esc-af-2024",
+      "erc-als-2021"
+    ],
+    "lastChecked": "2026-11-13",
+    "houseSpecific": true,
+    "status": "unreviewed",
+    "termIds": []
+  },
+  {
+    "id": "m-digitalis",
+    "title": "Digitalis (Digoxin, Digitoxin)",
+    "category": "Medikamente",
+    "summary": "Senkt die Herzfrequenz bei Vorhofflimmern und stärkt leicht die Kontraktion. Enge therapeutische Breite – Vergiftungen sind häufig.",
+    "kind": "medikament",
+    "sections": [
+      {
+        "title": "Wirkstoffe und Beispiele",
+        "paragraphs": [
+          "- Digoxin (über die Niere ausgeschieden), Digitoxin (über die Leber)",
+          "Dosierung immer nach ärztlicher Anordnung und Fachinformation."
+        ]
+      },
+      {
+        "title": "Wirkung",
+        "paragraphs": [
+          "- bremst die Überleitung im AV-Knoten (über den Vagus)",
+          "- steigert leicht die Kontraktionskraft"
+        ]
+      },
+      {
+        "title": "Indikationen",
+        "paragraphs": [
+          "- Frequenzkontrolle bei Vorhofflimmern, v.a. bei Herzinsuffizienz oder niedrigem Blutdruck",
+          "- HFrEF mit Beschwerden trotz Standardtherapie (Zusatz)"
+        ]
+      },
+      {
+        "title": "Nebenwirkungen",
+        "paragraphs": [
+          "- Bradykardie, AV-Block, VES (Bigeminus), andere Rhythmusstörungen",
+          "- Übelkeit, Erbrechen, Appetitlosigkeit",
+          "- Sehstörungen (Gelb-Grün-Sehen), Verwirrtheit"
+        ]
+      },
+      {
+        "title": "Kontraindikationen und Vorsicht",
+        "paragraphs": [
+          "- Bradykardie, AV-Block II°/III°, WPW mit Vorhofflimmern",
+          "- Hypokaliämie und Hypomagnesiämie erhöhen die Giftigkeit, Hyperkalzämie ebenso",
+          "- Niereninsuffizienz (Digoxin), Wechselwirkungen z.B. mit Amiodaron, Verapamil"
+        ]
+      },
+      {
+        "title": "Pflege und Beobachtung",
+        "paragraphs": [
+          "- Puls vor Gabe, bei Bradykardie Rücksprache",
+          "- Spiegel und Kalium nach Anordnung",
+          "- Übelkeit, Sehstörungen, Verwirrtheit melden (Vergiftung?)"
+        ]
+      }
+    ],
+    "keywords": [
+      "Digitalis",
+      "Digoxin",
+      "Digitoxin",
+      "Glykosid",
+      "Vergiftung",
+      "Gelbsehen"
+    ],
+    "relatedArticleIds": [
+      "a-vorhofflimmern",
+      "a-hfref",
+      "a-hypokaliaemie"
+    ],
+    "sourceIds": [
+      "esc-af-2024",
+      "esc-hf-2021"
+    ],
+    "lastChecked": "2026-11-13",
+    "houseSpecific": true,
+    "status": "unreviewed",
+    "termIds": [
+      "t-bradykardie"
+    ]
   }
 ]
