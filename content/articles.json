@@ -4939,5 +4939,600 @@
     "termIds": [
       "t-bradykardie"
     ]
+  },
+  {
+    "id": "m-plaettchenhemmer",
+    "title": "Thrombozytenaggregationshemmer (Plättchenhemmer)",
+    "category": "Medikamente",
+    "summary": "Verhindern, dass Blutplättchen verklumpen. Unverzichtbar nach Herzinfarkt und Stent – vorzeitiges Absetzen kann eine Stentthrombose auslösen.",
+    "kind": "medikament",
+    "sections": [
+      {
+        "title": "Wirkstoffe und Beispiele",
+        "paragraphs": [
+          "- ASS (Acetylsalicylsäure)",
+          "- P2Y12-Hemmer: Clopidogrel, Prasugrel, Ticagrelor",
+          "- DAPT = duale Plättchenhemmung: ASS plus P2Y12-Hemmer",
+          "Dosierung immer nach ärztlicher Anordnung und Fachinformation."
+        ]
+      },
+      {
+        "title": "Wirkung",
+        "paragraphs": [
+          "- hemmen die Aktivierung und Verklumpung der Blutplättchen",
+          "- schützen vor Gerinnseln in Arterien und Stents"
+        ]
+      },
+      {
+        "title": "Indikationen",
+        "paragraphs": [
+          "- akutes Koronarsyndrom: DAPT meist 12 Monate (ESC 2023), danach meist ein Mittel dauerhaft",
+          "- nach Stent bei chronischer KHK: DAPT meist 6 Monate",
+          "- KHK, pAVK, nach Schlaganfall (je nach Ursache)"
+        ]
+      },
+      {
+        "title": "Nebenwirkungen",
+        "paragraphs": [
+          "- Blutungen (Magen-Darm, Nasenbluten, blaue Flecken)",
+          "- Magenbeschwerden, Magengeschwüre (ASS)",
+          "- Ticagrelor: Atemnotgefühl, Bradykardie, Harnsäureanstieg"
+        ]
+      },
+      {
+        "title": "Kontraindikationen und Vorsicht",
+        "paragraphs": [
+          "- aktive Blutung",
+          "- Prasugrel nicht nach Schlaganfall oder TIA",
+          "- ASS-Allergie, Asthma mit ASS-Unverträglichkeit",
+          "- nie eigenmächtig absetzen, auch nicht vor Eingriffen – immer Rücksprache mit dem Kardiologen"
+        ]
+      },
+      {
+        "title": "Pflege und Beobachtung",
+        "paragraphs": [
+          "- Blutungszeichen beobachten: Stuhl (Teerstuhl), Urin, Zahnfleisch, Punktionsstellen",
+          "- Magenschutz (PPI) bei DAPT nach Anordnung",
+          "- Schulung: regelmäßige Einnahme, Stent-Ausweis, nicht absetzen ohne Rücksprache"
+        ]
+      }
+    ],
+    "keywords": [
+      "ASS",
+      "Aspirin",
+      "Clopidogrel",
+      "Prasugrel",
+      "Ticagrelor",
+      "Brilique",
+      "DAPT",
+      "Plättchenhemmer",
+      "Stentthrombose"
+    ],
+    "relatedArticleIds": [
+      "a-nstemi",
+      "a-stemi",
+      "a-herzkatheter",
+      "a-pavk",
+      "m-antikoagulanzien"
+    ],
+    "sourceIds": [
+      "esc-acs-2023",
+      "esc-ccs-2024"
+    ],
+    "lastChecked": "2026-11-13",
+    "houseSpecific": true,
+    "status": "unreviewed",
+    "termIds": []
+  },
+  {
+    "id": "m-antikoagulanzien",
+    "title": "Orale Antikoagulanzien (DOAK und Vitamin-K-Antagonisten)",
+    "category": "Medikamente",
+    "summary": "Hemmen die Blutgerinnung und schützen vor Schlaganfall bei Vorhofflimmern sowie vor Thrombosen und Lungenembolien.",
+    "kind": "medikament",
+    "sections": [
+      {
+        "title": "Wirkstoffe und Beispiele",
+        "paragraphs": [
+          "- DOAK: Apixaban, Edoxaban, Rivaroxaban (Faktor-Xa-Hemmer), Dabigatran (Thrombinhemmer)",
+          "- Vitamin-K-Antagonisten (VKA): Phenprocoumon (Marcumar), Warfarin",
+          "Dosierung immer nach ärztlicher Anordnung und Fachinformation."
+        ]
+      },
+      {
+        "title": "Wirkung",
+        "paragraphs": [
+          "- DOAK hemmen direkt einen Gerinnungsfaktor, wirken schnell, keine INR-Kontrolle",
+          "- VKA hemmen die Bildung Vitamin-K-abhängiger Gerinnungsfaktoren, Wirkung über INR gesteuert (meist Ziel 2–3)"
+        ]
+      },
+      {
+        "title": "Indikationen",
+        "paragraphs": [
+          "- Vorhofflimmern mit erhöhtem Schlaganfallrisiko (CHA₂DS₂-VA, ESC 2024)",
+          "- tiefe Venenthrombose und Lungenembolie",
+          "- mechanische Herzklappe: nur VKA, keine DOAK"
+        ]
+      },
+      {
+        "title": "Nebenwirkungen",
+        "paragraphs": [
+          "- Blutungen, von Nasenbluten bis Hirnblutung",
+          "- Blutarmut durch versteckte Blutungen",
+          "- Dabigatran: Magenbeschwerden"
+        ]
+      },
+      {
+        "title": "Kontraindikationen und Vorsicht",
+        "paragraphs": [
+          "- aktive schwere Blutung",
+          "- mechanische Herzklappe oder mittel- bis schwere Mitralstenose: keine DOAK",
+          "- Nierenfunktion beachten (Dosisanpassung, v.a. Dabigatran)",
+          "- Wechselwirkungen: z.B. Amiodaron (VKA), Plättchenhemmer und NSAR erhöhen die Blutungsgefahr",
+          "- vor Eingriffen: Pausieren nur nach ärztlichem Plan (EHRA)"
+        ]
+      },
+      {
+        "title": "Pflege und Beobachtung",
+        "paragraphs": [
+          "- Einnahme genau nach Plan, vergessene Dosis nach Anweisung",
+          "- Blutungszeichen: Stuhl, Urin, Zahnfleisch, Hämatome, Kopfschmerz, neurologische Ausfälle",
+          "- Sturzrisiko einschätzen",
+          "- VKA: INR-Kontrollen, gleichmäßige Vitamin-K-Zufuhr",
+          "- Gegenmittel nach Anordnung: Idarucizumab (Dabigatran), Andexanet alfa (Xa-Hemmer), PPSB und Vitamin K (VKA)"
+        ]
+      }
+    ],
+    "keywords": [
+      "DOAK",
+      "NOAK",
+      "Apixaban",
+      "Eliquis",
+      "Rivaroxaban",
+      "Xarelto",
+      "Edoxaban",
+      "Dabigatran",
+      "Marcumar",
+      "Phenprocoumon",
+      "INR",
+      "Antikoagulation",
+      "Blutverdünner"
+    ],
+    "relatedArticleIds": [
+      "a-vorhofflimmern",
+      "a-tvt",
+      "a-lungenembolie",
+      "m-heparine",
+      "m-plaettchenhemmer"
+    ],
+    "sourceIds": [
+      "esc-af-2024",
+      "ehra-doac-2021",
+      "esc-pe-2019"
+    ],
+    "lastChecked": "2026-11-13",
+    "houseSpecific": true,
+    "status": "unreviewed",
+    "termIds": []
+  },
+  {
+    "id": "m-heparine",
+    "title": "Heparine",
+    "category": "Medikamente",
+    "summary": "Spritz- oder Infusionsmittel zur Gerinnungshemmung: zur Thromboseprophylaxe und zur Behandlung von Thrombosen, Embolien und ACS.",
+    "kind": "medikament",
+    "sections": [
+      {
+        "title": "Wirkstoffe und Beispiele",
+        "paragraphs": [
+          "- unfraktioniertes Heparin (UFH): i.v. über Perfusor, Steuerung nach aPTT",
+          "- niedermolekulare Heparine (NMH): Enoxaparin, Dalteparin, Certoparin – meist s.c.",
+          "- Fondaparinux (verwandt)",
+          "Dosierung immer nach ärztlicher Anordnung und Fachinformation."
+        ]
+      },
+      {
+        "title": "Wirkung",
+        "paragraphs": [
+          "- verstärken Antithrombin und hemmen so Gerinnungsfaktoren (v.a. Thrombin und Faktor Xa)",
+          "- UFH wirkt schnell und kurz, gut steuerbar und mit Protamin aufhebbar"
+        ]
+      },
+      {
+        "title": "Indikationen",
+        "paragraphs": [
+          "- Thromboseprophylaxe",
+          "- Therapie von TVT und Lungenembolie",
+          "- akutes Koronarsyndrom, Herzkatheter",
+          "- Überbrückung (Bridging) in Ausnahmefällen"
+        ]
+      },
+      {
+        "title": "Nebenwirkungen",
+        "paragraphs": [
+          "- Blutungen, Hämatome an der Einstichstelle",
+          "- heparininduzierte Thrombozytopenie (HIT): Abfall der Blutplättchen meist nach 5–10 Tagen mit Gefahr von Thrombosen",
+          "- bei Langzeitgabe Osteoporose, Kaliumanstieg"
+        ]
+      },
+      {
+        "title": "Kontraindikationen und Vorsicht",
+        "paragraphs": [
+          "- aktive Blutung, bekannte HIT",
+          "- NMH bei schwerer Niereninsuffizienz: Dosisanpassung oder UFH",
+          "- Kombination mit anderen Gerinnungshemmern nur nach Anordnung"
+        ]
+      },
+      {
+        "title": "Pflege und Beobachtung",
+        "paragraphs": [
+          "- s.c.-Injektion in die Bauchhaut, Hautfalte halten, nicht reiben",
+          "- UFH-Perfusor: aPTT-Kontrollen nach Schema, Laufrate dokumentieren",
+          "- Thrombozyten nach Anordnung kontrollieren (HIT)",
+          "- Blutungszeichen beobachten"
+        ]
+      }
+    ],
+    "keywords": [
+      "Heparin",
+      "UFH",
+      "NMH",
+      "Enoxaparin",
+      "Clexane",
+      "Dalteparin",
+      "Fragmin",
+      "aPTT",
+      "HIT",
+      "Protamin",
+      "Thromboseprophylaxe"
+    ],
+    "relatedArticleIds": [
+      "a-tvt",
+      "a-lungenembolie",
+      "a-nstemi",
+      "m-antikoagulanzien"
+    ],
+    "sourceIds": [
+      "esc-pe-2019",
+      "esc-acs-2023"
+    ],
+    "lastChecked": "2026-11-13",
+    "houseSpecific": true,
+    "status": "unreviewed",
+    "termIds": [
+      "t-thrombose"
+    ]
+  },
+  {
+    "id": "m-statine",
+    "title": "Statine und weitere Lipidsenker",
+    "category": "Medikamente",
+    "summary": "Senken das LDL-Cholesterin und damit das Risiko für Herzinfarkt und Schlaganfall. Nach Infarkt hochdosiert.",
+    "kind": "medikament",
+    "sections": [
+      {
+        "title": "Wirkstoffe und Beispiele",
+        "paragraphs": [
+          "- Statine: Atorvastatin, Rosuvastatin, Simvastatin, Pravastatin („-statin“)",
+          "- Ergänzung: Ezetimib, PCSK9-Hemmer (Spritze), Bempedoinsäure",
+          "Dosierung immer nach ärztlicher Anordnung und Fachinformation."
+        ]
+      },
+      {
+        "title": "Wirkung",
+        "paragraphs": [
+          "- hemmen die Cholesterinbildung in der Leber, die Leber nimmt mehr LDL aus dem Blut auf",
+          "- stabilisieren Ablagerungen in den Gefäßen"
+        ]
+      },
+      {
+        "title": "Indikationen",
+        "paragraphs": [
+          "- KHK, nach Herzinfarkt (hochdosiert), pAVK, nach Schlaganfall",
+          "- hohes Herz-Kreislauf-Risiko",
+          "- ESC: LDL-Ziel bei sehr hohem Risiko unter 55 mg/dl (1,4 mmol/l)"
+        ]
+      },
+      {
+        "title": "Nebenwirkungen",
+        "paragraphs": [
+          "- Muskelschmerzen, selten Muskelschädigung (Rhabdomyolyse: dunkler Urin, starke Schwäche)",
+          "- Leberwerterhöhung",
+          "- leicht erhöhtes Diabetesrisiko"
+        ]
+      },
+      {
+        "title": "Kontraindikationen und Vorsicht",
+        "paragraphs": [
+          "- aktive Lebererkrankung, Schwangerschaft",
+          "- Wechselwirkungen (z.B. Simvastatin mit Amiodaron, Verapamil, Makroliden)"
+        ]
+      },
+      {
+        "title": "Pflege und Beobachtung",
+        "paragraphs": [
+          "- Muskelschmerzen oder dunklen Urin melden (CK-Kontrolle)",
+          "- Schulung: dauerhafte Einnahme, Ernährung, Bewegung",
+          "- Lipidwerte nach Anordnung"
+        ]
+      }
+    ],
+    "keywords": [
+      "Statin",
+      "Atorvastatin",
+      "Rosuvastatin",
+      "Simvastatin",
+      "LDL",
+      "Cholesterin",
+      "Ezetimib",
+      "PCSK9"
+    ],
+    "relatedArticleIds": [
+      "a-khk-3gefaess",
+      "a-nstemi",
+      "a-stemi",
+      "a-pavk"
+    ],
+    "sourceIds": [
+      "esc-dyslip-2019",
+      "esc-acs-2023",
+      "esc-ccs-2024"
+    ],
+    "lastChecked": "2026-11-13",
+    "houseSpecific": true,
+    "status": "unreviewed",
+    "termIds": [
+      "t-arteriosklerose"
+    ]
+  },
+  {
+    "id": "m-nitrate",
+    "title": "Nitrate",
+    "category": "Medikamente",
+    "summary": "Erweitern die Gefäße und lindern Angina pectoris und Lungenstauung. Gefährlicher Blutdruckabfall bei bestimmten Situationen.",
+    "kind": "medikament",
+    "sections": [
+      {
+        "title": "Wirkstoffe und Beispiele",
+        "paragraphs": [
+          "- Glyceroltrinitrat (Nitrospray, -kapsel, i.v.)",
+          "- Isosorbiddinitrat, Isosorbidmononitrat (Langzeit)",
+          "Dosierung immer nach ärztlicher Anordnung und Fachinformation."
+        ]
+      },
+      {
+        "title": "Wirkung",
+        "paragraphs": [
+          "- erweitern vor allem die Venen: weniger Blut kehrt zum Herzen zurück (Vorlastsenkung)",
+          "- erweitern auch Koronararterien und senken den Sauerstoffbedarf des Herzens"
+        ]
+      },
+      {
+        "title": "Indikationen",
+        "paragraphs": [
+          "- Angina pectoris (akut und vorbeugend)",
+          "- akutes Koronarsyndrom mit Brustschmerz (bei ausreichendem Blutdruck)",
+          "- akute Herzinsuffizienz mit Stauung und hohem Blutdruck",
+          "- hypertensiver Notfall mit Lungenödem"
+        ]
+      },
+      {
+        "title": "Nebenwirkungen",
+        "paragraphs": [
+          "- Kopfschmerz (sehr häufig), Gesichtsrötung",
+          "- Blutdruckabfall, Schwindel, Synkope",
+          "- Reflextachykardie"
+        ]
+      },
+      {
+        "title": "Kontraindikationen und Vorsicht",
+        "paragraphs": [
+          "- systolischer Blutdruck unter 90 mmHg",
+          "- Einnahme von PDE-5-Hemmern (z.B. Sildenafil, Tadalafil) in den letzten 24–48 Stunden",
+          "- Rechtsherzinfarkt, schwere Aortenstenose, HOCM",
+          "- Toleranz bei Dauergabe ohne nitratfreies Intervall"
+        ]
+      },
+      {
+        "title": "Pflege und Beobachtung",
+        "paragraphs": [
+          "- Blutdruck vor und nach Gabe",
+          "- Patient sitzen oder liegen lassen",
+          "- vor Gabe nach Potenzmitteln fragen",
+          "- bei Brustschmerz: EKG nach Standard, Arzt informieren",
+          "- Kopfschmerz erklären"
+        ]
+      }
+    ],
+    "keywords": [
+      "Nitro",
+      "Nitrospray",
+      "Glyceroltrinitrat",
+      "Nitroglycerin",
+      "ISDN",
+      "ISMN",
+      "Angina",
+      "Sildenafil"
+    ],
+    "relatedArticleIds": [
+      "a-nstemi",
+      "a-stemi",
+      "a-aortenstenose",
+      "a-hcm",
+      "a-dekompensation"
+    ],
+    "sourceIds": [
+      "esc-acs-2023",
+      "esc-ccs-2024",
+      "esc-hf-2021"
+    ],
+    "lastChecked": "2026-11-13",
+    "houseSpecific": true,
+    "status": "unreviewed",
+    "termIds": [
+      "t-hypotonie"
+    ]
+  },
+  {
+    "id": "m-calciumantagonisten",
+    "title": "Calciumantagonisten",
+    "category": "Medikamente",
+    "summary": "Zwei sehr unterschiedliche Gruppen: Die einen senken vor allem den Blutdruck, die anderen bremsen zusätzlich die Herzfrequenz.",
+    "kind": "medikament",
+    "sections": [
+      {
+        "title": "Wirkstoffe und Beispiele",
+        "paragraphs": [
+          "- Dihydropyridine (Gefäßtyp): Amlodipin, Nifedipin, Lercanidipin („-dipin“)",
+          "- Nicht-Dihydropyridine (Herztyp): Verapamil, Diltiazem",
+          "Dosierung immer nach ärztlicher Anordnung und Fachinformation."
+        ]
+      },
+      {
+        "title": "Wirkung",
+        "paragraphs": [
+          "- blockieren Calciumkanäle in Gefäßmuskel bzw. Herz",
+          "- Gefäßtyp: Gefäßerweiterung, Blutdrucksenkung",
+          "- Herztyp: zusätzlich langsamere Herzfrequenz und AV-Überleitung, schwächere Kontraktion"
+        ]
+      },
+      {
+        "title": "Indikationen",
+        "paragraphs": [
+          "- Bluthochdruck, Angina pectoris (beide Typen)",
+          "- Verapamil/Diltiazem: Frequenzkontrolle bei Vorhofflimmern, AVNRT, HCM"
+        ]
+      },
+      {
+        "title": "Nebenwirkungen",
+        "paragraphs": [
+          "- Gefäßtyp: Knöchelödeme, Kopfschmerz, Gesichtsrötung, Reflextachykardie",
+          "- Herztyp: Bradykardie, AV-Block, Blutdruckabfall, Verstopfung, Verschlechterung einer Herzinsuffizienz"
+        ]
+      },
+      {
+        "title": "Kontraindikationen und Vorsicht",
+        "paragraphs": [
+          "- Verapamil/Diltiazem: nicht bei HFrEF, AV-Block, WPW mit Vorhofflimmern",
+          "- Verapamil i.v. nicht mit Betablocker i.v. kombinieren",
+          "- schnell wirksames Nifedipin nicht bei akutem Koronarsyndrom"
+        ]
+      },
+      {
+        "title": "Pflege und Beobachtung",
+        "paragraphs": [
+          "- Puls und Blutdruck vor Gabe",
+          "- Knöchelödeme nicht automatisch als Herzinsuffizienz deuten – trotzdem melden",
+          "- Monitor bei i.v.-Gabe (Verapamil)"
+        ]
+      }
+    ],
+    "keywords": [
+      "Calciumantagonist",
+      "Amlodipin",
+      "Nifedipin",
+      "Verapamil",
+      "Isoptin",
+      "Diltiazem",
+      "Knöchelödem"
+    ],
+    "relatedArticleIds": [
+      "a-vorhofflimmern",
+      "a-avnrt",
+      "a-wpw",
+      "a-hcm",
+      "m-betablocker"
+    ],
+    "sourceIds": [
+      "esc-htn-2024",
+      "esc-af-2024",
+      "esc-svt-2019"
+    ],
+    "lastChecked": "2026-11-13",
+    "houseSpecific": true,
+    "status": "unreviewed",
+    "termIds": []
+  },
+  {
+    "id": "m-akutmedikamente",
+    "title": "Akutmedikamente: Adenosin, Atropin, Adrenalin",
+    "category": "Medikamente",
+    "summary": "Drei Notfallmedikamente, die du auf der Telemetrie kennen musst: gegen Herzrasen, gegen zu langsamen Puls und in der Reanimation.",
+    "kind": "medikament",
+    "sections": [
+      {
+        "title": "Wirkstoffe und Beispiele",
+        "paragraphs": [
+          "- Adenosin: bei regelmäßiger Schmalkomplextachykardie (AVNRT, AVRT)",
+          "- Atropin: bei symptomatischer Bradykardie",
+          "- Adrenalin: in der Reanimation und als Infusion bei Bradykardie/Schock",
+          "Dosierungen nach ERC-Algorithmus und ärztlicher Anordnung."
+        ]
+      },
+      {
+        "title": "Wirkung",
+        "paragraphs": [
+          "- Adenosin: blockiert für Sekunden den AV-Knoten und unterbricht dadurch kreisende Erregungen",
+          "- Atropin: hebt die Wirkung des Vagus auf, Herzfrequenz steigt",
+          "- Adrenalin: steigert Herzfrequenz, Kontraktionskraft und Gefäßtonus"
+        ]
+      },
+      {
+        "title": "Indikationen",
+        "paragraphs": [
+          "- Adenosin: stabile AVNRT/AVRT nach erfolglosen vagalen Manövern; hilft auch, Vorhofflattern sichtbar zu machen",
+          "- Atropin: instabile Bradykardie (ERC: 500 µg i.v., bis max. 3 mg)",
+          "- Adrenalin: Reanimation (1 mg i.v. alle 3–5 Minuten), Bradykardie, Anaphylaxie, Schock"
+        ]
+      },
+      {
+        "title": "Nebenwirkungen",
+        "paragraphs": [
+          "- Adenosin: kurzes Druckgefühl, Hitzewallung, Atemnot, kurze Asystolie am Monitor",
+          "- Atropin: Mundtrockenheit, Harnverhalt, Verwirrtheit, Sehstörungen",
+          "- Adrenalin: Herzrasen, Rhythmusstörungen, Blutdruckanstieg"
+        ]
+      },
+      {
+        "title": "Kontraindikationen und Vorsicht",
+        "paragraphs": [
+          "- Adenosin: schweres Asthma, AV-Block II°/III° ohne Schrittmacher, unregelmäßige Breitkomplextachykardie (WPW mit VHF)",
+          "- Atropin: bei Herztransplantierten unwirksam; bei AV-Block in der Kammer (breiter Ersatzrhythmus) oft wenig wirksam",
+          "- Adrenalin: in der Reanimation keine absolute Kontraindikation"
+        ]
+      },
+      {
+        "title": "Pflege und Beobachtung",
+        "paragraphs": [
+          "- Adenosin: herznaher, großer Zugang, schnelle Gabe mit sofortiger Spülung (20 ml NaCl), Rhythmusstreifen laufen lassen, Patient vorwarnen",
+          "- Atropin und Adrenalin im Notfallwagen bekannt, Monitor und Defibrillator bereit",
+          "- jede Gabe mit Uhrzeit dokumentieren"
+        ]
+      }
+    ],
+    "keywords": [
+      "Adenosin",
+      "Adrekar",
+      "Atropin",
+      "Adrenalin",
+      "Suprarenin",
+      "Notfallmedikamente",
+      "Reanimation"
+    ],
+    "relatedArticleIds": [
+      "a-avnrt",
+      "a-bradykardie",
+      "a-av-block",
+      "a-reanimation"
+    ],
+    "sourceIds": [
+      "erc-als-2021",
+      "erc-2025",
+      "esc-svt-2019"
+    ],
+    "lastChecked": "2026-11-13",
+    "houseSpecific": true,
+    "status": "unreviewed",
+    "termIds": []
   }
 ]

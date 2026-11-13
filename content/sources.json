@@ -194,5 +194,17 @@
     "citation": "Rangaswami J, Bhalla V, Blair JEA, et al. Cardiorenal Syndrome: Classification, Pathophysiology, Diagnosis, and Treatment Strategies. A Scientific Statement From the American Heart Association. Circulation. 2019;139(16):e840–e878.",
     "url": "https://doi.org/10.1161/CIR.0000000000000664",
     "year": 2019
+  },
+  {
+    "id": "esc-dyslip-2019",
+    "citation": "Mach F, Baigent C, Catapano AL, et al. 2019 ESC/EAS Guidelines for the management of dyslipidaemias. Eur Heart J. 2020;41(1):111–188.",
+    "url": "https://doi.org/10.1093/eurheartj/ehz455",
+    "year": 2019
+  },
+  {
+    "id": "ehra-doac-2021",
+    "citation": "Steffel J, Collins R, Antz M, et al. 2021 European Heart Rhythm Association Practical Guide on the Use of Non-Vitamin K Antagonist Oral Anticoagulants in Patients with Atrial Fibrillation. Europace. 2021;23(10):1612–1676.",
+    "url": "https://doi.org/10.1093/europace/euab065",
+    "year": 2021
   }
 ]
