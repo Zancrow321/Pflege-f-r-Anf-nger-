@@ -122,5 +122,23 @@
     "citation": "Surawicz B, Childers R, Deal BJ, Gettes LS. AHA/ACCF/HRS Recommendations for the Standardization and Interpretation of the Electrocardiogram: Part III: Intraventricular Conduction Disturbances. Circulation. 2009;119(10):e235–e240.",
     "url": "https://doi.org/10.1161/CIRCULATIONAHA.108.191095",
     "year": 2009
+  },
+  {
+    "id": "esc-endo-2023",
+    "citation": "Delgado V, Ajmone Marsan N, de Waha S, et al. 2023 ESC Guidelines for the management of endocarditis. Eur Heart J. 2023;44(39):3948–4042.",
+    "url": "https://doi.org/10.1093/eurheartj/ehad193",
+    "year": 2023
+  },
+  {
+    "id": "esc-paad-2024",
+    "citation": "Mazzolai L, Teixido-Tura G, Lanzi S, et al. 2024 ESC Guidelines for the management of peripheral arterial and aortic diseases. Eur Heart J. 2024;45(36):3538–3700.",
+    "url": "https://doi.org/10.1093/eurheartj/ehae179",
+    "year": 2024
+  },
+  {
+    "id": "esc-revasc-2018",
+    "citation": "Neumann FJ, Sousa-Uva M, Ahlsson A, et al. 2018 ESC/EACTS Guidelines on myocardial revascularization. Eur Heart J. 2019;40(2):87–165.",
+    "url": "https://doi.org/10.1093/eurheartj/ehy394",
+    "year": 2018
   }
 ]
