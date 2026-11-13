@@ -3702,6 +3702,487 @@
           ]
         }
       ]
+    },
+    {
+      "id": "u11",
+      "title": "Krankheitsbilder 5: Klappen, Kreislauf, Lunge",
+      "level": "station",
+      "description": "Aortenstenose, Mitralinsuffizienz, Lungenembolie, hypertensive Krise und Synkope.",
+      "lessons": [
+        {
+          "id": "u11l1",
+          "title": "Aortenstenose",
+          "card": {
+            "title": "Enges Tor",
+            "text": "Bei der Aortenstenose pumpt das Herz gegen eine verengte Klappe. Beschwerden bei Belastung sind ein Alarmzeichen.",
+            "bullets": [
+              "Atemnot, Angina, Synkope",
+              "Echo: Schweregrad",
+              "TAVI oder OP – das Herzteam entscheidet",
+              "Vorsicht mit Nitraten"
+            ]
+          },
+          "questions": [
+            {
+              "id": "u11l1q1",
+              "type": "single_choice",
+              "prompt": "Welche drei Beschwerden sind typisch für eine schwere Aortenstenose?",
+              "options": [
+                "Atemnot, Brustenge, Synkope bei Belastung",
+                "Fieber, Husten, Schnupfen",
+                "Bauchschmerz, Durchfall, Erbrechen",
+                "Juckreiz, Ausschlag, Augenrötung"
+              ],
+              "correctIndex": 0,
+              "explanation": "Die klassische Trias tritt meist zuerst bei Belastung auf."
+            },
+            {
+              "id": "u11l1q2",
+              "type": "single_choice",
+              "prompt": "Was ist eine TAVI?",
+              "options": [
+                "Aortenklappenersatz per Katheter",
+                "ein Medikament gegen Bluthochdruck",
+                "eine Lungenfunktionsprüfung",
+                "ein Bypass an den Beinarterien"
+              ],
+              "correctIndex": 0,
+              "explanation": "Transkatheter-Aortenklappenimplantation, meist über die Leiste."
+            },
+            {
+              "id": "u11l1q3",
+              "type": "true_false",
+              "statement": "Bei schwerer Aortenstenose können Nitrate einen starken Blutdruckabfall auslösen.",
+              "correct": true,
+              "explanation": "Richtig. Das Herz kann den Auswurf nicht steigern, wenn die Gefäße weit werden."
+            },
+            {
+              "id": "u11l1q4",
+              "type": "single_choice",
+              "prompt": "Worauf achtest du nach einer TAVI besonders am Monitor?",
+              "options": [
+                "neuer AV-Block",
+                "Sinusrhythmus",
+                "Sättigung 98 %",
+                "Temperatur 37 °C"
+              ],
+              "correctIndex": 0,
+              "explanation": "Die neue Klappe liegt nahe am Reizleitungssystem."
+            },
+            {
+              "id": "u11l1q5",
+              "type": "single_choice",
+              "prompt": "Wie kann man eine verengte Aortenklappe dauerhaft behandeln?",
+              "options": [
+                "nur durch Klappenersatz (TAVI oder OP)",
+                "mit Tabletten allein",
+                "mit Physiotherapie",
+                "durch viel Trinken"
+              ],
+              "correctIndex": 0,
+              "explanation": "Medikamente behandeln nur Begleiterkrankungen."
+            }
+          ],
+          "sourceIds": [
+            "esc-vhd-2021"
+          ],
+          "articleIds": [
+            "a-aortenstenose"
+          ],
+          "termIds": [
+            "t-stenose"
+          ]
+        },
+        {
+          "id": "u11l2",
+          "title": "Mitralinsuffizienz",
+          "card": {
+            "title": "Undichtes Ventil",
+            "text": "Bei der Mitralinsuffizienz fließt Blut zurück in den Vorhof und staut sich in die Lunge.",
+            "bullets": [
+              "primär: Klappe krank",
+              "sekundär: Kammer/Vorhof erweitert",
+              "Reparatur vor Ersatz",
+              "TEER (MitraClip) bei hohem OP-Risiko"
+            ]
+          },
+          "questions": [
+            {
+              "id": "u11l2q1",
+              "type": "word_parts",
+              "term": "Insuffizienz",
+              "parts": [
+                {
+                  "part": "In",
+                  "meaning": "nicht",
+                  "origin": "lat."
+                },
+                {
+                  "part": "suffizienz",
+                  "meaning": "Genügen, Ausreichen",
+                  "origin": "lat. sufficere"
+                }
+              ],
+              "distractors": [
+                "Hypo",
+                "itis"
+              ],
+              "meaning": "Schwäche, ungenügende Funktion",
+              "explanation": "Eine insuffiziente Klappe schließt nicht ausreichend."
+            },
+            {
+              "id": "u11l2q2",
+              "type": "single_choice",
+              "prompt": "Wohin fließt das Blut bei einer Mitralinsuffizienz zurück?",
+              "options": [
+                "in den linken Vorhof",
+                "in die Aorta",
+                "in die rechte Kammer",
+                "in die Hohlvene"
+              ],
+              "correctIndex": 0,
+              "explanation": "Bei jeder Kammerkontraktion strömt Blut zurück in den linken Vorhof."
+            },
+            {
+              "id": "u11l2q3",
+              "type": "single_choice",
+              "prompt": "Welche Rhythmusstörung tritt bei Mitralinsuffizienz häufig auf?",
+              "options": [
+                "Vorhofflimmern",
+                "Kammerflimmern",
+                "AV-Block III°",
+                "Asystolie"
+              ],
+              "correctIndex": 0,
+              "explanation": "Der vergrößerte linke Vorhof begünstigt Vorhofflimmern."
+            },
+            {
+              "id": "u11l2q4",
+              "type": "true_false",
+              "statement": "Bei einer sekundären Mitralinsuffizienz steht die Behandlung der Herzinsuffizienz an erster Stelle.",
+              "correct": true,
+              "explanation": "Richtig. Die Klappe ist gesund, das Problem ist die erweiterte Kammer."
+            },
+            {
+              "id": "u11l2q5",
+              "type": "single_choice",
+              "prompt": "Was kann ein plötzliches Lungenödem mit neuem Herzgeräusch nach einem Infarkt bedeuten?",
+              "options": [
+                "Abriss eines Papillarmuskels mit akuter Mitralinsuffizienz",
+                "eine harmlose Erkältung",
+                "Unterzuckerung",
+                "normale Heilung"
+              ],
+              "correctIndex": 0,
+              "explanation": "Ein lebensbedrohlicher Notfall – sofort Arzt."
+            }
+          ],
+          "sourceIds": [
+            "esc-vhd-2021"
+          ],
+          "articleIds": [
+            "a-mitralinsuffizienz"
+          ],
+          "termIds": [
+            "t-insuffizienz"
+          ]
+        },
+        {
+          "id": "u11l3",
+          "title": "Lungenembolie",
+          "card": {
+            "title": "Gerinnsel in der Lunge",
+            "text": "Plötzliche Atemnot, Brustschmerz beim Atmen und Herzrasen – besonders nach Immobilität – können eine Lungenembolie sein.",
+            "bullets": [
+              "Quelle meist Beinvenenthrombose",
+              "D-Dimere, CT-Angiographie",
+              "Antikoagulation schon bei Verdacht",
+              "Schock → Thrombolyse"
+            ]
+          },
+          "questions": [
+            {
+              "id": "u11l3q1",
+              "type": "word_parts",
+              "term": "Thrombolyse",
+              "parts": [
+                {
+                  "part": "Thrombo",
+                  "meaning": "Blutgerinnsel",
+                  "origin": "griech. thrómbos"
+                },
+                {
+                  "part": "lyse",
+                  "meaning": "Auflösung",
+                  "origin": "griech. lýsis"
+                }
+              ],
+              "distractors": [
+                "Hyper",
+                "ektomie"
+              ],
+              "meaning": "Auflösung eines Blutgerinnsels",
+              "explanation": "Wird bei Hochrisiko-Lungenembolie eingesetzt."
+            },
+            {
+              "id": "u11l3q2",
+              "type": "single_choice",
+              "prompt": "Woher stammt das Gerinnsel bei einer Lungenembolie meistens?",
+              "options": [
+                "aus einer tiefen Beinvenenthrombose",
+                "aus der Aortenklappe",
+                "aus der Lunge selbst",
+                "aus dem Magen"
+              ],
+              "correctIndex": 0,
+              "explanation": "Deshalb ist Thromboseprophylaxe so wichtig."
+            },
+            {
+              "id": "u11l3q3",
+              "type": "single_choice",
+              "prompt": "Welche Behandlung beginnt schon bei begründetem Verdacht?",
+              "options": [
+                "Antikoagulation",
+                "Antibiotika",
+                "Insulin",
+                "Abführmittel"
+              ],
+              "correctIndex": 0,
+              "explanation": "Heparin wird gegeben, bevor die Diagnose sicher ist, wenn nichts dagegen spricht."
+            },
+            {
+              "id": "u11l3q4",
+              "type": "true_false",
+              "statement": "Unter wirksamer Antikoagulation dürfen Patienten mit Lungenembolie meist mobilisiert werden.",
+              "correct": true,
+              "explanation": "Richtig – nach ärztlicher Anordnung. Strenge Bettruhe ist meist nicht nötig."
+            },
+            {
+              "id": "u11l3q5",
+              "type": "single_choice",
+              "prompt": "Welcher Befund spricht für eine Hochrisiko-Lungenembolie?",
+              "options": [
+                "Blutdruckabfall und Schock",
+                "leichter Husten",
+                "Temperatur 37,2 °C",
+                "Sättigung 97 % ohne Atemnot"
+              ],
+              "correctIndex": 0,
+              "explanation": "Bei Schock wird eine Thrombolyse erwogen."
+            }
+          ],
+          "sourceIds": [
+            "esc-pe-2019"
+          ],
+          "articleIds": [
+            "a-lungenembolie"
+          ],
+          "termIds": [
+            "t-thrombolyse",
+            "t-embolie"
+          ]
+        },
+        {
+          "id": "u11l4",
+          "title": "Hypertensive Krise",
+          "card": {
+            "title": "Zahl oder Organ?",
+            "text": "Nicht der Wert allein, sondern ein akuter Organschaden macht aus hohem Blutdruck einen Notfall.",
+            "bullets": [
+              "Entgleisung: hoch, kein Organschaden",
+              "Notfall: hoch + Organschaden",
+              "nicht zu schnell senken",
+              "Auslöser suchen: Schmerz, Blase, Angst"
+            ]
+          },
+          "questions": [
+            {
+              "id": "u11l4q1",
+              "type": "matching",
+              "prompt": "Ordne zu.",
+              "pairs": [
+                {
+                  "left": "hypertensive Entgleisung",
+                  "right": "kein akuter Organschaden"
+                },
+                {
+                  "left": "hypertensiver Notfall",
+                  "right": "akuter Organschaden"
+                },
+                {
+                  "left": "zu schnelle Senkung",
+                  "right": "Gefahr für Gehirn und Nieren"
+                },
+                {
+                  "left": "volle Blase",
+                  "right": "möglicher Auslöser"
+                }
+              ],
+              "explanation": "So unterscheidet die ESC-Leitlinie."
+            },
+            {
+              "id": "u11l4q2",
+              "type": "single_choice",
+              "prompt": "Ein Patient hat 195/105 mmHg, ist beschwerdefrei. Was prüfst du zuerst?",
+              "options": [
+                "Messung in Ruhe wiederholen und Auslöser suchen",
+                "sofort Reanimation",
+                "den Patienten flach lagern und Beine hoch",
+                "nichts dokumentieren"
+              ],
+              "correctIndex": 0,
+              "explanation": "Schmerz, Angst, volle Blase oder vergessene Medikamente erhöhen den Blutdruck."
+            },
+            {
+              "id": "u11l4q3",
+              "type": "true_false",
+              "statement": "Beim hypertensiven Notfall soll der Blutdruck so schnell wie möglich normalisiert werden.",
+              "correct": false,
+              "explanation": "Falsch. Meist nicht mehr als etwa 25 % in der ersten Stunde – Ausnahmen bestimmt der Arzt."
+            },
+            {
+              "id": "u11l4q4",
+              "type": "single_choice",
+              "prompt": "Welches Symptom macht aus hohem Blutdruck einen Notfall?",
+              "options": [
+                "neue Sprachstörung",
+                "leichte Müdigkeit",
+                "kalte Hände",
+                "Durst"
+              ],
+              "correctIndex": 0,
+              "explanation": "Neurologische Ausfälle zeigen einen Organschaden am Gehirn."
+            },
+            {
+              "id": "u11l4q5",
+              "type": "single_choice",
+              "prompt": "Wie misst du den Blutdruck richtig?",
+              "options": [
+                "passende Manschette, nach Ruhe, Arm auf Herzhöhe",
+                "über dem Pullover",
+                "direkt nach dem Treppensteigen",
+                "mit zu kleiner Manschette"
+              ],
+              "correctIndex": 0,
+              "explanation": "Eine zu kleine Manschette misst falsch hohe Werte."
+            }
+          ],
+          "sourceIds": [
+            "esc-htn-2024"
+          ],
+          "articleIds": [
+            "a-hypertensive-krise"
+          ],
+          "termIds": [
+            "t-hypertonie"
+          ]
+        },
+        {
+          "id": "u11l5",
+          "title": "Synkope",
+          "card": {
+            "title": "Kurz weg",
+            "text": "Eine Synkope ist meist harmlos. Ohne Vorzeichen, bei Belastung oder im Liegen kann sie aber vom Herzen kommen.",
+            "bullets": [
+              "Reflex, orthostatisch, kardial",
+              "Schellong-Test",
+              "Monitorspeicher sichern",
+              "flach lagern, Vitalzeichen, Blutzucker"
+            ]
+          },
+          "questions": [
+            {
+              "id": "u11l5q1",
+              "type": "word_parts",
+              "term": "Synkope",
+              "parts": [
+                {
+                  "part": "Syn",
+                  "meaning": "zusammen",
+                  "origin": "griech. sýn"
+                },
+                {
+                  "part": "kope",
+                  "meaning": "Schlag, Abschneiden",
+                  "origin": "griech. kopḗ"
+                }
+              ],
+              "distractors": [
+                "Brady",
+                "itis"
+              ],
+              "meaning": "kurzer Bewusstseinsverlust",
+              "explanation": "Wörtlich etwa „Zusammenschlagen“, also plötzliches Zusammensacken."
+            },
+            {
+              "id": "u11l5q2",
+              "type": "matching",
+              "prompt": "Ordne die Synkopenform zu.",
+              "pairs": [
+                {
+                  "left": "Reflexsynkope",
+                  "right": "Schmerz, langes Stehen, Schwitzen vorher"
+                },
+                {
+                  "left": "orthostatische Synkope",
+                  "right": "beim Aufstehen, Blutdruck fällt"
+                },
+                {
+                  "left": "kardiale Synkope",
+                  "right": "ohne Vorzeichen, bei Belastung"
+                },
+                {
+                  "left": "Rhythmus-Ursache",
+                  "right": "AV-Block oder VT am Monitor"
+                }
+              ],
+              "explanation": "Die kardiale Synkope ist die gefährlichste."
+            },
+            {
+              "id": "u11l5q3",
+              "type": "single_choice",
+              "prompt": "Was tust du direkt nach einer Synkope am Monitor-Patienten?",
+              "options": [
+                "Vitalzeichen, Blutzucker, Verletzungen prüfen und Monitorspeicher sichern",
+                "den Patienten sofort aufstehen lassen",
+                "nur die Uhrzeit notieren",
+                "nichts, das ist normal"
+              ],
+              "correctIndex": 0,
+              "explanation": "Der Speicher zeigt, ob eine Rhythmusstörung die Ursache war."
+            },
+            {
+              "id": "u11l5q4",
+              "type": "true_false",
+              "statement": "Eine Synkope bei körperlicher Belastung ist ein Warnzeichen.",
+              "correct": true,
+              "explanation": "Richtig. Sie spricht für eine kardiale Ursache, z.B. Aortenstenose oder VT."
+            },
+            {
+              "id": "u11l5q5",
+              "type": "single_choice",
+              "prompt": "Was ist der Schellong-Test?",
+              "options": [
+                "Blutdruck- und Pulsmessung im Liegen und Stehen",
+                "ein Belastungs-EKG",
+                "eine Blutzuckermessung",
+                "ein Lungenfunktionstest"
+              ],
+              "correctIndex": 0,
+              "explanation": "Er deckt eine orthostatische Ursache auf."
+            }
+          ],
+          "sourceIds": [
+            "esc-syncope-2018"
+          ],
+          "articleIds": [
+            "a-synkope"
+          ],
+          "termIds": [
+            "t-synkope"
+          ]
+        }
+      ]
     }
   ]
 }

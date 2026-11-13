@@ -2326,5 +2326,476 @@
       "t-perfusion",
       "t-revaskularisation"
     ]
+  },
+  {
+    "id": "a-aortenstenose",
+    "title": "Aortenklappenstenose",
+    "category": "Herzklappen",
+    "summary": "Verengung der Aortenklappe, meist durch Verkalkung im Alter. Sobald Beschwerden auftreten, ist die Prognose ohne Klappenersatz schlecht.",
+    "kind": "diagnose",
+    "sections": [
+      {
+        "title": "Kurz erklärt",
+        "paragraphs": [
+          "Die Aortenklappe liegt zwischen linker Kammer und Hauptschlagader. Ist sie verengt, muss die linke Kammer gegen einen hohen Widerstand pumpen. Der Herzmuskel verdickt sich.",
+          "Schwere Aortenstenose: Klappenöffnungsfläche unter 1 cm², mittlerer Druckgradient ab 40 mmHg oder Flussgeschwindigkeit ab 4 m/s (Echokardiographie)."
+        ]
+      },
+      {
+        "title": "Ursachen und Risikofaktoren",
+        "paragraphs": [
+          "- Verkalkung im Alter (häufigste Ursache)",
+          "- angeboren zweiflügelige (bikuspide) Klappe, dann früher",
+          "- rheumatisches Fieber (bei uns selten)",
+          "- gleiche Risikofaktoren wie Arteriosklerose"
+        ]
+      },
+      {
+        "title": "Symptome",
+        "paragraphs": [
+          "Typische Trias bei Belastung:",
+          "- Atemnot, Brustenge (Angina pectoris), Schwindel oder Synkope",
+          "- später Herzinsuffizienz, Rhythmusstörungen",
+          "- lautes Systolikum, das in die Halsgefäße ausstrahlt"
+        ]
+      },
+      {
+        "title": "Diagnostik",
+        "paragraphs": [
+          "- Auskultation, EKG (Linksherzhypertrophie)",
+          "- Echokardiographie: Schweregrad, Pumpfunktion",
+          "- CT vor TAVI, Herzkatheter zur Abklärung der Koronarien"
+        ]
+      },
+      {
+        "title": "Therapie",
+        "paragraphs": [
+          "- Medikamente können die Verengung nicht beheben, nur Begleiterkrankungen behandeln",
+          "- Klappenersatz bei schwerer Aortenstenose mit Beschwerden oder eingeschränkter Pumpfunktion",
+          "- Herzteam entscheidet: TAVI (Katheterklappe, meist über die Leiste) oder chirurgischer Klappenersatz",
+          "- ESC 2021: TAVI eher bei Älteren (ab etwa 75 Jahren) oder hohem OP-Risiko, OP eher bei Jüngeren mit niedrigem Risiko"
+        ]
+      },
+      {
+        "title": "Pflege und Beobachtung",
+        "paragraphs": [
+          "- Vorsicht mit blutdrucksenkenden und gefäßerweiternden Medikamenten (z.B. Nitrate): Blutdruck kann stark abfallen",
+          "- Blutdruck, Puls, Bewusstsein, Belastbarkeit beobachten",
+          "- Sturz- und Synkopengefahr: langsam mobilisieren",
+          "- nach TAVI: Punktionsstelle, Rhythmus (AV-Block möglich), Neurologie, Nierenwerte"
+        ]
+      },
+      {
+        "title": "Warnzeichen",
+        "paragraphs": [
+          "- Synkope oder Brustschmerz bei Belastung",
+          "- Blutdruckabfall, Lungenödem",
+          "- nach TAVI: neuer AV-Block oder Schenkelblock, Blutung an der Leiste, neurologische Ausfälle"
+        ]
+      }
+    ],
+    "keywords": [
+      "Aortenstenose",
+      "AS",
+      "TAVI",
+      "TAVR",
+      "Klappenersatz",
+      "Herzklappe",
+      "Systolikum",
+      "bikuspid"
+    ],
+    "relatedArticleIds": [
+      "a-herz-anatomie",
+      "a-synkope",
+      "a-mitralinsuffizienz",
+      "a-dekompensation"
+    ],
+    "sourceIds": [
+      "esc-vhd-2021"
+    ],
+    "lastChecked": "2026-11-13",
+    "houseSpecific": true,
+    "status": "unreviewed",
+    "termIds": [
+      "t-stenose",
+      "t-synkope"
+    ]
+  },
+  {
+    "id": "a-mitralinsuffizienz",
+    "title": "Mitralklappeninsuffizienz",
+    "category": "Herzklappen",
+    "summary": "Die Mitralklappe schließt nicht dicht. Blut fließt bei jedem Schlag zurück in den linken Vorhof und staut sich in die Lunge.",
+    "kind": "diagnose",
+    "sections": [
+      {
+        "title": "Kurz erklärt",
+        "paragraphs": [
+          "Die Mitralklappe trennt linken Vorhof und linke Kammer. Ist sie undicht, pendelt ein Teil des Blutes hin und her.",
+          "- primär: die Klappe selbst ist krank (z.B. Prolaps, Sehnenfadenabriss, Endokarditis)",
+          "- sekundär: die Klappe ist gesund, aber die linke Kammer oder der Vorhof ist erweitert (z.B. bei Herzinsuffizienz, VHF)"
+        ]
+      },
+      {
+        "title": "Ursachen und Risikofaktoren",
+        "paragraphs": [
+          "- Mitralklappenprolaps, degenerative Veränderungen",
+          "- Herzinsuffizienz, Herzinfarkt (Papillarmuskel), Vorhofflimmern",
+          "- Endokarditis, rheumatische Herzerkrankung"
+        ]
+      },
+      {
+        "title": "Symptome",
+        "paragraphs": [
+          "- Belastungsatemnot, Müdigkeit, Leistungsabfall",
+          "- Herzstolpern, oft Vorhofflimmern",
+          "- akut (z.B. Papillarmuskelabriss nach Infarkt): plötzliches Lungenödem und Schock"
+        ]
+      },
+      {
+        "title": "Diagnostik",
+        "paragraphs": [
+          "- Auskultation: Systolikum an der Herzspitze",
+          "- Echokardiographie (TTE, oft TEE): Ursache und Schweregrad",
+          "- EKG, NT-proBNP, ggf. Herzkatheter"
+        ]
+      },
+      {
+        "title": "Therapie",
+        "paragraphs": [
+          "- sekundäre Form: zuerst Herzinsuffizienz-Therapie und ggf. Resynchronisation",
+          "- primäre schwere Form: Klappenrekonstruktion (Reparatur) bevorzugt, sonst Klappenersatz",
+          "- bei hohem OP-Risiko: Katheterverfahren (TEER, z.B. MitraClip)",
+          "- Vorhofflimmern behandeln, Antikoagulation nach Anordnung"
+        ]
+      },
+      {
+        "title": "Pflege und Beobachtung",
+        "paragraphs": [
+          "- Zeichen der Stauung: Atemnot, Rasselgeräusche, Gewicht, Ödeme",
+          "- Monitor: Vorhofflimmern",
+          "- nach TEER: Punktionsstelle (meist Leistenvene), Rhythmus, Vitalzeichen"
+        ]
+      },
+      {
+        "title": "Warnzeichen",
+        "paragraphs": [
+          "- plötzliche schwere Atemnot, schaumiger Auswurf (Lungenödem)",
+          "- Blutdruckabfall, Kaltschweißigkeit",
+          "- neues lautes Herzgeräusch nach Herzinfarkt"
+        ]
+      }
+    ],
+    "keywords": [
+      "Mitralinsuffizienz",
+      "MI",
+      "Mitralklappe",
+      "MitraClip",
+      "TEER",
+      "Prolaps",
+      "Klappenrekonstruktion"
+    ],
+    "relatedArticleIds": [
+      "a-aortenstenose",
+      "a-hfref",
+      "a-vorhofflimmern",
+      "a-endokarditis",
+      "a-dekompensation"
+    ],
+    "sourceIds": [
+      "esc-vhd-2021",
+      "esc-hf-2021"
+    ],
+    "lastChecked": "2026-11-13",
+    "houseSpecific": true,
+    "status": "unreviewed",
+    "termIds": [
+      "t-insuffizienz"
+    ]
+  },
+  {
+    "id": "a-lungenembolie",
+    "title": "Lungenembolie (LAE)",
+    "category": "Lunge",
+    "summary": "Ein Blutgerinnsel, meist aus den Beinvenen, verstopft Lungenarterien. Das reicht von kaum Beschwerden bis zum plötzlichen Kreislaufstillstand.",
+    "kind": "diagnose",
+    "sections": [
+      {
+        "title": "Kurz erklärt",
+        "paragraphs": [
+          "Bei einer Lungenembolie löst sich ein Gerinnsel (meist aus einer tiefen Beinvenenthrombose) und wird in die Lungenarterien geschwemmt.",
+          "Die rechte Herzkammer muss gegen den Widerstand pumpen und kann versagen.",
+          "Die ESC teilt das Risiko ein: hoch (Schock), intermediär und niedrig."
+        ]
+      },
+      {
+        "title": "Ursachen und Risikofaktoren",
+        "paragraphs": [
+          "- Immobilität, Operationen, Knochenbrüche, lange Reisen",
+          "- Krebserkrankung, frühere Thrombose, Gerinnungsstörungen",
+          "- Schwangerschaft, Hormone (z.B. Pille), Übergewicht, hohes Alter"
+        ]
+      },
+      {
+        "title": "Symptome",
+        "paragraphs": [
+          "- plötzliche Atemnot, schnelle Atmung",
+          "- atemabhängiger Brustschmerz, Husten, manchmal Bluthusten",
+          "- Herzrasen, Synkope, Blutdruckabfall",
+          "- geschwollenes, schmerzhaftes Bein (Thrombose)"
+        ]
+      },
+      {
+        "title": "Diagnostik",
+        "paragraphs": [
+          "- klinische Wahrscheinlichkeit (Wells- oder Genf-Score)",
+          "- D-Dimere bei niedriger Wahrscheinlichkeit: normal = Lungenembolie unwahrscheinlich",
+          "- CT-Angiographie der Lunge",
+          "- Echokardiographie (Rechtsherzbelastung), Troponin, NT-proBNP",
+          "- EKG: oft Sinustachykardie, manchmal Rechtsschenkelblock oder SI-QIII-Typ"
+        ]
+      },
+      {
+        "title": "Therapie",
+        "paragraphs": [
+          "- Antikoagulation (Heparin, dann meist DOAK) schon bei begründetem Verdacht",
+          "- Hochrisiko mit Schock: systemische Thrombolyse, alternativ Katheter- oder OP-Verfahren",
+          "- Sauerstoff nach Zielsättigung, vorsichtige Kreislaufunterstützung",
+          "- Dauer der Antikoagulation: mindestens 3 Monate, je nach Ursache länger"
+        ]
+      },
+      {
+        "title": "Pflege und Beobachtung",
+        "paragraphs": [
+          "- Monitor, Blutdruck, Atemfrequenz, Sättigung engmaschig",
+          "- Antikoagulation pünktlich, Blutungszeichen beobachten",
+          "- unter wirksamer Antikoagulation ist Mobilisation meist erlaubt – nach ärztlicher Anordnung",
+          "- Thromboseprophylaxe bei allen Risikopatienten",
+          "- nach Thrombolyse: keine i.m.-Injektionen, Punktionen nur nach Rücksprache, Neurologie beobachten"
+        ]
+      },
+      {
+        "title": "Warnzeichen",
+        "paragraphs": [
+          "- Blutdruckabfall, Synkope, Bewusstseinsstörung",
+          "- steigender Sauerstoffbedarf, Zyanose",
+          "- Kreislaufstillstand: Reanimation, an Thrombolyse denken",
+          "- Blutungen unter Antikoagulation oder Lyse"
+        ]
+      }
+    ],
+    "keywords": [
+      "Lungenembolie",
+      "LAE",
+      "LE",
+      "PE",
+      "D-Dimere",
+      "Wells",
+      "Thrombolyse",
+      "Lyse",
+      "Antikoagulation",
+      "Rechtsherzbelastung"
+    ],
+    "relatedArticleIds": [
+      "a-rsb",
+      "a-reanimation"
+    ],
+    "sourceIds": [
+      "esc-pe-2019",
+      "erc-special-2021"
+    ],
+    "lastChecked": "2026-11-13",
+    "houseSpecific": true,
+    "status": "unreviewed",
+    "termIds": [
+      "t-embolie",
+      "t-thrombose",
+      "t-thrombolyse",
+      "t-dyspnoe",
+      "t-tachypnoe"
+    ]
+  },
+  {
+    "id": "a-hypertensive-krise",
+    "title": "Hypertensive Entgleisung und hypertensiver Notfall",
+    "category": "Herz und Gefäße",
+    "summary": "Sehr hoher Blutdruck. Entscheidend ist, ob Organe akut geschädigt werden: Dann ist es ein Notfall, sonst wird langsam gesenkt.",
+    "kind": "diagnose",
+    "sections": [
+      {
+        "title": "Kurz erklärt",
+        "paragraphs": [
+          "- hypertensive Entgleisung (Dringlichkeit): stark erhöhter Blutdruck, meist über 180/110 mmHg, ohne akuten Organschaden",
+          "- hypertensiver Notfall: hoher Blutdruck mit akutem Organschaden, z.B. Gehirn, Herz, Aorta, Niere, Augen",
+          "Nicht die Zahl allein, sondern der Organschaden entscheidet."
+        ]
+      },
+      {
+        "title": "Ursachen und Risikofaktoren",
+        "paragraphs": [
+          "- vergessene oder abgesetzte Blutdruckmedikamente",
+          "- Schmerz, Angst, Harnverhalt, Alkoholentzug",
+          "- Drogen (z.B. Kokain), Nierenerkrankungen, Schwangerschaft (Präeklampsie)"
+        ]
+      },
+      {
+        "title": "Symptome",
+        "paragraphs": [
+          "- Kopfschmerz, Schwindel, Übelkeit, Nasenbluten",
+          "- Notfallzeichen: Brustschmerz, Atemnot (Lungenödem), Sehstörungen, Lähmungen, Verwirrtheit, Krampfanfall"
+        ]
+      },
+      {
+        "title": "Diagnostik",
+        "paragraphs": [
+          "- Blutdruck an beiden Armen, Wiederholung in Ruhe",
+          "- EKG, Troponin, Kreatinin, Urin, Augenhintergrund",
+          "- bei neurologischen Zeichen CT des Kopfes, bei Rücken-/Brustschmerz an Aortendissektion denken"
+        ]
+      },
+      {
+        "title": "Therapie",
+        "paragraphs": [
+          "- ohne Organschaden: Ruhe, Auslöser behandeln, orale Medikamente, langsam über Stunden bis Tage senken",
+          "- Notfall: Intensiv- oder Überwachungsstation, Medikamente i.v.",
+          "- in der Regel nicht mehr als etwa 25 % in der ersten Stunde senken (Ausnahmen z.B. Aortendissektion, Lungenödem)",
+          "- zu schnelles Senken kann Gehirn, Herz und Nieren schaden"
+        ]
+      },
+      {
+        "title": "Pflege und Beobachtung",
+        "paragraphs": [
+          "- richtig messen: passende Manschette, nach Ruhephase, Arm auf Herzhöhe",
+          "- Auslöser suchen: Schmerz, volle Blase, Angst, fehlende Medikamente",
+          "- unter i.v.-Therapie engmaschig messen, Neurologie und Urin beobachten",
+          "- keine Bedarfsmedikation ohne Anordnung"
+        ]
+      },
+      {
+        "title": "Warnzeichen",
+        "paragraphs": [
+          "- Brust- oder Rückenschmerz (Infarkt, Aortendissektion)",
+          "- Lähmung, Sprachstörung, Sehstörung, Krampfanfall",
+          "- Atemnot mit Rasselgeräuschen",
+          "- Schwindel oder Bewusstseinsstörung durch zu schnelle Senkung"
+        ]
+      }
+    ],
+    "keywords": [
+      "hypertensive Krise",
+      "hypertensiver Notfall",
+      "Entgleisung",
+      "Blutdruck",
+      "RR hoch",
+      "Hypertonie"
+    ],
+    "relatedArticleIds": [
+      "a-vitalzeichen",
+      "a-dekompensation"
+    ],
+    "sourceIds": [
+      "esc-htn-2024"
+    ],
+    "lastChecked": "2026-11-13",
+    "houseSpecific": true,
+    "status": "unreviewed",
+    "termIds": [
+      "t-hypertonie"
+    ]
+  },
+  {
+    "id": "a-synkope",
+    "title": "Synkope",
+    "category": "Herzrhythmus",
+    "summary": "Kurzer Bewusstseinsverlust durch vorübergehend zu wenig Blut im Gehirn. Meist harmlos, aber eine kardiale Synkope kann Vorbote des plötzlichen Herztods sein.",
+    "kind": "diagnose",
+    "sections": [
+      {
+        "title": "Kurz erklärt",
+        "paragraphs": [
+          "Eine Synkope ist ein plötzlicher, kurzer Bewusstseinsverlust mit Sturz, der von selbst vollständig vorbeigeht.",
+          "Drei Hauptgruppen:",
+          "- Reflexsynkope (vasovagal, z.B. bei Schmerz, langem Stehen, Wasserlassen)",
+          "- orthostatische Synkope (Blutdruckabfall beim Aufstehen, z.B. Volumenmangel, Medikamente)",
+          "- kardiale Synkope (Rhythmusstörung oder z.B. Aortenstenose)"
+        ]
+      },
+      {
+        "title": "Ursachen und Risikofaktoren",
+        "paragraphs": [
+          "- Hitze, langes Stehen, Schmerz, Angst",
+          "- Flüssigkeitsmangel, Blutdrucksenker, Diuretika",
+          "- Bradykardie, AV-Block, VT, Aortenstenose, Lungenembolie"
+        ]
+      },
+      {
+        "title": "Symptome",
+        "paragraphs": [
+          "- vorher oft Schwindel, Schwitzen, Übelkeit, Schwarzwerden vor Augen (Reflexsynkope)",
+          "- ohne Vorzeichen, im Liegen oder bei Belastung: an kardiale Ursache denken",
+          "- kurze Zuckungen sind möglich und kein sicheres Zeichen für einen Krampfanfall"
+        ]
+      },
+      {
+        "title": "Diagnostik",
+        "paragraphs": [
+          "- genaue Anamnese, auch von Zeugen",
+          "- Blutdruck im Liegen und Stehen (Schellong-Test), 12-Kanal-EKG",
+          "- Monitor oder Langzeit-EKG, Echokardiographie, ggf. Kipptisch oder Ereignisrekorder"
+        ]
+      },
+      {
+        "title": "Therapie",
+        "paragraphs": [
+          "- Reflexsynkope: Aufklärung, Auslöser meiden, viel trinken, Gegenmanöver (Beine überkreuzen, Hände verhaken und ziehen)",
+          "- orthostatisch: Medikamente prüfen, Flüssigkeit, langsames Aufstehen",
+          "- kardial: Ursache behandeln, z.B. Schrittmacher, ICD, Klappenersatz"
+        ]
+      },
+      {
+        "title": "Pflege und Beobachtung",
+        "paragraphs": [
+          "- bei Synkope: Patient flach lagern, Beine hoch (wenn keine Atemnot), Vitalzeichen, Blutzucker",
+          "- Verletzungen nach Sturz prüfen, Arzt informieren",
+          "- Monitorspeicher sichern: Was war im Moment der Synkope?",
+          "- Sturzprophylaxe, Begleitung beim ersten Aufstehen"
+        ]
+      },
+      {
+        "title": "Warnzeichen",
+        "paragraphs": [
+          "- Synkope bei Belastung oder im Liegen, ohne Vorzeichen",
+          "- Brustschmerz, Herzrasen oder Atemnot vorher",
+          "- bekannte Herzerkrankung, plötzlicher Herztod in der Familie",
+          "- Pausen, AV-Block oder VT am Monitor"
+        ]
+      }
+    ],
+    "keywords": [
+      "Synkope",
+      "Ohnmacht",
+      "Kollaps",
+      "vasovagal",
+      "Schellong",
+      "orthostatisch",
+      "Bewusstlosigkeit"
+    ],
+    "relatedArticleIds": [
+      "a-bradykardie",
+      "a-av-block",
+      "a-vt",
+      "a-aortenstenose",
+      "a-lungenembolie"
+    ],
+    "sourceIds": [
+      "esc-syncope-2018"
+    ],
+    "lastChecked": "2026-11-13",
+    "houseSpecific": true,
+    "status": "unreviewed",
+    "termIds": [
+      "t-synkope",
+      "t-hypotonie"
+    ]
   }
 ]
