@@ -140,5 +140,23 @@
     "citation": "Neumann FJ, Sousa-Uva M, Ahlsson A, et al. 2018 ESC/EACTS Guidelines on myocardial revascularization. Eur Heart J. 2019;40(2):87–165.",
     "url": "https://doi.org/10.1093/eurheartj/ehy394",
     "year": 2018
+  },
+  {
+    "id": "esc-vhd-2021",
+    "citation": "Vahanian A, Beyersdorf F, Praz F, et al. 2021 ESC/EACTS Guidelines for the management of valvular heart disease. Eur Heart J. 2022;43(7):561–632.",
+    "url": "https://doi.org/10.1093/eurheartj/ehab395",
+    "year": 2021
+  },
+  {
+    "id": "esc-pe-2019",
+    "citation": "Konstantinides SV, Meyer G, Becattini C, et al. 2019 ESC Guidelines for the diagnosis and management of acute pulmonary embolism. Eur Heart J. 2020;41(4):543–603.",
+    "url": "https://doi.org/10.1093/eurheartj/ehz405",
+    "year": 2019
+  },
+  {
+    "id": "esc-syncope-2018",
+    "citation": "Brignole M, Moya A, de Lange FJ, et al. 2018 ESC Guidelines for the diagnosis and management of syncope. Eur Heart J. 2018;39(21):1883–1948.",
+    "url": "https://doi.org/10.1093/eurheartj/ehy037",
+    "year": 2018
   }
 ]

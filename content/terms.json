@@ -1172,5 +1172,25 @@
     "sourceIds": [
       "pschyrembel"
     ]
+  },
+  {
+    "id": "t-thrombolyse",
+    "term": "Thrombolyse",
+    "parts": [
+      {
+        "part": "Thrombo",
+        "meaning": "Blutgerinnsel",
+        "origin": "griech. thrómbos"
+      },
+      {
+        "part": "lyse",
+        "meaning": "Auflösung",
+        "origin": "griech. lýsis"
+      }
+    ],
+    "meaning": "medikamentöse Auflösung eines Blutgerinnsels, z.B. bei Hochrisiko-Lungenembolie",
+    "sourceIds": [
+      "pschyrembel"
+    ]
   }
 ]
