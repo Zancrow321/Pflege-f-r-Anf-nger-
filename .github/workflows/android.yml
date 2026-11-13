@@ -25,6 +25,9 @@ jobs:
       - name: Debug-APK bauen
         run: ./gradlew :app:assembleDebug
 
+      - name: Release-APK bauen (Probelauf mit R8, Debug-Signatur)
+        run: ./gradlew :app:assembleRelease
+
       - name: APK hochladen
         uses: actions/upload-artifact@v4
         with:
