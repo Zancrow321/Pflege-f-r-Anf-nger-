@@ -286,14 +286,73 @@
   {
     "id": "a-av-block",
     "title": "AV-Blöcke I°–III°",
-    "category": "Rhythmen",
-    "summary": "Erkennen und Gefährlichkeit der Überleitungsstörungen.",
-    "body": [
-      "- AV-Block I°: PQ über 0,20 s, jede P-Welle wird übergeleitet. Meist harmlos.",
-      "- AV-Block II° Typ Wenckebach (Mobitz I): PQ verlängert sich von Schlag zu Schlag, bis ein QRS ausfällt. Oft im AV-Knoten, meist eher gutartig.",
-      "- AV-Block II° Typ Mobitz (Mobitz II): PQ konstant, plötzlich fällt ein QRS aus. Gefahr des Übergangs in den AV-Block III°.",
-      "- AV-Block III° (total): P-Wellen und QRS-Komplexe sind voneinander unabhängig; langsamer Ersatzrhythmus, oft breit.",
-      "Bei Symptomen (Schwindel, Synkope, Hypotonie, Bewusstseinsstörung): Arzt sofort, Patient flach lagern und nicht allein lassen, Defibrillator mit Schrittmacherfunktion bereitstellen. Therapie (z.B. Atropin, Adrenalin, externe Stimulation) nur nach ärztlicher Anordnung."
+    "category": "Herzrhythmus",
+    "summary": "Die Überleitung vom Vorhof auf die Kammer ist verzögert oder unterbrochen. Von harmlos (I°) bis lebensgefährlich (III°).",
+    "kind": "diagnose",
+    "sections": [
+      {
+        "title": "Kurz erklärt",
+        "paragraphs": [
+          "Der AV-Knoten leitet die Erregung von den Vorhöfen auf die Kammern. Ist diese Überleitung gestört, spricht man von einem AV-Block.",
+          "- AV-Block I°: PQ-Zeit über 200 ms, jede P-Welle wird übergeleitet",
+          "- AV-Block II° Typ Wenckebach (Mobitz I): PQ wird von Schlag zu Schlag länger, bis ein QRS ausfällt",
+          "- AV-Block II° Typ Mobitz II: PQ konstant, plötzlich fällt ein QRS aus; Gefahr des Übergangs in III°",
+          "- AV-Block III° (totaler Block): Vorhöfe und Kammern schlagen unabhängig, langsamer Ersatzrhythmus, oft mit breitem QRS"
+        ]
+      },
+      {
+        "title": "Ursachen und Risikofaktoren",
+        "paragraphs": [
+          "- Alterung des Reizleitungssystems (Fibrose)",
+          "- Herzinfarkt (v.a. Hinterwand), KHK, Kardiomyopathien",
+          "- Medikamente: Betablocker, Calciumantagonisten (Verapamil, Diltiazem), Digitalis, Amiodaron",
+          "- Hyperkaliämie, Endokarditis, Borreliose, nach TAVI oder Herzoperation",
+          "- hoher Vagotonus bei Sportlern oder im Schlaf (meist I° oder Wenckebach)"
+        ]
+      },
+      {
+        "title": "Symptome",
+        "paragraphs": [
+          "- I° und Wenckebach meist ohne Beschwerden",
+          "- höhergradig: Schwindel, Müdigkeit, Atemnot, Leistungsabfall",
+          "- Synkope (Adams-Stokes-Anfall), Herzinsuffizienz"
+        ]
+      },
+      {
+        "title": "Diagnostik",
+        "paragraphs": [
+          "- 12-Kanal-EKG, Monitor, Langzeit-EKG",
+          "- Medikamentenliste prüfen, Kalium, Troponin, TSH",
+          "- Echokardiographie, ggf. elektrophysiologische Untersuchung"
+        ]
+      },
+      {
+        "title": "Therapie",
+        "paragraphs": [
+          "- auslösende Medikamente absetzen, Kalium korrigieren",
+          "- akut bei Instabilität (ERC): Atropin 500 µg i.v. (max. 3 mg), wenn erfolglos Adrenalin- oder Isoprenalin-Infusion, externe Stimulation (Pacing), ggf. passagerer Schrittmacher",
+          "- dauerhaft: Herzschrittmacher bei AV-Block III° oder Mobitz II, auch ohne Beschwerden (ESC 2021), bei I° und Wenckebach nur bei passenden Beschwerden"
+        ]
+      },
+      {
+        "title": "Pflege und Beobachtung",
+        "paragraphs": [
+          "- Monitor: Frequenz, Pausen, Überleitung; Alarmgrenzen nach Anordnung",
+          "- bei Beschwerden: Patient hinlegen, nicht allein lassen, Arzt rufen",
+          "- Defibrillator mit Schrittmacherfunktion und Atropin bereitstellen",
+          "- neue Medikamente mit bremsender Wirkung melden",
+          "- nach Schrittmacher-Implantation: Wunde, Arm nach Hausstandard schonen, Monitor"
+        ]
+      },
+      {
+        "title": "Warnzeichen",
+        "paragraphs": [
+          "- neuer AV-Block II° Mobitz oder III°",
+          "- Frequenz unter 40/min, Pausen über 3 Sekunden",
+          "- Schwindel, Synkope, Blutdruckabfall, Bewusstseinsstörung",
+          "- breiter Ersatzrhythmus"
+        ]
+      }
     ],
     "keywords": [
       "AV-Block",
@@ -302,17 +361,28 @@
       "Überleitung",
       "Schrittmacher",
       "Bradykardie",
-      "totaler Block"
+      "totaler Block",
+      "Adams-Stokes",
+      "PQ"
+    ],
+    "relatedArticleIds": [
+      "a-bradykardie",
+      "a-sick-sinus",
+      "a-synkope",
+      "a-reizleitung"
     ],
     "sourceIds": [
-      "aha-brady-2018",
       "esc-pacing-2021",
+      "aha-brady-2018",
       "erc-als-2021"
     ],
     "lastChecked": "2026-11-13",
     "houseSpecific": false,
     "status": "unreviewed",
-    "termIds": []
+    "termIds": [
+      "t-bradykardie",
+      "t-synkope"
+    ]
   },
   {
     "id": "a-vorhofflimmern",
@@ -2796,6 +2866,386 @@
     "termIds": [
       "t-synkope",
       "t-hypotonie"
+    ]
+  },
+  {
+    "id": "a-sick-sinus",
+    "title": "Sick-Sinus-Syndrom (Sinusknotenerkrankung)",
+    "category": "Herzrhythmus",
+    "summary": "Der Sinusknoten arbeitet unzuverlässig: zu langsam, mit Pausen oder im Wechsel mit schnellen Vorhofrhythmen (Tachy-Brady-Syndrom).",
+    "kind": "diagnose",
+    "sections": [
+      {
+        "title": "Kurz erklärt",
+        "paragraphs": [
+          "Der Sinusknoten ist der natürliche Taktgeber. Beim Sick-Sinus-Syndrom ist er gestört.",
+          "- Sinusbradykardie ohne passenden Frequenzanstieg bei Belastung",
+          "- Sinuspausen oder sinuatrialer Block",
+          "- Tachy-Brady-Syndrom: Wechsel von Vorhofflimmern/-flattern mit langsamen Phasen; nach Ende der Tachykardie oft lange Pausen"
+        ]
+      },
+      {
+        "title": "Ursachen und Risikofaktoren",
+        "paragraphs": [
+          "- Alterung und Vernarbung des Sinusknotens",
+          "- KHK, Kardiomyopathien, Vorhofflimmern",
+          "- Medikamente (Betablocker, Calciumantagonisten, Digitalis, Antiarrhythmika) können es verstärken oder sichtbar machen"
+        ]
+      },
+      {
+        "title": "Symptome",
+        "paragraphs": [
+          "- Schwindel, Müdigkeit, Leistungsabfall",
+          "- Synkopen, besonders nach Herzrasen",
+          "- Verwirrtheit bei älteren Patienten"
+        ]
+      },
+      {
+        "title": "Diagnostik",
+        "paragraphs": [
+          "- Monitor und Langzeit-EKG: Pausen, Frequenzverlauf",
+          "- Belastungs-EKG (Frequenzanstieg?)",
+          "- Medikamente prüfen, TSH, Elektrolyte"
+        ]
+      },
+      {
+        "title": "Therapie",
+        "paragraphs": [
+          "- bremsende Medikamente prüfen und wenn möglich absetzen",
+          "- Herzschrittmacher bei Beschwerden, die den langsamen Phasen zugeordnet werden können",
+          "- beim Tachy-Brady-Syndrom: Schrittmacher ermöglicht oft erst die Frequenzkontrolle; Antikoagulation wie bei Vorhofflimmern"
+        ]
+      },
+      {
+        "title": "Pflege und Beobachtung",
+        "paragraphs": [
+          "- Monitor: Pausen dokumentieren und Streifen sichern, besonders am Ende von Tachykardien",
+          "- Sturzgefahr beachten, Begleitung beim Aufstehen",
+          "- Beschwerden mit Monitorzeit dokumentieren (Symptom-Rhythmus-Zusammenhang)"
+        ]
+      },
+      {
+        "title": "Warnzeichen",
+        "paragraphs": [
+          "- Pausen über 3 Sekunden, Synkope",
+          "- sehr langsame Frequenz mit Schwindel oder Blutdruckabfall",
+          "- Pausen nach Gabe frequenzsenkender Medikamente"
+        ]
+      }
+    ],
+    "keywords": [
+      "Sick-Sinus",
+      "SSS",
+      "Sinusknoten",
+      "Tachy-Brady",
+      "Sinuspause",
+      "SA-Block",
+      "Schrittmacher"
+    ],
+    "relatedArticleIds": [
+      "a-bradykardie",
+      "a-av-block",
+      "a-vorhofflimmern",
+      "a-synkope"
+    ],
+    "sourceIds": [
+      "esc-pacing-2021",
+      "aha-brady-2018"
+    ],
+    "lastChecked": "2026-11-13",
+    "houseSpecific": true,
+    "status": "unreviewed",
+    "termIds": [
+      "t-bradykardie",
+      "t-tachykardie"
+    ]
+  },
+  {
+    "id": "a-avnrt",
+    "title": "AV-Knoten-Reentry-Tachykardie (AVNRT)",
+    "category": "Herzrhythmus",
+    "summary": "Häufigste anfallsartige Herzrasen-Form bei Herzgesunden. Eine kreisende Erregung im AV-Knoten macht plötzlich 150–250/min.",
+    "kind": "diagnose",
+    "sections": [
+      {
+        "title": "Kurz erklärt",
+        "paragraphs": [
+          "Im AV-Knoten gibt es zwei Leitungswege (langsam und schnell). Die Erregung kann darin kreisen (Reentry).",
+          "- plötzlicher Beginn und plötzliches Ende",
+          "- regelmäßige Schmalkomplextachykardie, P-Wellen oft im QRS versteckt",
+          "- gehört zu den supraventrikulären Tachykardien (SVT)"
+        ]
+      },
+      {
+        "title": "Ursachen und Risikofaktoren",
+        "paragraphs": [
+          "- angelegte Doppelbahn im AV-Knoten, häufiger bei Frauen, oft schon in jungen Jahren",
+          "- Auslöser: Extrasystolen, Stress, Koffein, Alkohol, Schlafmangel"
+        ]
+      },
+      {
+        "title": "Symptome",
+        "paragraphs": [
+          "- schlagartiges Herzrasen, Klopfen im Hals",
+          "- Schwindel, Atemnot, Brustdruck, Angst",
+          "- danach oft vermehrter Harndrang"
+        ]
+      },
+      {
+        "title": "Diagnostik",
+        "paragraphs": [
+          "- 12-Kanal-EKG während des Anfalls (wenn der Patient stabil ist)",
+          "- Ruhe-EKG nach dem Anfall (WPW ausschließen)",
+          "- elektrophysiologische Untersuchung vor Ablation"
+        ]
+      },
+      {
+        "title": "Therapie",
+        "paragraphs": [
+          "Akut (ESC 2019):",
+          "- instabil: synchronisierte Kardioversion",
+          "- stabil: vagale Manöver, am besten modifiziertes Valsalva-Manöver (pressen, dann flach mit Beinen hoch)",
+          "- Adenosin i.v. als schneller Bolus mit Spülung, ggf. höhere Dosis wiederholt",
+          "- alternativ Verapamil oder Betablocker i.v.",
+          "Langfristig: Katheterablation (sehr hohe Erfolgsrate) oder Medikamente"
+        ]
+      },
+      {
+        "title": "Pflege und Beobachtung",
+        "paragraphs": [
+          "- Monitor, Blutdruck, Defibrillator bereit",
+          "- großlumiger Zugang möglichst nah am Herzen (z.B. Ellenbeuge) für Adenosin, Dreiwegehahn und Spritze zum Nachspülen",
+          "- Patient vorwarnen: Adenosin verursacht kurz Druckgefühl, Hitze, Atemnot, sehr kurze Pause am Monitor",
+          "- Rhythmusstreifen während der Gabe aufzeichnen",
+          "- Vorsicht mit Adenosin bei schwerem Asthma"
+        ]
+      },
+      {
+        "title": "Warnzeichen",
+        "paragraphs": [
+          "- Blutdruckabfall, Bewusstseinsstörung, Brustschmerz, Lungenödem",
+          "- breite Komplexe (dann wie VT behandeln)",
+          "- unregelmäßige, sehr schnelle breite Komplexe (Vorhofflimmern bei WPW)"
+        ]
+      }
+    ],
+    "keywords": [
+      "AVNRT",
+      "SVT",
+      "Reentry",
+      "Herzrasen",
+      "Adenosin",
+      "Valsalva",
+      "vagale Manöver",
+      "paroxysmal",
+      "Ablation"
+    ],
+    "relatedArticleIds": [
+      "a-wpw",
+      "a-vorhofflattern",
+      "a-vt"
+    ],
+    "sourceIds": [
+      "esc-svt-2019",
+      "erc-als-2021"
+    ],
+    "lastChecked": "2026-11-13",
+    "houseSpecific": true,
+    "status": "unreviewed",
+    "termIds": [
+      "t-tachykardie",
+      "t-supraventrikulaer"
+    ]
+  },
+  {
+    "id": "a-wpw",
+    "title": "WPW-Syndrom (Wolff-Parkinson-White)",
+    "category": "Herzrhythmus",
+    "summary": "Eine zusätzliche Leitungsbahn zwischen Vorhof und Kammer. Sie kann Herzrasen auslösen – und bei Vorhofflimmern gefährlich schnelle Kammerfrequenzen.",
+    "kind": "diagnose",
+    "sections": [
+      {
+        "title": "Kurz erklärt",
+        "paragraphs": [
+          "Beim WPW gibt es neben dem AV-Knoten eine angeborene Zusatzbahn (akzessorische Bahn). Über sie wird die Kammer vorzeitig erregt (Präexzitation).",
+          "EKG im Sinusrhythmus:",
+          "- kurze PQ-Zeit unter 120 ms",
+          "- Delta-Welle: träger Anstieg am Beginn des QRS",
+          "- verbreiterter QRS",
+          "WPW-Syndrom heißt es, wenn zusätzlich Tachykardien auftreten."
+        ]
+      },
+      {
+        "title": "Ursachen und Risikofaktoren",
+        "paragraphs": [
+          "- angeboren, oft bei jungen Menschen entdeckt",
+          "- manchmal mit anderen Herzfehlern"
+        ]
+      },
+      {
+        "title": "Symptome",
+        "paragraphs": [
+          "- anfallsartiges Herzrasen (meist AVRT: Kreiserregung über AV-Knoten und Zusatzbahn)",
+          "- Schwindel, Synkope",
+          "- selten plötzlicher Herztod durch Vorhofflimmern mit sehr schneller Überleitung, das in Kammerflimmern übergeht"
+        ]
+      },
+      {
+        "title": "Diagnostik",
+        "paragraphs": [
+          "- 12-Kanal-EKG: Delta-Welle, kurze PQ",
+          "- Langzeit-EKG, Belastungs-EKG",
+          "- elektrophysiologische Untersuchung: Risiko der Bahn einschätzen"
+        ]
+      },
+      {
+        "title": "Therapie",
+        "paragraphs": [
+          "- instabil: synchronisierte Kardioversion",
+          "- regelmäßige Schmalkomplextachykardie: vagale Manöver, Adenosin wie bei AVNRT",
+          "- Vorhofflimmern mit Präexzitation (unregelmäßig, breit, sehr schnell): KEINE AV-Knoten-bremsenden Mittel (Adenosin, Verapamil, Diltiazem, Betablocker, Digitalis), weil mehr über die Zusatzbahn geleitet werden kann; Kardioversion oder Medikamente nach Leitlinie",
+          "- dauerhaft: Katheterablation der Zusatzbahn"
+        ]
+      },
+      {
+        "title": "Pflege und Beobachtung",
+        "paragraphs": [
+          "- Monitor, Defibrillator bereit",
+          "- im Kurvenblatt sichtbar vermerken, wenn ein WPW bekannt ist",
+          "- bei Tachykardie: Rhythmusstreifen sichern, Arzt sofort"
+        ]
+      },
+      {
+        "title": "Warnzeichen",
+        "paragraphs": [
+          "- unregelmäßige, breite, sehr schnelle Tachykardie (über 250/min möglich)",
+          "- Synkope, Blutdruckabfall",
+          "- Übergang in Kammerflimmern: Reanimation"
+        ]
+      }
+    ],
+    "keywords": [
+      "WPW",
+      "Wolff-Parkinson-White",
+      "Delta-Welle",
+      "Präexzitation",
+      "akzessorische Bahn",
+      "AVRT",
+      "kurze PQ"
+    ],
+    "relatedArticleIds": [
+      "a-avnrt",
+      "a-vorhofflimmern",
+      "a-kammerflimmern"
+    ],
+    "sourceIds": [
+      "esc-svt-2019",
+      "erc-als-2021"
+    ],
+    "lastChecked": "2026-11-13",
+    "houseSpecific": true,
+    "status": "unreviewed",
+    "termIds": [
+      "t-praeexzitation",
+      "t-tachykardie"
+    ]
+  },
+  {
+    "id": "a-long-qt",
+    "title": "Long-QT-Syndrom und Torsade de pointes",
+    "category": "Herzrhythmus",
+    "summary": "Eine verlängerte QT-Zeit kann zu Torsade de pointes führen, einer gefährlichen Kammertachykardie. Häufig ist sie durch Medikamente oder Elektrolytmangel ausgelöst.",
+    "kind": "diagnose",
+    "sections": [
+      {
+        "title": "Kurz erklärt",
+        "paragraphs": [
+          "Die QT-Zeit zeigt, wie lange sich die Kammern nach jedem Schlag wieder „aufladen“. Ist sie zu lang, können gefährliche Rhythmusstörungen entstehen.",
+          "- angeboren (genetische Ionenkanalstörung) oder erworben",
+          "- Torsade de pointes: polymorphe VT, deren Spitzen sich um die Nulllinie zu drehen scheinen; kann von selbst enden oder in Kammerflimmern übergehen",
+          "- Risiko besonders bei QTc ab 500 ms"
+        ]
+      },
+      {
+        "title": "Ursachen und Risikofaktoren",
+        "paragraphs": [
+          "- Medikamente: z.B. manche Antiarrhythmika (Sotalol, Amiodaron), Antibiotika (Makrolide, Chinolone), Antipsychotika, Antidepressiva, Antiemetika",
+          "- Hypokaliämie, Hypomagnesiämie, Hypokalzämie",
+          "- Bradykardie und Pausen, weibliches Geschlecht, Herzinsuffizienz",
+          "- mehrere QT-verlängernde Medikamente zusammen"
+        ]
+      },
+      {
+        "title": "Symptome",
+        "paragraphs": [
+          "- oft keine, bis zur Rhythmusstörung",
+          "- Herzrasen, Schwindel, Synkope (häufig bei Schreck, Lärm, Sport oder im Schlaf beim angeborenen Typ)",
+          "- Krampfanfall-ähnliche Ereignisse, plötzlicher Herztod"
+        ]
+      },
+      {
+        "title": "Diagnostik",
+        "paragraphs": [
+          "- 12-Kanal-EKG mit QTc-Messung, Verlaufskontrollen",
+          "- Kalium, Magnesium, Calcium",
+          "- Medikamentenliste prüfen",
+          "- bei angeborenem Verdacht: Familienanamnese, Gentest"
+        ]
+      },
+      {
+        "title": "Therapie",
+        "paragraphs": [
+          "- Torsade de pointes: Magnesium i.v. (z.B. 2 g), QT-verlängernde Medikamente stoppen, Kalium hochnormal einstellen",
+          "- Frequenz anheben (Schrittmacher-Stimulation oder Isoprenalin nach Anordnung), um Pausen zu verhindern",
+          "- pulslos: Reanimation und Defibrillation",
+          "- angeboren: Betablocker, Medikamente meiden, ggf. ICD"
+        ]
+      },
+      {
+        "title": "Pflege und Beobachtung",
+        "paragraphs": [
+          "- QTc-Kontrollen nach Anordnung, besonders bei neuen Medikamenten",
+          "- Kalium und Magnesium im Blick, Substitution nach Anordnung",
+          "- neue QT-verlängernde Medikamente melden (Arzt/Apotheke prüft)",
+          "- Monitor: Pausen, VES, Salven beobachten"
+        ]
+      },
+      {
+        "title": "Warnzeichen",
+        "paragraphs": [
+          "- QTc ab 500 ms oder deutlicher Anstieg",
+          "- VES nach Pausen, Salven, polymorphe VT",
+          "- Synkope, Krampfanfall"
+        ]
+      }
+    ],
+    "keywords": [
+      "Long-QT",
+      "LQTS",
+      "QT-Verlängerung",
+      "QTc",
+      "Torsade de pointes",
+      "TdP",
+      "Magnesium",
+      "QT-Medikamente"
+    ],
+    "relatedArticleIds": [
+      "a-qt-zeit",
+      "a-vt",
+      "a-kalium",
+      "a-magnesium",
+      "a-kammerflimmern"
+    ],
+    "sourceIds": [
+      "esc-va-2022",
+      "aha-ecg-std-2009",
+      "erc-als-2021"
+    ],
+    "lastChecked": "2026-11-13",
+    "houseSpecific": true,
+    "status": "unreviewed",
+    "termIds": [
+      "t-hypokaliaemie"
     ]
   }
 ]

@@ -1192,5 +1192,26 @@
     "sourceIds": [
       "pschyrembel"
     ]
+  },
+  {
+    "id": "t-praeexzitation",
+    "term": "Präexzitation",
+    "parts": [
+      {
+        "part": "Prä",
+        "meaning": "vor, vorzeitig",
+        "origin": "lat. prae"
+      },
+      {
+        "part": "exzitation",
+        "meaning": "Erregung",
+        "origin": "lat. excitare"
+      }
+    ],
+    "meaning": "vorzeitige Erregung der Kammer über eine zusätzliche Leitungsbahn, z.B. beim WPW-Syndrom",
+    "sourceIds": [
+      "pschyrembel"
+    ],
+    "example": "Delta-Welle im EKG"
   }
 ]

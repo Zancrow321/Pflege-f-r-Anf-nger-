@@ -4183,6 +4183,473 @@
           ]
         }
       ]
+    },
+    {
+      "id": "u12",
+      "title": "Krankheitsbilder 6: Taktgeber und Leitungsbahnen",
+      "level": "station",
+      "description": "AV-Blöcke, Sick-Sinus, AVNRT, WPW und Long-QT.",
+      "lessons": [
+        {
+          "id": "u12l1",
+          "title": "AV-Blöcke",
+          "card": {
+            "title": "Gestörte Überleitung",
+            "text": "Bei AV-Blöcken kommt die Erregung der Vorhöfe verspätet oder gar nicht in den Kammern an.",
+            "bullets": [
+              "I°: PQ über 200 ms",
+              "Wenckebach: PQ wird länger, dann Ausfall",
+              "Mobitz II: plötzlicher Ausfall",
+              "III°: P und QRS unabhängig – Schrittmacher"
+            ],
+            "strip": "av3"
+          },
+          "questions": [
+            {
+              "id": "u12l1q1",
+              "type": "single_choice",
+              "prompt": "Welcher AV-Block ist das?",
+              "options": [
+                "AV-Block II° Wenckebach",
+                "AV-Block I°",
+                "AV-Block III°",
+                "Sinusrhythmus"
+              ],
+              "correctIndex": 0,
+              "explanation": "PQ wird länger, bis ein QRS ausfällt.",
+              "strip": "av2_wenckebach"
+            },
+            {
+              "id": "u12l1q2",
+              "type": "single_choice",
+              "prompt": "Welcher AV-Block ist das?",
+              "options": [
+                "AV-Block III°",
+                "AV-Block I°",
+                "Vorhofflimmern",
+                "Sinustachykardie"
+              ],
+              "correctIndex": 0,
+              "explanation": "P-Wellen und QRS laufen unabhängig voneinander.",
+              "strip": "av3"
+            },
+            {
+              "id": "u12l1q3",
+              "type": "matching",
+              "prompt": "Ordne zu.",
+              "pairs": [
+                {
+                  "left": "AV-Block I°",
+                  "right": "PQ über 200 ms, keine Ausfälle"
+                },
+                {
+                  "left": "Wenckebach",
+                  "right": "PQ wird länger bis zum Ausfall"
+                },
+                {
+                  "left": "Mobitz II",
+                  "right": "PQ konstant, plötzlicher Ausfall"
+                },
+                {
+                  "left": "AV-Block III°",
+                  "right": "Vorhof und Kammer unabhängig"
+                }
+              ],
+              "explanation": "Mobitz II und III° sind gefährlich."
+            },
+            {
+              "id": "u12l1q4",
+              "type": "true_false",
+              "statement": "Bei AV-Block III° wird meist ein Herzschrittmacher eingesetzt, auch ohne Beschwerden.",
+              "correct": true,
+              "explanation": "Richtig. So empfiehlt es die ESC-Leitlinie 2021."
+            },
+            {
+              "id": "u12l1q5",
+              "type": "single_choice",
+              "prompt": "Welches Medikament gibst du nach Anordnung zuerst bei instabiler Bradykardie?",
+              "options": [
+                "Atropin",
+                "Amiodaron",
+                "Adenosin",
+                "Furosemid"
+              ],
+              "correctIndex": 0,
+              "explanation": "Laut ERC zuerst Atropin, dann Adrenalin/Isoprenalin oder externes Pacing."
+            }
+          ],
+          "sourceIds": [
+            "esc-pacing-2021",
+            "erc-als-2021"
+          ],
+          "articleIds": [
+            "a-av-block"
+          ],
+          "termIds": [
+            "t-bradykardie"
+          ]
+        },
+        {
+          "id": "u12l2",
+          "title": "Sick-Sinus-Syndrom",
+          "card": {
+            "title": "Müder Taktgeber",
+            "text": "Der Sinusknoten arbeitet unzuverlässig – zu langsam, mit Pausen, oder im Wechsel mit Herzrasen.",
+            "bullets": [
+              "Bradykardie und Pausen",
+              "Tachy-Brady: Pause nach Herzrasen",
+              "Symptom und Monitor zuordnen",
+              "Therapie: Schrittmacher"
+            ]
+          },
+          "questions": [
+            {
+              "id": "u12l2q1",
+              "type": "single_choice",
+              "prompt": "Was ist ein Tachy-Brady-Syndrom?",
+              "options": [
+                "Wechsel von schnellen Vorhofrhythmen und langsamen Phasen mit Pausen",
+                "eine Form der VT",
+                "Bluthochdruck mit Herzrasen",
+                "eine Lungenerkrankung"
+              ],
+              "correctIndex": 0,
+              "explanation": "Typisch sind lange Pausen am Ende eines Vorhofflimmerns."
+            },
+            {
+              "id": "u12l2q2",
+              "type": "true_false",
+              "statement": "Betablocker können ein Sick-Sinus-Syndrom verstärken.",
+              "correct": true,
+              "explanation": "Richtig. Frequenzsenkende Medikamente müssen geprüft werden."
+            },
+            {
+              "id": "u12l2q3",
+              "type": "single_choice",
+              "prompt": "Wann ist eine Pause am Monitor besonders wichtig zu melden?",
+              "options": [
+                "über 3 Sekunden oder mit Schwindel/Synkope",
+                "nie",
+                "nur nachts",
+                "nur bei Sportlern"
+              ],
+              "correctIndex": 0,
+              "explanation": "Pausen mit Beschwerden sind eine Indikation zur Abklärung."
+            },
+            {
+              "id": "u12l2q4",
+              "type": "single_choice",
+              "prompt": "Was ist die Behandlung bei symptomatischem Sick-Sinus-Syndrom?",
+              "options": [
+                "Herzschrittmacher",
+                "Antibiotika",
+                "Thrombolyse",
+                "Bypass-OP"
+              ],
+              "correctIndex": 0,
+              "explanation": "Der Schrittmacher springt ein, wenn der Sinusknoten versagt."
+            },
+            {
+              "id": "u12l2q5",
+              "type": "single_choice",
+              "prompt": "Warum dokumentierst du die Uhrzeit, wenn der Patient Schwindel hat?",
+              "options": [
+                "um Beschwerden mit dem Monitor-Rhythmus abzugleichen",
+                "für die Essensbestellung",
+                "weil es Pflicht ohne Nutzen ist",
+                "für die Besuchszeit"
+              ],
+              "correctIndex": 0,
+              "explanation": "Der Symptom-Rhythmus-Zusammenhang entscheidet über den Schrittmacher."
+            }
+          ],
+          "sourceIds": [
+            "esc-pacing-2021"
+          ],
+          "articleIds": [
+            "a-sick-sinus"
+          ],
+          "termIds": [
+            "t-bradykardie"
+          ]
+        },
+        {
+          "id": "u12l3",
+          "title": "AVNRT",
+          "card": {
+            "title": "Plötzlich Herzrasen",
+            "text": "Die AVNRT beginnt und endet schlagartig. Vagale Manöver und Adenosin beenden sie oft.",
+            "bullets": [
+              "regelmäßig, schmal, 150–250/min",
+              "modifiziertes Valsalva-Manöver",
+              "Adenosin als schneller Bolus mit Spülung",
+              "dauerhaft: Ablation"
+            ]
+          },
+          "questions": [
+            {
+              "id": "u12l3q1",
+              "type": "single_choice",
+              "prompt": "Wie sieht eine AVNRT im EKG typischerweise aus?",
+              "options": [
+                "regelmäßige Schmalkomplextachykardie",
+                "unregelmäßig mit Flimmerwellen",
+                "breite Komplexe ohne P",
+                "Nulllinie"
+              ],
+              "correctIndex": 0,
+              "explanation": "P-Wellen sind oft im QRS versteckt."
+            },
+            {
+              "id": "u12l3q2",
+              "type": "single_choice",
+              "prompt": "Was ist meist der erste Behandlungsschritt bei stabiler AVNRT?",
+              "options": [
+                "vagales Manöver, z.B. modifiziertes Valsalva",
+                "Defibrillation",
+                "Thrombolyse",
+                "Reanimation"
+              ],
+              "correctIndex": 0,
+              "explanation": "Pressen, dann flach mit Beinen hoch – oft schon erfolgreich."
+            },
+            {
+              "id": "u12l3q3",
+              "type": "single_choice",
+              "prompt": "Wie wird Adenosin gegeben?",
+              "options": [
+                "als schneller Bolus mit sofortiger Spülung",
+                "langsam über 30 Minuten",
+                "als Tablette",
+                "unter die Haut"
+              ],
+              "correctIndex": 0,
+              "explanation": "Adenosin wirkt nur Sekunden, deshalb schnell und herznah."
+            },
+            {
+              "id": "u12l3q4",
+              "type": "true_false",
+              "statement": "Nach Adenosin kann am Monitor kurz eine Pause auftreten.",
+              "correct": true,
+              "explanation": "Richtig. Darauf den Patienten vorbereiten und den Streifen aufzeichnen."
+            },
+            {
+              "id": "u12l3q5",
+              "type": "single_choice",
+              "prompt": "Welche Vorerkrankung ist bei Adenosin besonders zu beachten?",
+              "options": [
+                "schweres Asthma",
+                "Kurzsichtigkeit",
+                "Heuschnupfen ohne Asthma",
+                "Fußpilz"
+              ],
+              "correctIndex": 0,
+              "explanation": "Adenosin kann Bronchospasmen auslösen."
+            }
+          ],
+          "sourceIds": [
+            "esc-svt-2019"
+          ],
+          "articleIds": [
+            "a-avnrt"
+          ],
+          "termIds": [
+            "t-supraventrikulaer"
+          ]
+        },
+        {
+          "id": "u12l4",
+          "title": "WPW-Syndrom",
+          "card": {
+            "title": "Die Abkürzung",
+            "text": "Beim WPW gibt es eine Extrabahn zwischen Vorhof und Kammer. Im EKG: kurze PQ und Delta-Welle.",
+            "bullets": [
+              "Präexzitation = vorzeitige Erregung",
+              "kurze PQ, Delta-Welle, breiter QRS",
+              "VHF + WPW: keine AV-Knoten-Bremse",
+              "Ablation heilt"
+            ]
+          },
+          "questions": [
+            {
+              "id": "u12l4q1",
+              "type": "word_parts",
+              "term": "Präexzitation",
+              "parts": [
+                {
+                  "part": "Prä",
+                  "meaning": "vor, vorzeitig",
+                  "origin": "lat. prae"
+                },
+                {
+                  "part": "exzitation",
+                  "meaning": "Erregung",
+                  "origin": "lat. excitare"
+                }
+              ],
+              "distractors": [
+                "Brady",
+                "itis"
+              ],
+              "meaning": "vorzeitige Erregung",
+              "explanation": "Die Kammer wird über die Zusatzbahn zu früh erregt."
+            },
+            {
+              "id": "u12l4q2",
+              "type": "single_choice",
+              "prompt": "Welches EKG-Zeichen ist typisch für WPW?",
+              "options": [
+                "Delta-Welle mit kurzer PQ",
+                "Sägezahnwellen",
+                "ST-Hebung",
+                "lange QT-Zeit"
+              ],
+              "correctIndex": 0,
+              "explanation": "Der träge QRS-Beginn entsteht durch die frühe Erregung über die Zusatzbahn."
+            },
+            {
+              "id": "u12l4q3",
+              "type": "true_false",
+              "statement": "Bei Vorhofflimmern mit WPW sind Verapamil und Digitalis gute Mittel.",
+              "correct": false,
+              "explanation": "Falsch. AV-Knoten-bremsende Mittel können die Überleitung über die Zusatzbahn beschleunigen."
+            },
+            {
+              "id": "u12l4q4",
+              "type": "single_choice",
+              "prompt": "Was ist die dauerhafte Behandlung beim WPW-Syndrom?",
+              "options": [
+                "Katheterablation der Zusatzbahn",
+                "lebenslang Antibiotika",
+                "Bypass-OP",
+                "Kompressionsstrümpfe"
+              ],
+              "correctIndex": 0,
+              "explanation": "Die Ablation ist sehr erfolgreich."
+            },
+            {
+              "id": "u12l4q5",
+              "type": "single_choice",
+              "prompt": "Was ist die größte Gefahr beim WPW?",
+              "options": [
+                "Vorhofflimmern mit sehr schneller Überleitung bis Kammerflimmern",
+                "Bluthochdruck",
+                "Unterzucker",
+                "Fieber"
+              ],
+              "correctIndex": 0,
+              "explanation": "Deshalb wird das Risiko der Bahn untersucht."
+            }
+          ],
+          "sourceIds": [
+            "esc-svt-2019"
+          ],
+          "articleIds": [
+            "a-wpw"
+          ],
+          "termIds": [
+            "t-praeexzitation"
+          ]
+        },
+        {
+          "id": "u12l5",
+          "title": "Long-QT und Torsade de pointes",
+          "card": {
+            "title": "Zu lange Pause zum Aufladen",
+            "text": "Eine lange QT-Zeit kann Torsade de pointes auslösen. Häufig sind Medikamente und niedriges Kalium oder Magnesium schuld.",
+            "bullets": [
+              "QTc ab 500 ms: hohes Risiko",
+              "QT-Medikamente melden",
+              "Kalium und Magnesium ausgleichen",
+              "Torsade: Magnesium i.v."
+            ]
+          },
+          "questions": [
+            {
+              "id": "u12l5q1",
+              "type": "single_choice",
+              "prompt": "Ab welcher QTc ist das Risiko für Torsade de pointes besonders hoch?",
+              "options": [
+                "ab 500 ms",
+                "ab 300 ms",
+                "ab 200 ms",
+                "ab 100 ms"
+              ],
+              "correctIndex": 0,
+              "explanation": "Ab 500 ms oder bei deutlichem Anstieg."
+            },
+            {
+              "id": "u12l5q2",
+              "type": "single_choice",
+              "prompt": "Was gibst du nach Anordnung bei Torsade de pointes mit Puls?",
+              "options": [
+                "Magnesium i.v.",
+                "Adenosin",
+                "Atropin",
+                "Digitalis"
+              ],
+              "correctIndex": 0,
+              "explanation": "Magnesium stabilisiert die Erregung, auch bei normalem Magnesiumspiegel."
+            },
+            {
+              "id": "u12l5q3",
+              "type": "matching",
+              "prompt": "Ordne zu.",
+              "pairs": [
+                {
+                  "left": "Hypokaliämie",
+                  "right": "verlängert QT"
+                },
+                {
+                  "left": "Makrolid-Antibiotikum",
+                  "right": "kann QT verlängern"
+                },
+                {
+                  "left": "Magnesium i.v.",
+                  "right": "Therapie der Torsade"
+                },
+                {
+                  "left": "Pausen und Bradykardie",
+                  "right": "begünstigen Torsade"
+                }
+              ],
+              "explanation": "Mehrere Faktoren zusammen erhöhen das Risiko stark."
+            },
+            {
+              "id": "u12l5q4",
+              "type": "true_false",
+              "statement": "Ein neues QT-verlängerndes Medikament bei einem Patienten mit langer QTc solltest du melden.",
+              "correct": true,
+              "explanation": "Richtig. Arzt oder Apotheke prüfen die Kombination."
+            },
+            {
+              "id": "u12l5q5",
+              "type": "single_choice",
+              "prompt": "Welcher Rhythmus ist das?",
+              "options": [
+                "Ventrikuläre Tachykardie",
+                "Sinusrhythmus",
+                "AV-Block I°",
+                "Vorhofflattern"
+              ],
+              "correctIndex": 0,
+              "explanation": "Breite Kammerkomplexe – bei wechselnder Form an Torsade denken.",
+              "strip": "vt"
+            }
+          ],
+          "sourceIds": [
+            "esc-va-2022",
+            "erc-als-2021"
+          ],
+          "articleIds": [
+            "a-long-qt",
+            "a-qt-zeit"
+          ],
+          "termIds": [
+            "t-hypokaliaemie"
+          ]
+        }
+      ]
     }
   ]
 }
