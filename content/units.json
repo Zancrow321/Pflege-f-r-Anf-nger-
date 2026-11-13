@@ -1,0 +1,1953 @@
+{
+  "units": [
+    {
+      "id": "u1",
+      "title": "Fachsprache: Wortbausteine",
+      "level": "grundlagen",
+      "description": "Fachbegriffe in Bausteine zerlegen und verstehen – z.B. Hypo | Thermie.",
+      "lessons": [
+        {
+          "id": "u1l1",
+          "title": "Vorsilben: zu viel, zu wenig, schnell, langsam",
+          "card": {
+            "title": "Wörter wie Lego",
+            "text": "Viele medizinische Fachbegriffe bestehen aus Bausteinen griechischer oder lateinischer Herkunft. Wer die Bausteine kennt, kann auch unbekannte Wörter entschlüsseln: Hypo | Thermie = unter | Wärme = Unterkühlung.",
+            "bullets": [
+              "Hypo- = unter, zu wenig",
+              "Hyper- = über, zu viel",
+              "Brady- = langsam",
+              "Tachy- = schnell",
+              "A-/An- = nicht, ohne",
+              "Dys- = gestört, erschwert"
+            ]
+          },
+          "questions": [
+            {
+              "id": "u1l1q1",
+              "type": "word_parts",
+              "term": "Hypothermie",
+              "parts": [
+                {
+                  "part": "Hypo",
+                  "meaning": "unter, zu wenig",
+                  "origin": "griech. hypó"
+                },
+                {
+                  "part": "thermie",
+                  "meaning": "Wärme",
+                  "origin": "griech. thérmē"
+                }
+              ],
+              "distractors": [
+                "über, zu viel",
+                "Herz",
+                "Atmung"
+              ],
+              "meaning": "Unterkühlung: Körperkerntemperatur unter dem Normalbereich",
+              "explanation": "Hypo = unter, zu wenig; Thermie = Wärme. Das Gegenteil ist die Hyperthermie (Überwärmung)."
+            },
+            {
+              "id": "u1l1q2",
+              "type": "word_parts",
+              "term": "Tachykardie",
+              "parts": [
+                {
+                  "part": "Tachy",
+                  "meaning": "schnell",
+                  "origin": "griech. tachýs"
+                },
+                {
+                  "part": "kardie",
+                  "meaning": "Herz",
+                  "origin": "griech. kardía"
+                }
+              ],
+              "distractors": [
+                "langsam",
+                "Blut",
+                "Wärme"
+              ],
+              "meaning": "Zu schneller Herzschlag (Erwachsene in Ruhe: über 100/min)",
+              "explanation": "Tachy = schnell, kardie = Herz. Gegenteil: Bradykardie (Brady = langsam)."
+            },
+            {
+              "id": "u1l1q3",
+              "type": "single_choice",
+              "prompt": "Was bedeutet die Vorsilbe „Brady-“?",
+              "options": [
+                "schnell",
+                "langsam",
+                "unregelmäßig",
+                "stark"
+              ],
+              "correctIndex": 1,
+              "explanation": "Brady- kommt von griech. bradýs = langsam. Bradykardie = langsamer Herzschlag, Bradypnoe = verlangsamte Atmung."
+            },
+            {
+              "id": "u1l1q4",
+              "type": "word_parts",
+              "term": "Hypertonie",
+              "parts": [
+                {
+                  "part": "Hyper",
+                  "meaning": "über, zu viel",
+                  "origin": "griech. hypér"
+                },
+                {
+                  "part": "tonie",
+                  "meaning": "Spannung, Druck",
+                  "origin": "griech. tónos"
+                }
+              ],
+              "distractors": [
+                "unter, zu wenig",
+                "Herz",
+                "Gefäß"
+              ],
+              "meaning": "Bluthochdruck",
+              "explanation": "Hyper = über, zu viel; Tonie = Spannung, Druck. Hypotonie ist entsprechend ein zu niedriger Blutdruck."
+            },
+            {
+              "id": "u1l1q5",
+              "type": "matching",
+              "prompt": "Ordne jede Vorsilbe ihrer Bedeutung zu.",
+              "pairs": [
+                {
+                  "left": "Hypo-",
+                  "right": "unter, zu wenig"
+                },
+                {
+                  "left": "Hyper-",
+                  "right": "über, zu viel"
+                },
+                {
+                  "left": "A-/An-",
+                  "right": "nicht, ohne"
+                },
+                {
+                  "left": "Dys-",
+                  "right": "gestört, erschwert"
+                }
+              ],
+              "explanation": "Diese vier Vorsilben begegnen dir auf Station ständig: Hypokaliämie, Hypertonie, Asystolie, Dyspnoe."
+            },
+            {
+              "id": "u1l1q6",
+              "type": "word_parts",
+              "term": "Dyspnoe",
+              "parts": [
+                {
+                  "part": "Dys",
+                  "meaning": "gestört, erschwert",
+                  "origin": "griech. dys-"
+                },
+                {
+                  "part": "pnoe",
+                  "meaning": "Atmung",
+                  "origin": "griech. pnoḗ"
+                }
+              ],
+              "distractors": [
+                "schnell",
+                "Herz",
+                "nicht, ohne"
+              ],
+              "meaning": "Atemnot, erschwerte Atmung",
+              "explanation": "Dys = gestört, erschwert; pnoe = Atmung. Verwandt: Apnoe (Atemstillstand), Tachypnoe (schnelle Atmung), Orthopnoe (Atemnot im Liegen, Besserung im Sitzen)."
+            }
+          ],
+          "sourceIds": [
+            "pschyrembel"
+          ],
+          "articleIds": [
+            "a-fachsprache"
+          ],
+          "termIds": [
+            "t-hypothermie",
+            "t-tachykardie",
+            "t-bradykardie",
+            "t-hypertonie",
+            "t-dyspnoe",
+            "t-apnoe"
+          ]
+        },
+        {
+          "id": "u1l2",
+          "title": "Wortstämme rund ums Herz",
+          "card": {
+            "title": "Herz, Gefäß, Blut, Muskel",
+            "text": "Die meisten kardiologischen Begriffe sind aus wenigen Stämmen gebaut. Kombiniert mit Vor- und Nachsilben ergeben sie fast alle Diagnosen der Station.",
+            "bullets": [
+              "Kard-/Kardio- = Herz",
+              "Angio- = Gefäß",
+              "Häm-/Hämat-/-ämie = Blut",
+              "Myo- = Muskel",
+              "Endo- = innen, Peri- = um … herum",
+              "Koronar = kranzförmig (Herzkranzgefäße)"
+            ]
+          },
+          "questions": [
+            {
+              "id": "u1l2q1",
+              "type": "word_parts",
+              "term": "Myokarditis",
+              "parts": [
+                {
+                  "part": "Myo",
+                  "meaning": "Muskel",
+                  "origin": "griech. mỹs"
+                },
+                {
+                  "part": "kard",
+                  "meaning": "Herz",
+                  "origin": "griech. kardía"
+                },
+                {
+                  "part": "itis",
+                  "meaning": "Entzündung"
+                }
+              ],
+              "distractors": [
+                "Gefäß",
+                "innen",
+                "Blut"
+              ],
+              "meaning": "Herzmuskelentzündung",
+              "explanation": "Myo = Muskel, kard = Herz, -itis = Entzündung."
+            },
+            {
+              "id": "u1l2q2",
+              "type": "word_parts",
+              "term": "Perikarditis",
+              "parts": [
+                {
+                  "part": "Peri",
+                  "meaning": "um … herum",
+                  "origin": "griech. perí"
+                },
+                {
+                  "part": "kard",
+                  "meaning": "Herz",
+                  "origin": "griech. kardía"
+                },
+                {
+                  "part": "itis",
+                  "meaning": "Entzündung"
+                }
+              ],
+              "distractors": [
+                "innen",
+                "Muskel",
+                "Blut"
+              ],
+              "meaning": "Entzündung des Herzbeutels",
+              "explanation": "Peri = um … herum. Das Perikard ist der Herzbeutel, der das Herz umgibt."
+            },
+            {
+              "id": "u1l2q3",
+              "type": "single_choice",
+              "prompt": "Eine Endokarditis ist eine Entzündung …",
+              "options": [
+                "des Herzbeutels",
+                "der Herzinnenhaut (einschließlich der Herzklappen)",
+                "des Herzmuskels",
+                "der Herzkranzgefäße"
+              ],
+              "correctIndex": 1,
+              "explanation": "Endo = innen. Das Endokard kleidet das Herz innen aus und bildet auch die Herzklappen."
+            },
+            {
+              "id": "u1l2q4",
+              "type": "word_parts",
+              "term": "Hypokaliämie",
+              "parts": [
+                {
+                  "part": "Hypo",
+                  "meaning": "unter, zu wenig",
+                  "origin": "griech. hypó"
+                },
+                {
+                  "part": "kali",
+                  "meaning": "Kalium",
+                  "origin": "Kalium"
+                },
+                {
+                  "part": "ämie",
+                  "meaning": "Blut",
+                  "origin": "griech. haíma"
+                }
+              ],
+              "distractors": [
+                "über, zu viel",
+                "Herz",
+                "Wärme"
+              ],
+              "meaning": "Zu niedriger Kaliumspiegel im Blut",
+              "explanation": "Hypo = zu wenig, Kali = Kalium, -ämie = im Blut. Auf der Telemetrie wichtig, weil Kaliummangel Rhythmusstörungen begünstigt."
+            },
+            {
+              "id": "u1l2q5",
+              "type": "matching",
+              "prompt": "Ordne jeden Wortstamm seiner Bedeutung zu.",
+              "pairs": [
+                {
+                  "left": "Kardio-",
+                  "right": "Herz"
+                },
+                {
+                  "left": "Angio-",
+                  "right": "Gefäß"
+                },
+                {
+                  "left": "Myo-",
+                  "right": "Muskel"
+                },
+                {
+                  "left": "Häm-/-ämie",
+                  "right": "Blut"
+                }
+              ],
+              "explanation": "Kardiomyopathie = Herzmuskelerkrankung, Angiographie = Gefäßdarstellung, Anämie = Blutarmut."
+            },
+            {
+              "id": "u1l2q6",
+              "type": "true_false",
+              "statement": "„Koronar“ kommt von lateinisch corona (Kranz): Die Herzkranzgefäße umgeben das Herz wie ein Kranz.",
+              "correct": true,
+              "explanation": "Richtig. Die Koronararterien liegen kranzförmig auf dem Herzen und versorgen den Herzmuskel mit Blut."
+            }
+          ],
+          "sourceIds": [
+            "pschyrembel"
+          ],
+          "articleIds": [
+            "a-fachsprache"
+          ],
+          "termIds": [
+            "t-myokarditis",
+            "t-perikarditis",
+            "t-endokarditis",
+            "t-hypokaliaemie",
+            "t-kardiomyopathie",
+            "t-koronar"
+          ]
+        },
+        {
+          "id": "u1l3",
+          "title": "Endungen: Entzündung, Aufzeichnung, Zustand",
+          "card": {
+            "title": "Die Endung verrät die Art",
+            "text": "Die Nachsilbe sagt, was mit dem Organ los ist oder was gemacht wird: entzündet, aufgezeichnet, dargestellt, entfernt.",
+            "bullets": [
+              "-itis = Entzündung",
+              "-ose = Zustand, (krankhafter) Vorgang",
+              "-om = Schwellung, Geschwulst",
+              "-gramm = Aufzeichnung (das Ergebnis)",
+              "-graphie = Darstellung (das Verfahren)",
+              "-urie = Harn",
+              "-pathie = Erkrankung, Leiden"
+            ]
+          },
+          "questions": [
+            {
+              "id": "u1l3q1",
+              "type": "word_parts",
+              "term": "Elektrokardiogramm",
+              "parts": [
+                {
+                  "part": "Elektro",
+                  "meaning": "elektrisch"
+                },
+                {
+                  "part": "kardio",
+                  "meaning": "Herz",
+                  "origin": "griech. kardía"
+                },
+                {
+                  "part": "gramm",
+                  "meaning": "Aufzeichnung",
+                  "origin": "griech. grámma"
+                }
+              ],
+              "distractors": [
+                "Gefäß",
+                "Entzündung",
+                "Muskel"
+              ],
+              "meaning": "Aufzeichnung der elektrischen Herzaktivität (EKG)",
+              "explanation": "Elektro = elektrisch, kardio = Herz, -gramm = Aufzeichnung. Die Methode heißt Elektrokardiographie."
+            },
+            {
+              "id": "u1l3q2",
+              "type": "word_parts",
+              "term": "Hämatom",
+              "parts": [
+                {
+                  "part": "Hämat",
+                  "meaning": "Blut",
+                  "origin": "griech. haíma"
+                },
+                {
+                  "part": "om",
+                  "meaning": "Schwellung, Geschwulst"
+                }
+              ],
+              "distractors": [
+                "Entzündung",
+                "Gefäß",
+                "Harn"
+              ],
+              "meaning": "Bluterguss",
+              "explanation": "Nach Herzkatheter oder Injektionen achtest du an der Punktionsstelle auf ein Hämatom."
+            },
+            {
+              "id": "u1l3q3",
+              "type": "word_parts",
+              "term": "Zyanose",
+              "parts": [
+                {
+                  "part": "Zyan",
+                  "meaning": "blau",
+                  "origin": "griech. kyanós"
+                },
+                {
+                  "part": "ose",
+                  "meaning": "Zustand"
+                }
+              ],
+              "distractors": [
+                "rot",
+                "Entzündung",
+                "Atmung"
+              ],
+              "meaning": "Bläuliche Verfärbung von Haut und Schleimhäuten durch Sauerstoffmangel",
+              "explanation": "Zyan = blau, -ose = Zustand. Zentrale Zyanose zeigt sich z.B. an Lippen und Zunge."
+            },
+            {
+              "id": "u1l3q4",
+              "type": "single_choice",
+              "prompt": "Was bedeutet „Oligurie“?",
+              "options": [
+                "keine Harnausscheidung",
+                "verminderte Harnausscheidung",
+                "vermehrte Harnausscheidung",
+                "nächtliches Wasserlassen"
+              ],
+              "correctIndex": 1,
+              "explanation": "Oligo = wenig, -urie = Harn. Oligurie: unter etwa 500 ml Urin in 24 Stunden. Anurie (An = ohne): unter etwa 100 ml/24 h. Polyurie = viel, Nykturie = nachts."
+            },
+            {
+              "id": "u1l3q5",
+              "type": "matching",
+              "prompt": "Ordne jede Endung ihrer Bedeutung zu.",
+              "pairs": [
+                {
+                  "left": "-itis",
+                  "right": "Entzündung"
+                },
+                {
+                  "left": "-gramm",
+                  "right": "Aufzeichnung"
+                },
+                {
+                  "left": "-urie",
+                  "right": "Harn"
+                },
+                {
+                  "left": "-pathie",
+                  "right": "Erkrankung, Leiden"
+                }
+              ],
+              "explanation": "Beispiele: Myokarditis, Elektrokardiogramm, Oligurie, Kardiomyopathie."
+            },
+            {
+              "id": "u1l3q6",
+              "type": "word_parts",
+              "term": "Angiographie",
+              "parts": [
+                {
+                  "part": "Angio",
+                  "meaning": "Gefäß",
+                  "origin": "griech. angeĩon"
+                },
+                {
+                  "part": "graphie",
+                  "meaning": "Darstellung",
+                  "origin": "griech. gráphein"
+                }
+              ],
+              "distractors": [
+                "Herz",
+                "Muskel",
+                "Entzündung"
+              ],
+              "meaning": "Darstellung von Blutgefäßen mit Kontrastmittel",
+              "explanation": "Die Koronarangiographie stellt die Herzkranzgefäße im Herzkatheterlabor dar."
+            }
+          ],
+          "sourceIds": [
+            "pschyrembel"
+          ],
+          "articleIds": [
+            "a-fachsprache"
+          ],
+          "termIds": [
+            "t-elektrokardiogramm",
+            "t-haematom",
+            "t-zyanose",
+            "t-oligurie",
+            "t-angiographie",
+            "t-anurie"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "u2",
+      "title": "Herz & Kreislauf",
+      "level": "grundlagen",
+      "description": "Blutfluss, Reizleitung und Vitalzeichen – die Basis für alles Weitere.",
+      "lessons": [
+        {
+          "id": "u2l1",
+          "title": "Der Weg des Blutes",
+          "card": {
+            "title": "Zwei Pumpen in einem Herz",
+            "text": "Das rechte Herz pumpt sauerstoffarmes Blut in die Lunge (Lungenkreislauf). Das linke Herz pumpt sauerstoffreiches Blut in den Körper (Körperkreislauf). Vier Klappen sorgen dafür, dass das Blut nur in eine Richtung fließt.",
+            "bullets": [
+              "Hohlvenen → rechter Vorhof → Trikuspidalklappe → rechte Kammer",
+              "→ Pulmonalklappe → Lungenarterie → Lunge",
+              "→ Lungenvenen → linker Vorhof → Mitralklappe → linke Kammer",
+              "→ Aortenklappe → Aorta → Körper"
+            ]
+          },
+          "questions": [
+            {
+              "id": "u2l1q1",
+              "type": "single_choice",
+              "prompt": "Wohin pumpt die rechte Kammer das Blut?",
+              "options": [
+                "in die Aorta",
+                "in die Lungenarterie (Truncus pulmonalis)",
+                "in die Lungenvenen",
+                "in die Hohlvene"
+              ],
+              "correctIndex": 1,
+              "explanation": "Die rechte Kammer pumpt sauerstoffarmes Blut über die Pulmonalklappe in die Lungenarterie zur Lunge."
+            },
+            {
+              "id": "u2l1q2",
+              "type": "single_choice",
+              "prompt": "Welche Klappe liegt zwischen linkem Vorhof und linker Kammer?",
+              "options": [
+                "Trikuspidalklappe",
+                "Pulmonalklappe",
+                "Mitralklappe",
+                "Aortenklappe"
+              ],
+              "correctIndex": 2,
+              "explanation": "Links: Mitralklappe (zwei Segel). Rechts zwischen Vorhof und Kammer: Trikuspidalklappe (drei Segel)."
+            },
+            {
+              "id": "u2l1q3",
+              "type": "true_false",
+              "statement": "Die Lungenvenen führen sauerstoffreiches Blut zum linken Vorhof.",
+              "correct": true,
+              "explanation": "Richtig. Venen führen immer zum Herzen hin, unabhängig vom Sauerstoffgehalt. Die Lungenvenen sind die einzigen Venen mit sauerstoffreichem Blut."
+            },
+            {
+              "id": "u2l1q4",
+              "type": "single_choice",
+              "prompt": "Wann wird der linke Herzmuskel vor allem über die Herzkranzgefäße durchblutet?",
+              "options": [
+                "während der Systole",
+                "während der Diastole",
+                "nur bei Belastung",
+                "über die Lungenvenen"
+              ],
+              "correctIndex": 1,
+              "explanation": "Während der Systole drückt der angespannte Herzmuskel die Koronargefäße zusammen. Bei hoher Herzfrequenz wird die Diastole kürzer, das Herz wird dann schlechter versorgt."
+            },
+            {
+              "id": "u2l1q5",
+              "type": "matching",
+              "prompt": "Ordne jede Struktur ihrer Aufgabe zu.",
+              "pairs": [
+                {
+                  "left": "Rechter Vorhof",
+                  "right": "nimmt Blut aus den Hohlvenen auf"
+                },
+                {
+                  "left": "Linke Kammer",
+                  "right": "pumpt Blut in die Aorta"
+                },
+                {
+                  "left": "Lungenvenen",
+                  "right": "bringen sauerstoffreiches Blut zum linken Vorhof"
+                },
+                {
+                  "left": "Aortenklappe",
+                  "right": "verhindert Rückfluss aus der Aorta in die linke Kammer"
+                }
+              ],
+              "explanation": "Die linke Kammer hat die dickste Wand, weil sie gegen den hohen Druck im Körperkreislauf pumpt."
+            }
+          ],
+          "sourceIds": [
+            "guyton-2021"
+          ],
+          "articleIds": [
+            "a-herz-anatomie"
+          ],
+          "termIds": []
+        },
+        {
+          "id": "u2l2",
+          "title": "Reizleitung: Wer gibt den Takt an?",
+          "card": {
+            "title": "Vom Sinusknoten bis zu den Purkinje-Fasern",
+            "text": "Der Herzschlag entsteht im Herzen selbst. Fällt ein Taktgeber aus, springt der nächste ein, allerdings langsamer.",
+            "bullets": [
+              "Sinusknoten (rechter Vorhof): primärer Taktgeber, in Ruhe ca. 60–100/min",
+              "AV-Knoten: verzögert die Überleitung; Ersatzrhythmus ca. 40–60/min",
+              "His-Bündel → Tawara-Schenkel → Purkinje-Fasern",
+              "Kammer-Ersatzrhythmus: ca. 20–40/min, breite QRS-Komplexe"
+            ]
+          },
+          "questions": [
+            {
+              "id": "u2l2q1",
+              "type": "single_choice",
+              "prompt": "Wer ist der primäre Schrittmacher des Herzens?",
+              "options": [
+                "AV-Knoten",
+                "Sinusknoten",
+                "His-Bündel",
+                "Purkinje-Fasern"
+              ],
+              "correctIndex": 1,
+              "explanation": "Der Sinusknoten im rechten Vorhof hat die höchste Eigenfrequenz und gibt deshalb normalerweise den Takt vor."
+            },
+            {
+              "id": "u2l2q2",
+              "type": "single_choice",
+              "prompt": "Wie hoch ist die Eigenfrequenz des AV-Knotens ungefähr?",
+              "options": [
+                "60–80/min",
+                "40–60/min",
+                "20–40/min",
+                "100–120/min"
+              ],
+              "correctIndex": 1,
+              "explanation": "Sinusknoten 60–100/min, AV-Knoten 40–60/min, Kammern 20–40/min."
+            },
+            {
+              "id": "u2l2q3",
+              "type": "matching",
+              "prompt": "Ordne jeden Teil der Reizleitung seiner Aufgabe zu.",
+              "pairs": [
+                {
+                  "left": "Sinusknoten",
+                  "right": "primärer Taktgeber im rechten Vorhof"
+                },
+                {
+                  "left": "AV-Knoten",
+                  "right": "verzögert die Überleitung auf die Kammern"
+                },
+                {
+                  "left": "Tawara-Schenkel",
+                  "right": "leiten rechts und links im Kammerseptum"
+                },
+                {
+                  "left": "Purkinje-Fasern",
+                  "right": "verteilen die Erregung im Kammermyokard"
+                }
+              ],
+              "explanation": "Die Erregung läuft von den Vorhöfen über den AV-Knoten zu den Kammern."
+            },
+            {
+              "id": "u2l2q4",
+              "type": "true_false",
+              "statement": "Die Verzögerung im AV-Knoten sorgt dafür, dass sich die Vorhöfe vor den Kammern zusammenziehen.",
+              "correct": true,
+              "explanation": "Richtig. So können die Vorhöfe die Kammern noch füllen, bevor diese pumpen. Im EKG entspricht das der PQ-Zeit."
+            },
+            {
+              "id": "u2l2q5",
+              "type": "single_choice",
+              "prompt": "Ein Ersatzrhythmus aus den Kammern hat typischerweise …",
+              "options": [
+                "60–80/min mit schmalen QRS",
+                "40–60/min mit schmalen QRS",
+                "20–40/min mit breiten QRS",
+                "über 100/min"
+              ],
+              "correctIndex": 2,
+              "explanation": "Kammereigene Ersatzrhythmen sind langsam und breit, weil die Erregung nicht über das schnelle Leitungssystem läuft."
+            }
+          ],
+          "sourceIds": [
+            "guyton-2021",
+            "aha-brady-2018"
+          ],
+          "articleIds": [
+            "a-reizleitung"
+          ],
+          "termIds": []
+        },
+        {
+          "id": "u2l3",
+          "title": "Vitalzeichen auf einen Blick",
+          "card": {
+            "title": "Orientierungswerte für Erwachsene in Ruhe",
+            "text": "Diese Werte dienen zur Orientierung. Auf Station gelten die individuellen Alarmgrenzen und ärztlichen Anordnungen.",
+            "bullets": [
+              "Herzfrequenz: 60–100/min (unter 60 Bradykardie, über 100 Tachykardie)",
+              "Blutdruck: Hypertonie ab 140/90 mmHg (Praxismessung, ESC 2024)",
+              "Atemfrequenz: ca. 12–20/min",
+              "Sauerstoffsättigung: normal ca. 95–100 %"
+            ]
+          },
+          "questions": [
+            {
+              "id": "u2l3q1",
+              "type": "single_choice",
+              "prompt": "Ab welcher Herzfrequenz in Ruhe spricht man bei Erwachsenen von einer Tachykardie?",
+              "options": [
+                "über 60/min",
+                "über 80/min",
+                "über 100/min",
+                "über 120/min"
+              ],
+              "correctIndex": 2,
+              "explanation": "Über 100/min = Tachykardie, unter 60/min = Bradykardie."
+            },
+            {
+              "id": "u2l3q2",
+              "type": "single_choice",
+              "prompt": "Ab welchem in der Praxis gemessenen Blutdruck spricht die ESC-Leitlinie 2024 von Hypertonie?",
+              "options": [
+                "ab 120/80 mmHg",
+                "ab 130/85 mmHg",
+                "ab 140/90 mmHg",
+                "ab 160/100 mmHg"
+              ],
+              "correctIndex": 2,
+              "explanation": "Hypertonie ab 140/90 mmHg. Werte zwischen 120–139/70–89 mmHg gelten als „erhöht“."
+            },
+            {
+              "id": "u2l3q3",
+              "type": "true_false",
+              "statement": "Eine Atemfrequenz von 26/min bei einem Erwachsenen in Ruhe ist normal.",
+              "correct": false,
+              "explanation": "Falsch. Das ist eine Tachypnoe (Tachy = schnell, pnoe = Atmung). Sie kann ein frühes Warnzeichen sein, z.B. bei Lungenstauung, Sepsis oder Schmerzen."
+            },
+            {
+              "id": "u2l3q4",
+              "type": "single_choice",
+              "prompt": "Puls 48/min, der Patient ist beschwerdefrei. Wie nennt man das?",
+              "options": [
+                "Bradykardie",
+                "Tachykardie",
+                "Arrhythmie",
+                "Asystolie"
+              ],
+              "correctIndex": 0,
+              "explanation": "Unter 60/min = Bradykardie. Frage nach Schwindel, Synkope oder Atemnot, miss den Blutdruck und informiere nach den Stationsvorgaben den Arzt."
+            },
+            {
+              "id": "u2l3q5",
+              "type": "true_false",
+              "statement": "Bei Vorhofflimmern kann die am Handgelenk getastete Pulsfrequenz niedriger sein als die am Monitor gezählte Herzfrequenz.",
+              "correct": true,
+              "explanation": "Richtig, das nennt man Pulsdefizit. Nicht jede Kammeraktion wirft genug Blut aus, um peripher tastbar zu sein."
+            }
+          ],
+          "sourceIds": [
+            "guyton-2021",
+            "esc-htn-2024",
+            "esc-af-2024"
+          ],
+          "articleIds": [
+            "a-vitalzeichen"
+          ],
+          "termIds": [
+            "t-bradykardie",
+            "t-tachykardie",
+            "t-tachypnoe"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "u3",
+      "title": "EKG & Monitor",
+      "level": "station",
+      "description": "Elektroden anlegen, EKG-Papier lesen und den Sinusrhythmus sicher erkennen.",
+      "lessons": [
+        {
+          "id": "u3l1",
+          "title": "Elektroden richtig kleben",
+          "card": {
+            "title": "Farben nach IEC (in Deutschland üblich)",
+            "text": "Gute Signalqualität beginnt bei der Haut. Viele Fehlalarme entstehen durch schlecht klebende Elektroden.",
+            "bullets": [
+              "Rot: rechts unter dem Schlüsselbein",
+              "Gelb: links unter dem Schlüsselbein",
+              "Grün: links unten am Rumpf (Rippenbogen)",
+              "Schwarz: rechts unten (Neutralelektrode)",
+              "Weiß: Brustwandelektrode (bei 5-Kanal)",
+              "Merkhilfe: Ampel im Uhrzeigersinn ab rechter Schulter – rot, gelb, grün"
+            ]
+          },
+          "questions": [
+            {
+              "id": "u3l1q1",
+              "type": "single_choice",
+              "prompt": "Wohin gehört bei IEC-Farben die rote Elektrode?",
+              "options": [
+                "rechts unter das Schlüsselbein",
+                "links unter das Schlüsselbein",
+                "links unten an den Rumpf",
+                "rechts unten an den Rumpf"
+              ],
+              "correctIndex": 0,
+              "explanation": "Rot = rechts oben. Dann im Uhrzeigersinn: Gelb links oben, Grün links unten."
+            },
+            {
+              "id": "u3l1q2",
+              "type": "matching",
+              "prompt": "Ordne die Farben (IEC) der richtigen Position zu.",
+              "pairs": [
+                {
+                  "left": "Rot",
+                  "right": "rechts unter dem Schlüsselbein"
+                },
+                {
+                  "left": "Gelb",
+                  "right": "links unter dem Schlüsselbein"
+                },
+                {
+                  "left": "Grün",
+                  "right": "links unten am Rumpf"
+                },
+                {
+                  "left": "Schwarz",
+                  "right": "rechts unten (Neutralelektrode)"
+                }
+              ],
+              "explanation": "Ampel-Regel: rot, gelb, grün im Uhrzeigersinn ab der rechten Schulter."
+            },
+            {
+              "id": "u3l1q3",
+              "type": "true_false",
+              "statement": "Gute Hautvorbereitung und ein täglicher Elektrodenwechsel können Fehlalarme reduzieren.",
+              "correct": true,
+              "explanation": "Richtig. Die AHA empfiehlt Hautvorbereitung und tägliches Wechseln der Elektroden, um Störsignale und Fehlalarme zu verringern."
+            },
+            {
+              "id": "u3l1q4",
+              "type": "single_choice",
+              "prompt": "Wie bereitest du die Haut vor dem Kleben vor?",
+              "options": [
+                "Bodylotion auftragen, damit die Elektrode besser hält",
+                "Haare bei Bedarf kürzen, mit Wasser und Seife reinigen, gut trocknen",
+                "Mit Alkohol einreiben und kleben, solange die Haut noch feucht ist",
+                "Keine Vorbereitung nötig"
+              ],
+              "correctIndex": 1,
+              "explanation": "Fett, Feuchtigkeit und Haare verschlechtern den Kontakt. Haare kürzen, reinigen, gut trocknen und die Haut ggf. leicht aufrauen."
+            },
+            {
+              "id": "u3l1q5",
+              "type": "true_false",
+              "statement": "Bei AHA-Farben (z.B. Geräte aus den USA) ist die Elektrode für den rechten Arm weiß. Achte deshalb immer auf die Beschriftung (R/RA).",
+              "correct": true,
+              "explanation": "Richtig. Es gibt zwei Farbsysteme (IEC und AHA). Die Buchstaben auf der Elektrode sind eindeutig."
+            }
+          ],
+          "sourceIds": [
+            "aha-monitoring-2017"
+          ],
+          "articleIds": [
+            "a-elektroden"
+          ],
+          "termIds": []
+        },
+        {
+          "id": "u3l2",
+          "title": "EKG-Papier und Zeiten",
+          "card": {
+            "title": "Kästchen zählen",
+            "text": "Bei einer Standard-Schreibgeschwindigkeit von 25 mm/s kann man Zeiten und Frequenz direkt am Papier ablesen.",
+            "bullets": [
+              "1 kleines Kästchen (1 mm) = 0,04 s",
+              "1 großes Kästchen (5 mm) = 0,2 s",
+              "Herzfrequenz ≈ 300 ÷ Anzahl großer Kästchen zwischen zwei R-Zacken",
+              "PQ-Zeit: 0,12–0,20 s · QRS: unter 0,12 s",
+              "QTc: Männer bis 450 ms, Frauen bis 460 ms"
+            ]
+          },
+          "questions": [
+            {
+              "id": "u3l2q1",
+              "type": "single_choice",
+              "prompt": "Bei 25 mm/s entspricht ein großes Kästchen (5 mm) …",
+              "options": [
+                "0,04 s",
+                "0,1 s",
+                "0,2 s",
+                "1 s"
+              ],
+              "correctIndex": 2,
+              "explanation": "5 × 0,04 s = 0,2 s. Fünf große Kästchen ergeben eine Sekunde."
+            },
+            {
+              "id": "u3l2q2",
+              "type": "single_choice",
+              "prompt": "Zwischen zwei R-Zacken liegen 4 große Kästchen. Wie hoch ist die Herzfrequenz?",
+              "options": [
+                "50/min",
+                "75/min",
+                "100/min",
+                "120/min"
+              ],
+              "correctIndex": 1,
+              "explanation": "300 ÷ 4 = 75/min. Merkreihe: 1 → 300, 2 → 150, 3 → 100, 4 → 75, 5 → 60, 6 → 50."
+            },
+            {
+              "id": "u3l2q3",
+              "type": "single_choice",
+              "prompt": "Wie lang ist eine normale PQ-Zeit?",
+              "options": [
+                "unter 0,12 s",
+                "0,12–0,20 s",
+                "0,20–0,30 s",
+                "über 0,30 s"
+              ],
+              "correctIndex": 1,
+              "explanation": "Eine PQ-Zeit über 0,20 s bei jeder übergeleiteten P-Welle entspricht einem AV-Block I°."
+            },
+            {
+              "id": "u3l2q4",
+              "type": "true_false",
+              "statement": "Ein QRS-Komplex ab 0,12 s gilt als verbreitert.",
+              "correct": true,
+              "explanation": "Richtig. Breite QRS-Komplexe sprechen z.B. für einen Schenkelblock, Schrittmacherrhythmus oder einen ventrikulären Ursprung."
+            },
+            {
+              "id": "u3l2q5",
+              "type": "single_choice",
+              "prompt": "Wie bestimmst du die Frequenz bei unregelmäßigem Rhythmus am zuverlässigsten?",
+              "options": [
+                "300 durch die Kästchen zwischen zwei beliebigen R-Zacken",
+                "QRS-Komplexe in 6 Sekunden zählen und mal 10 nehmen",
+                "nur die Zahl am Monitor ablesen",
+                "nur den Blutdruck messen"
+              ],
+              "correctIndex": 1,
+              "explanation": "Bei unregelmäßigem Rhythmus (z.B. Vorhofflimmern) ist der Abstand jedes Mal anders. Zähle über einen längeren Abschnitt. Die Monitorzahl kann durch Artefakte falsch sein."
+            },
+            {
+              "id": "u3l2q6",
+              "type": "true_false",
+              "statement": "Eine verlängerte QT-Zeit kann gefährliche Kammerrhythmusstörungen (Torsade de pointes) begünstigen.",
+              "correct": true,
+              "explanation": "Richtig. Viele Medikamente verlängern die QT-Zeit. Achte auf ärztliche Vorgaben zur QTc-Kontrolle und auf Elektrolyte."
+            }
+          ],
+          "sourceIds": [
+            "aha-ecg-std-2009",
+            "esc-va-2022",
+            "guyton-2021"
+          ],
+          "articleIds": [
+            "a-ekg-papier",
+            "a-qt-zeit"
+          ],
+          "termIds": []
+        },
+        {
+          "id": "u3l3",
+          "title": "Sinusrhythmus erkennen",
+          "card": {
+            "title": "Die Checkliste für jeden Streifen",
+            "text": "Gehe jeden Rhythmusstreifen mit denselben Fragen durch. Beim normalen Sinusrhythmus sind alle Antworten unauffällig.",
+            "bullets": [
+              "Frequenz: 60–100/min?",
+              "Regelmäßig? (gleiche RR-Abstände)",
+              "P-Welle vor jedem QRS, QRS nach jeder P-Welle?",
+              "PQ-Zeit normal (0,12–0,20 s)?",
+              "QRS schmal (unter 0,12 s)?"
+            ],
+            "strip": "sinus"
+          },
+          "questions": [
+            {
+              "id": "u3l3q1",
+              "type": "single_choice",
+              "prompt": "Welcher Rhythmus ist das?",
+              "options": [
+                "Sinusrhythmus",
+                "Vorhofflimmern",
+                "Ventrikuläre Tachykardie",
+                "Asystolie"
+              ],
+              "correctIndex": 0,
+              "explanation": "Regelmäßig, P-Welle vor jedem schmalen QRS, Frequenz etwa 75/min: Sinusrhythmus.",
+              "strip": "sinus"
+            },
+            {
+              "id": "u3l3q2",
+              "type": "single_choice",
+              "prompt": "Regelmäßig, P-Welle vor jedem QRS, Frequenz etwa 45/min. Welcher Rhythmus ist das?",
+              "options": [
+                "Sinustachykardie",
+                "Sinusbradykardie",
+                "AV-Block III°",
+                "Vorhofflattern"
+              ],
+              "correctIndex": 1,
+              "explanation": "Sinusrhythmus unter 60/min = Sinusbradykardie. Mögliche Ursachen sind z.B. Betablocker, Schlaf, trainierte Menschen oder ein Hinterwandinfarkt.",
+              "strip": "sinus_brady"
+            },
+            {
+              "id": "u3l3q3",
+              "type": "single_choice",
+              "prompt": "Welcher Rhythmus ist das?",
+              "options": [
+                "Sinustachykardie",
+                "Kammerflimmern",
+                "Sinusbradykardie",
+                "AV-Block I°"
+              ],
+              "correctIndex": 0,
+              "explanation": "Regelmäßig mit P-Wellen und schmalen QRS bei etwa 125/min: Sinustachykardie.",
+              "strip": "sinus_tachy"
+            },
+            {
+              "id": "u3l3q4",
+              "type": "true_false",
+              "statement": "Bei einem Sinusrhythmus folgt auf jede P-Welle ein QRS-Komplex.",
+              "correct": true,
+              "explanation": "Richtig. Wenn P-Wellen ohne QRS vorkommen, spricht das für einen AV-Block."
+            },
+            {
+              "id": "u3l3q5",
+              "type": "single_choice",
+              "prompt": "Was sind häufige Ursachen einer Sinustachykardie?",
+              "options": [
+                "Fieber, Schmerz, Angst, Volumenmangel, Anämie",
+                "nur ein Herzinfarkt",
+                "Unterkühlung",
+                "eine Überdosis Betablocker"
+              ],
+              "correctIndex": 0,
+              "explanation": "Eine Sinustachykardie ist meist eine Reaktion des Körpers. Suche die Ursache und behandle nicht nur die Frequenz."
+            }
+          ],
+          "sourceIds": [
+            "aha-ecg-std-2009",
+            "guyton-2021"
+          ],
+          "articleIds": [
+            "a-sinusrhythmus"
+          ],
+          "termIds": []
+        }
+      ]
+    },
+    {
+      "id": "u4",
+      "title": "Rhythmusstörungen am Monitor",
+      "level": "station",
+      "description": "Bradykardien, Vorhofflimmern, VES, VT und die lebensbedrohlichen Rhythmen.",
+      "lessons": [
+        {
+          "id": "u4l1",
+          "title": "Langsame Rhythmen und AV-Blöcke",
+          "card": {
+            "title": "Wenn die Überleitung stockt",
+            "text": "Bei AV-Blöcken ist die Überleitung von den Vorhöfen auf die Kammern gestört. Entscheidend ist: Wie geht es dem Patienten?",
+            "bullets": [
+              "AV-Block I°: PQ über 0,20 s, jede P-Welle wird übergeleitet",
+              "AV-Block II° Wenckebach: PQ wird länger, bis ein QRS ausfällt",
+              "AV-Block II° Mobitz: PQ konstant, plötzlich fällt ein QRS aus (Gefahr des Übergangs in III°)",
+              "AV-Block III°: Vorhöfe und Kammern schlagen unabhängig voneinander",
+              "Warnzeichen: Schwindel, Synkope, Hypotonie, Bewusstseinsstörung"
+            ],
+            "strip": "av1"
+          },
+          "questions": [
+            {
+              "id": "u4l1q1",
+              "type": "single_choice",
+              "prompt": "PQ-Zeit konstant 0,32 s, jede P-Welle wird übergeleitet. Was ist das?",
+              "options": [
+                "AV-Block I°",
+                "AV-Block II° Typ Wenckebach",
+                "AV-Block III°",
+                "normaler Sinusrhythmus"
+              ],
+              "correctIndex": 0,
+              "explanation": "PQ über 0,20 s bei 1:1-Überleitung = AV-Block I°. Meist harmlos, sollte aber dokumentiert und beobachtet werden.",
+              "strip": "av1"
+            },
+            {
+              "id": "u4l1q2",
+              "type": "single_choice",
+              "prompt": "Was siehst du hier?",
+              "options": [
+                "AV-Block I°",
+                "AV-Block II° Typ Wenckebach",
+                "Vorhofflimmern",
+                "Ventrikuläre Tachykardie"
+              ],
+              "correctIndex": 1,
+              "explanation": "Die PQ-Zeit wird von Schlag zu Schlag länger, dann folgt auf eine P-Welle kein QRS: Wenckebach (Mobitz I).",
+              "strip": "av2_wenckebach"
+            },
+            {
+              "id": "u4l1q3",
+              "type": "single_choice",
+              "prompt": "P-Wellen und breite QRS-Komplexe laufen unabhängig voneinander, Kammerfrequenz etwa 38/min. Was ist das?",
+              "options": [
+                "AV-Block I°",
+                "Sinusbradykardie",
+                "AV-Block III°",
+                "Vorhofflattern"
+              ],
+              "correctIndex": 2,
+              "explanation": "Totaler AV-Block: Keine P-Welle wird übergeleitet, ein langsamer Ersatzrhythmus übernimmt. Notfall, wenn der Patient Symptome hat.",
+              "strip": "av3"
+            },
+            {
+              "id": "u4l1q4",
+              "type": "true_false",
+              "statement": "Ein AV-Block II° Typ Mobitz ist meist harmloser als ein Wenckebach-Block.",
+              "correct": false,
+              "explanation": "Falsch. Mobitz II liegt meist tiefer im Leitungssystem und kann plötzlich in einen AV-Block III° übergehen."
+            },
+            {
+              "id": "u4l1q5",
+              "type": "single_choice",
+              "prompt": "Neu aufgetretener AV-Block III°, der Patient ist schwindelig, RR 80/50 mmHg. Was tust du zuerst?",
+              "options": [
+                "Arzt sofort rufen, beim Patienten bleiben, Vitalzeichen kontrollieren, Defibrillator mit Schrittmacherfunktion bereitstellen",
+                "abwarten und in einer Stunde erneut kontrollieren",
+                "den Patienten mobilisieren",
+                "Elektroden neu kleben und den Alarm leiser stellen"
+              ],
+              "correctIndex": 0,
+              "explanation": "Instabile Bradykardie: ärztliche Behandlung sofort (z.B. Atropin oder externer Schrittmacher nach Anordnung). Flach lagern und nicht allein lassen."
+            }
+          ],
+          "sourceIds": [
+            "aha-brady-2018",
+            "esc-pacing-2021",
+            "erc-als-2021"
+          ],
+          "articleIds": [
+            "a-av-block"
+          ],
+          "termIds": []
+        },
+        {
+          "id": "u4l2",
+          "title": "Vorhofflimmern und Vorhofflattern",
+          "card": {
+            "title": "Die häufigste Rhythmusstörung",
+            "text": "Beim Vorhofflimmern kreisen ungeordnete Erregungen in den Vorhöfen. Die Kammern schlagen unregelmäßig. Im Herzohr können sich Gerinnsel bilden, deshalb ist das Schlaganfallrisiko erhöht.",
+            "bullets": [
+              "absolut unregelmäßige RR-Abstände",
+              "keine P-Wellen, stattdessen Flimmerwellen",
+              "Vorhofflattern: Sägezahnwellen, oft regelmäßige 2:1-Überleitung mit ca. 150/min",
+              "Schlaganfallrisiko-Score laut ESC 2024: CHA₂DS₂-VA"
+            ],
+            "strip": "afib"
+          },
+          "questions": [
+            {
+              "id": "u4l2q1",
+              "type": "single_choice",
+              "prompt": "Welcher Rhythmus ist das?",
+              "options": [
+                "Sinusrhythmus mit VES",
+                "Vorhofflimmern",
+                "AV-Block I°",
+                "Ventrikuläre Tachykardie"
+              ],
+              "correctIndex": 1,
+              "explanation": "Unregelmäßig unregelmäßig, keine P-Wellen, unruhige Grundlinie: Vorhofflimmern.",
+              "strip": "afib"
+            },
+            {
+              "id": "u4l2q2",
+              "type": "single_choice",
+              "prompt": "Welcher Rhythmus ist das?",
+              "options": [
+                "Vorhofflattern",
+                "Kammerflimmern",
+                "Sinustachykardie",
+                "AV-Block III°"
+              ],
+              "correctIndex": 0,
+              "explanation": "Sägezahnartige Flatterwellen, regelmäßige Überleitung (hier 2:1, Kammerfrequenz ca. 150/min): Vorhofflattern.",
+              "strip": "flutter"
+            },
+            {
+              "id": "u4l2q3",
+              "type": "true_false",
+              "statement": "Vorhofflimmern erhöht das Schlaganfallrisiko, weil sich im Vorhof (vor allem im Herzohr) Gerinnsel bilden können.",
+              "correct": true,
+              "explanation": "Richtig. Deshalb erhalten viele Patienten mit Vorhofflimmern eine orale Antikoagulation."
+            },
+            {
+              "id": "u4l2q4",
+              "type": "single_choice",
+              "prompt": "Welches EKG-Merkmal ist typisch für Vorhofflimmern?",
+              "options": [
+                "unregelmäßige RR-Abstände ohne erkennbare P-Wellen",
+                "regelmäßige breite QRS-Komplexe",
+                "PQ-Verlängerung bei regelmäßigem Rhythmus",
+                "Nulllinie"
+              ],
+              "correctIndex": 0,
+              "explanation": "Kein Vorhofrhythmus, deshalb keine P-Wellen. Die Kammern werden zufällig erregt, deshalb sind die RR-Abstände unregelmäßig."
+            },
+            {
+              "id": "u4l2q5",
+              "type": "single_choice",
+              "prompt": "Eine regelmäßige schmale Tachykardie mit ziemlich genau 150/min. Woran solltest du denken?",
+              "options": [
+                "Vorhofflattern mit 2:1-Überleitung",
+                "Kammerflimmern",
+                "AV-Block III°",
+                "Sinusbradykardie"
+              ],
+              "correctIndex": 0,
+              "explanation": "Flatterwellen mit ca. 300/min und 2:1-Überleitung ergeben ca. 150/min. Die Flatterwellen verstecken sich oft im QRS oder in der T-Welle."
+            },
+            {
+              "id": "u4l2q6",
+              "type": "single_choice",
+              "prompt": "Mit welchem Score schätzt die ESC-Leitlinie 2024 das Schlaganfallrisiko bei Vorhofflimmern ab?",
+              "options": [
+                "CHA₂DS₂-VA",
+                "Glasgow Coma Scale",
+                "NYHA-Klassifikation",
+                "Wells-Score"
+              ],
+              "correctIndex": 0,
+              "explanation": "CHA₂DS₂-VA: Herzinsuffizienz, Hypertonie, Alter, Diabetes, Schlaganfall/TIA, Gefäßerkrankung. Das Geschlecht zählt in der Version von 2024 nicht mehr."
+            }
+          ],
+          "sourceIds": [
+            "esc-af-2024",
+            "esc-svt-2019"
+          ],
+          "articleIds": [
+            "a-vorhofflimmern"
+          ],
+          "termIds": [
+            "t-tachyarrhythmie",
+            "t-arrhythmie"
+          ]
+        },
+        {
+          "id": "u4l3",
+          "title": "Extrasystolen und Kammertachykardie",
+          "card": {
+            "title": "Breit heißt aufpassen",
+            "text": "Kommt ein Schlag aus der Kammer, ist der QRS-Komplex breit und deformiert und hat keine P-Welle davor.",
+            "bullets": [
+              "VES: vorzeitig, breit, ohne P-Welle, oft gefolgt von einer kompensatorischen Pause",
+              "VT: 3 oder mehr Kammerschläge in Folge mit über 100/min",
+              "anhaltende VT: länger als 30 Sekunden",
+              "pulslose VT: Reanimation und Defibrillation"
+            ],
+            "strip": "ves"
+          },
+          "questions": [
+            {
+              "id": "u4l3q1",
+              "type": "single_choice",
+              "prompt": "Was siehst du?",
+              "options": [
+                "Sinusrhythmus mit ventrikulärer Extrasystole (VES)",
+                "Vorhofflimmern",
+                "AV-Block I°",
+                "Asystolie"
+              ],
+              "correctIndex": 0,
+              "explanation": "Ein vorzeitiger, breiter Schlag ohne P-Welle mit anschließender Pause in einem sonst regelmäßigen Sinusrhythmus: VES.",
+              "strip": "ves"
+            },
+            {
+              "id": "u4l3q2",
+              "type": "single_choice",
+              "prompt": "Breite, regelmäßige Komplexe mit etwa 180/min. Was ist das?",
+              "options": [
+                "Ventrikuläre Tachykardie",
+                "Sinustachykardie",
+                "Vorhofflattern",
+                "Kammerflimmern"
+              ],
+              "correctIndex": 0,
+              "explanation": "Breitkomplextachykardie: bis zum Beweis des Gegenteils als VT behandeln.",
+              "strip": "vt"
+            },
+            {
+              "id": "u4l3q3",
+              "type": "single_choice",
+              "prompt": "Der Monitor zeigt eine VT. Was tust du als Erstes?",
+              "options": [
+                "sofort zum Patienten: ansprechen, Atmung und Puls prüfen, Hilfe rufen",
+                "Alarm quittieren und die Dokumentation abwarten",
+                "in Ruhe ein 12-Kanal-EKG schreiben und danach den Arzt anrufen",
+                "Elektroden wechseln"
+              ],
+              "correctIndex": 0,
+              "explanation": "Zuerst der Patient. Ohne Puls: Reanimation und Defibrillation. Mit Puls: Arzt sofort, Defibrillator bereit, 12-Kanal-EKG wenn möglich."
+            },
+            {
+              "id": "u4l3q4",
+              "type": "true_false",
+              "statement": "Eine VT ohne tastbaren Puls wird wie Kammerflimmern behandelt: Reanimation und Defibrillation.",
+              "correct": true,
+              "explanation": "Richtig. Pulslose VT und Kammerflimmern sind die beiden defibrillierbaren Rhythmen."
+            },
+            {
+              "id": "u4l3q5",
+              "type": "single_choice",
+              "prompt": "Ab wann spricht man von einer anhaltenden (sustained) VT?",
+              "options": [
+                "ab mehr als 3 Schlägen",
+                "ab mehr als 10 Sekunden",
+                "ab mehr als 30 Sekunden",
+                "ab mehr als 5 Minuten"
+              ],
+              "correctIndex": 2,
+              "explanation": "Anhaltend = länger als 30 Sekunden oder hämodynamisch instabil. Kürzere Salven heißen nicht anhaltende VT."
+            },
+            {
+              "id": "u4l3q6",
+              "type": "true_false",
+              "statement": "Niedrige Kalium- und Magnesiumwerte können ventrikuläre Rhythmusstörungen begünstigen.",
+              "correct": true,
+              "explanation": "Richtig. Achte auf die Laborwerte und die Elektrolytgaben nach Anordnung."
+            }
+          ],
+          "sourceIds": [
+            "esc-va-2022",
+            "erc-als-2021"
+          ],
+          "articleIds": [
+            "a-ves-vt"
+          ],
+          "termIds": [
+            "t-extrasystole"
+          ]
+        },
+        {
+          "id": "u4l4",
+          "title": "Lebensbedrohlich: Kammerflimmern und Asystolie",
+          "card": {
+            "title": "Erst schauen, dann handeln, aber schnell",
+            "text": "Kammerflimmern und Asystolie bedeuten Kreislaufstillstand. Weil Artefakte gleich aussehen können, gilt: Patient vor Monitor.",
+            "bullets": [
+              "Kammerflimmern: chaotische Wellen, keine QRS-Komplexe → Reanimation, sofort defibrillieren",
+              "Asystolie: Nulllinie → Kabel, Elektroden und Verstärkung prüfen, Patient prüfen",
+              "Echte Asystolie: Reanimation, Adrenalin, kein Schock",
+              "Artefakt: Patient wach und ansprechbar, darunter laufen oft QRS-Komplexe weiter"
+            ],
+            "strip": "vf"
+          },
+          "questions": [
+            {
+              "id": "u4l4q1",
+              "type": "single_choice",
+              "prompt": "Welcher Rhythmus ist das?",
+              "options": [
+                "Kammerflimmern",
+                "Vorhofflimmern",
+                "Sinustachykardie",
+                "AV-Block III°"
+              ],
+              "correctIndex": 0,
+              "explanation": "Chaotische, unterschiedlich hohe Wellen ohne erkennbare QRS-Komplexe: Kammerflimmern. Kein Auswurf, also Kreislaufstillstand.",
+              "strip": "vf"
+            },
+            {
+              "id": "u4l4q2",
+              "type": "single_choice",
+              "prompt": "Am Monitor erscheint plötzlich eine Nulllinie. Was tust du?",
+              "options": [
+                "sofort zum Patienten: Bewusstsein und Atmung prüfen, dabei Kabel und Elektroden kontrollieren",
+                "sofort defibrillieren",
+                "den Monitor neu starten",
+                "den Alarm stummschalten und die nächste Messung abwarten"
+              ],
+              "correctIndex": 0,
+              "explanation": "Eine Nulllinie kann eine echte Asystolie oder ein abgefallenes Kabel sein. Das klärst du nur am Patienten.",
+              "strip": "asystole"
+            },
+            {
+              "id": "u4l4q3",
+              "type": "true_false",
+              "statement": "Asystolie ist ein defibrillierbarer Rhythmus.",
+              "correct": false,
+              "explanation": "Falsch. Asystolie und PEA sind nicht defibrillierbar. Behandelt wird mit Herzdruckmassage und frühem Adrenalin."
+            },
+            {
+              "id": "u4l4q4",
+              "type": "single_choice",
+              "prompt": "Der Monitor alarmiert „Kammerflimmern“. Der Patient sitzt am Waschbecken und putzt sich die Zähne. Was ist es wahrscheinlich?",
+              "options": [
+                "ein Bewegungsartefakt",
+                "Kammerflimmern",
+                "Asystolie",
+                "eine ventrikuläre Tachykardie"
+              ],
+              "correctIndex": 0,
+              "explanation": "Bewegung erzeugt Zacken, die wie Kammerflimmern aussehen können. Die regelmäßigen QRS-Komplexe laufen darunter weiter. Trotzdem immer hingehen und nachsehen.",
+              "strip": "artifact"
+            },
+            {
+              "id": "u4l4q5",
+              "type": "matching",
+              "prompt": "Ordne jeden Rhythmus seinem Monitorbild zu.",
+              "pairs": [
+                {
+                  "left": "Kammerflimmern",
+                  "right": "chaotische Wellen, keine QRS-Komplexe"
+                },
+                {
+                  "left": "Ventrikuläre Tachykardie",
+                  "right": "breite, regelmäßige Komplexe über 100/min"
+                },
+                {
+                  "left": "Asystolie",
+                  "right": "Nulllinie"
+                },
+                {
+                  "left": "Vorhofflattern",
+                  "right": "Sägezahnwellen"
+                }
+              ],
+              "explanation": "Wer die Bilder sicher kennt, reagiert im Ernstfall schneller."
+            }
+          ],
+          "sourceIds": [
+            "erc-als-2021",
+            "erc-2025",
+            "aha-monitoring-2017"
+          ],
+          "articleIds": [
+            "a-reanimation",
+            "a-alarme"
+          ],
+          "termIds": [
+            "t-asystolie",
+            "t-defibrillation"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "u5",
+      "title": "Telemetrie-Alltag",
+      "level": "station",
+      "description": "Alarme bewerten, Elektrolyte im Blick behalten, Pflege nach Herzkatheter.",
+      "lessons": [
+        {
+          "id": "u5l1",
+          "title": "Alarme richtig bewerten",
+          "card": {
+            "title": "Patient vor Monitor",
+            "text": "Ein Großteil der Monitoralarme ist technisch bedingt oder erfordert keine Handlung. Wer ständig Fehlalarme hört, reagiert irgendwann langsamer (Alarmmüdigkeit). Deshalb ist es so wichtig, die Ursachen der Fehlalarme zu beheben.",
+            "bullets": [
+              "Bei jedem Rhythmusalarm zuerst den Patienten beurteilen",
+              "Ursachen von Fehlalarmen: lose Elektroden, Bewegung, schlechte Hautvorbereitung, unpassende Grenzwerte",
+              "Alarmgrenzen individuell nach ärztlicher Anordnung und Stationsstandard",
+              "Alarme nie dauerhaft abschalten"
+            ]
+          },
+          "questions": [
+            {
+              "id": "u5l1q1",
+              "type": "true_false",
+              "statement": "Wenn ein Patient sehr viele Fehlalarme hat, darf man den Alarm dauerhaft ausschalten.",
+              "correct": false,
+              "explanation": "Falsch. Behebe die Ursache (Elektroden, Hautvorbereitung, Ableitung wählen) und lass die Grenzwerte ggf. ärztlich anpassen. Ein abgeschalteter Alarm kann ein echtes Ereignis verpassen."
+            },
+            {
+              "id": "u5l1q2",
+              "type": "single_choice",
+              "prompt": "Was ist die häufigste Ursache für Fehlalarme in der Telemetrie?",
+              "options": [
+                "Technik und Artefakte (lose Elektroden, Bewegung)",
+                "echte Herzrhythmusstörungen",
+                "defekte Monitore",
+                "zu viel Kalium im Blut"
+              ],
+              "correctIndex": 0,
+              "explanation": "Studien zeigen: Ein großer Teil der Alarme ist falsch positiv oder klinisch nicht relevant, meist durch Artefakte und Elektrodenprobleme."
+            },
+            {
+              "id": "u5l1q3",
+              "type": "single_choice",
+              "prompt": "Was bedeutet „Alarmmüdigkeit“ (alarm fatigue)?",
+              "options": [
+                "Personal stumpft durch viele (Fehl-)Alarme ab, sodass echte Alarme verzögert beantwortet oder übersehen werden",
+                "Der Patient wird durch Alarmtöne müde",
+                "Der Akku des Senders ist schwach",
+                "Der Monitor ist im Nachtmodus"
+              ],
+              "correctIndex": 0,
+              "explanation": "Alarmmüdigkeit ist ein anerkanntes Sicherheitsrisiko. Gute Elektrodenpflege und passende Grenzwerte sind die wichtigsten Gegenmittel."
+            },
+            {
+              "id": "u5l1q4",
+              "type": "single_choice",
+              "prompt": "Alarm „Elektrode lose / Ableitung aus“ bei einem Telemetriepatienten. Was tust du?",
+              "options": [
+                "zeitnah hingehen, Elektroden und Sender prüfen und erneuern – ohne Signal wird der Rhythmus nicht überwacht",
+                "ignorieren, das ist nur ein technischer Alarm",
+                "beim nächsten Rundgang nachsehen",
+                "die Telemetrie beenden"
+              ],
+              "correctIndex": 0,
+              "explanation": "Ein technischer Alarm bedeutet: In diesem Moment ist der Patient nicht überwacht."
+            },
+            {
+              "id": "u5l1q5",
+              "type": "true_false",
+              "statement": "Bei jedem Rhythmusalarm wird zuerst der Patient beurteilt, nicht nur die Kurve.",
+              "correct": true,
+              "explanation": "Richtig: Patient vor Monitor. Bewusstsein, Atmung, Puls und Hautfarbe sagen mehr als jede Kurve."
+            }
+          ],
+          "sourceIds": [
+            "aha-monitoring-2017"
+          ],
+          "articleIds": [
+            "a-alarme",
+            "a-elektroden"
+          ],
+          "termIds": []
+        },
+        {
+          "id": "u5l2",
+          "title": "Elektrolyte und Monitor",
+          "card": {
+            "title": "Kalium und Magnesium im Blick",
+            "text": "Elektrolytstörungen gehören zu den häufigsten behandelbaren Ursachen für Rhythmusstörungen.",
+            "bullets": [
+              "Kalium im Serum: ca. 3,5–5,0 mmol/l (je nach Labor)",
+              "Hypokaliämie: flache T-Welle, U-Welle, Extrasystolen, Rhythmusstörungen",
+              "Hyperkaliämie: hohe, spitze T-Wellen, breiter QRS, Bradykardie bis Asystolie oder Kammerflimmern",
+              "Magnesiummangel begünstigt Torsade de pointes",
+              "Zielwerte auf der Station: nach ärztlicher Anordnung"
+            ]
+          },
+          "questions": [
+            {
+              "id": "u5l2q1",
+              "type": "single_choice",
+              "prompt": "Welches EKG-Zeichen ist typisch für eine Hyperkaliämie?",
+              "options": [
+                "hohe, spitze (zeltförmige) T-Wellen",
+                "U-Wellen",
+                "Sägezahnwellen",
+                "eine Nulllinie bei wachem Patienten"
+              ],
+              "correctIndex": 0,
+              "explanation": "Bei steigendem Kalium: spitze T-Wellen, dann PQ-Verlängerung, abgeflachte P-Wellen, breiter QRS und schließlich Kammerflimmern oder Asystolie."
+            },
+            {
+              "id": "u5l2q2",
+              "type": "single_choice",
+              "prompt": "Welche Zeichen sind typisch für eine Hypokaliämie?",
+              "options": [
+                "U-Welle und abgeflachte T-Welle",
+                "hohe, spitze T-Wellen",
+                "Nulllinie",
+                "Sägezahnwellen"
+              ],
+              "correctIndex": 0,
+              "explanation": "Typisch sind flache T-Wellen, U-Wellen und ST-Senkungen. Klinisch zeigt sich oft Muskelschwäche."
+            },
+            {
+              "id": "u5l2q3",
+              "type": "true_false",
+              "statement": "Eine Hyperkaliämie kann zu lebensbedrohlichen Rhythmusstörungen bis zur Asystolie führen.",
+              "correct": true,
+              "explanation": "Richtig. Eine schwere Hyperkaliämie ist ein Notfall: Arzt sofort informieren und den Patienten am Monitor lassen."
+            },
+            {
+              "id": "u5l2q4",
+              "type": "word_parts",
+              "term": "Hyperkaliämie",
+              "parts": [
+                {
+                  "part": "Hyper",
+                  "meaning": "über, zu viel",
+                  "origin": "griech. hypér"
+                },
+                {
+                  "part": "kali",
+                  "meaning": "Kalium",
+                  "origin": "Kalium"
+                },
+                {
+                  "part": "ämie",
+                  "meaning": "Blut",
+                  "origin": "griech. haíma"
+                }
+              ],
+              "distractors": [
+                "unter, zu wenig",
+                "Herz",
+                "Wärme"
+              ],
+              "meaning": "Zu hoher Kaliumspiegel im Blut",
+              "explanation": "Hyper = zu viel, Kali = Kalium, -ämie = im Blut."
+            },
+            {
+              "id": "u5l2q5",
+              "type": "single_choice",
+              "prompt": "Welcher Bereich ist ungefähr der Referenzbereich für Kalium im Serum bei Erwachsenen?",
+              "options": [
+                "1,5–2,5 mmol/l",
+                "3,5–5,0 mmol/l",
+                "6,0–7,5 mmol/l",
+                "135–145 mmol/l"
+              ],
+              "correctIndex": 1,
+              "explanation": "Kalium ca. 3,5–5,0 mmol/l, genaue Grenzen je nach Labor. 135–145 mmol/l ist der Bereich für Natrium."
+            },
+            {
+              "id": "u5l2q6",
+              "type": "true_false",
+              "statement": "Ein Magnesiummangel begünstigt Torsade-de-pointes-Tachykardien.",
+              "correct": true,
+              "explanation": "Richtig. Magnesium wird bei Torsade de pointes auch therapeutisch gegeben (nach ärztlicher Anordnung)."
+            }
+          ],
+          "sourceIds": [
+            "erc-special-2021",
+            "esc-va-2022"
+          ],
+          "articleIds": [
+            "a-kalium",
+            "a-magnesium"
+          ],
+          "termIds": [
+            "t-hypokaliaemie",
+            "t-hyperkaliaemie"
+          ]
+        },
+        {
+          "id": "u5l3",
+          "title": "Nach dem Herzkatheter",
+          "card": {
+            "title": "Punktionsstelle, Durchblutung, Kreislauf",
+            "text": "Nach einer Koronarangiographie oder PCI überwachst du vor allem die Punktionsstelle und die Durchblutung der Extremität. Wie lange und wie oft, regelt der Standard deines Hauses.",
+            "bullets": [
+              "Zugang radial (Handgelenk) oder femoral (Leiste)",
+              "Kontrolle: Blutung, Hämatom, DMS (Durchblutung, Motorik, Sensibilität), Vitalzeichen, Schmerzen",
+              "Radial: Kompressionsarmband nach Schema entlasten; auf blasse, kalte oder taube Hand achten",
+              "Femoral: Druckverband und Bettruhe nach Standard; Rücken- oder Flankenschmerz mit RR-Abfall kann eine retroperitoneale Blutung sein"
+            ]
+          },
+          "questions": [
+            {
+              "id": "u5l3q1",
+              "type": "single_choice",
+              "prompt": "Welcher Gefäßzugang wird laut ESC-Leitlinie 2023 beim akuten Koronarsyndrom standardmäßig empfohlen?",
+              "options": [
+                "radial (Handgelenk)",
+                "femoral (Leiste)",
+                "jugulär (Hals)",
+                "brachial (Ellenbeuge)"
+              ],
+              "correctIndex": 0,
+              "explanation": "Der radiale Zugang ist der Standard, weil es seltener zu Blutungskomplikationen kommt."
+            },
+            {
+              "id": "u5l3q2",
+              "type": "single_choice",
+              "prompt": "Nach femoraler Punktion klagt der Patient über zunehmende Rückenschmerzen, der Blutdruck fällt, die Herzfrequenz steigt. Woran denkst du?",
+              "options": [
+                "retroperitoneale Blutung – sofort Arzt informieren",
+                "Muskelverspannung durch die Bettruhe",
+                "normale Reaktion auf das Kontrastmittel",
+                "Harnverhalt"
+              ],
+              "correctIndex": 0,
+              "explanation": "Eine Blutung in den Retroperitonealraum ist von außen oft nicht sichtbar. Schock-Zeichen und Rücken- oder Flankenschmerz sind Warnzeichen."
+            },
+            {
+              "id": "u5l3q3",
+              "type": "true_false",
+              "statement": "Nach radialem Zugang kontrollierst du Durchblutung, Motorik und Sensibilität der Hand.",
+              "correct": true,
+              "explanation": "Richtig. Blässe, Kälte, Taubheit oder starke Schmerzen der Hand meldest du sofort."
+            },
+            {
+              "id": "u5l3q4",
+              "type": "matching",
+              "prompt": "Ordne jeden Begriff seiner Bedeutung zu.",
+              "pairs": [
+                {
+                  "left": "Hämatom",
+                  "right": "Bluterguss an der Punktionsstelle"
+                },
+                {
+                  "left": "DMS",
+                  "right": "Durchblutung, Motorik, Sensibilität"
+                },
+                {
+                  "left": "radial",
+                  "right": "Zugang über die Arteria radialis (Handgelenk)"
+                },
+                {
+                  "left": "femoral",
+                  "right": "Zugang über die Arteria femoralis (Leiste)"
+                }
+              ],
+              "explanation": "Diese Begriffe stehen in fast jeder Übergabe nach einem Herzkatheter."
+            },
+            {
+              "id": "u5l3q5",
+              "type": "single_choice",
+              "prompt": "An der Punktionsstelle in der Leiste blutet es. Was tust du zuerst?",
+              "options": [
+                "fest auf die Punktionsstelle drücken (knapp oberhalb der Einstichstelle) und Hilfe bzw. Arzt rufen",
+                "das Bein hochlagern und abwarten",
+                "nur den Verband erneuern",
+                "den Patienten mobilisieren"
+              ],
+              "correctIndex": 0,
+              "explanation": "Die arterielle Punktion liegt etwas oberhalb des Hautschnitts. Manuell komprimieren und nicht loslassen, bis Hilfe da ist."
+            }
+          ],
+          "sourceIds": [
+            "esc-acs-2023"
+          ],
+          "articleIds": [
+            "a-herzkatheter"
+          ],
+          "termIds": [
+            "t-haematom",
+            "t-angiographie"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "u6",
+      "title": "Notfälle",
+      "level": "station",
+      "description": "Brustschmerz und Reanimation: die ersten Minuten richtig machen.",
+      "lessons": [
+        {
+          "id": "u6l1",
+          "title": "Brustschmerz: die ersten Minuten",
+          "card": {
+            "title": "Brustschmerz ist ein Notfall, bis das Gegenteil bewiesen ist",
+            "text": "Beim Verdacht auf ein akutes Koronarsyndrom (ACS) zählt jede Minute.",
+            "bullets": [
+              "beim Patienten bleiben, Hilfe und Arzt rufen lassen",
+              "12-Kanal-EKG innerhalb von 10 Minuten",
+              "Vitalzeichen, Monitoring, Defibrillator bereit",
+              "Sauerstoff nur bei SpO₂ unter 90 %",
+              "Nitro nur nach Anordnung, nicht bei Hypotonie oder nach PDE-5-Hemmern"
+            ]
+          },
+          "questions": [
+            {
+              "id": "u6l1q1",
+              "type": "single_choice",
+              "prompt": "Innerhalb welcher Zeit soll beim Verdacht auf ein ACS ein 12-Kanal-EKG vorliegen?",
+              "options": [
+                "10 Minuten",
+                "30 Minuten",
+                "1 Stunde",
+                "24 Stunden"
+              ],
+              "correctIndex": 0,
+              "explanation": "Die ESC-Leitlinie 2023 fordert das EKG innerhalb von 10 Minuten nach dem ersten Kontakt. Ein ST-Hebungsinfarkt muss sofort erkannt werden."
+            },
+            {
+              "id": "u6l1q2",
+              "type": "true_false",
+              "statement": "Jeder Patient mit Brustschmerz bekommt routinemäßig Sauerstoff, auch bei einer SpO₂ von 98 %.",
+              "correct": false,
+              "explanation": "Falsch. Ohne Sauerstoffmangel bringt Sauerstoff keinen Nutzen. Laut ESC 2023 nur bei SpO₂ unter 90 %."
+            },
+            {
+              "id": "u6l1q3",
+              "type": "single_choice",
+              "prompt": "Ab welcher Sauerstoffsättigung empfiehlt die ESC-Leitlinie 2023 beim ACS Sauerstoff?",
+              "options": [
+                "unter 90 %",
+                "unter 94 %",
+                "unter 98 %",
+                "immer"
+              ],
+              "correctIndex": 0,
+              "explanation": "Sauerstoff bei Hypoxämie (SpO₂ unter 90 %)."
+            },
+            {
+              "id": "u6l1q4",
+              "type": "single_choice",
+              "prompt": "Wann darf Nitroglyzerin typischerweise NICHT gegeben werden?",
+              "options": [
+                "bei systolischem Blutdruck unter 90 mmHg oder nach Einnahme von PDE-5-Hemmern (z.B. Sildenafil)",
+                "bei einem Blutdruck von 150/90 mmHg",
+                "bei Sinusrhythmus",
+                "wenn der Patient früher einmal Kopfschmerzen hatte"
+              ],
+              "correctIndex": 0,
+              "explanation": "Nitrate senken den Blutdruck. Bei Hypotonie, Rechtsherzinfarkt oder kürzlicher Einnahme von PDE-5-Hemmern drohen schwere Blutdruckabfälle. Gabe nur nach ärztlicher Anordnung."
+            },
+            {
+              "id": "u6l1q5",
+              "type": "single_choice",
+              "prompt": "Ein Patient klagt über plötzlichen Druck auf der Brust mit Ausstrahlung in den linken Arm. Was tust du zuerst?",
+              "options": [
+                "beim Patienten bleiben, Arzt rufen lassen, Vitalzeichen messen, 12-Kanal-EKG schreiben",
+                "den Patienten zur Toilette begleiten",
+                "ein Schmerzmittel aus dem Schrank geben",
+                "es bei der nächsten Visite erwähnen"
+              ],
+              "correctIndex": 0,
+              "explanation": "Nicht allein lassen, nicht belasten, und Diagnostik und Arzt sofort."
+            }
+          ],
+          "sourceIds": [
+            "esc-acs-2023"
+          ],
+          "articleIds": [
+            "a-acs"
+          ],
+          "termIds": []
+        },
+        {
+          "id": "u6l2",
+          "title": "Reanimation auf Station",
+          "card": {
+            "title": "Drücken, schocken, Adrenalin",
+            "text": "Bewusstlos und keine normale Atmung: Notfallteam alarmieren und sofort mit der Herzdruckmassage beginnen.",
+            "bullets": [
+              "30 Kompressionen : 2 Beatmungen",
+              "Frequenz 100–120/min, Tiefe 5–6 cm, Unterbrechungen so kurz wie möglich",
+              "Defibrillator so schnell wie möglich, Rhythmusanalyse alle 2 Minuten",
+              "Defibrillierbar: Kammerflimmern und pulslose VT · nicht defibrillierbar: Asystolie und PEA",
+              "Adrenalin 1 mg: bei nicht defibrillierbaren Rhythmen so früh wie möglich, bei defibrillierbaren nach dem 3. Schock",
+              "Amiodaron 300 mg nach dem 3. Schock"
+            ]
+          },
+          "questions": [
+            {
+              "id": "u6l2q1",
+              "type": "single_choice",
+              "prompt": "In welchem Verhältnis stehen Kompressionen und Beatmungen bei Erwachsenen?",
+              "options": [
+                "15:2",
+                "30:2",
+                "5:1",
+                "30:1"
+              ],
+              "correctIndex": 1,
+              "explanation": "30:2, solange kein gesicherter Atemweg vorhanden ist. Danach durchgehende Kompressionen und Beatmung mit ca. 10/min."
+            },
+            {
+              "id": "u6l2q2",
+              "type": "single_choice",
+              "prompt": "Mit welcher Frequenz drückst du?",
+              "options": [
+                "60–80/min",
+                "80–100/min",
+                "100–120/min",
+                "120–140/min"
+              ],
+              "correctIndex": 2,
+              "explanation": "100–120 Kompressionen pro Minute."
+            },
+            {
+              "id": "u6l2q3",
+              "type": "single_choice",
+              "prompt": "Wie tief drückst du bei Erwachsenen?",
+              "options": [
+                "2–3 cm",
+                "3–4 cm",
+                "5–6 cm",
+                "7–8 cm"
+              ],
+              "correctIndex": 2,
+              "explanation": "5–6 cm tief und den Brustkorb nach jeder Kompression vollständig entlasten."
+            },
+            {
+              "id": "u6l2q4",
+              "type": "single_choice",
+              "prompt": "Wann gibt man laut ERC bei Kammerflimmern das erste Adrenalin (1 mg)?",
+              "options": [
+                "nach dem 3. Schock",
+                "sofort vor dem ersten Schock",
+                "nach dem 1. Schock",
+                "gar nicht"
+              ],
+              "correctIndex": 0,
+              "explanation": "Bei defibrillierbaren Rhythmen: Adrenalin 1 mg und Amiodaron 300 mg nach dem 3. Schock. Danach Adrenalin alle 3–5 Minuten."
+            },
+            {
+              "id": "u6l2q5",
+              "type": "true_false",
+              "statement": "Bei einem am Monitor beobachteten Kammerflimmern können bis zu drei Schocks direkt hintereinander abgegeben werden.",
+              "correct": true,
+              "explanation": "Richtig, wenn der Defibrillator sofort bereitsteht (z.B. auf der Telemetrie oder im Herzkatheterlabor)."
+            },
+            {
+              "id": "u6l2q6",
+              "type": "matching",
+              "prompt": "Ordne jedem Begriff zu, was dazu gehört.",
+              "pairs": [
+                {
+                  "left": "Kammerflimmern",
+                  "right": "Schock so schnell wie möglich"
+                },
+                {
+                  "left": "Asystolie",
+                  "right": "Adrenalin so früh wie möglich, kein Schock"
+                },
+                {
+                  "left": "Rhythmuskontrolle",
+                  "right": "alle 2 Minuten"
+                },
+                {
+                  "left": "Amiodaron 300 mg",
+                  "right": "nach dem 3. Schock"
+                }
+              ],
+              "explanation": "Das ist der Kern des ALS-Algorithmus des ERC."
+            }
+          ],
+          "sourceIds": [
+            "erc-als-2021",
+            "erc-2025"
+          ],
+          "articleIds": [
+            "a-reanimation"
+          ],
+          "termIds": [
+            "t-defibrillation",
+            "t-asystolie"
+          ]
+        }
+      ]
+    }
+  ]
+}

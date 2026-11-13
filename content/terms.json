@@ -1,0 +1,1015 @@
+[
+  {
+    "id": "t-angiographie",
+    "term": "Angiographie",
+    "parts": [
+      {
+        "part": "Angio",
+        "meaning": "Gefäß",
+        "origin": "griech. angeĩon"
+      },
+      {
+        "part": "graphie",
+        "meaning": "Darstellung",
+        "origin": "griech. gráphein"
+      }
+    ],
+    "meaning": "Darstellung von Blutgefäßen mit Kontrastmittel",
+    "sourceIds": [
+      "pschyrembel"
+    ],
+    "example": "Koronarangiographie im Herzkatheterlabor"
+  },
+  {
+    "id": "t-angioplastie",
+    "term": "Angioplastie",
+    "parts": [
+      {
+        "part": "Angio",
+        "meaning": "Gefäß",
+        "origin": "griech. angeĩon"
+      },
+      {
+        "part": "plastie",
+        "meaning": "Formung, Wiederherstellung",
+        "origin": "griech. plássein"
+      }
+    ],
+    "meaning": "Aufdehnung eines verengten Gefäßes, z.B. mit Ballon",
+    "sourceIds": [
+      "pschyrembel"
+    ],
+    "example": "PTCA/PCI"
+  },
+  {
+    "id": "t-anurie",
+    "term": "Anurie",
+    "parts": [
+      {
+        "part": "An",
+        "meaning": "nicht, ohne",
+        "origin": "griech. a-/an-"
+      },
+      {
+        "part": "urie",
+        "meaning": "Harn",
+        "origin": "griech. ouron"
+      }
+    ],
+    "meaning": "Fehlende bzw. fast fehlende Harnausscheidung (unter ca. 100 ml/24 h)",
+    "sourceIds": [
+      "pschyrembel"
+    ]
+  },
+  {
+    "id": "t-anaemie",
+    "term": "Anämie",
+    "parts": [
+      {
+        "part": "An",
+        "meaning": "nicht, ohne",
+        "origin": "griech. a-/an-"
+      },
+      {
+        "part": "ämie",
+        "meaning": "Blut",
+        "origin": "griech. haíma"
+      }
+    ],
+    "meaning": "„Blutarmut“: zu wenig Hämoglobin bzw. rote Blutkörperchen",
+    "sourceIds": [
+      "pschyrembel"
+    ]
+  },
+  {
+    "id": "t-apnoe",
+    "term": "Apnoe",
+    "parts": [
+      {
+        "part": "A",
+        "meaning": "nicht, ohne",
+        "origin": "griech. a-/an-"
+      },
+      {
+        "part": "pnoe",
+        "meaning": "Atmung",
+        "origin": "griech. pnoḗ"
+      }
+    ],
+    "meaning": "Atemstillstand",
+    "sourceIds": [
+      "pschyrembel"
+    ]
+  },
+  {
+    "id": "t-arrhythmie",
+    "term": "Arrhythmie",
+    "parts": [
+      {
+        "part": "Ar",
+        "meaning": "nicht, ohne",
+        "origin": "griech. a-/an- (vor r: ar-)"
+      },
+      {
+        "part": "rhythmie",
+        "meaning": "Takt, Rhythmus",
+        "origin": "griech. rhythmós"
+      }
+    ],
+    "meaning": "Unregelmäßiger Herzschlag, Herzrhythmusstörung",
+    "sourceIds": [
+      "pschyrembel"
+    ]
+  },
+  {
+    "id": "t-asystolie",
+    "term": "Asystolie",
+    "parts": [
+      {
+        "part": "A",
+        "meaning": "nicht, ohne",
+        "origin": "griech. a-/an-"
+      },
+      {
+        "part": "systolie",
+        "meaning": "Zusammenziehen (des Herzens)",
+        "origin": "griech. systolḗ"
+      }
+    ],
+    "meaning": "Fehlende elektrische und mechanische Herzaktion; Nulllinie im EKG",
+    "sourceIds": [
+      "pschyrembel"
+    ]
+  },
+  {
+    "id": "t-bradykardie",
+    "term": "Bradykardie",
+    "parts": [
+      {
+        "part": "Brady",
+        "meaning": "langsam",
+        "origin": "griech. bradýs"
+      },
+      {
+        "part": "kardie",
+        "meaning": "Herz",
+        "origin": "griech. kardía"
+      }
+    ],
+    "meaning": "Herzfrequenz unter 60/min (Erwachsene in Ruhe)",
+    "sourceIds": [
+      "pschyrembel"
+    ],
+    "example": "Bradykardie unter Betablocker"
+  },
+  {
+    "id": "t-bradypnoe",
+    "term": "Bradypnoe",
+    "parts": [
+      {
+        "part": "Brady",
+        "meaning": "langsam",
+        "origin": "griech. bradýs"
+      },
+      {
+        "part": "pnoe",
+        "meaning": "Atmung",
+        "origin": "griech. pnoḗ"
+      }
+    ],
+    "meaning": "Verlangsamte Atmung (Erwachsene: unter ca. 12/min)",
+    "sourceIds": [
+      "pschyrembel"
+    ],
+    "example": "Bradypnoe nach Opioidgabe"
+  },
+  {
+    "id": "t-defibrillation",
+    "term": "Defibrillation",
+    "parts": [
+      {
+        "part": "De",
+        "meaning": "weg, ent-",
+        "origin": "lat. de"
+      },
+      {
+        "part": "fibrillation",
+        "meaning": "Flimmern",
+        "origin": "lat. fibrilla"
+      }
+    ],
+    "meaning": "Beenden von Kammerflimmern durch einen Stromstoß",
+    "sourceIds": [
+      "pschyrembel"
+    ]
+  },
+  {
+    "id": "t-diaphorese",
+    "term": "Diaphorese",
+    "parts": [
+      {
+        "part": "Dia",
+        "meaning": "durch, hindurch",
+        "origin": "griech. diá"
+      },
+      {
+        "part": "phorese",
+        "meaning": "tragen",
+        "origin": "griech. phérein"
+      }
+    ],
+    "meaning": "Starkes Schwitzen",
+    "sourceIds": [
+      "pschyrembel"
+    ],
+    "example": "kaltschweißig beim Herzinfarkt"
+  },
+  {
+    "id": "t-dyspnoe",
+    "term": "Dyspnoe",
+    "parts": [
+      {
+        "part": "Dys",
+        "meaning": "gestört, erschwert",
+        "origin": "griech. dys-"
+      },
+      {
+        "part": "pnoe",
+        "meaning": "Atmung",
+        "origin": "griech. pnoḗ"
+      }
+    ],
+    "meaning": "Atemnot, subjektiv erschwerte Atmung",
+    "sourceIds": [
+      "pschyrembel"
+    ],
+    "example": "Belastungsdyspnoe bei Herzinsuffizienz"
+  },
+  {
+    "id": "t-elektrokardiogramm",
+    "term": "Elektrokardiogramm",
+    "parts": [
+      {
+        "part": "Elektro",
+        "meaning": "elektrisch"
+      },
+      {
+        "part": "kardio",
+        "meaning": "Herz",
+        "origin": "griech. kardía"
+      },
+      {
+        "part": "gramm",
+        "meaning": "Aufzeichnung",
+        "origin": "griech. grámma"
+      }
+    ],
+    "meaning": "Aufzeichnung der elektrischen Herzaktivität (EKG)",
+    "sourceIds": [
+      "pschyrembel"
+    ]
+  },
+  {
+    "id": "t-embolie",
+    "term": "Embolie",
+    "parts": [
+      {
+        "part": "Embol",
+        "meaning": "Hineinwerfen, Pfropf",
+        "origin": "griech. embolḗ"
+      },
+      {
+        "part": "ie",
+        "meaning": "Zustand"
+      }
+    ],
+    "meaning": "Verschluss eines Gefäßes durch verschlepptes Material, z.B. ein Gerinnsel",
+    "sourceIds": [
+      "pschyrembel"
+    ],
+    "example": "Hirnembolie bei Vorhofflimmern"
+  },
+  {
+    "id": "t-endokarditis",
+    "term": "Endokarditis",
+    "parts": [
+      {
+        "part": "Endo",
+        "meaning": "innen",
+        "origin": "griech. éndon"
+      },
+      {
+        "part": "kard",
+        "meaning": "Herz",
+        "origin": "griech. kardía"
+      },
+      {
+        "part": "itis",
+        "meaning": "Entzündung"
+      }
+    ],
+    "meaning": "Entzündung der Herzinnenhaut, häufig der Herzklappen",
+    "sourceIds": [
+      "pschyrembel"
+    ]
+  },
+  {
+    "id": "t-extrasystole",
+    "term": "Extrasystole",
+    "parts": [
+      {
+        "part": "Extra",
+        "meaning": "außerhalb, zusätzlich",
+        "origin": "lat. extra"
+      },
+      {
+        "part": "systole",
+        "meaning": "Zusammenziehen (des Herzens)",
+        "origin": "griech. systolḗ"
+      }
+    ],
+    "meaning": "Herzschlag außerhalb des Grundrhythmus",
+    "sourceIds": [
+      "pschyrembel"
+    ],
+    "example": "ventrikuläre Extrasystole (VES)"
+  },
+  {
+    "id": "t-hyperkaliaemie",
+    "term": "Hyperkaliämie",
+    "parts": [
+      {
+        "part": "Hyper",
+        "meaning": "über, zu viel",
+        "origin": "griech. hypér"
+      },
+      {
+        "part": "kali",
+        "meaning": "Kalium"
+      },
+      {
+        "part": "ämie",
+        "meaning": "Blut",
+        "origin": "griech. haíma"
+      }
+    ],
+    "meaning": "Zu hoher Kaliumspiegel im Blut (über ca. 5,0 mmol/l)",
+    "sourceIds": [
+      "pschyrembel"
+    ]
+  },
+  {
+    "id": "t-hyperthermie",
+    "term": "Hyperthermie",
+    "parts": [
+      {
+        "part": "Hyper",
+        "meaning": "über, zu viel",
+        "origin": "griech. hypér"
+      },
+      {
+        "part": "thermie",
+        "meaning": "Wärme",
+        "origin": "griech. thérmē"
+      }
+    ],
+    "meaning": "Überwärmung des Körpers (z.B. Hitzschlag); anders als Fieber nicht durch einen verstellten Sollwert",
+    "sourceIds": [
+      "pschyrembel"
+    ]
+  },
+  {
+    "id": "t-hypertonie",
+    "term": "Hypertonie",
+    "parts": [
+      {
+        "part": "Hyper",
+        "meaning": "über, zu viel",
+        "origin": "griech. hypér"
+      },
+      {
+        "part": "tonie",
+        "meaning": "Spannung, Druck",
+        "origin": "griech. tónos"
+      }
+    ],
+    "meaning": "Bluthochdruck: ab 140/90 mmHg (Praxismessung)",
+    "sourceIds": [
+      "pschyrembel"
+    ]
+  },
+  {
+    "id": "t-hypoglykaemie",
+    "term": "Hypoglykämie",
+    "parts": [
+      {
+        "part": "Hypo",
+        "meaning": "unter, zu wenig",
+        "origin": "griech. hypó"
+      },
+      {
+        "part": "glyk",
+        "meaning": "süß, Zucker",
+        "origin": "griech. glykýs"
+      },
+      {
+        "part": "ämie",
+        "meaning": "Blut",
+        "origin": "griech. haíma"
+      }
+    ],
+    "meaning": "Unterzuckerung",
+    "sourceIds": [
+      "pschyrembel"
+    ]
+  },
+  {
+    "id": "t-hypokaliaemie",
+    "term": "Hypokaliämie",
+    "parts": [
+      {
+        "part": "Hypo",
+        "meaning": "unter, zu wenig",
+        "origin": "griech. hypó"
+      },
+      {
+        "part": "kali",
+        "meaning": "Kalium"
+      },
+      {
+        "part": "ämie",
+        "meaning": "Blut",
+        "origin": "griech. haíma"
+      }
+    ],
+    "meaning": "Zu niedriger Kaliumspiegel im Blut (unter ca. 3,5 mmol/l)",
+    "sourceIds": [
+      "pschyrembel"
+    ]
+  },
+  {
+    "id": "t-hypothermie",
+    "term": "Hypothermie",
+    "parts": [
+      {
+        "part": "Hypo",
+        "meaning": "unter, zu wenig",
+        "origin": "griech. hypó"
+      },
+      {
+        "part": "thermie",
+        "meaning": "Wärme",
+        "origin": "griech. thérmē"
+      }
+    ],
+    "meaning": "Unterkühlung: Körperkerntemperatur unter dem Normalbereich (unter 35 °C)",
+    "sourceIds": [
+      "pschyrembel"
+    ],
+    "example": "Nach langer OP ist der Patient hypotherm."
+  },
+  {
+    "id": "t-hypotonie",
+    "term": "Hypotonie",
+    "parts": [
+      {
+        "part": "Hypo",
+        "meaning": "unter, zu wenig",
+        "origin": "griech. hypó"
+      },
+      {
+        "part": "tonie",
+        "meaning": "Spannung, Druck",
+        "origin": "griech. tónos"
+      }
+    ],
+    "meaning": "Zu niedriger Blutdruck",
+    "sourceIds": [
+      "pschyrembel"
+    ],
+    "example": "Hypotonie nach Nitro-Gabe"
+  },
+  {
+    "id": "t-hypovolaemie",
+    "term": "Hypovolämie",
+    "parts": [
+      {
+        "part": "Hypo",
+        "meaning": "unter, zu wenig",
+        "origin": "griech. hypó"
+      },
+      {
+        "part": "vol",
+        "meaning": "Volumen, Menge",
+        "origin": "lat. volumen"
+      },
+      {
+        "part": "ämie",
+        "meaning": "Blut",
+        "origin": "griech. haíma"
+      }
+    ],
+    "meaning": "Verminderte zirkulierende Blutmenge, z.B. durch Blutung oder Flüssigkeitsmangel",
+    "sourceIds": [
+      "pschyrembel"
+    ]
+  },
+  {
+    "id": "t-hypoxie",
+    "term": "Hypoxie",
+    "parts": [
+      {
+        "part": "Hyp",
+        "meaning": "unter, zu wenig",
+        "origin": "griech. hypó (o entfällt vor Vokal)"
+      },
+      {
+        "part": "oxie",
+        "meaning": "Sauerstoff",
+        "origin": "griech. oxýs"
+      }
+    ],
+    "meaning": "Sauerstoffmangel im Gewebe",
+    "sourceIds": [
+      "pschyrembel"
+    ]
+  },
+  {
+    "id": "t-haematom",
+    "term": "Hämatom",
+    "parts": [
+      {
+        "part": "Hämat",
+        "meaning": "Blut",
+        "origin": "griech. haíma"
+      },
+      {
+        "part": "om",
+        "meaning": "Schwellung, Geschwulst"
+      }
+    ],
+    "meaning": "Bluterguss",
+    "sourceIds": [
+      "pschyrembel"
+    ],
+    "example": "Leistenhämatom nach Herzkatheter"
+  },
+  {
+    "id": "t-haemostase",
+    "term": "Hämostase",
+    "parts": [
+      {
+        "part": "Hämo",
+        "meaning": "Blut",
+        "origin": "griech. haíma"
+      },
+      {
+        "part": "stase",
+        "meaning": "Stillstand",
+        "origin": "griech. stásis"
+      }
+    ],
+    "meaning": "Blutstillung",
+    "sourceIds": [
+      "pschyrembel"
+    ]
+  },
+  {
+    "id": "t-infarkt",
+    "term": "Infarkt",
+    "parts": [
+      {
+        "part": "Infarkt",
+        "meaning": "hineinstopfen",
+        "origin": "lat. infarcire"
+      }
+    ],
+    "meaning": "Gewebeuntergang durch unterbrochene Blutversorgung",
+    "sourceIds": [
+      "pschyrembel"
+    ],
+    "example": "Myokardinfarkt"
+  },
+  {
+    "id": "t-insuffizienz",
+    "term": "Insuffizienz",
+    "parts": [
+      {
+        "part": "In",
+        "meaning": "nicht",
+        "origin": "lat. in-"
+      },
+      {
+        "part": "suffizienz",
+        "meaning": "ausreichen",
+        "origin": "lat. sufficere"
+      }
+    ],
+    "meaning": "Ungenügende Funktion eines Organs oder einer Klappe",
+    "sourceIds": [
+      "pschyrembel"
+    ],
+    "example": "Herzinsuffizienz, Mitralinsuffizienz"
+  },
+  {
+    "id": "t-ischaemie",
+    "term": "Ischämie",
+    "parts": [
+      {
+        "part": "Isch",
+        "meaning": "zurückhalten, hemmen",
+        "origin": "griech. íschein"
+      },
+      {
+        "part": "ämie",
+        "meaning": "Blut",
+        "origin": "griech. haíma"
+      }
+    ],
+    "meaning": "Minderdurchblutung eines Gewebes",
+    "sourceIds": [
+      "pschyrembel"
+    ],
+    "example": "Myokardischämie bei KHK"
+  },
+  {
+    "id": "t-kardiomyopathie",
+    "term": "Kardiomyopathie",
+    "parts": [
+      {
+        "part": "Kardio",
+        "meaning": "Herz",
+        "origin": "griech. kardía"
+      },
+      {
+        "part": "myo",
+        "meaning": "Muskel",
+        "origin": "griech. mỹs"
+      },
+      {
+        "part": "pathie",
+        "meaning": "Erkrankung, Leiden",
+        "origin": "griech. páthos"
+      }
+    ],
+    "meaning": "Erkrankung des Herzmuskels",
+    "sourceIds": [
+      "pschyrembel"
+    ]
+  },
+  {
+    "id": "t-kardioversion",
+    "term": "Kardioversion",
+    "parts": [
+      {
+        "part": "Kardio",
+        "meaning": "Herz",
+        "origin": "griech. kardía"
+      },
+      {
+        "part": "version",
+        "meaning": "Wendung, Umkehr",
+        "origin": "lat. vertere"
+      }
+    ],
+    "meaning": "Überführung einer Rhythmusstörung in den Sinusrhythmus, elektrisch (EKG-getriggert) oder medikamentös",
+    "sourceIds": [
+      "pschyrembel"
+    ]
+  },
+  {
+    "id": "t-koronar",
+    "term": "koronar",
+    "parts": [
+      {
+        "part": "Koron",
+        "meaning": "Kranz",
+        "origin": "lat. corona"
+      },
+      {
+        "part": "ar",
+        "meaning": "betreffend, zugehörig"
+      }
+    ],
+    "meaning": "Die Herzkranzgefäße betreffend",
+    "sourceIds": [
+      "pschyrembel"
+    ],
+    "example": "koronare Herzkrankheit (KHK)"
+  },
+  {
+    "id": "t-myokarditis",
+    "term": "Myokarditis",
+    "parts": [
+      {
+        "part": "Myo",
+        "meaning": "Muskel",
+        "origin": "griech. mỹs"
+      },
+      {
+        "part": "kard",
+        "meaning": "Herz",
+        "origin": "griech. kardía"
+      },
+      {
+        "part": "itis",
+        "meaning": "Entzündung"
+      }
+    ],
+    "meaning": "Herzmuskelentzündung",
+    "sourceIds": [
+      "pschyrembel"
+    ]
+  },
+  {
+    "id": "t-nykturie",
+    "term": "Nykturie",
+    "parts": [
+      {
+        "part": "Nykt",
+        "meaning": "Nacht",
+        "origin": "griech. nýx"
+      },
+      {
+        "part": "urie",
+        "meaning": "Harn",
+        "origin": "griech. ouron"
+      }
+    ],
+    "meaning": "Vermehrtes nächtliches Wasserlassen, z.B. bei Herzinsuffizienz",
+    "sourceIds": [
+      "pschyrembel"
+    ]
+  },
+  {
+    "id": "t-oligurie",
+    "term": "Oligurie",
+    "parts": [
+      {
+        "part": "Olig",
+        "meaning": "wenig",
+        "origin": "griech. olígos"
+      },
+      {
+        "part": "urie",
+        "meaning": "Harn",
+        "origin": "griech. ouron"
+      }
+    ],
+    "meaning": "Verminderte Harnausscheidung (unter ca. 500 ml/24 h)",
+    "sourceIds": [
+      "pschyrembel"
+    ]
+  },
+  {
+    "id": "t-orthopnoe",
+    "term": "Orthopnoe",
+    "parts": [
+      {
+        "part": "Ortho",
+        "meaning": "aufrecht, gerade",
+        "origin": "griech. orthós"
+      },
+      {
+        "part": "pnoe",
+        "meaning": "Atmung",
+        "origin": "griech. pnoḗ"
+      }
+    ],
+    "meaning": "Atemnot im Liegen, die sich im Sitzen bessert; typisch bei Linksherzinsuffizienz",
+    "sourceIds": [
+      "pschyrembel"
+    ],
+    "example": "Patient schläft nur mit drei Kissen."
+  },
+  {
+    "id": "t-perfusion",
+    "term": "Perfusion",
+    "parts": [
+      {
+        "part": "Per",
+        "meaning": "durch",
+        "origin": "lat. per"
+      },
+      {
+        "part": "fusion",
+        "meaning": "gießen, fließen",
+        "origin": "lat. fundere"
+      }
+    ],
+    "meaning": "Durchblutung eines Organs oder Gewebes",
+    "sourceIds": [
+      "pschyrembel"
+    ]
+  },
+  {
+    "id": "t-perikarditis",
+    "term": "Perikarditis",
+    "parts": [
+      {
+        "part": "Peri",
+        "meaning": "um … herum",
+        "origin": "griech. perí"
+      },
+      {
+        "part": "kard",
+        "meaning": "Herz",
+        "origin": "griech. kardía"
+      },
+      {
+        "part": "itis",
+        "meaning": "Entzündung"
+      }
+    ],
+    "meaning": "Herzbeutelentzündung",
+    "sourceIds": [
+      "pschyrembel"
+    ]
+  },
+  {
+    "id": "t-polyurie",
+    "term": "Polyurie",
+    "parts": [
+      {
+        "part": "Poly",
+        "meaning": "viel",
+        "origin": "griech. polýs"
+      },
+      {
+        "part": "urie",
+        "meaning": "Harn",
+        "origin": "griech. ouron"
+      }
+    ],
+    "meaning": "Krankhaft vermehrte Harnausscheidung",
+    "sourceIds": [
+      "pschyrembel"
+    ]
+  },
+  {
+    "id": "t-stenose",
+    "term": "Stenose",
+    "parts": [
+      {
+        "part": "Sten",
+        "meaning": "eng",
+        "origin": "griech. stenós"
+      },
+      {
+        "part": "ose",
+        "meaning": "Zustand, krankhafter Vorgang"
+      }
+    ],
+    "meaning": "Verengung, z.B. eines Gefäßes oder einer Klappe",
+    "sourceIds": [
+      "pschyrembel"
+    ],
+    "example": "Aortenklappenstenose"
+  },
+  {
+    "id": "t-supraventrikulaer",
+    "term": "supraventrikulär",
+    "parts": [
+      {
+        "part": "Supra",
+        "meaning": "oberhalb",
+        "origin": "lat. supra"
+      },
+      {
+        "part": "ventrikulär",
+        "meaning": "die (Herz-)Kammer betreffend",
+        "origin": "lat. ventriculus"
+      }
+    ],
+    "meaning": "Oberhalb der Herzkammern entstehend (Vorhöfe, AV-Knoten)",
+    "sourceIds": [
+      "pschyrembel"
+    ],
+    "example": "supraventrikuläre Tachykardie (SVT)"
+  },
+  {
+    "id": "t-synkope",
+    "term": "Synkope",
+    "parts": [
+      {
+        "part": "Syn",
+        "meaning": "zusammen",
+        "origin": "griech. sýn"
+      },
+      {
+        "part": "kope",
+        "meaning": "schlagen",
+        "origin": "griech. kóptein"
+      }
+    ],
+    "meaning": "Kurze Bewusstlosigkeit durch vorübergehende Minderdurchblutung des Gehirns",
+    "sourceIds": [
+      "pschyrembel"
+    ]
+  },
+  {
+    "id": "t-tachyarrhythmie",
+    "term": "Tachyarrhythmie",
+    "parts": [
+      {
+        "part": "Tachy",
+        "meaning": "schnell",
+        "origin": "griech. tachýs"
+      },
+      {
+        "part": "ar",
+        "meaning": "nicht, ohne",
+        "origin": "griech. a-/an- (vor r: ar-)"
+      },
+      {
+        "part": "rhythmie",
+        "meaning": "Takt, Rhythmus",
+        "origin": "griech. rhythmós"
+      }
+    ],
+    "meaning": "Schneller, unregelmäßiger Herzschlag",
+    "sourceIds": [
+      "pschyrembel"
+    ],
+    "example": "Tachyarrhythmia absoluta bei Vorhofflimmern"
+  },
+  {
+    "id": "t-tachykardie",
+    "term": "Tachykardie",
+    "parts": [
+      {
+        "part": "Tachy",
+        "meaning": "schnell",
+        "origin": "griech. tachýs"
+      },
+      {
+        "part": "kardie",
+        "meaning": "Herz",
+        "origin": "griech. kardía"
+      }
+    ],
+    "meaning": "Herzfrequenz über 100/min (Erwachsene in Ruhe)",
+    "sourceIds": [
+      "pschyrembel"
+    ],
+    "example": "Sinustachykardie bei Fieber"
+  },
+  {
+    "id": "t-tachypnoe",
+    "term": "Tachypnoe",
+    "parts": [
+      {
+        "part": "Tachy",
+        "meaning": "schnell",
+        "origin": "griech. tachýs"
+      },
+      {
+        "part": "pnoe",
+        "meaning": "Atmung",
+        "origin": "griech. pnoḗ"
+      }
+    ],
+    "meaning": "Beschleunigte Atmung (Erwachsene: über ca. 20/min)",
+    "sourceIds": [
+      "pschyrembel"
+    ]
+  },
+  {
+    "id": "t-thrombose",
+    "term": "Thrombose",
+    "parts": [
+      {
+        "part": "Thromb",
+        "meaning": "Pfropf, Klumpen",
+        "origin": "griech. thrómbos"
+      },
+      {
+        "part": "ose",
+        "meaning": "Zustand, krankhafter Vorgang"
+      }
+    ],
+    "meaning": "Bildung eines Blutgerinnsels in einem Gefäß",
+    "sourceIds": [
+      "pschyrembel"
+    ]
+  },
+  {
+    "id": "t-zyanose",
+    "term": "Zyanose",
+    "parts": [
+      {
+        "part": "Zyan",
+        "meaning": "blau",
+        "origin": "griech. kyanós"
+      },
+      {
+        "part": "ose",
+        "meaning": "Zustand, krankhafter Vorgang"
+      }
+    ],
+    "meaning": "Bläuliche Verfärbung von Haut und Schleimhäuten durch Sauerstoffmangel",
+    "sourceIds": [
+      "pschyrembel"
+    ]
+  }
+]

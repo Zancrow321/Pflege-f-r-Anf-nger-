@@ -1,0 +1,603 @@
+[
+  {
+    "id": "a-fachsprache",
+    "title": "Fachsprache entschlüsseln: Wortbausteine",
+    "category": "Fachsprache",
+    "summary": "Mit rund 30 Bausteinen lassen sich die meisten kardiologischen Begriffe verstehen.",
+    "body": [
+      "Medizinische Fachbegriffe sind meist aus griechischen oder lateinischen Bausteinen zusammengesetzt: Vorsilbe + Wortstamm + Endung. Beispiel: Hypo | Thermie = unter | Wärme = Unterkühlung.",
+      "Vorsilben:",
+      "- Hypo- = unter, zu wenig · Hyper- = über, zu viel",
+      "- Brady- = langsam · Tachy- = schnell",
+      "- A-/An- = nicht, ohne · Dys- = gestört, erschwert",
+      "- Endo- = innen · Peri- = um … herum · Supra- = oberhalb · Extra- = außerhalb",
+      "- Oligo- = wenig · Poly- = viel · Ortho- = aufrecht",
+      "Wortstämme:",
+      "- Kard-/Kardio- = Herz · Angio- = Gefäß · Myo- = Muskel",
+      "- Häm-/Hämat-/-ämie = Blut · Kali = Kalium · Glyk = Zucker",
+      "- -pnoe = Atmung · -urie = Harn · Therm = Wärme · Zyan = blau",
+      "Endungen:",
+      "- -itis = Entzündung · -ose = Zustand · -om = Schwellung, Geschwulst",
+      "- -gramm = Aufzeichnung · -graphie = Darstellung · -plastie = Formung",
+      "- -pathie = Erkrankung · -stase = Stillstand",
+      "Tipp: Zerlege unbekannte Wörter von hinten. Die Endung sagt, was passiert (Entzündung, Aufzeichnung …), die Vorsilbe sagt, wie viel oder wo."
+    ],
+    "keywords": [
+      "Vorsilbe",
+      "Nachsilbe",
+      "Endung",
+      "Latein",
+      "Griechisch",
+      "Begriffe",
+      "Wortbaustein"
+    ],
+    "sourceIds": [
+      "pschyrembel"
+    ],
+    "lastChecked": "2026-11-13",
+    "houseSpecific": false,
+    "status": "unreviewed",
+    "termIds": [
+      "t-hypothermie",
+      "t-tachykardie",
+      "t-dyspnoe",
+      "t-myokarditis",
+      "t-hypokaliaemie",
+      "t-elektrokardiogramm"
+    ]
+  },
+  {
+    "id": "a-herz-anatomie",
+    "title": "Herz: Aufbau und Blutfluss",
+    "category": "Herz & Kreislauf",
+    "summary": "Vier Kammern, vier Klappen, zwei Kreisläufe.",
+    "body": [
+      "Das Herz besteht aus zwei Vorhöfen und zwei Kammern. Das rechte Herz versorgt den Lungenkreislauf, das linke Herz den Körperkreislauf.",
+      "- Hohlvenen → rechter Vorhof → Trikuspidalklappe → rechte Kammer → Pulmonalklappe → Lungenarterie → Lunge",
+      "- Lungenvenen → linker Vorhof → Mitralklappe → linke Kammer → Aortenklappe → Aorta → Körper",
+      "Die Wand der linken Kammer ist am dicksten, weil sie gegen den hohen Druck im Körperkreislauf arbeitet.",
+      "Der Herzmuskel wird über die Herzkranzgefäße (Koronararterien) versorgt: rechte Koronararterie (RCA) und linke Koronararterie mit RIVA (LAD) und RCX. Die linke Kammer wird vor allem in der Diastole durchblutet. Bei hoher Herzfrequenz verkürzt sich die Diastole, dann sinkt die Versorgung."
+    ],
+    "keywords": [
+      "Anatomie",
+      "Klappen",
+      "Kreislauf",
+      "Koronararterien",
+      "Mitralklappe",
+      "Aortenklappe",
+      "Trikuspidalklappe"
+    ],
+    "sourceIds": [
+      "guyton-2021"
+    ],
+    "lastChecked": "2026-11-13",
+    "houseSpecific": false,
+    "status": "unreviewed",
+    "termIds": [
+      "t-koronar",
+      "t-stenose",
+      "t-insuffizienz"
+    ]
+  },
+  {
+    "id": "a-reizleitung",
+    "title": "Reizbildung und Reizleitung",
+    "category": "Herz & Kreislauf",
+    "summary": "Vom Sinusknoten über den AV-Knoten bis zu den Purkinje-Fasern.",
+    "body": [
+      "Das Herz bildet seine Impulse selbst (Autonomie). Der schnellste Taktgeber bestimmt die Frequenz.",
+      "- Sinusknoten (rechter Vorhof): ca. 60–100/min in Ruhe",
+      "- AV-Knoten: verzögert die Überleitung (im EKG die PQ-Zeit); Ersatzrhythmus ca. 40–60/min, meist schmaler QRS",
+      "- His-Bündel → rechter und linker Tawara-Schenkel → Purkinje-Fasern",
+      "- Kammer-Ersatzrhythmus: ca. 20–40/min, breiter QRS",
+      "Bezug zum EKG: P-Welle = Vorhoferregung, PQ = Überleitung, QRS = Kammererregung, T = Erregungsrückbildung der Kammern."
+    ],
+    "keywords": [
+      "Sinusknoten",
+      "AV-Knoten",
+      "His",
+      "Tawara",
+      "Purkinje",
+      "Ersatzrhythmus",
+      "Schrittmacher"
+    ],
+    "sourceIds": [
+      "guyton-2021",
+      "aha-brady-2018"
+    ],
+    "lastChecked": "2026-11-13",
+    "houseSpecific": false,
+    "status": "unreviewed",
+    "termIds": []
+  },
+  {
+    "id": "a-vitalzeichen",
+    "title": "Vitalzeichen: Orientierungswerte",
+    "category": "Herz & Kreislauf",
+    "summary": "Normbereiche für Erwachsene in Ruhe; auf Station gelten die individuellen Grenzen.",
+    "body": [
+      "Orientierungswerte für Erwachsene in Ruhe:",
+      "- Herzfrequenz: 60–100/min (unter 60 Bradykardie, über 100 Tachykardie)",
+      "- Blutdruck (ESC 2024, Praxismessung): nicht erhöht unter 120/70 mmHg; erhöht 120–139/70–89 mmHg; Hypertonie ab 140/90 mmHg",
+      "- Atemfrequenz: ca. 12–20/min",
+      "- Sauerstoffsättigung: ca. 95–100 %",
+      "Pulsdefizit: Bei Vorhofflimmern kann der getastete Puls niedriger sein als die am Monitor gezählte Herzfrequenz. Deshalb zählt man bei Arrhythmie am Monitor oder auskultiert am Herzen.",
+      "Wichtig: Alarmgrenzen und Meldegrenzen legt dein Haus bzw. der Arzt fest."
+    ],
+    "keywords": [
+      "Puls",
+      "Blutdruck",
+      "RR",
+      "Atemfrequenz",
+      "Sättigung",
+      "SpO2",
+      "Normwerte",
+      "Pulsdefizit"
+    ],
+    "sourceIds": [
+      "guyton-2021",
+      "esc-htn-2024",
+      "esc-af-2024"
+    ],
+    "lastChecked": "2026-11-13",
+    "houseSpecific": true,
+    "status": "unreviewed",
+    "termIds": [
+      "t-bradykardie",
+      "t-tachykardie",
+      "t-hypotonie",
+      "t-hypertonie",
+      "t-tachypnoe"
+    ]
+  },
+  {
+    "id": "a-elektroden",
+    "title": "Elektroden anlegen (3- und 5-Kanal)",
+    "category": "EKG & Monitor",
+    "summary": "Farben, Positionen und Hautvorbereitung für ein sauberes Signal.",
+    "body": [
+      "Farben nach IEC (in Deutschland üblich):",
+      "- Rot (R): rechts unter dem Schlüsselbein",
+      "- Gelb (L): links unter dem Schlüsselbein",
+      "- Grün (F): links unten am Rumpf (Rippenbogen)",
+      "- Schwarz (N): rechts unten am Rumpf (Neutralelektrode, 5-Kanal)",
+      "- Weiß (C): Brustwandelektrode, meist Position V1 (4. ICR rechts parasternal) – je nach Geräteeinstellung",
+      "Merkhilfe „Ampel“: rot, gelb, grün im Uhrzeigersinn ab der rechten Schulter.",
+      "Achtung: Geräte mit AHA-Farben haben andere Farben (z.B. rechter Arm weiß). Die Buchstaben auf der Elektrode sind eindeutig.",
+      "Hautvorbereitung (AHA 2017): Haare bei Bedarf kürzen, mit Wasser und Seife reinigen, gut trocknen, ggf. leicht aufrauen. Elektroden nicht auf Knochen, Narben oder Hautfalten kleben. Elektroden regelmäßig (laut AHA täglich) wechseln, um Fehlalarme zu reduzieren."
+    ],
+    "keywords": [
+      "Elektrode",
+      "Farben",
+      "Ampel",
+      "IEC",
+      "AHA",
+      "Telemetrie",
+      "Haut",
+      "kleben",
+      "Ableitung"
+    ],
+    "sourceIds": [
+      "aha-monitoring-2017"
+    ],
+    "lastChecked": "2026-11-13",
+    "houseSpecific": true,
+    "status": "unreviewed",
+    "termIds": []
+  },
+  {
+    "id": "a-ekg-papier",
+    "title": "EKG lesen: Papier, Zeiten, Frequenz",
+    "category": "EKG & Monitor",
+    "summary": "Kästchen, Normzeiten und Frequenzberechnung bei 25 mm/s.",
+    "body": [
+      "Bei 25 mm/s Schreibgeschwindigkeit:",
+      "- 1 kleines Kästchen (1 mm) = 0,04 s",
+      "- 1 großes Kästchen (5 mm) = 0,2 s; 5 große Kästchen = 1 s",
+      "- Kalibrierung meist 10 mm = 1 mV",
+      "Frequenz bei regelmäßigem Rhythmus: 300 ÷ Anzahl großer Kästchen zwischen zwei R-Zacken (1 → 300, 2 → 150, 3 → 100, 4 → 75, 5 → 60, 6 → 50).",
+      "Frequenz bei unregelmäßigem Rhythmus: QRS-Komplexe in 6 Sekunden zählen × 10.",
+      "Normwerte:",
+      "- PQ-Zeit: 0,12–0,20 s",
+      "- QRS-Dauer: unter 0,12 s",
+      "- QTc: Männer bis 450 ms, Frauen bis 460 ms",
+      "Systematik für jeden Streifen: Frequenz → Regelmäßigkeit → P-Wellen → PQ → QRS → ST/T."
+    ],
+    "keywords": [
+      "Kästchen",
+      "25 mm/s",
+      "PQ",
+      "QRS",
+      "Frequenz berechnen",
+      "Normwerte",
+      "EKG lesen"
+    ],
+    "sourceIds": [
+      "aha-ecg-std-2009",
+      "guyton-2021"
+    ],
+    "lastChecked": "2026-11-13",
+    "houseSpecific": false,
+    "status": "unreviewed",
+    "termIds": []
+  },
+  {
+    "id": "a-qt-zeit",
+    "title": "QT-Zeit und QTc",
+    "category": "EKG & Monitor",
+    "summary": "Warum eine verlängerte QT-Zeit gefährlich ist.",
+    "body": [
+      "Die QT-Zeit reicht vom Beginn des QRS bis zum Ende der T-Welle. Weil sie von der Herzfrequenz abhängt, wird sie korrigiert (QTc, z.B. nach Bazett: QT ÷ √RR in Sekunden).",
+      "- Obergrenze QTc: Männer 450 ms, Frauen 460 ms",
+      "- Eine deutliche Verlängerung (vor allem ab 500 ms) erhöht das Risiko für Torsade de pointes und Kammerflimmern",
+      "Häufige Ursachen: Medikamente (z.B. manche Antiarrhythmika, Antibiotika, Antipsychotika), Hypokaliämie, Hypomagnesiämie, angeborenes Long-QT-Syndrom.",
+      "Pflege: Auf ärztlich angeordnete QTc-Kontrollen und Elektrolytwerte achten und neue QT-verlängernde Medikamente melden."
+    ],
+    "keywords": [
+      "QT",
+      "QTc",
+      "Torsade",
+      "Long-QT",
+      "Bazett",
+      "Medikamente"
+    ],
+    "sourceIds": [
+      "aha-ecg-std-2009",
+      "esc-va-2022"
+    ],
+    "lastChecked": "2026-11-13",
+    "houseSpecific": true,
+    "status": "unreviewed",
+    "termIds": []
+  },
+  {
+    "id": "a-sinusrhythmus",
+    "title": "Sinusrhythmus, Sinusbradykardie, Sinustachykardie",
+    "category": "Rhythmen",
+    "summary": "Kriterien des normalen Rhythmus und seiner langsamen und schnellen Variante.",
+    "body": [
+      "Sinusrhythmus:",
+      "- regelmäßig, Frequenz 60–100/min",
+      "- vor jedem QRS eine P-Welle, nach jeder P-Welle ein QRS",
+      "- PQ 0,12–0,20 s, QRS schmal",
+      "Sinusbradykardie (unter 60/min): z.B. im Schlaf, bei Trainierten, unter Betablockern oder beim Hinterwandinfarkt. Wichtig sind Symptome wie Schwindel, Synkope oder Hypotonie.",
+      "Sinustachykardie (über 100/min): meist eine Reaktion, z.B. auf Fieber, Schmerz, Angst, Volumenmangel, Anämie, Hypoxie, Lungenembolie oder Herzinsuffizienz. Behandelt wird die Ursache."
+    ],
+    "keywords": [
+      "Sinus",
+      "normal",
+      "Bradykardie",
+      "Tachykardie",
+      "Rhythmus"
+    ],
+    "sourceIds": [
+      "aha-ecg-std-2009",
+      "aha-brady-2018",
+      "guyton-2021"
+    ],
+    "lastChecked": "2026-11-13",
+    "houseSpecific": false,
+    "status": "unreviewed",
+    "termIds": [
+      "t-bradykardie",
+      "t-tachykardie"
+    ]
+  },
+  {
+    "id": "a-av-block",
+    "title": "AV-Blöcke I°–III°",
+    "category": "Rhythmen",
+    "summary": "Erkennen und Gefährlichkeit der Überleitungsstörungen.",
+    "body": [
+      "- AV-Block I°: PQ über 0,20 s, jede P-Welle wird übergeleitet. Meist harmlos.",
+      "- AV-Block II° Typ Wenckebach (Mobitz I): PQ verlängert sich von Schlag zu Schlag, bis ein QRS ausfällt. Oft im AV-Knoten, meist eher gutartig.",
+      "- AV-Block II° Typ Mobitz (Mobitz II): PQ konstant, plötzlich fällt ein QRS aus. Gefahr des Übergangs in den AV-Block III°.",
+      "- AV-Block III° (total): P-Wellen und QRS-Komplexe sind voneinander unabhängig; langsamer Ersatzrhythmus, oft breit.",
+      "Bei Symptomen (Schwindel, Synkope, Hypotonie, Bewusstseinsstörung): Arzt sofort, Patient flach lagern und nicht allein lassen, Defibrillator mit Schrittmacherfunktion bereitstellen. Therapie (z.B. Atropin, Adrenalin, externe Stimulation) nur nach ärztlicher Anordnung."
+    ],
+    "keywords": [
+      "AV-Block",
+      "Wenckebach",
+      "Mobitz",
+      "Überleitung",
+      "Schrittmacher",
+      "Bradykardie",
+      "totaler Block"
+    ],
+    "sourceIds": [
+      "aha-brady-2018",
+      "esc-pacing-2021",
+      "erc-als-2021"
+    ],
+    "lastChecked": "2026-11-13",
+    "houseSpecific": false,
+    "status": "unreviewed",
+    "termIds": []
+  },
+  {
+    "id": "a-vorhofflimmern",
+    "title": "Vorhofflimmern und Vorhofflattern",
+    "category": "Rhythmen",
+    "summary": "Häufigste Rhythmusstörung; wichtig sind Frequenz und Schlaganfallschutz.",
+    "body": [
+      "Vorhofflimmern (VHF):",
+      "- absolut unregelmäßige RR-Abstände, keine P-Wellen, Flimmerwellen",
+      "- mit schneller Kammerfrequenz auch „Tachyarrhythmia absoluta“ genannt",
+      "- erhöhtes Schlaganfallrisiko durch Gerinnsel im linken Herzohr; Risiko-Einschätzung nach ESC 2024 mit dem CHA₂DS₂-VA-Score",
+      "Vorhofflattern:",
+      "- Sägezahnwellen (ca. 300/min), oft 2:1-Überleitung mit Kammerfrequenz um 150/min",
+      "Pflege: Pulsdefizit beachten, Herzfrequenz am Monitor beurteilen, Symptome (Herzrasen, Atemnot, Schwindel) und die Gabe von Antikoagulanzien dokumentieren. Vor einer Kardioversion klärt der Arzt die Antikoagulation bzw. schließt Gerinnsel aus."
+    ],
+    "keywords": [
+      "VHF",
+      "AF",
+      "Flimmern",
+      "Flattern",
+      "absolute Arrhythmie",
+      "Antikoagulation",
+      "CHA2DS2-VA",
+      "Schlaganfall"
+    ],
+    "sourceIds": [
+      "esc-af-2024",
+      "esc-svt-2019"
+    ],
+    "lastChecked": "2026-11-13",
+    "houseSpecific": false,
+    "status": "unreviewed",
+    "termIds": [
+      "t-tachyarrhythmie",
+      "t-arrhythmie",
+      "t-kardioversion",
+      "t-embolie"
+    ]
+  },
+  {
+    "id": "a-ves-vt",
+    "title": "VES und ventrikuläre Tachykardie",
+    "category": "Rhythmen",
+    "summary": "Breite Komplexe erkennen und richtig reagieren.",
+    "body": [
+      "VES (ventrikuläre Extrasystole): vorzeitiger, breiter, deformierter QRS ohne vorangehende P-Welle, oft gefolgt von einer kompensatorischen Pause. Einzelne VES sind häufig.",
+      "Ventrikuläre Tachykardie (VT): 3 oder mehr ventrikuläre Schläge in Folge mit über 100/min.",
+      "- nicht anhaltend: unter 30 Sekunden",
+      "- anhaltend: länger als 30 Sekunden oder hämodynamisch instabil",
+      "Vorgehen: Zuerst zum Patienten. Ohne Puls: Reanimation und Defibrillation. Mit Puls: Arzt sofort, Defibrillator bereit, 12-Kanal-EKG wenn möglich, Vitalzeichen.",
+      "Begünstigend: Ischämie, Herzinsuffizienz, Hypokaliämie, Hypomagnesiämie, QT-Verlängerung."
+    ],
+    "keywords": [
+      "VES",
+      "Extrasystole",
+      "VT",
+      "Kammertachykardie",
+      "Breitkomplex",
+      "Salve"
+    ],
+    "sourceIds": [
+      "esc-va-2022",
+      "erc-als-2021"
+    ],
+    "lastChecked": "2026-11-13",
+    "houseSpecific": false,
+    "status": "unreviewed",
+    "termIds": [
+      "t-extrasystole"
+    ]
+  },
+  {
+    "id": "a-reanimation",
+    "title": "Reanimation (ALS) auf Station",
+    "category": "Notfall",
+    "summary": "Die Kernpunkte des ERC-Algorithmus für Erwachsene.",
+    "body": [
+      "Bewusstlos und keine normale Atmung: Notfallteam alarmieren und sofort mit der Herzdruckmassage beginnen.",
+      "- 30 Kompressionen : 2 Beatmungen, Frequenz 100–120/min, Tiefe 5–6 cm, vollständige Entlastung, Unterbrechungen minimieren",
+      "- Defibrillator so früh wie möglich anschließen, Rhythmusanalyse alle 2 Minuten",
+      "- Defibrillierbar (VF, pulslose VT): Schock, sofort weiter drücken. Adrenalin 1 mg und Amiodaron 300 mg nach dem 3. Schock",
+      "- Am Monitor beobachtetes Kammerflimmern mit sofort verfügbarem Defibrillator: bis zu 3 Schocks direkt hintereinander",
+      "- Nicht defibrillierbar (Asystolie, PEA): Adrenalin 1 mg so früh wie möglich",
+      "- Adrenalin danach alle 3–5 Minuten",
+      "- Reversible Ursachen suchen (4 H und HITS): Hypoxie, Hypovolämie, Hypo-/Hyperkaliämie und andere metabolische Störungen, Hypo-/Hyperthermie, Herzbeuteltamponade, Intoxikation, Thrombose (koronar oder pulmonal), Spannungspneumothorax",
+      "Die ERC-Leitlinien 2025 bestätigen die Kernpunkte zu Frequenz, Tiefe und Adrenalin-Zeitpunkt. Medikamente und Dosierungen nur nach dem Notfallstandard des Hauses und ärztlicher Anordnung."
+    ],
+    "keywords": [
+      "CPR",
+      "Reanimation",
+      "Wiederbelebung",
+      "ALS",
+      "Defibrillation",
+      "Adrenalin",
+      "Amiodaron",
+      "Kammerflimmern",
+      "Asystolie",
+      "4H HITS"
+    ],
+    "sourceIds": [
+      "erc-als-2021",
+      "erc-2025"
+    ],
+    "lastChecked": "2026-11-13",
+    "houseSpecific": true,
+    "status": "unreviewed",
+    "termIds": [
+      "t-defibrillation",
+      "t-asystolie",
+      "t-hypovolaemie",
+      "t-hypoxie"
+    ]
+  },
+  {
+    "id": "a-alarme",
+    "title": "Alarme und Alarmmüdigkeit",
+    "category": "Telemetrie-Alltag",
+    "summary": "Patient vor Monitor: Alarme bewerten und Fehlalarme vermeiden.",
+    "body": [
+      "Ein großer Teil der Monitoralarme ist falsch positiv oder erfordert keine Handlung. Viele Fehlalarme führen zu Alarmmüdigkeit (alarm fatigue): Echte Alarme werden dann verzögert beantwortet oder übersehen.",
+      "So reduzierst du Fehlalarme (AHA 2017):",
+      "- Haut gut vorbereiten, Elektroden regelmäßig (täglich) wechseln",
+      "- die Ableitung mit dem besten Signal wählen",
+      "- Alarmgrenzen individuell anpassen lassen (ärztliche Anordnung, Stationsstandard)",
+      "- die Indikation zur Telemetrie regelmäßig überprüfen lassen",
+      "Grundregeln:",
+      "- Bei jedem Rhythmusalarm zuerst den Patienten beurteilen",
+      "- Technische Alarme (Elektrode lose, Sender außer Reichweite) bedeuten: Der Patient ist gerade nicht überwacht",
+      "- Alarme nie dauerhaft abschalten"
+    ],
+    "keywords": [
+      "Alarm",
+      "Fehlalarm",
+      "alarm fatigue",
+      "Alarmmüdigkeit",
+      "Grenzwerte",
+      "Artefakt",
+      "Telemetrie"
+    ],
+    "sourceIds": [
+      "aha-monitoring-2017"
+    ],
+    "lastChecked": "2026-11-13",
+    "houseSpecific": true,
+    "status": "unreviewed",
+    "termIds": []
+  },
+  {
+    "id": "a-kalium",
+    "title": "Kalium: Hypo- und Hyperkaliämie",
+    "category": "Telemetrie-Alltag",
+    "summary": "Normbereich, EKG-Zeichen und warum Kalium auf der Telemetrie so wichtig ist.",
+    "body": [
+      "Referenzbereich im Serum: ca. 3,5–5,0 mmol/l (genaue Grenzen je nach Labor). Zielwerte bei Herzpatienten legt der Arzt fest.",
+      "Hypokaliämie (zu wenig):",
+      "- Ursachen: Diuretika, Erbrechen, Durchfall, Insulin",
+      "- EKG: abgeflachte T-Welle, U-Welle, ST-Senkung, Extrasystolen bis zu ventrikulären Tachykardien",
+      "Hyperkaliämie (zu viel):",
+      "- Ursachen: Niereninsuffizienz, ACE-Hemmer, Sartane, Aldosteronantagonisten, Kaliumgabe, Gewebezerfall",
+      "- EKG: hohe, spitze T-Wellen → PQ-Verlängerung, flache P-Wellen → breiter QRS → Bradykardie, Kammerflimmern oder Asystolie",
+      "Achtung: Eine hämolysierte Blutprobe kann eine falsch hohe Kaliumkonzentration vortäuschen."
+    ],
+    "keywords": [
+      "Kalium",
+      "K+",
+      "Elektrolyte",
+      "Labor",
+      "T-Welle",
+      "U-Welle",
+      "Hypokaliämie",
+      "Hyperkaliämie"
+    ],
+    "sourceIds": [
+      "erc-special-2021",
+      "esc-va-2022"
+    ],
+    "lastChecked": "2026-11-13",
+    "houseSpecific": true,
+    "status": "unreviewed",
+    "termIds": [
+      "t-hypokaliaemie",
+      "t-hyperkaliaemie"
+    ]
+  },
+  {
+    "id": "a-magnesium",
+    "title": "Magnesium",
+    "category": "Telemetrie-Alltag",
+    "summary": "Magnesiummangel begünstigt Rhythmusstörungen, vor allem Torsade de pointes.",
+    "body": [
+      "Referenzbereich im Serum: ca. 0,7–1,0 mmol/l (je nach Labor).",
+      "- Ein Mangel tritt oft zusammen mit einer Hypokaliämie auf, z.B. unter Diuretika",
+      "- Hypomagnesiämie begünstigt QT-Verlängerung und Torsade de pointes",
+      "- Magnesium wird bei Torsade de pointes auch therapeutisch gegeben (nach ärztlicher Anordnung)"
+    ],
+    "keywords": [
+      "Magnesium",
+      "Mg",
+      "Elektrolyte",
+      "Torsade"
+    ],
+    "sourceIds": [
+      "esc-va-2022",
+      "erc-special-2021"
+    ],
+    "lastChecked": "2026-11-13",
+    "houseSpecific": true,
+    "status": "unreviewed",
+    "termIds": []
+  },
+  {
+    "id": "a-herzkatheter",
+    "title": "Pflege nach Herzkatheter",
+    "category": "Telemetrie-Alltag",
+    "summary": "Punktionsstelle, Durchblutung und Warnzeichen nach Koronarangiographie oder PCI.",
+    "body": [
+      "Zugang: radial (Handgelenk, laut ESC 2023 beim ACS der Standard) oder femoral (Leiste).",
+      "Kontrollen (Intervalle nach Hausstandard):",
+      "- Punktionsstelle: Blutung, Hämatom, Schwellung, Schmerz",
+      "- DMS distal: Durchblutung (Farbe, Temperatur, Pulse), Motorik, Sensibilität",
+      "- Vitalzeichen und Monitor (Rhythmusstörungen nach PCI möglich)",
+      "Radialer Zugang: Kompressionsarmband nach Schema entlasten. Blasse, kalte, taube oder stark schmerzende Hand sofort melden.",
+      "Femoraler Zugang: Druckverband und Bettruhe nach Standard. Warnzeichen einer retroperitonealen Blutung: Rücken- oder Flankenschmerz, Blutdruckabfall, Tachykardie, Blässe – sofort Arzt.",
+      "Blutung: manuell komprimieren (knapp oberhalb der Hautpunktion über der Arterie), Hilfe rufen, nicht loslassen.",
+      "Außerdem: Kontrastmittel kann die Nieren belasten. Trinkmenge und Ausscheidung nach Anordnung beachten."
+    ],
+    "keywords": [
+      "Herzkatheter",
+      "HKU",
+      "PCI",
+      "Koronarangiographie",
+      "Punktion",
+      "Leiste",
+      "radial",
+      "femoral",
+      "Druckverband",
+      "TR-Band"
+    ],
+    "sourceIds": [
+      "esc-acs-2023"
+    ],
+    "lastChecked": "2026-11-13",
+    "houseSpecific": true,
+    "status": "unreviewed",
+    "termIds": [
+      "t-haematom",
+      "t-angiographie",
+      "t-angioplastie"
+    ]
+  },
+  {
+    "id": "a-acs",
+    "title": "Akutes Koronarsyndrom: erste Maßnahmen",
+    "category": "Notfall",
+    "summary": "Brustschmerz ist ein Notfall – was in den ersten Minuten zu tun ist.",
+    "body": [
+      "Typische Beschwerden: Druck oder Enge in der Brust, Ausstrahlung in Arm, Hals, Kiefer oder Oberbauch, Atemnot, Kaltschweißigkeit, Übelkeit. Frauen, ältere Menschen und Diabetiker haben oft untypische Beschwerden.",
+      "Sofortmaßnahmen:",
+      "- beim Patienten bleiben, Hilfe und Arzt rufen lassen, Patient nicht belasten",
+      "- 12-Kanal-EKG innerhalb von 10 Minuten",
+      "- Vitalzeichen, Monitoring, Defibrillator bereit, venöser Zugang nach Anordnung",
+      "- Sauerstoff nur bei SpO₂ unter 90 %",
+      "- Nitrate nur nach Anordnung; nicht bei Hypotonie, Verdacht auf Rechtsherzinfarkt oder nach Einnahme von PDE-5-Hemmern",
+      "Bei ST-Hebungsinfarkt entscheidet der Arzt über eine sofortige Herzkatheter-Untersuchung."
+    ],
+    "keywords": [
+      "ACS",
+      "Herzinfarkt",
+      "STEMI",
+      "NSTEMI",
+      "Brustschmerz",
+      "Angina pectoris",
+      "Nitro",
+      "Sauerstoff"
+    ],
+    "sourceIds": [
+      "esc-acs-2023"
+    ],
+    "lastChecked": "2026-11-13",
+    "houseSpecific": true,
+    "status": "unreviewed",
+    "termIds": [
+      "t-infarkt",
+      "t-ischaemie",
+      "t-diaphorese"
+    ]
+  }
+]
