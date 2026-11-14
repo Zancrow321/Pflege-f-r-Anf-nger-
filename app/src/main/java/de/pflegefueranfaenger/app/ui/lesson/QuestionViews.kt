@@ -43,10 +43,13 @@ import de.pflegefueranfaenger.core.model.Question
 @Composable
 fun QuestionView(question: Question, locked: Boolean, onAnswerChanged: (Answer?) -> Unit) {
     Column(verticalArrangement = Arrangement.spacedBy(16.dp)) {
-        question.strip?.let { EcgStrip(it) }
-        question.illustration?.let { IllustrationView(it) }
+        if (question !is Question.Case) {
+            question.strip?.let { EcgStrip(it) }
+            question.illustration?.let { IllustrationView(it) }
+        }
         when (question) {
             is Question.SingleChoice -> SingleChoiceView(question, locked, onAnswerChanged)
+            is Question.Case -> CaseView(question, locked, onAnswerChanged)
             is Question.TrueFalse -> TrueFalseView(question, locked, onAnswerChanged)
             is Question.Matching -> MatchingView(question, locked, onAnswerChanged)
             is Question.WordParts -> WordPartsQuestionView(question, locked, onAnswerChanged)
@@ -79,18 +82,70 @@ private fun ChoiceCard(text: String, selected: Boolean, enabled: Boolean, onClic
 
 @Composable
 private fun SingleChoiceView(q: Question.SingleChoice, locked: Boolean, onAnswer: (Answer?) -> Unit) {
-    // Antworten gemischt anzeigen; gemerkt wird der Original-Index
-    val order = remember(q.id) { q.options.indices.shuffled() }
-    var selected by remember(q.id) { mutableStateOf<Int?>(null) }
     Prompt(q.prompt)
+    Choices(q.id, q.options, locked, onAnswer)
+}
+
+/** Antworten gemischt anzeigen; gemerkt wird der Original-Index. */
+@Composable
+private fun Choices(id: String, options: List<String>, locked: Boolean, onAnswer: (Answer?) -> Unit) {
+    val order = remember(id) { options.indices.shuffled() }
+    var selected by remember(id) { mutableStateOf<Int?>(null) }
     Column(verticalArrangement = Arrangement.spacedBy(10.dp)) {
         order.forEach { idx ->
-            ChoiceCard(q.options[idx], selected == idx, !locked, onClick = {
+            ChoiceCard(options[idx], selected == idx, !locked, onClick = {
                 selected = idx
                 onAnswer(Answer.Choice(idx))
             })
         }
     }
+}
+
+/** Fallfrage: Patientenkarte mit Situation, Befunden und ggf. Monitorbild, darunter die Aufgabe. */
+@OptIn(ExperimentalLayoutApi::class)
+@Composable
+private fun CaseView(q: Question.Case, locked: Boolean, onAnswer: (Answer?) -> Unit) {
+    Surface(
+        color = MaterialTheme.colorScheme.secondaryContainer,
+        contentColor = MaterialTheme.colorScheme.onSecondaryContainer,
+        shape = RoundedCornerShape(16.dp),
+        modifier = Modifier.fillMaxWidth(),
+    ) {
+        Column(Modifier.padding(16.dp), verticalArrangement = Arrangement.spacedBy(10.dp)) {
+            Text("🩺 Patientenfall", style = MaterialTheme.typography.labelLarge, fontWeight = FontWeight.Bold)
+            Text(q.patient, style = MaterialTheme.typography.titleMedium, fontWeight = FontWeight.Bold)
+            q.setting?.let { Text(it, style = MaterialTheme.typography.bodySmall) }
+            Text(q.story, style = MaterialTheme.typography.bodyLarge)
+            if (q.findings.isNotEmpty()) {
+                FlowRow(horizontalArrangement = Arrangement.spacedBy(8.dp), verticalArrangement = Arrangement.spacedBy(8.dp)) {
+                    q.findings.forEach { f ->
+                        Surface(
+                            shape = RoundedCornerShape(10.dp),
+                            color = if (f.abnormal) MaterialTheme.colorScheme.errorContainer else MaterialTheme.colorScheme.surface,
+                            contentColor = if (f.abnormal) MaterialTheme.colorScheme.onErrorContainer else MaterialTheme.colorScheme.onSurface,
+                        ) {
+                            Column(Modifier.padding(horizontal = 10.dp, vertical = 6.dp)) {
+                                Text(f.label, style = MaterialTheme.typography.labelSmall)
+                                Text(
+                                    (if (f.abnormal) "⚠ " else "") + f.value,
+                                    style = MaterialTheme.typography.bodyMedium,
+                                    fontWeight = FontWeight.SemiBold,
+                                )
+                            }
+                        }
+                    }
+                }
+            }
+            q.strip?.let {
+                Text("Monitor", style = MaterialTheme.typography.labelMedium)
+                EcgStrip(it)
+            }
+            q.illustration?.let { IllustrationView(it) }
+        }
+    }
+    Text(q.task.label, style = MaterialTheme.typography.labelLarge, color = MaterialTheme.colorScheme.primary)
+    Prompt(q.prompt)
+    Choices(q.id, q.options, locked, onAnswer)
 }
 
 @Composable
@@ -234,6 +289,7 @@ private fun WordPartsQuestionView(q: Question.WordParts, locked: Boolean, onAnsw
 /** Kurzer Text der richtigen Lösung für das Feedback. */
 fun correctAnswerText(q: Question): String = when (q) {
     is Question.SingleChoice -> q.options[q.correctIndex]
+    is Question.Case -> q.options[q.correctIndex]
     is Question.TrueFalse -> if (q.correct) "Richtig" else "Falsch"
     is Question.Matching -> q.pairs.joinToString("\n") { "${it.left} → ${it.right}" }
     is Question.WordParts -> q.parts.joinToString("  |  ") { "${it.part} = ${it.meaning}" } + "\n${q.term}: ${q.meaning}"
