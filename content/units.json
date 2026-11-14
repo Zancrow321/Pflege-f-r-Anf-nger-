@@ -4493,6 +4493,62 @@
                 }
               ],
               "explanation": "Frequenz senken, Rhythmus wiederherstellen und Schlaganfälle verhindern sind drei verschiedene Ziele."
+            },
+            {
+              "id": "u7l1q6",
+              "type": "case",
+              "patient": "Herr N., 77 Jahre",
+              "setting": "Telemetrie, Vorhofflimmern neu entdeckt",
+              "story": "Er fühlt sich gut. Die Ärztin fragt dich nach Risikofaktoren für den CHA₂DS₂-VA-Score: Er hat Bluthochdruck und Diabetes.",
+              "findings": [
+                {
+                  "label": "Alter",
+                  "value": "77 Jahre",
+                  "abnormal": true
+                },
+                {
+                  "label": "Hypertonie",
+                  "value": "ja",
+                  "abnormal": true
+                },
+                {
+                  "label": "Diabetes",
+                  "value": "ja",
+                  "abnormal": true
+                }
+              ],
+              "task": "diagnose",
+              "prompt": "Was bedeutet das für die Gerinnungshemmung?",
+              "options": [
+                "Hohes Schlaganfallrisiko – eine orale Antikoagulation wird empfohlen",
+                "Kein Risiko, keine Behandlung nötig",
+                "ASS reicht immer aus",
+                "Antikoagulation erst ab 90 Jahren"
+              ],
+              "correctIndex": 0,
+              "explanation": "Alter ≥75 (2 Punkte), Hypertonie und Diabetes (je 1 Punkt) ergeben 4 Punkte. Ab 2 Punkten empfiehlt die ESC 2024 eine orale Antikoagulation, meist mit einem DOAK.",
+              "strip": "afib"
+            },
+            {
+              "id": "u7l1q7",
+              "type": "true_false",
+              "statement": "ASS ist zur Schlaganfallvorbeugung bei Vorhofflimmern genauso gut wie ein DOAK.",
+              "correct": false,
+              "explanation": "Falsch. ASS schützt nicht ausreichend vor Schlaganfällen bei Vorhofflimmern. Empfohlen sind orale Antikoagulanzien (ESC 2024)."
+            },
+            {
+              "id": "u7l1q8",
+              "type": "single_choice",
+              "prompt": "Welcher Rhythmus ist das?",
+              "options": [
+                "Vorhofflimmern",
+                "Vorhofflattern",
+                "Sinusrhythmus mit VES",
+                "AV-Block I°"
+              ],
+              "correctIndex": 0,
+              "explanation": "Absolut unregelmäßige RR-Abstände, keine klaren P-Wellen, flimmernde Grundlinie: Vorhofflimmern.",
+              "strip": "afib"
             }
           ],
           "sourceIds": [
@@ -4574,6 +4630,52 @@
               "statement": "Ein plötzlicher Sprung der Herzfrequenz von 75 auf 150/min bei bekanntem Vorhofflattern kann an einem Wechsel der Überleitung liegen (z.B. 4:1 auf 2:1).",
               "correct": true,
               "explanation": "Richtig. Deshalb die Frequenz im Verlauf beobachten und Sprünge melden."
+            },
+            {
+              "id": "u7l2q6",
+              "type": "case",
+              "patient": "Frau P., 70 Jahre",
+              "setting": "Telemetrie",
+              "story": "Der Monitor zeigt eine regelmäßige Tachykardie mit 150/min. In Ableitung II erkennst du ein Sägezahnmuster.",
+              "findings": [
+                {
+                  "label": "HF",
+                  "value": "150/min, regelmäßig",
+                  "abnormal": true
+                },
+                {
+                  "label": "RR",
+                  "value": "118/76 mmHg"
+                },
+                {
+                  "label": "Beschwerden",
+                  "value": "Herzklopfen"
+                }
+              ],
+              "task": "diagnose",
+              "prompt": "Was liegt am wahrscheinlichsten vor?",
+              "options": [
+                "Vorhofflattern mit 2:1-Überleitung",
+                "Sinusrhythmus",
+                "Kammerflimmern",
+                "AV-Block III°"
+              ],
+              "correctIndex": 0,
+              "explanation": "Sägezahn-Flatterwellen mit etwa 300/min und 2:1-Überleitung ergeben eine regelmäßige Kammerfrequenz um 150/min.",
+              "strip": "flutter"
+            },
+            {
+              "id": "u7l2q7",
+              "type": "single_choice",
+              "prompt": "Wo kreist die Erregung beim typischen Vorhofflattern?",
+              "options": [
+                "Im rechten Vorhof",
+                "Im linken Ventrikel",
+                "Im His-Bündel",
+                "In der Aorta"
+              ],
+              "correctIndex": 0,
+              "explanation": "Typisches Vorhofflattern ist eine große kreisende Erregung im rechten Vorhof (um die Trikuspidalklappe). Deshalb lässt es sich gut abladieren."
             }
           ],
           "sourceIds": [
@@ -4695,6 +4797,52 @@
                 }
               ],
               "explanation": "Diese Begriffe hörst du bei fast jeder Aufnahme mit Dekompensation."
+            },
+            {
+              "id": "u7l3q7",
+              "type": "case",
+              "patient": "Herr F., 81 Jahre",
+              "setting": "Telemetrie, Herzinsuffizienz, Trinkmenge 1,5 l angeordnet",
+              "story": "Er hat heute bereits 2,5 Liter getrunken und bekommt Infusionen. Beim Wiegen: +1,8 kg seit gestern.",
+              "findings": [
+                {
+                  "label": "Gewicht",
+                  "value": "+1,8 kg / 24 h",
+                  "abnormal": true
+                },
+                {
+                  "label": "Einfuhr",
+                  "value": "deutlich über Anordnung",
+                  "abnormal": true
+                },
+                {
+                  "label": "SpO₂",
+                  "value": "93 %"
+                }
+              ],
+              "task": "intervention",
+              "prompt": "Was ist richtig?",
+              "options": [
+                "Ärztlich melden, Bilanz genau führen und ihn zur Trinkmenge beraten",
+                "Mehr trinken lassen, damit die Niere gespült wird",
+                "Gewicht ignorieren, das schwankt immer",
+                "Das Wiegen ab sofort weglassen"
+              ],
+              "correctIndex": 0,
+              "explanation": "Eine Gewichtszunahme von mehr als etwa 1 kg/Tag oder 2 kg in 3 Tagen kann eine Wassereinlagerung anzeigen. Bilanz, Gewicht und Beratung sind zentrale Pflegeaufgaben (ESC 2021)."
+            },
+            {
+              "id": "u7l3q8",
+              "type": "single_choice",
+              "prompt": "Welches Zeichen zeigt eine Rechtsherzstauung?",
+              "options": [
+                "Gestaute Halsvenen und Beinödeme",
+                "Rosa Lippen",
+                "Niedriger Puls",
+                "Fieber"
+              ],
+              "correctIndex": 0,
+              "explanation": "Staut sich das Blut vor dem rechten Herzen, zeigt sich das an Halsvenen, Leber und Beinen (Ödeme)."
             }
           ],
           "sourceIds": [
@@ -4795,6 +4943,52 @@
               ],
               "correctIndex": 0,
               "explanation": "Erneuter Schmerz kann ein Übergang in einen STEMI sein."
+            },
+            {
+              "id": "u7l4q6",
+              "type": "case",
+              "patient": "Frau O., 74 Jahre, Diabetes",
+              "setting": "Telemetrie, Aufnahme wegen Übelkeit und Schwäche",
+              "story": "Sie hat keinen Brustschmerz, aber seit heute Morgen Übelkeit, Atemnot bei Belastung und Schwäche. Das EKG zeigt ST-Senkungen, Troponin steigt.",
+              "findings": [
+                {
+                  "label": "Troponin",
+                  "value": "steigend",
+                  "abnormal": true
+                },
+                {
+                  "label": "EKG",
+                  "value": "ST-Senkungen",
+                  "abnormal": true
+                },
+                {
+                  "label": "Brustschmerz",
+                  "value": "keiner"
+                }
+              ],
+              "task": "diagnose",
+              "prompt": "Was ist am wahrscheinlichsten?",
+              "options": [
+                "NSTEMI mit untypischen Beschwerden",
+                "Magen-Darm-Infekt",
+                "Panikattacke",
+                "STEMI"
+              ],
+              "correctIndex": 0,
+              "explanation": "Gerade bei Frauen, Älteren und Diabetikern fehlt der typische Brustschmerz oft. Troponinanstieg mit ST-Senkungen ohne ST-Hebung spricht für einen NSTEMI (ESC 2023)."
+            },
+            {
+              "id": "u7l4q7",
+              "type": "single_choice",
+              "prompt": "Warum wird beim NSTEMI ein 2. Troponin nach 1–2 Stunden bestimmt?",
+              "options": [
+                "Um einen Anstieg oder Abfall zu erkennen (0h/1h- oder 0h/2h-Algorithmus)",
+                "Weil das erste Röhrchen immer falsch ist",
+                "Für die Abrechnung",
+                "Um den Blutzucker zu prüfen"
+              ],
+              "correctIndex": 0,
+              "explanation": "Die ESC empfiehlt schnelle Algorithmen mit hochsensitivem Troponin. Entscheidend sind der Ausgangswert und die Veränderung."
             }
           ],
           "sourceIds": [
@@ -4935,6 +5129,50 @@
                 "highlight": "rcx",
                 "labels": false
               }
+            },
+            {
+              "id": "u7l5q8",
+              "type": "case",
+              "patient": "Herr R., 56 Jahre",
+              "setting": "Telemetrie, wegen Vorhofflimmern",
+              "story": "Seit 20 Minuten starker Brustschmerz. Das 12-Kanal-EKG zeigt ST-Hebungen in V1–V4.",
+              "findings": [
+                {
+                  "label": "EKG",
+                  "value": "ST-Hebung V1–V4",
+                  "abnormal": true
+                },
+                {
+                  "label": "RR",
+                  "value": "135/85 mmHg"
+                },
+                {
+                  "label": "Schmerz",
+                  "value": "NRS 8",
+                  "abnormal": true
+                }
+              ],
+              "task": "diagnose",
+              "prompt": "Welche Wand ist betroffen und welches Gefäß meist verschlossen?",
+              "options": [
+                "Vorderwand (anterior), meist RIVA/LAD",
+                "Hinterwand (inferior), meist RCA",
+                "Seitenwand (lateral), meist RCX",
+                "Kein Infarkt, das ist normal"
+              ],
+              "correctIndex": 0,
+              "explanation": "ST-Hebungen in V1–V4 zeigen einen Vorderwandinfarkt, meist durch Verschluss des RIVA (LAD). Sofort Herzkatheter-Alarm nach Hausstandard: primäre PCI.",
+              "illustration": {
+                "figure": "coronaries",
+                "highlight": "lad"
+              }
+            },
+            {
+              "id": "u7l5q9",
+              "type": "true_false",
+              "statement": "Beim STEMI soll die primäre PCI möglichst innerhalb von 120 Minuten nach Diagnose erfolgen.",
+              "correct": true,
+              "explanation": "Richtig. Ist die primäre PCI in dieser Zeit möglich, ist sie die bevorzugte Behandlung (ESC 2023). Jede Minute zählt."
             }
           ],
           "sourceIds": [
@@ -5037,6 +5275,69 @@
               ],
               "correctIndex": 0,
               "explanation": "Bewegung und Atemtherapie beugen vor; unnötige Bettruhe fördert Pneumonien."
+            },
+            {
+              "id": "u8l1q6",
+              "type": "case",
+              "patient": "Frau G., 86 Jahre",
+              "setting": "Telemetrie, sonst rüstig",
+              "story": "Seit dem Morgen ist sie neu verwirrt und nestelt. Sie hat kaum Husten.",
+              "findings": [
+                {
+                  "label": "Temperatur",
+                  "value": "37,9 °C",
+                  "abnormal": true
+                },
+                {
+                  "label": "AF",
+                  "value": "28/min",
+                  "abnormal": true
+                },
+                {
+                  "label": "RR",
+                  "value": "95/55 mmHg",
+                  "abnormal": true
+                },
+                {
+                  "label": "Bewusstsein",
+                  "value": "neu verwirrt",
+                  "abnormal": true
+                }
+              ],
+              "task": "diagnose",
+              "prompt": "Woran solltest du denken?",
+              "options": [
+                "Pneumonie – bei alten Menschen oft mit Verwirrtheit statt Husten",
+                "Normale Altersverwirrtheit",
+                "Schlafmangel",
+                "Zu viel Besuch"
+              ],
+              "correctIndex": 0,
+              "explanation": "Bei alten Menschen zeigt sich eine Pneumonie oft nur durch Verwirrtheit, Schwäche und schnelle Atmung. Verwirrtheit, Atemfrequenz ≥30, niedriger Blutdruck und Alter ≥65 ergeben im CRB-65 ein höheres Risiko."
+            },
+            {
+              "id": "u8l1q7",
+              "type": "matching",
+              "prompt": "Ordne den CRB-65-Buchstaben zu.",
+              "pairs": [
+                {
+                  "left": "C",
+                  "right": "Confusion: Verwirrtheit"
+                },
+                {
+                  "left": "R",
+                  "right": "Respiratory rate: Atemfrequenz ≥ 30/min"
+                },
+                {
+                  "left": "B",
+                  "right": "Blood pressure: RR systolisch < 90 oder diastolisch ≤ 60"
+                },
+                {
+                  "left": "65",
+                  "right": "Alter ≥ 65 Jahre"
+                }
+              ],
+              "explanation": "Jeder Punkt erhöht das Risiko. Der Score hilft bei der Einschätzung, wo und wie intensiv behandelt wird (S3-Leitlinie)."
             }
           ],
           "sourceIds": [
@@ -5132,6 +5433,47 @@
               ],
               "correctIndex": 0,
               "explanation": "Durch den Widerstand an den Lippen fallen die kleinen Atemwege beim Ausatmen weniger zusammen."
+            },
+            {
+              "id": "u8l2q6",
+              "type": "case",
+              "patient": "Herr T., 69 Jahre",
+              "setting": "Telemetrie, COPD, 4 l O₂ über Maske seit 2 Stunden",
+              "story": "Er ist sehr schläfrig, kaum weckbar und hat Kopfschmerzen.",
+              "findings": [
+                {
+                  "label": "SpO₂",
+                  "value": "99 %",
+                  "abnormal": true
+                },
+                {
+                  "label": "AF",
+                  "value": "10/min",
+                  "abnormal": true
+                },
+                {
+                  "label": "Bewusstsein",
+                  "value": "somnolent",
+                  "abnormal": true
+                }
+              ],
+              "task": "diagnose",
+              "prompt": "Woran denkst du?",
+              "options": [
+                "CO₂-Anstieg (Hyperkapnie) durch zu viel Sauerstoff",
+                "Er ist einfach müde",
+                "Hypoglykämie ist ausgeschlossen, also nichts",
+                "Er braucht noch mehr Sauerstoff"
+              ],
+              "correctIndex": 0,
+              "explanation": "Bei COPD mit CO₂-Retention kann zu viel Sauerstoff die Atmung dämpfen. Ärztlich melden, Blutgas nach Anordnung, Sauerstoff auf Zielbereich 88–92 % einstellen; ggf. NIV."
+            },
+            {
+              "id": "u8l2q7",
+              "type": "true_false",
+              "statement": "Bei der COPD-Exazerbation gehören Bronchodilatatoren zur Akutbehandlung.",
+              "correct": true,
+              "explanation": "Richtig. Kurz wirksame Bronchodilatatoren (z.B. Salbutamol, Ipratropium), oft systemische Kortikosteroide und ggf. Antibiotika (GOLD)."
             }
           ],
           "sourceIds": [
@@ -5229,6 +5571,52 @@
               "statement": "Ein ICD kommt bei HFrEF in Frage, wenn die EF trotz mindestens 3 Monaten optimaler Therapie bei 35 % oder darunter bleibt.",
               "correct": true,
               "explanation": "Richtig. Er schützt vor dem plötzlichen Herztod durch Kammerrhythmusstörungen."
+            },
+            {
+              "id": "u8l3q6",
+              "type": "case",
+              "patient": "Herr J., 64 Jahre",
+              "setting": "Telemetrie, HFrEF, Sacubitril/Valsartan und Spironolacton",
+              "story": "Im Routinelabor fällt ein Wert auf. Er fühlt sich etwas schwach.",
+              "findings": [
+                {
+                  "label": "Kalium",
+                  "value": "6,1 mmol/l",
+                  "abnormal": true
+                },
+                {
+                  "label": "Kreatinin",
+                  "value": "leicht gestiegen",
+                  "abnormal": true
+                },
+                {
+                  "label": "HF",
+                  "value": "62/min"
+                }
+              ],
+              "task": "intervention",
+              "prompt": "Was tust du?",
+              "options": [
+                "Sofort ärztlich melden, EKG/Monitor beachten, nächste Dosis erst nach Rücksprache",
+                "Kaliumreiche Kost empfehlen",
+                "Spironolacton doppelt geben",
+                "Erst bei der nächsten Laborkontrolle in einer Woche ansprechen"
+              ],
+              "correctIndex": 0,
+              "explanation": "ARNI/ACE-Hemmer und Aldosteronantagonisten erhöhen das Kalium. Eine Hyperkaliämie ist gefährlich für den Herzrhythmus: melden und Anordnung abwarten."
+            },
+            {
+              "id": "u8l3q7",
+              "type": "single_choice",
+              "prompt": "Wozu dient ein SGLT2-Hemmer (z.B. Dapagliflozin) bei HFrEF?",
+              "options": [
+                "Er gehört zu den vier Säulen und senkt Krankenhausaufenthalte und Sterblichkeit",
+                "Er ist nur ein Schmerzmittel",
+                "Er ersetzt Sauerstoff",
+                "Er wird nur bei Fieber gegeben"
+              ],
+              "correctIndex": 0,
+              "explanation": "Die vier Säulen der HFrEF-Therapie: ACE-Hemmer/ARNI, Betablocker, Aldosteronantagonist, SGLT2-Hemmer (ESC 2021/2023)."
             }
           ],
           "sourceIds": [
@@ -5324,6 +5712,46 @@
               ],
               "correctIndex": 0,
               "explanation": "Das Heart Team berät die Behandlung gemeinsam mit dem Patienten."
+            },
+            {
+              "id": "u8l4q6",
+              "type": "case",
+              "patient": "Herr W., 70 Jahre",
+              "setting": "Telemetrie, ischämische Kardiomyopathie, EF 25 %",
+              "story": "Am Monitor laufen plötzlich breite Komplexe mit 170/min. Er ist wach, hat Herzrasen, Blutdruck stabil.",
+              "findings": [
+                {
+                  "label": "HF",
+                  "value": "170/min, breite QRS",
+                  "abnormal": true
+                },
+                {
+                  "label": "RR",
+                  "value": "115/70 mmHg"
+                },
+                {
+                  "label": "Bewusstsein",
+                  "value": "wach"
+                }
+              ],
+              "task": "diagnose",
+              "prompt": "Was liegt am ehesten vor?",
+              "options": [
+                "Ventrikuläre Tachykardie – Narben im Herzmuskel sind ein typischer Ursprung",
+                "Sinustachykardie wegen Aufregung",
+                "Vorhofflattern 1:1 ist sicher",
+                "Ein Artefakt"
+              ],
+              "correctIndex": 0,
+              "explanation": "Bei Herzinfarktnarben ist eine Breitkomplextachykardie meist eine VT. Auch wenn er stabil ist: Notfall – Arzt sofort, Defibrillator bereit, 12-Kanal-EKG (ESC 2022).",
+              "strip": "vt"
+            },
+            {
+              "id": "u8l4q7",
+              "type": "true_false",
+              "statement": "Bei ischämischer Kardiomyopathie gehört die Behandlung der KHK (z.B. Statin, Plättchenhemmer) zur Therapie.",
+              "correct": true,
+              "explanation": "Richtig. Neben der Herzinsuffizienz-Therapie wird die zugrunde liegende KHK behandelt, ggf. auch durch Revaskularisation (ESC 2024)."
             }
           ],
           "sourceIds": [
@@ -5411,6 +5839,61 @@
               ],
               "correctIndex": 0,
               "explanation": "Bradykardisierende Medikamente bei niedriger Frequenz erst nach Rücksprache (genaue Grenzen nach Anordnung bzw. Hausstandard)."
+            },
+            {
+              "id": "u8l5q6",
+              "type": "case",
+              "patient": "Herr E., 80 Jahre",
+              "setting": "Telemetrie",
+              "story": "Er ist kaltschweißig, blass und kurz vor der Ohnmacht.",
+              "findings": [
+                {
+                  "label": "HF",
+                  "value": "32/min",
+                  "abnormal": true
+                },
+                {
+                  "label": "RR",
+                  "value": "70/40 mmHg",
+                  "abnormal": true
+                },
+                {
+                  "label": "Bewusstsein",
+                  "value": "benommen",
+                  "abnormal": true
+                }
+              ],
+              "task": "intervention",
+              "prompt": "Was ist richtig?",
+              "options": [
+                "Notfall: Hilfe/Notfallteam rufen, hinlegen, Atropin und ggf. Pacing nach ärztlicher Anordnung vorbereiten",
+                "Ein Glas Wasser geben und abwarten",
+                "Einen Betablocker geben",
+                "Ihn zum Laufen ermutigen"
+              ],
+              "correctIndex": 0,
+              "explanation": "Instabile Bradykardie mit Schockzeichen: sofort Hilfe, Atropin 0,5 mg i.v. als erstes Medikament, bei fehlender Wirkung Katecholamine oder transkutanes Pacing (ERC).",
+              "strip": "av3"
+            },
+            {
+              "id": "u8l5q7",
+              "type": "matching",
+              "prompt": "Ordne den Rhythmus zu.",
+              "pairs": [
+                {
+                  "left": "Sinusbradykardie",
+                  "right": "P vor jedem QRS, Frequenz < 60/min"
+                },
+                {
+                  "left": "AV-Block III°",
+                  "right": "P und QRS unabhängig"
+                },
+                {
+                  "left": "AV-Block I°",
+                  "right": "PQ-Zeit > 0,20 s"
+                }
+              ],
+              "explanation": "Bei Bradykardie immer nach dem Mechanismus schauen – das beeinflusst die Gefährlichkeit."
             }
           ],
           "sourceIds": [
@@ -5508,6 +5991,43 @@
               ],
               "correctIndex": 0,
               "explanation": "Der ICD gibt bei Kammerflimmern selbstständig einen Schock ab."
+            },
+            {
+              "id": "u9l1q6",
+              "type": "case",
+              "patient": "Frau K., 66 Jahre",
+              "setting": "Telemetrie, Tag 1 nach Vorderwandinfarkt",
+              "story": "Der Monitor zeigt unregelmäßige, chaotische Wellen. Du kommst ins Zimmer: Sie ist bewusstlos und atmet nicht normal.",
+              "findings": [
+                {
+                  "label": "Bewusstsein",
+                  "value": "bewusstlos",
+                  "abnormal": true
+                },
+                {
+                  "label": "Atmung",
+                  "value": "Schnappatmung",
+                  "abnormal": true
+                }
+              ],
+              "task": "intervention",
+              "prompt": "Was ist richtig?",
+              "options": [
+                "Notfallteam, Herzdruckmassage, so schnell wie möglich defibrillieren",
+                "Elektroden neu kleben",
+                "Den Blutdruck messen",
+                "Auf die Ärztin warten"
+              ],
+              "correctIndex": 0,
+              "explanation": "Schnappatmung ist keine normale Atmung. Kammerflimmern: sofortige Herzdruckmassage und frühe Defibrillation entscheiden über das Überleben (ERC).",
+              "strip": "vf"
+            },
+            {
+              "id": "u9l1q7",
+              "type": "true_false",
+              "statement": "Schnappatmung bei einem bewusstlosen Patienten ist ein Zeichen eines Herz-Kreislauf-Stillstands.",
+              "correct": true,
+              "explanation": "Richtig. Schnappatmung ist keine normale Atmung. Sofort Reanimation beginnen (ERC)."
             }
           ],
           "sourceIds": [
@@ -5606,6 +6126,53 @@
               ],
               "correctIndex": 0,
               "explanation": "Kalium und Magnesium beeinflussen die Erregbarkeit des Herzens stark."
+            },
+            {
+              "id": "u9l2q6",
+              "type": "case",
+              "patient": "Herr H., 72 Jahre",
+              "setting": "Telemetrie",
+              "story": "Am Monitor sieht man nach jedem normalen Schlag einen breiten vorzeitigen Schlag. Am Handgelenk tastest du nur 40/min, der Monitor zählt 80/min.",
+              "findings": [
+                {
+                  "label": "Monitor",
+                  "value": "80/min",
+                  "abnormal": true
+                },
+                {
+                  "label": "Puls tastbar",
+                  "value": "40/min",
+                  "abnormal": true
+                },
+                {
+                  "label": "RR",
+                  "value": "125/80 mmHg"
+                }
+              ],
+              "task": "diagnose",
+              "prompt": "Was erklärt den Unterschied?",
+              "options": [
+                "Bigeminus: Die Extrasystolen werfen kaum Blut aus und sind nicht tastbar (Pulsdefizit)",
+                "Defektes Messgerät",
+                "Echte Bradykardie, der Monitor irrt sich immer",
+                "Hyperthermie"
+              ],
+              "correctIndex": 0,
+              "explanation": "Vorzeitige Schläge füllen die Kammer kaum und erzeugen oft keine tastbare Pulswelle. Daher wirkt der Puls am Handgelenk halb so hoch.",
+              "strip": "ves"
+            },
+            {
+              "id": "u9l2q7",
+              "type": "single_choice",
+              "prompt": "Was bedeutet „Couplet“?",
+              "options": [
+                "Zwei Extrasystolen direkt hintereinander",
+                "Eine Extrasystole nach jedem Normalschlag",
+                "Kammerflimmern",
+                "Zwei P-Wellen vor jedem QRS"
+              ],
+              "correctIndex": 0,
+              "explanation": "Couplet = 2 aufeinanderfolgende VES, Triplet = 3. Ab drei spricht man von einer (nicht anhaltenden) VT-Salve."
             }
           ],
           "sourceIds": [
@@ -5705,6 +6272,49 @@
               ],
               "correctIndex": 0,
               "explanation": "Jeder Schock muss abgeklärt werden (Geräteabfrage, Ursache, Elektrolyte)."
+            },
+            {
+              "id": "u9l3q6",
+              "type": "case",
+              "patient": "Herr B., 63 Jahre",
+              "setting": "Telemetrie",
+              "story": "Der Monitor zeigt eine Breitkomplextachykardie. Der Patient ist bewusstlos, ein Puls ist nicht tastbar.",
+              "findings": [
+                {
+                  "label": "Bewusstsein",
+                  "value": "bewusstlos",
+                  "abnormal": true
+                },
+                {
+                  "label": "Puls",
+                  "value": "nicht tastbar",
+                  "abnormal": true
+                }
+              ],
+              "task": "intervention",
+              "prompt": "Was ist richtig?",
+              "options": [
+                "Wie Kammerflimmern: Reanimation und Defibrillation",
+                "Amiodaron als Tablette geben",
+                "Abwarten, ob es von selbst aufhört",
+                "Vagusmanöver"
+              ],
+              "correctIndex": 0,
+              "explanation": "Pulslose VT ist ein Herz-Kreislauf-Stillstand und wird wie Kammerflimmern behandelt (ERC).",
+              "strip": "vt"
+            },
+            {
+              "id": "u9l3q7",
+              "type": "single_choice",
+              "prompt": "Wie wird eine VT mit Puls und Schockzeichen (z.B. RR 70/40, Bewusstseinsstörung) behandelt?",
+              "options": [
+                "Synchronisierte elektrische Kardioversion (unter Sedierung) durch Ärztin/Arzt",
+                "Gar nicht",
+                "Nur Sauerstoff",
+                "Atropin"
+              ],
+              "correctIndex": 0,
+              "explanation": "Instabile Tachykardien mit Schockzeichen werden synchronisiert kardiovertiert (ERC)."
             }
           ],
           "sourceIds": [
@@ -5788,11 +6398,59 @@
               "statement": "Ein Sinusrhythmus mit Schenkelblock hat breite QRS-Komplexe, aber vor jedem QRS eine P-Welle.",
               "correct": true,
               "explanation": "Richtig. Daran unterscheidest du ihn am Monitor von VES oder einer VT."
+            },
+            {
+              "id": "u9l4q6",
+              "type": "single_choice",
+              "prompt": "Was zeigt sich beim Rechtsschenkelblock in V1 typisch?",
+              "options": [
+                "Eine „M-förmige“ rSR′-Konfiguration",
+                "Eine riesige P-Welle",
+                "Eine Nulllinie",
+                "Ein Sägezahnmuster"
+              ],
+              "correctIndex": 0,
+              "explanation": "Beim RSB wird die rechte Kammer verspätet erregt. In V1 entsteht typischerweise ein rSR′ („M-Form“), QRS ≥ 0,12 s."
+            },
+            {
+              "id": "u9l4q7",
+              "type": "case",
+              "patient": "Frau L., 58 Jahre",
+              "setting": "Telemetrie, nach einer Knie-OP",
+              "story": "Plötzliche Atemnot und Herzrasen. Im neuen EKG: Rechtsschenkelblock, früher nicht vorhanden.",
+              "findings": [
+                {
+                  "label": "HF",
+                  "value": "122/min",
+                  "abnormal": true
+                },
+                {
+                  "label": "SpO₂",
+                  "value": "88 %",
+                  "abnormal": true
+                },
+                {
+                  "label": "EKG",
+                  "value": "neuer RSB",
+                  "abnormal": true
+                }
+              ],
+              "task": "diagnose",
+              "prompt": "Woran musst du denken?",
+              "options": [
+                "Lungenembolie mit Rechtsherzbelastung",
+                "Harmloser Zufallsbefund",
+                "Hypoglykämie",
+                "Pneumonie ohne Bedeutung"
+              ],
+              "correctIndex": 0,
+              "explanation": "Ein neuer Rechtsschenkelblock mit akuter Atemnot, Tachykardie und Hypoxie kann ein Zeichen der Rechtsherzbelastung bei Lungenembolie sein (ESC 2019)."
             }
           ],
           "sourceIds": [
             "aha-ecg-conduction-2009",
-            "esc-pacing-2021"
+            "esc-pacing-2021",
+            "esc-pe-2019"
           ],
           "articleIds": [
             "a-rsb"
@@ -5918,6 +6576,53 @@
                 "highlight": "hauptstamm",
                 "labels": false
               }
+            },
+            {
+              "id": "u10l1q7",
+              "type": "case",
+              "patient": "Herr S., 67 Jahre",
+              "setting": "Telemetrie, 3-Gefäß-KHK, Bypass-OP geplant",
+              "story": "Er fragt, ob er seinen Clopidogrel bis zur OP weiter nehmen soll.",
+              "findings": [
+                {
+                  "label": "Medikamente",
+                  "value": "ASS, Clopidogrel, Statin"
+                },
+                {
+                  "label": "OP",
+                  "value": "in 5 Tagen geplant"
+                }
+              ],
+              "task": "intervention",
+              "prompt": "Was antwortest du?",
+              "options": [
+                "Das entscheidet das Ärzteteam (Kardiologie/Herzchirurgie) – ich kläre es ab und gebe ihm Rückmeldung",
+                "Sofort alle Medikamente absetzen",
+                "Einfach doppelt so viel nehmen",
+                "Das ist egal"
+              ],
+              "correctIndex": 0,
+              "explanation": "Plättchenhemmer vor Operationen abzusetzen oder weiterzugeben ist eine ärztliche Abwägung zwischen Blutungs- und Thromboserisiko (ESC 2018). Pflege gibt die Frage weiter und informiert."
+            },
+            {
+              "id": "u10l1q8",
+              "type": "matching",
+              "prompt": "Ordne das Koronargefäß seinem Versorgungsgebiet (vereinfacht) zu.",
+              "pairs": [
+                {
+                  "left": "RIVA / LAD",
+                  "right": "Vorderwand und Septum"
+                },
+                {
+                  "left": "RCX",
+                  "right": "Seitenwand"
+                },
+                {
+                  "left": "RCA",
+                  "right": "meist Hinterwand (inferior)"
+                }
+              ],
+              "explanation": "Die Versorgung ist individuell verschieden; die Zuordnung hilft beim Verständnis von EKG-Befunden."
             }
           ],
           "sourceIds": [
@@ -6004,6 +6709,47 @@
               ],
               "correctIndex": 0,
               "explanation": "Steigende Atemfrequenz ist oft das früheste Warnzeichen."
+            },
+            {
+              "id": "u10l2q6",
+              "type": "case",
+              "patient": "Herr P., 82 Jahre",
+              "setting": "Telemetrie, kardiale Dekompensation seit 4 Tagen",
+              "story": "Er liegt viel, hustet zunehmend und hat jetzt Fieber. Rechts unten hörst du Rasselgeräusche.",
+              "findings": [
+                {
+                  "label": "Temperatur",
+                  "value": "38,6 °C",
+                  "abnormal": true
+                },
+                {
+                  "label": "SpO₂",
+                  "value": "90 %",
+                  "abnormal": true
+                },
+                {
+                  "label": "CRP",
+                  "value": "gestiegen",
+                  "abnormal": true
+                }
+              ],
+              "task": "diagnose",
+              "prompt": "Was ist am wahrscheinlichsten hinzugekommen?",
+              "options": [
+                "Stauungspneumonie (Infektion bei Lungenstauung)",
+                "Hyperthyreose",
+                "Hypoglykämie",
+                "Allergie"
+              ],
+              "correctIndex": 0,
+              "explanation": "Bei Lungenstauung und Immobilität können sich Keime leicht ansiedeln. Behandlung: Herzinsuffizienz-Therapie plus Antibiotika; Atemtherapie und Mobilisation helfen vorbeugend."
+            },
+            {
+              "id": "u10l2q7",
+              "type": "true_false",
+              "statement": "Atemübungen und frühe Mobilisation können einer Pneumonie bei bettlägerigen Patienten vorbeugen.",
+              "correct": true,
+              "explanation": "Richtig. Pneumonieprophylaxe: Mobilisation, Oberkörperhochlage, Atemübungen, Mundpflege."
             }
           ],
           "sourceIds": [
@@ -6105,6 +6851,56 @@
               ],
               "correctIndex": 0,
               "explanation": "Neue Leitungsstörungen sind ein Warnzeichen und gehören sofort gemeldet."
+            },
+            {
+              "id": "u10l3q6",
+              "type": "case",
+              "patient": "Frau B., 41 Jahre",
+              "setting": "Aufnahme, intravenöser Drogenkonsum bekannt",
+              "story": "Fieber seit 10 Tagen, Schüttelfrost. Die Ärztin hört ein neues Herzgeräusch über der Trikuspidalklappe.",
+              "findings": [
+                {
+                  "label": "Temperatur",
+                  "value": "39,6 °C",
+                  "abnormal": true
+                },
+                {
+                  "label": "HF",
+                  "value": "115/min",
+                  "abnormal": true
+                },
+                {
+                  "label": "Blutkulturen",
+                  "value": "ausstehend"
+                }
+              ],
+              "task": "intervention",
+              "prompt": "Was ist vor der ersten Antibiotikagabe wichtig?",
+              "options": [
+                "Mehrere Blutkulturpaare abnehmen (nach Anordnung)",
+                "Erst Fieber senken, dann gar nichts",
+                "Antibiotika sofort als Tablette, ohne Kulturen",
+                "Nur einen Urinstreifen machen"
+              ],
+              "correctIndex": 0,
+              "explanation": "Mindestens drei Blutkultursets vor Beginn der Antibiotika erhöhen die Chance, den Erreger zu finden (ESC 2023). Bei i.v.-Drogenkonsum ist häufig die Trikuspidalklappe betroffen.",
+              "illustration": {
+                "figure": "heart_anatomy",
+                "highlight": "trikuspidalklappe"
+              }
+            },
+            {
+              "id": "u10l3q7",
+              "type": "single_choice",
+              "prompt": "Wie lange dauert eine Antibiotikatherapie bei Endokarditis meist?",
+              "options": [
+                "Mehrere Wochen (oft 4–6 Wochen)",
+                "1 Tag",
+                "3 Tage",
+                "Nur bis das Fieber weg ist"
+              ],
+              "correctIndex": 0,
+              "explanation": "Endokarditis braucht eine lange, meist intravenöse Antibiotikatherapie über Wochen (ESC 2023)."
             }
           ],
           "sourceIds": [
@@ -6215,6 +7011,46 @@
               ],
               "correctIndex": 0,
               "explanation": "Die 6 P nach Pratt: Pain, Paleness, Pulselessness, Paresthesia, Paralysis, Prostration."
+            },
+            {
+              "id": "u10l4q6",
+              "type": "case",
+              "patient": "Herr D., 71 Jahre",
+              "setting": "Telemetrie, pAVK, Raucher",
+              "story": "Er hat seit heute Nacht starke Schmerzen im linken Unterschenkel. Der Fuß ist blass, kalt, die Fußpulse sind nicht tastbar.",
+              "findings": [
+                {
+                  "label": "Fuß links",
+                  "value": "blass, kalt, pulslos",
+                  "abnormal": true
+                },
+                {
+                  "label": "Schmerz",
+                  "value": "NRS 9",
+                  "abnormal": true
+                },
+                {
+                  "label": "Rhythmus",
+                  "value": "Vorhofflimmern"
+                }
+              ],
+              "task": "intervention",
+              "prompt": "Was tust du?",
+              "options": [
+                "Sofort ärztlich melden (akuter Gefäßverschluss), Bein nicht hochlagern, keine Wärme, Zeit notieren",
+                "Bein hochlagern und eine Wärmflasche anlegen",
+                "Ihn zum Gehtraining schicken",
+                "Schmerzmittel geben und morgen nachsehen"
+              ],
+              "correctIndex": 0,
+              "explanation": "Die „6 P“ (pain, pallor, pulselessness, paresthesia, paralysis, prostration) sprechen für einen akuten Arterienverschluss – bei Vorhofflimmern oft embolisch. Notfall: Ischämiezeit zählt."
+            },
+            {
+              "id": "u10l4q7",
+              "type": "true_false",
+              "statement": "Gehtraining ist bei pAVK im Stadium II (Schaufensterkrankheit) eine wichtige Behandlung.",
+              "correct": true,
+              "explanation": "Richtig. Strukturiertes Gehtraining verbessert die schmerzfreie Gehstrecke (ESC 2024)."
             }
           ],
           "sourceIds": [
