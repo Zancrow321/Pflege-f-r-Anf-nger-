@@ -629,6 +629,60 @@
               ],
               "meaning": "zum Kopf hin, kopfwärts",
               "explanation": "Krani|al = den Schädel betreffend → kopfwärts."
+            },
+            {
+              "id": "u18l1q7",
+              "type": "single_choice",
+              "prompt": "Was ist markiert?",
+              "options": [
+                "Die Medianlinie",
+                "Eine Lateralachse",
+                "Die Proximallinie",
+                "Der Interkostalraum"
+              ],
+              "correctIndex": 0,
+              "explanation": "Median = genau in der Mitte. Die Medianlinie teilt den Körper in rechte und linke Hälfte.",
+              "illustration": {
+                "figure": "body_front",
+                "highlight": "median",
+                "labels": false
+              }
+            },
+            {
+              "id": "u18l1q8",
+              "type": "single_choice",
+              "prompt": "Wie heißt die markierte Richtung?",
+              "options": [
+                "kaudal",
+                "kranial",
+                "ventral",
+                "proximal"
+              ],
+              "correctIndex": 0,
+              "explanation": "Kaudal = steißwärts, am Rumpf fußwärts (lat. cauda = Schwanz).",
+              "illustration": {
+                "figure": "body_front",
+                "highlight": "kaudal",
+                "labels": false
+              }
+            },
+            {
+              "id": "u18l1q9",
+              "type": "single_choice",
+              "prompt": "Wie heißt die markierte Richtung?",
+              "options": [
+                "sinister (links)",
+                "dexter (rechts)",
+                "medial",
+                "kaudal"
+              ],
+              "correctIndex": 0,
+              "explanation": "Der Pfeil zeigt zur linken Körperseite der Person = sinister. Sie schaut dich an, deshalb ist ihr links für dich rechts.",
+              "illustration": {
+                "figure": "body_front",
+                "highlight": "sinister",
+                "labels": false
+              }
             }
           ],
           "sourceIds": [
@@ -788,6 +842,42 @@
               ],
               "meaning": "beidseits, auf beiden Seiten",
               "explanation": "Bi|later|al = zwei Seiten betreffend → beidseits."
+            },
+            {
+              "id": "u18l2q7",
+              "type": "single_choice",
+              "prompt": "Wie heißt die markierte Richtung?",
+              "options": [
+                "superior",
+                "inferior",
+                "posterior",
+                "lateral"
+              ],
+              "correctIndex": 0,
+              "explanation": "Superior = oben, der obere. Beispiel: Vena cava superior = obere Hohlvene.",
+              "illustration": {
+                "figure": "body_side",
+                "highlight": "superior",
+                "labels": false
+              }
+            },
+            {
+              "id": "u18l2q8",
+              "type": "single_choice",
+              "prompt": "Wie heißt die markierte Richtung?",
+              "options": [
+                "inferior",
+                "superior",
+                "anterior",
+                "distal"
+              ],
+              "correctIndex": 0,
+              "explanation": "Inferior = unten, der untere. Ein inferiorer Infarkt betrifft die untere Wand (Hinterwand) des Herzens.",
+              "illustration": {
+                "figure": "body_side",
+                "highlight": "inferior",
+                "labels": false
+              }
             }
           ],
           "sourceIds": [
@@ -1089,6 +1179,24 @@
               ],
               "meaning": "zwischen den Rippen gelegen",
               "explanation": "Inter|kost|al = zwischen den Rippen. ICR = Interkostalraum."
+            },
+            {
+              "id": "u18l4q7",
+              "type": "single_choice",
+              "prompt": "Wie heißt diese Lagerung?",
+              "options": [
+                "Oberkörperhochlage",
+                "Herzbettlage",
+                "Flachlage",
+                "Schocklage"
+              ],
+              "correctIndex": 0,
+              "explanation": "Oberkörperhochlage: Kopfteil etwa 30° hoch, Beine flach. Sie erleichtert die Atmung.",
+              "illustration": {
+                "figure": "positioning",
+                "highlight": "oberkoerper",
+                "labels": false
+              }
             }
           ],
           "sourceIds": [
@@ -1224,6 +1332,96 @@
                 "highlight": "mitralklappe",
                 "labels": false
               }
+            },
+            {
+              "id": "u2l1q7",
+              "type": "single_choice",
+              "prompt": "Welcher Herzabschnitt ist markiert?",
+              "options": [
+                "Rechte Kammer",
+                "Linke Kammer",
+                "Rechter Vorhof",
+                "Linker Vorhof"
+              ],
+              "correctIndex": 0,
+              "explanation": "Die rechte Kammer pumpt das sauerstoffarme Blut über die Pulmonalklappe in die Lungenarterie.",
+              "illustration": {
+                "figure": "heart_anatomy",
+                "highlight": "rechte_kammer",
+                "labels": false
+              }
+            },
+            {
+              "id": "u2l1q8",
+              "type": "single_choice",
+              "prompt": "Welche Klappe ist markiert?",
+              "options": [
+                "Aortenklappe",
+                "Mitralklappe",
+                "Pulmonalklappe",
+                "Trikuspidalklappe"
+              ],
+              "correctIndex": 0,
+              "explanation": "Die Aortenklappe liegt zwischen linker Kammer und Aorta. Bei einer Aortenstenose ist sie verengt.",
+              "illustration": {
+                "figure": "heart_anatomy",
+                "highlight": "aortenklappe",
+                "labels": false
+              }
+            },
+            {
+              "id": "u2l1q9",
+              "type": "single_choice",
+              "prompt": "Welches Gefäß ist markiert?",
+              "options": [
+                "Lungenvenen",
+                "Lungenarterie",
+                "Hohlvenen",
+                "Aorta"
+              ],
+              "correctIndex": 0,
+              "explanation": "Die Lungenvenen bringen sauerstoffreiches Blut aus der Lunge in den linken Vorhof.",
+              "illustration": {
+                "figure": "heart_anatomy",
+                "highlight": "lungenvenen",
+                "labels": false
+              }
+            },
+            {
+              "id": "u2l1q10",
+              "type": "single_choice",
+              "prompt": "Welche Klappe ist markiert?",
+              "options": [
+                "Trikuspidalklappe",
+                "Mitralklappe",
+                "Aortenklappe",
+                "Pulmonalklappe"
+              ],
+              "correctIndex": 0,
+              "explanation": "Die Trikuspidalklappe (drei Segel) liegt zwischen rechtem Vorhof und rechter Kammer.",
+              "illustration": {
+                "figure": "heart_anatomy",
+                "highlight": "trikuspidalklappe",
+                "labels": false
+              }
+            },
+            {
+              "id": "u2l1q11",
+              "type": "single_choice",
+              "prompt": "Welcher Herzabschnitt ist markiert?",
+              "options": [
+                "Linker Vorhof",
+                "Rechter Vorhof",
+                "Linke Kammer",
+                "Rechte Kammer"
+              ],
+              "correctIndex": 0,
+              "explanation": "Der linke Vorhof nimmt das Blut aus den Lungenvenen auf. Bei Vorhofflimmern bilden sich hier (im Vorhofohr) leicht Gerinnsel.",
+              "illustration": {
+                "figure": "heart_anatomy",
+                "highlight": "linker_vorhof",
+                "labels": false
+              }
             }
           ],
           "sourceIds": [
@@ -1336,6 +1534,60 @@
               "illustration": {
                 "figure": "conduction",
                 "highlight": "av_knoten",
+                "labels": false
+              }
+            },
+            {
+              "id": "u2l2q7",
+              "type": "single_choice",
+              "prompt": "Welche Struktur ist markiert?",
+              "options": [
+                "Sinusknoten",
+                "AV-Knoten",
+                "His-Bündel",
+                "Purkinje-Fasern"
+              ],
+              "correctIndex": 0,
+              "explanation": "Der Sinusknoten im rechten Vorhof ist der normale Taktgeber (60–100/min in Ruhe).",
+              "illustration": {
+                "figure": "conduction",
+                "highlight": "sinusknoten",
+                "labels": false
+              }
+            },
+            {
+              "id": "u2l2q8",
+              "type": "single_choice",
+              "prompt": "Welche Struktur ist markiert?",
+              "options": [
+                "Tawara-Schenkel",
+                "His-Bündel",
+                "Purkinje-Fasern",
+                "AV-Knoten"
+              ],
+              "correctIndex": 0,
+              "explanation": "Die Tawara-Schenkel laufen rechts und links an der Kammerscheidewand entlang. Ist einer gestört, entsteht ein Schenkelblock mit breitem QRS.",
+              "illustration": {
+                "figure": "conduction",
+                "highlight": "tawara",
+                "labels": false
+              }
+            },
+            {
+              "id": "u2l2q9",
+              "type": "single_choice",
+              "prompt": "Welche Struktur ist markiert?",
+              "options": [
+                "Purkinje-Fasern",
+                "Tawara-Schenkel",
+                "Sinusknoten",
+                "His-Bündel"
+              ],
+              "correctIndex": 0,
+              "explanation": "Die Purkinje-Fasern verteilen die Erregung in der Kammermuskulatur. Ein Kammerersatzrhythmus schlägt nur etwa 20–40/min.",
+              "illustration": {
+                "figure": "conduction",
+                "highlight": "purkinje",
                 "labels": false
               }
             }
@@ -1539,6 +1791,60 @@
                 "highlight": "gelb",
                 "labels": false
               }
+            },
+            {
+              "id": "u3l1q7",
+              "type": "single_choice",
+              "prompt": "Welche Elektrode (IEC) gehört an die markierte Stelle?",
+              "options": [
+                "Weiß (C)",
+                "Schwarz (N)",
+                "Rot (R)",
+                "Gelb (L)"
+              ],
+              "correctIndex": 0,
+              "explanation": "Die weiße Brustwandelektrode (C) sitzt beim 5-Kanal-EKG oft auf Position V1: 4. ICR rechts parasternal.",
+              "illustration": {
+                "figure": "electrodes",
+                "highlight": "weiss",
+                "labels": false
+              }
+            },
+            {
+              "id": "u3l1q8",
+              "type": "single_choice",
+              "prompt": "Welche Elektrode (IEC) gehört an die markierte Stelle?",
+              "options": [
+                "Schwarz (N)",
+                "Grün (F)",
+                "Rot (R)",
+                "Weiß (C)"
+              ],
+              "correctIndex": 0,
+              "explanation": "Rechts unten am Rumpf sitzt die schwarze Neutralelektrode.",
+              "illustration": {
+                "figure": "electrodes",
+                "highlight": "schwarz",
+                "labels": false
+              }
+            },
+            {
+              "id": "u3l1q9",
+              "type": "single_choice",
+              "prompt": "Welche Elektrode (IEC) gehört an die markierte Stelle?",
+              "options": [
+                "Grün (F)",
+                "Gelb (L)",
+                "Schwarz (N)",
+                "Rot (R)"
+              ],
+              "correctIndex": 0,
+              "explanation": "Links unten am Rumpf sitzt Grün – das Ende der Ampel: rot, gelb, grün.",
+              "illustration": {
+                "figure": "electrodes",
+                "highlight": "gruen",
+                "labels": false
+              }
             }
           ],
           "sourceIds": [
@@ -1632,6 +1938,60 @@
               "statement": "Eine verlängerte QT-Zeit kann gefährliche Kammerrhythmusstörungen (Torsade de pointes) begünstigen.",
               "correct": true,
               "explanation": "Richtig. Viele Medikamente verlängern die QT-Zeit. Achte auf ärztliche Vorgaben zur QTc-Kontrolle und auf Elektrolyte."
+            },
+            {
+              "id": "u3l2q7",
+              "type": "single_choice",
+              "prompt": "Welche Strecke ist markiert?",
+              "options": [
+                "PQ-Zeit",
+                "QT-Zeit",
+                "QRS-Dauer",
+                "ST-Strecke"
+              ],
+              "correctIndex": 0,
+              "explanation": "Die PQ-Zeit reicht vom Beginn der P-Welle bis zum Beginn von QRS. Normal: 0,12–0,20 s. Ist sie länger, liegt ein AV-Block I° vor.",
+              "illustration": {
+                "figure": "ecg_waves",
+                "highlight": "pq",
+                "labels": false
+              }
+            },
+            {
+              "id": "u3l2q8",
+              "type": "single_choice",
+              "prompt": "Was ist markiert?",
+              "options": [
+                "QRS-Komplex",
+                "P-Welle",
+                "T-Welle",
+                "ST-Strecke"
+              ],
+              "correctIndex": 0,
+              "explanation": "Der QRS-Komplex zeigt die Erregung der Kammern. Normal ist er schmaler als 0,12 s.",
+              "illustration": {
+                "figure": "ecg_waves",
+                "highlight": "qrs",
+                "labels": false
+              }
+            },
+            {
+              "id": "u3l2q9",
+              "type": "single_choice",
+              "prompt": "Welche Zeit ist markiert?",
+              "options": [
+                "QT-Zeit",
+                "PQ-Zeit",
+                "QRS-Dauer",
+                "RR-Abstand"
+              ],
+              "correctIndex": 0,
+              "explanation": "Die QT-Zeit reicht vom Beginn von QRS bis zum Ende der T-Welle. Sie hängt von der Herzfrequenz ab (QTc).",
+              "illustration": {
+                "figure": "ecg_waves",
+                "highlight": "qt",
+                "labels": false
+              }
             }
           ],
           "sourceIds": [
@@ -1738,6 +2098,42 @@
               "illustration": {
                 "figure": "ecg_waves",
                 "highlight": "p",
+                "labels": false
+              }
+            },
+            {
+              "id": "u3l3q7",
+              "type": "single_choice",
+              "prompt": "Was ist in der EKG-Kurve markiert?",
+              "options": [
+                "T-Welle",
+                "P-Welle",
+                "U-Welle",
+                "Q-Zacke"
+              ],
+              "correctIndex": 0,
+              "explanation": "Die T-Welle zeigt die Erregungsrückbildung der Kammern. Spitze, hohe T-Wellen können ein Zeichen für Hyperkaliämie sein.",
+              "illustration": {
+                "figure": "ecg_waves",
+                "highlight": "t",
+                "labels": false
+              }
+            },
+            {
+              "id": "u3l3q8",
+              "type": "single_choice",
+              "prompt": "Welcher Abschnitt ist markiert?",
+              "options": [
+                "ST-Strecke",
+                "PQ-Zeit",
+                "QT-Zeit",
+                "P-Welle"
+              ],
+              "correctIndex": 0,
+              "explanation": "Die ST-Strecke liegt zwischen QRS-Ende und T-Welle. Hebungen oder Senkungen können eine Durchblutungsstörung (Ischämie) zeigen.",
+              "illustration": {
+                "figure": "ecg_waves",
+                "highlight": "st",
                 "labels": false
               }
             }
@@ -3158,6 +3554,24 @@
                 "highlight": "rca",
                 "labels": false
               }
+            },
+            {
+              "id": "u7l5q7",
+              "type": "single_choice",
+              "prompt": "Welches Herzkranzgefäß ist markiert?",
+              "options": [
+                "RCX",
+                "RCA",
+                "RIVA / LAD",
+                "Hauptstamm"
+              ],
+              "correctIndex": 0,
+              "explanation": "Der Ramus circumflexus (RCX) läuft links in der Herzkranzfurche zur Seitenwand.",
+              "illustration": {
+                "figure": "coronaries",
+                "highlight": "rcx",
+                "labels": false
+              }
             }
           ],
           "sourceIds": [
@@ -4123,6 +4537,24 @@
               ],
               "correctIndex": 0,
               "explanation": "Ruheschmerz kann ein akutes Koronarsyndrom sein."
+            },
+            {
+              "id": "u10l1q6",
+              "type": "single_choice",
+              "prompt": "Welcher Gefäßabschnitt ist markiert?",
+              "options": [
+                "Hauptstamm der linken Koronararterie",
+                "RCA",
+                "RCX",
+                "RIVA / LAD"
+              ],
+              "correctIndex": 0,
+              "explanation": "Der Hauptstamm teilt sich in RIVA (LAD) und RCX. Eine Hauptstammstenose gefährdet einen großen Teil der linken Kammer.",
+              "illustration": {
+                "figure": "coronaries",
+                "highlight": "hauptstamm",
+                "labels": false
+              }
             }
           ],
           "sourceIds": [
@@ -4614,6 +5046,24 @@
               ],
               "correctIndex": 0,
               "explanation": "Ein lebensbedrohlicher Notfall – sofort Arzt."
+            },
+            {
+              "id": "u11l2q6",
+              "type": "single_choice",
+              "prompt": "Welche Klappe ist markiert?",
+              "options": [
+                "Mitralklappe",
+                "Aortenklappe",
+                "Trikuspidalklappe",
+                "Pulmonalklappe"
+              ],
+              "correctIndex": 0,
+              "explanation": "Die Mitralklappe trennt linken Vorhof und linke Kammer. Schließt sie nicht dicht (Insuffizienz), fließt Blut zurück in den Vorhof und staut sich in die Lunge.",
+              "illustration": {
+                "figure": "heart_anatomy",
+                "highlight": "mitralklappe",
+                "labels": false
+              }
             }
           ],
           "sourceIds": [
@@ -4712,6 +5162,24 @@
               ],
               "correctIndex": 0,
               "explanation": "Bei Schock wird eine Thrombolyse erwogen."
+            },
+            {
+              "id": "u11l3q6",
+              "type": "single_choice",
+              "prompt": "Welches Gefäß ist markiert?",
+              "options": [
+                "Lungenarterie",
+                "Aorta",
+                "Lungenvenen",
+                "Hohlvenen"
+              ],
+              "correctIndex": 0,
+              "explanation": "Bei der Lungenembolie verlegt ein Gerinnsel die Lungenarterie oder ihre Äste. Die rechte Kammer muss dann gegen einen hohen Widerstand pumpen.",
+              "illustration": {
+                "figure": "heart_anatomy",
+                "highlight": "lungenarterie",
+                "labels": false
+              }
             }
           ],
           "sourceIds": [
@@ -8307,6 +8775,783 @@
             "a-pneumonie",
             "a-perikarditis",
             "a-vt"
+          ],
+          "termIds": []
+        },
+        {
+          "id": "u19l5",
+          "title": "Medikamente im Blick",
+          "card": {
+            "title": "Vor und nach jeder Gabe beobachten",
+            "text": "Herzmedikamente wirken stark. Vor der Gabe prüfst du Puls und Blutdruck, danach achtest du auf Wirkung und Nebenwirkungen.",
+            "bullets": [
+              "Betablocker, Digitalis, Amiodaron: Puls vorher prüfen",
+              "Diuretika: Gewicht, Blutdruck, Elektrolyte",
+              "Antikoagulanzien: Blutungszeichen",
+              "Im Zweifel nicht geben, sondern ärztlich Rücksprache halten"
+            ],
+            "illustration": {
+              "figure": "conduction"
+            }
+          },
+          "questions": [
+            {
+              "id": "u19l5q1",
+              "type": "case",
+              "patient": "Herr V., 83 Jahre",
+              "setting": "Telemetrie, Vorhofflimmern, Digitalis seit Jahren",
+              "story": "Seit zwei Tagen ist ihm übel, er hat keinen Appetit und sagt, er sehe alles „gelblich“.",
+              "findings": [
+                {
+                  "label": "HF",
+                  "value": "46/min",
+                  "abnormal": true
+                },
+                {
+                  "label": "Kalium",
+                  "value": "3,2 mmol/l",
+                  "abnormal": true
+                },
+                {
+                  "label": "Kreatinin",
+                  "value": "erhöht",
+                  "abnormal": true
+                }
+              ],
+              "task": "diagnose",
+              "prompt": "Woran denkst du?",
+              "options": [
+                "Digitalis-Überdosierung (Intoxikation)",
+                "Magen-Darm-Grippe",
+                "Grauer Star",
+                "Hyperkaliämie"
+              ],
+              "correctIndex": 0,
+              "explanation": "Übelkeit, Sehstörungen (Gelbsehen) und Bradykardie sind typische Zeichen einer Digitalis-Überdosierung. Niedriges Kalium und eine schlechtere Nierenfunktion begünstigen sie. Nächste Dosis nicht geben, ärztlich melden, Monitor beobachten."
+            },
+            {
+              "id": "u19l5q2",
+              "type": "case",
+              "patient": "Frau Z., 66 Jahre",
+              "setting": "Telemetrie, seit gestern neu ACE-Hemmer",
+              "story": "Ihre Lippen und die Zunge schwellen innerhalb einer halben Stunde deutlich an. Sie spricht kloßig.",
+              "findings": [
+                {
+                  "label": "Atmung",
+                  "value": "noch frei, aber kloßige Sprache",
+                  "abnormal": true
+                },
+                {
+                  "label": "SpO₂",
+                  "value": "96 %"
+                },
+                {
+                  "label": "Haut",
+                  "value": "kein Juckreiz, keine Quaddeln"
+                }
+              ],
+              "task": "intervention",
+              "prompt": "Was ist richtig?",
+              "options": [
+                "Sofort ärztlich melden bzw. Notfallteam rufen, Atemweg beobachten, ACE-Hemmer nicht mehr geben",
+                "Kühlpack auflegen und morgen nachsehen",
+                "Die nächste Tablette vorziehen",
+                "Nur ein Antihistaminikum aus dem Schrank geben"
+              ],
+              "correctIndex": 0,
+              "explanation": "Ein Angioödem unter ACE-Hemmer kann die Atemwege verschließen. Es ist meist nicht allergisch (Bradykinin), deshalb helfen Antihistaminika oft nicht. Notfall: Hilfe rufen, Atemweg sichern lassen, Medikament absetzen."
+            },
+            {
+              "id": "u19l5q3",
+              "type": "case",
+              "patient": "Herr C., 79 Jahre",
+              "setting": "Telemetrie, HFrEF, Furosemid i.v. seit 4 Tagen",
+              "story": "Er ist beim Aufstehen schwindelig, die Zunge ist trocken. Er hat 5 kg abgenommen.",
+              "findings": [
+                {
+                  "label": "RR",
+                  "value": "92/58 mmHg",
+                  "abnormal": true
+                },
+                {
+                  "label": "HF",
+                  "value": "104/min",
+                  "abnormal": true
+                },
+                {
+                  "label": "Gewicht",
+                  "value": "−5 kg / 4 Tage",
+                  "abnormal": true
+                },
+                {
+                  "label": "Kreatinin",
+                  "value": "gestiegen",
+                  "abnormal": true
+                }
+              ],
+              "task": "diagnose",
+              "prompt": "Was ist am wahrscheinlichsten?",
+              "options": [
+                "Volumenmangel durch zu starke Entwässerung",
+                "Erneute Dekompensation",
+                "Lungenembolie",
+                "Hypertensive Krise"
+              ],
+              "correctIndex": 0,
+              "explanation": "Schneller Gewichtsverlust, niedriger Blutdruck, Tachykardie, trockene Schleimhäute und steigendes Kreatinin sprechen für eine Überentwässerung. Ärztlich melden, Sturzgefahr beachten, Ein- und Ausfuhr bilanzieren."
+            },
+            {
+              "id": "u19l5q4",
+              "type": "case",
+              "patient": "Frau I., 71 Jahre",
+              "setting": "Telemetrie, Bisoprolol morgens",
+              "story": "Vor der Morgengabe misst du die Vitalzeichen. Sie fühlt sich müde und etwas schwindelig.",
+              "findings": [
+                {
+                  "label": "HF",
+                  "value": "42/min",
+                  "abnormal": true
+                },
+                {
+                  "label": "RR",
+                  "value": "95/60 mmHg",
+                  "abnormal": true
+                }
+              ],
+              "task": "intervention",
+              "prompt": "Was tust du mit dem Betablocker?",
+              "options": [
+                "Nicht geben, ärztlich Rücksprache halten und dokumentieren",
+                "Wie verordnet geben",
+                "Die doppelte Dosis geben",
+                "Ihn durch das Abendmedikament ersetzen"
+              ],
+              "correctIndex": 0,
+              "explanation": "Betablocker senken Puls und Blutdruck weiter. Bei Bradykardie mit Beschwerden oder niedrigem Blutdruck die Gabe zurückstellen und ärztlich klären. Grenzwerte legt die Anordnung oder der Hausstandard fest."
+            },
+            {
+              "id": "u19l5q5",
+              "type": "case",
+              "patient": "Herr Q., 76 Jahre",
+              "setting": "Telemetrie, Apixaban wegen Vorhofflimmern",
+              "story": "Er ist nachts auf dem Weg zur Toilette gestürzt und mit dem Kopf gegen den Nachttisch geschlagen. Jetzt ist er wach und orientiert, hat aber eine Platzwunde.",
+              "findings": [
+                {
+                  "label": "Bewusstsein",
+                  "value": "wach, orientiert"
+                },
+                {
+                  "label": "RR",
+                  "value": "150/85 mmHg"
+                },
+                {
+                  "label": "Antikoagulation",
+                  "value": "Apixaban",
+                  "abnormal": true
+                }
+              ],
+              "task": "intervention",
+              "prompt": "Was ist richtig?",
+              "options": [
+                "Sofort ärztlich melden; unter Antikoagulation ist nach Kopfanprall eine Abklärung (oft CT) nötig, Bewusstsein engmaschig kontrollieren",
+                "Pflaster drauf, er ist ja wach",
+                "Bis zur Visite schlafen lassen",
+                "Die nächste Apixaban-Dosis doppelt geben"
+              ],
+              "correctIndex": 0,
+              "explanation": "Unter Antikoagulanzien können Hirnblutungen auch verzögert auftreten. Sturz mit Kopfanprall immer ärztlich melden, Bewusstsein, Pupillen und Neurologie nach Standard überwachen."
+            }
+          ],
+          "sourceIds": [
+            "esc-hf-2021",
+            "ehra-doac-2021",
+            "pschyrembel",
+            "esc-pacing-2021"
+          ],
+          "articleIds": [
+            "a-hfref",
+            "a-bradykardie",
+            "a-hypokaliaemie"
+          ],
+          "termIds": []
+        },
+        {
+          "id": "u19l6",
+          "title": "Atmung, Lunge, Herzbeutel",
+          "card": {
+            "title": "Atemnot hat viele Ursachen",
+            "text": "Atemnot kann vom Herzen, von der Lunge oder vom Herzbeutel kommen. Achte auf Begleitzeichen: Fieber, Auswurf, Ödeme, Halsvenen, Blutdruck.",
+            "bullets": [
+              "Sauerstoff nach Zielwert: meist 94–98 %, bei Risiko für CO₂-Retention 88–92 %",
+              "Rosa schaumiger Auswurf: akutes Lungenödem",
+              "Niedriger Blutdruck + gestaute Halsvenen: an Tamponade denken"
+            ],
+            "illustration": {
+              "figure": "positioning",
+              "highlight": "oberkoerper"
+            }
+          },
+          "questions": [
+            {
+              "id": "u19l6q1",
+              "type": "case",
+              "patient": "Herr H., 72 Jahre",
+              "setting": "Telemetrie, schwere COPD",
+              "story": "Er ist kurzatmig. Die Ärztin hat Sauerstoff angeordnet „nach Zielbereich“. In der Akte steht: früher erhöhtes CO₂ im Blut.",
+              "findings": [
+                {
+                  "label": "SpO₂",
+                  "value": "85 %",
+                  "abnormal": true
+                },
+                {
+                  "label": "AF",
+                  "value": "24/min",
+                  "abnormal": true
+                }
+              ],
+              "task": "intervention",
+              "prompt": "Welchen SpO₂-Zielbereich strebst du an?",
+              "options": [
+                "88–92 %",
+                "94–98 %",
+                "100 %",
+                "unter 85 %"
+              ],
+              "correctIndex": 0,
+              "explanation": "Bei Risiko für eine CO₂-Retention (z.B. schwere COPD) liegt der Zielbereich meist bei 88–92 % (BTS 2017). Zu viel Sauerstoff kann das CO₂ weiter steigen lassen – auf Schläfrigkeit achten."
+            },
+            {
+              "id": "u19l6q2",
+              "type": "case",
+              "patient": "Frau D., 80 Jahre",
+              "setting": "Telemetrie, Mitralinsuffizienz",
+              "story": "Sie sitzt aufrecht, ringt nach Luft und hustet rosa schaumigen Auswurf. Über der ganzen Lunge brodelt es.",
+              "findings": [
+                {
+                  "label": "AF",
+                  "value": "34/min",
+                  "abnormal": true
+                },
+                {
+                  "label": "SpO₂",
+                  "value": "82 %",
+                  "abnormal": true
+                },
+                {
+                  "label": "RR",
+                  "value": "180/100 mmHg",
+                  "abnormal": true
+                }
+              ],
+              "task": "diagnose",
+              "prompt": "Was liegt vor?",
+              "options": [
+                "Akutes Lungenödem",
+                "Pneumonie",
+                "Asthmaanfall",
+                "Hyperventilation bei Angst"
+              ],
+              "correctIndex": 0,
+              "explanation": "Rosa schaumiger Auswurf, brodelnde Atmung und schwere Atemnot sind Zeichen eines akuten Lungenödems: Notfall. Notfallteam, Herzbettlage bei ausreichendem Blutdruck, Sauerstoff, Medikamente (z.B. Diuretika, Nitrate) ärztlich."
+            },
+            {
+              "id": "u19l6q3",
+              "type": "case",
+              "patient": "Herr Y., 60 Jahre",
+              "setting": "Telemetrie, Tag 1 nach Myokardinfarkt mit PCI",
+              "story": "Er ist plötzlich unruhig und blass. Die Halsvenen sind gestaut, die Herztöne leise.",
+              "findings": [
+                {
+                  "label": "RR",
+                  "value": "80/60 mmHg",
+                  "abnormal": true
+                },
+                {
+                  "label": "HF",
+                  "value": "125/min",
+                  "abnormal": true
+                },
+                {
+                  "label": "Halsvenen",
+                  "value": "gestaut",
+                  "abnormal": true
+                }
+              ],
+              "task": "diagnose",
+              "prompt": "Woran musst du denken?",
+              "options": [
+                "Perikardtamponade",
+                "Hypovolämie durch Durst",
+                "Panikattacke",
+                "Pneumonie"
+              ],
+              "correctIndex": 0,
+              "explanation": "Niedriger Blutdruck, Tachykardie, gestaute Halsvenen und leise Herztöne (Beck-Trias) sprechen für eine Herzbeuteltamponade. Notfall: sofort ärztlich melden, Echokardiographie und ggf. Punktion."
+            },
+            {
+              "id": "u19l6q4",
+              "type": "case",
+              "patient": "Herr E., 58 Jahre",
+              "setting": "Telemetrie, NSTEMI, schmerzfrei",
+              "story": "Er ist ruhig und hat keine Atemnot. Eine Kollegin will ihm „zur Sicherheit“ Sauerstoff geben.",
+              "findings": [
+                {
+                  "label": "SpO₂",
+                  "value": "97 %"
+                },
+                {
+                  "label": "AF",
+                  "value": "14/min"
+                },
+                {
+                  "label": "RR",
+                  "value": "130/80 mmHg"
+                }
+              ],
+              "task": "intervention",
+              "prompt": "Ist Sauerstoff hier sinnvoll?",
+              "options": [
+                "Nein – Sauerstoff erst bei SpO₂ unter 90 % oder Atemnot",
+                "Ja – jeder Infarktpatient braucht Sauerstoff",
+                "Ja – 15 l/min über Maske",
+                "Ja – am besten über Nacht"
+              ],
+              "correctIndex": 0,
+              "explanation": "Laut ESC 2023 bekommen Patienten mit akutem Koronarsyndrom Sauerstoff nur bei SpO₂ unter 90 %. Routinemäßiger Sauerstoff bringt keinen Nutzen."
+            },
+            {
+              "id": "u19l6q5",
+              "type": "case",
+              "patient": "Frau W., 74 Jahre",
+              "setting": "Telemetrie, Pneumonie",
+              "story": "Sie ist kurzatmig, aber wach. Keine COPD, keine Lungenvorerkrankung bekannt.",
+              "findings": [
+                {
+                  "label": "SpO₂",
+                  "value": "89 %",
+                  "abnormal": true
+                },
+                {
+                  "label": "AF",
+                  "value": "26/min",
+                  "abnormal": true
+                },
+                {
+                  "label": "Temperatur",
+                  "value": "38,5 °C",
+                  "abnormal": true
+                }
+              ],
+              "task": "intervention",
+              "prompt": "Welcher SpO₂-Zielbereich gilt für sie in der Regel?",
+              "options": [
+                "94–98 %",
+                "88–92 %",
+                "80–85 %",
+                "genau 100 %"
+              ],
+              "correctIndex": 0,
+              "explanation": "Ohne Risiko für CO₂-Retention liegt der Zielbereich meist bei 94–98 % (BTS 2017). Sauerstoff nach ärztlicher Anordnung titrieren und Atemfrequenz beobachten."
+            }
+          ],
+          "sourceIds": [
+            "bts-o2-2017",
+            "esc-hf-2021",
+            "esc-peri-2015",
+            "esc-acs-2023",
+            "gold-2026"
+          ],
+          "articleIds": [
+            "a-copd",
+            "a-dekompensation",
+            "a-perikarditis"
+          ],
+          "termIds": []
+        },
+        {
+          "id": "u19l7",
+          "title": "Rund um Eingriffe und Geräte",
+          "card": {
+            "title": "Vorher, nachher, Geräte",
+            "text": "Nach Untersuchungen und mit implantierten Geräten gibt es typische Regeln und Warnzeichen.",
+            "bullets": [
+              "Nach TEE: erst essen und trinken, wenn die Rachenbetäubung abgeklungen ist",
+              "Nach Schrittmacher: Arm der OP-Seite anfangs schonen",
+              "ICD-Schock immer melden",
+              "Leiste: wachsende Schwellung = Hämatom, sofort komprimieren und melden"
+            ],
+            "illustration": {
+              "figure": "limb"
+            }
+          },
+          "questions": [
+            {
+              "id": "u19l7q1",
+              "type": "case",
+              "patient": "Herr M., 69 Jahre",
+              "setting": "Telemetrie, vor 30 Minuten TEE mit Rachenspray",
+              "story": "Er hat Durst und möchte sofort Kaffee trinken.",
+              "findings": [
+                {
+                  "label": "Bewusstsein",
+                  "value": "wach"
+                },
+                {
+                  "label": "Schlucken",
+                  "value": "noch taubes Gefühl im Hals",
+                  "abnormal": true
+                }
+              ],
+              "task": "intervention",
+              "prompt": "Was sagst du ihm?",
+              "options": [
+                "Erst trinken, wenn die Rachenbetäubung abgeklungen ist und er sicher schlucken kann – zuerst mit einem Schluck Wasser testen",
+                "Sofort heißen Kaffee trinken",
+                "Er darf erst morgen wieder trinken",
+                "Trinken ist egal, nur Essen ist verboten"
+              ],
+              "correctIndex": 0,
+              "explanation": "Nach Rachenanästhesie ist der Schluckreflex abgeschwächt: Aspirationsgefahr. Erst nach Abklingen (Zeit nach Hausstandard) und mit einem Schluckversuch mit Wasser beginnen."
+            },
+            {
+              "id": "u19l7q2",
+              "type": "case",
+              "patient": "Frau G., 77 Jahre",
+              "setting": "Tag 1 nach Schrittmacher-Implantation links",
+              "story": "Sie möchte sich die Haare kämmen und hebt dabei den linken Arm hoch über den Kopf.",
+              "findings": [
+                {
+                  "label": "Wunde",
+                  "value": "trocken"
+                },
+                {
+                  "label": "Schrittmacher",
+                  "value": "links unter dem Schlüsselbein"
+                }
+              ],
+              "task": "intervention",
+              "prompt": "Was rätst du ihr?",
+              "options": [
+                "Den linken Arm in den ersten Wochen nicht über Schulterhöhe heben – nach Hausstandard",
+                "Den Arm möglichst viel nach oben strecken",
+                "Den Arm komplett ruhigstellen und eingipsen",
+                "Nichts, es gibt keine Einschränkungen"
+              ],
+              "correctIndex": 0,
+              "explanation": "Frisch eingelegte Sonden können sich durch große Armbewegungen verschieben (Dislokation). Deshalb wird der Arm auf der Implantationsseite anfangs geschont; die genaue Dauer regelt der Standard."
+            },
+            {
+              "id": "u19l7q3",
+              "type": "case",
+              "patient": "Herr S., 64 Jahre",
+              "setting": "Telemetrie, ICD seit 2 Jahren",
+              "story": "Er berichtet, er habe eben „einen heftigen Schlag in der Brust“ gespürt. Jetzt fühlt er sich wieder gut.",
+              "findings": [
+                {
+                  "label": "HF",
+                  "value": "78/min"
+                },
+                {
+                  "label": "RR",
+                  "value": "125/80 mmHg"
+                },
+                {
+                  "label": "Bewusstsein",
+                  "value": "wach"
+                }
+              ],
+              "task": "intervention",
+              "prompt": "Was tust du?",
+              "options": [
+                "Ärztlich melden, Monitor/EKG prüfen, das Gerät wird ausgelesen",
+                "Nichts, es geht ihm ja wieder gut",
+                "Den ICD mit einem Magneten dauerhaft abschalten",
+                "Ihn sofort entlassen"
+              ],
+              "correctIndex": 0,
+              "explanation": "Jeder ICD-Schock wird gemeldet und abgeklärt: War es eine echte Kammerrhythmusstörung oder ein Fehlschock? Mehrere Schocks hintereinander sind ein Notfall."
+            },
+            {
+              "id": "u19l7q4",
+              "type": "case",
+              "patient": "Frau T., 70 Jahre",
+              "setting": "1 Stunde nach Herzkatheter über die rechte Leiste",
+              "story": "Unter dem Verband in der Leiste tastest du eine schnell größer werdende, pralle Schwellung. Sie hat dort Schmerzen.",
+              "findings": [
+                {
+                  "label": "Leiste rechts",
+                  "value": "pralle, wachsende Schwellung",
+                  "abnormal": true
+                },
+                {
+                  "label": "RR",
+                  "value": "120/75 mmHg"
+                },
+                {
+                  "label": "Fußpulse",
+                  "value": "tastbar"
+                }
+              ],
+              "task": "intervention",
+              "prompt": "Was tust du zuerst?",
+              "options": [
+                "Mit der Hand fest auf die Punktionsstelle drücken und Hilfe/ärztliche Unterstützung rufen",
+                "Kühlen und in einer Stunde wieder schauen",
+                "Die Patientin aufstehen lassen",
+                "Den Verband entfernen und offen lassen"
+              ],
+              "correctIndex": 0,
+              "explanation": "Eine wachsende pralle Schwellung ist eine Nachblutung (Hämatom). Sofort manuell komprimieren, Hilfe rufen, Vitalzeichen und Durchblutung des Beins (distal) kontrollieren."
+            },
+            {
+              "id": "u19l7q5",
+              "type": "case",
+              "patient": "Herr B., 75 Jahre",
+              "setting": "2 Tage nach Koronarangiographie mit viel Kontrastmittel, Diabetes",
+              "story": "Er hat wenig Urin ausgeschieden.",
+              "findings": [
+                {
+                  "label": "Kreatinin",
+                  "value": "deutlich gestiegen",
+                  "abnormal": true
+                },
+                {
+                  "label": "Urin",
+                  "value": "400 ml / 24 h",
+                  "abnormal": true
+                },
+                {
+                  "label": "RR",
+                  "value": "135/80 mmHg"
+                }
+              ],
+              "task": "diagnose",
+              "prompt": "Woran denkst du?",
+              "options": [
+                "Nierenschädigung durch Kontrastmittel",
+                "Harnwegsinfekt",
+                "Normale Reaktion, die man nicht melden muss",
+                "Hyperthyreose"
+              ],
+              "correctIndex": 0,
+              "explanation": "Ein Kreatininanstieg mit weniger Urin in den Tagen nach Kontrastmittel kann eine kontrastmittelassoziierte Nierenschädigung sein, besonders bei Diabetes oder vorbestehender Niereninsuffizienz. Ärztlich melden, Bilanz führen, Flüssigkeit nach Anordnung."
+            }
+          ],
+          "sourceIds": [
+            "esc-pacing-2021",
+            "esc-va-2022",
+            "esc-acs-2023",
+            "icare-2020",
+            "pschyrembel"
+          ],
+          "articleIds": [
+            "a-elektroden"
+          ],
+          "termIds": []
+        },
+        {
+          "id": "u19l8",
+          "title": "Gemischte Fälle 2",
+          "card": {
+            "title": "Nicht alles kommt vom Herzen",
+            "text": "Auf der Telemetrie liegen Menschen mit vielen Begleiterkrankungen. Erkenne Notfälle auch außerhalb des Herzens.",
+            "bullets": [
+              "Plötzliche Lähmung oder Sprachstörung: Schlaganfall – Uhrzeit notieren",
+              "Fieber + niedriger Blutdruck + Verwirrtheit: an Sepsis denken",
+              "Synkope unter Belastung ist ein Warnzeichen",
+              "Nicht jeder hohe Blutdruck ist ein Notfall"
+            ],
+            "illustration": {
+              "figure": "body_front"
+            }
+          },
+          "questions": [
+            {
+              "id": "u19l8q1",
+              "type": "case",
+              "patient": "Frau F., 79 Jahre",
+              "setting": "Telemetrie, Vorhofflimmern",
+              "story": "Beim Mittagessen fällt ihr plötzlich der Löffel aus der rechten Hand. Der rechte Mundwinkel hängt, sie spricht verwaschen.",
+              "findings": [
+                {
+                  "label": "Beginn",
+                  "value": "vor 5 Minuten",
+                  "abnormal": true
+                },
+                {
+                  "label": "RR",
+                  "value": "170/90 mmHg",
+                  "abnormal": true
+                },
+                {
+                  "label": "BZ",
+                  "value": "110 mg/dl"
+                }
+              ],
+              "task": "intervention",
+              "prompt": "Was tust du?",
+              "options": [
+                "Sofort Notfall/Schlaganfall-Alarm nach Hausstandard, Uhrzeit des Beginns notieren, nichts essen oder trinken lassen",
+                "Hinlegen und in einer Stunde nochmal schauen",
+                "Ihr beim Weiteressen helfen",
+                "Ein Schmerzmittel geben"
+              ],
+              "correctIndex": 0,
+              "explanation": "Plötzliche Halbseitenlähmung, hängender Mundwinkel und Sprachstörung sind Zeichen eines Schlaganfalls – bei Vorhofflimmern häufig durch Embolie. Zeit ist Hirn: sofort alarmieren, Beginn genau notieren, wegen Schluckstörung nüchtern lassen."
+            },
+            {
+              "id": "u19l8q2",
+              "type": "case",
+              "patient": "Herr L., 82 Jahre",
+              "setting": "Telemetrie, Blasenkatheter",
+              "story": "Er ist plötzlich verwirrt, zittert und hat Fieber.",
+              "findings": [
+                {
+                  "label": "Temperatur",
+                  "value": "39,4 °C",
+                  "abnormal": true
+                },
+                {
+                  "label": "RR",
+                  "value": "85/50 mmHg",
+                  "abnormal": true
+                },
+                {
+                  "label": "HF",
+                  "value": "122/min",
+                  "abnormal": true
+                },
+                {
+                  "label": "AF",
+                  "value": "26/min",
+                  "abnormal": true
+                }
+              ],
+              "task": "diagnose",
+              "prompt": "Woran musst du denken?",
+              "options": [
+                "Sepsis – Notfall",
+                "Normales Fieber, Wadenwickel reichen",
+                "Hypertensive Krise",
+                "Altersbedingte Verwirrtheit"
+              ],
+              "correctIndex": 0,
+              "explanation": "Fieber mit niedrigem Blutdruck, schnellem Puls, schneller Atmung und Verwirrtheit spricht für eine Sepsis. Sofort ärztlich melden: Blutkulturen, Flüssigkeit und Antibiotika so früh wie möglich nach Anordnung."
+            },
+            {
+              "id": "u19l8q3",
+              "type": "case",
+              "patient": "Herr A., 70 Jahre",
+              "setting": "Telemetrie, Routinemessung",
+              "story": "Er sitzt entspannt im Bett und hat keine Beschwerden: keine Kopfschmerzen, keine Atemnot, kein Brustschmerz.",
+              "findings": [
+                {
+                  "label": "RR",
+                  "value": "185/100 mmHg",
+                  "abnormal": true
+                },
+                {
+                  "label": "HF",
+                  "value": "76/min"
+                },
+                {
+                  "label": "Beschwerden",
+                  "value": "keine"
+                }
+              ],
+              "task": "intervention",
+              "prompt": "Was ist richtig?",
+              "options": [
+                "Nachmessen, ärztlich melden; ohne Organzeichen wird der Blutdruck langsam über Stunden bis Tage gesenkt",
+                "Sofort Notfallteam rufen und den Blutdruck so schnell wie möglich normalisieren",
+                "Nichts tun und nicht dokumentieren",
+                "Ihn mit Nitrospray auf 110 mmHg bringen"
+              ],
+              "correctIndex": 0,
+              "explanation": "Ein hoher Blutdruck ohne Zeichen einer Organschädigung ist kein hypertensiver Notfall. Ein zu schneller Abfall kann schaden (z.B. Durchblutung von Hirn und Herz). Melden, Ursachen klären (Schmerz, Medikamente vergessen?), nach Anordnung handeln."
+            },
+            {
+              "id": "u19l8q4",
+              "type": "case",
+              "patient": "Frau R., 68 Jahre",
+              "setting": "Aufnahme nach der Beerdigung ihres Mannes",
+              "story": "Seit dem Morgen Brustschmerz und Atemnot. Im EKG ST-Hebungen. Im Herzkatheter sind die Herzkranzgefäße frei, die Herzspitze bewegt sich kaum.",
+              "findings": [
+                {
+                  "label": "Troponin",
+                  "value": "leicht erhöht",
+                  "abnormal": true
+                },
+                {
+                  "label": "Koronarien",
+                  "value": "ohne Engstelle"
+                },
+                {
+                  "label": "Herzspitze",
+                  "value": "kaum beweglich",
+                  "abnormal": true
+                }
+              ],
+              "task": "diagnose",
+              "prompt": "Was ist die wahrscheinlichste Diagnose?",
+              "options": [
+                "Takotsubo-Syndrom (Stress-Kardiomyopathie)",
+                "STEMI durch Verschluss der LAD",
+                "Lungenembolie",
+                "Perikarditis"
+              ],
+              "correctIndex": 0,
+              "explanation": "Typisch für Takotsubo: meist Frauen nach den Wechseljahren, starker emotionaler oder körperlicher Stress, Beschwerden wie beim Infarkt, aber freie Koronarien und eine ballonartig erweiterte Herzspitze (InterTAK 2018)."
+            },
+            {
+              "id": "u19l8q5",
+              "type": "case",
+              "patient": "Herr K., 19 Jahre",
+              "setting": "Aufnahme nach dem Fußballtraining",
+              "story": "Beim Sprinten ist er ohne Vorwarnung zusammengebrochen und war kurz bewusstlos. Sein Onkel ist jung plötzlich verstorben.",
+              "findings": [
+                {
+                  "label": "Synkope",
+                  "value": "unter Belastung",
+                  "abnormal": true
+                },
+                {
+                  "label": "Familie",
+                  "value": "plötzlicher Herztod",
+                  "abnormal": true
+                },
+                {
+                  "label": "EKG",
+                  "value": "Hypertrophiezeichen",
+                  "abnormal": true
+                }
+              ],
+              "task": "diagnose",
+              "prompt": "Welche Ursache muss abgeklärt werden?",
+              "options": [
+                "Eine Herzerkrankung, z.B. hypertrophe Kardiomyopathie",
+                "Einfache Ohnmacht durch Hitze, keine weitere Abklärung",
+                "Unterzucker",
+                "Hyperventilation"
+              ],
+              "correctIndex": 0,
+              "explanation": "Eine Synkope während Belastung und plötzlicher Herztod in der Familie sind Warnzeichen für eine kardiale Ursache, z.B. HCM (ESC 2023, Synkope 2018). Monitorüberwachung und Abklärung sind nötig."
+            }
+          ],
+          "sourceIds": [
+            "esc-af-2024",
+            "esc-htn-2024",
+            "esc-syncope-2018",
+            "esc-cmp-2023",
+            "intertak-2018",
+            "pschyrembel"
+          ],
+          "articleIds": [
+            "a-synkope",
+            "a-hcm",
+            "a-takotsubo",
+            "a-hypertensive-krise"
           ],
           "termIds": []
         }
