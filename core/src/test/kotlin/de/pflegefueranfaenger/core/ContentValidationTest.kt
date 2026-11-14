@@ -70,6 +70,13 @@ class ContentValidationTest {
                     if (q.correctIndex !in q.options.indices) problems += "${q.id}: correctIndex ungültig"
                     if (q.options.toSet().size != q.options.size) problems += "${q.id}: doppelte Optionen"
                 }
+                is Question.Case -> {
+                    if (q.options.size !in 2..4) problems += "${q.id}: 2–4 Antwortoptionen erwartet"
+                    if (q.correctIndex !in q.options.indices) problems += "${q.id}: correctIndex ungültig"
+                    if (q.options.toSet().size != q.options.size) problems += "${q.id}: doppelte Optionen"
+                    if (q.patient.isBlank() || q.story.isBlank() || q.prompt.isBlank()) problems += "${q.id}: Fall unvollständig"
+                    if (q.findings.any { it.label.isBlank() || it.value.isBlank() }) problems += "${q.id}: leerer Befund"
+                }
                 is Question.TrueFalse -> Unit
                 is Question.Matching -> {
                     if (q.pairs.size !in 2..5) problems += "${q.id}: 2–5 Paare erwartet"
@@ -132,5 +139,13 @@ class ContentValidationTest {
             if (a.id in a.relatedArticleIds) problems += "${a.id}: verweist auf sich selbst"
         }
         assertTrue(problems.isEmpty(), problems.joinToString("\n"))
+    }
+
+    @Test
+    fun `es gibt Fallfragen zu Diagnosen und Maßnahmen`() {
+        val cases = c.lessons.flatMap { it.questions }.filterIsInstance<Question.Case>()
+        assertTrue(cases.size >= 15, "Mindestens 15 Fallfragen erwartet, gefunden: ${cases.size}")
+        assertTrue(cases.count { it.task == de.pflegefueranfaenger.core.model.CaseTask.DIAGNOSE } >= 5)
+        assertTrue(cases.count { it.task == de.pflegefueranfaenger.core.model.CaseTask.INTERVENTION } >= 5)
     }
 }

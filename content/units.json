@@ -503,6 +503,618 @@
       ]
     },
     {
+      "id": "u18",
+      "title": "Lage- und Richtungsbegriffe",
+      "description": "Wo liegt was? Dexter, sinister, proximal, distal & Co. – mit Bildern.",
+      "level": "grundlagen",
+      "lessons": [
+        {
+          "id": "u18l1",
+          "title": "Rechts, links, oben, unten",
+          "card": {
+            "title": "Immer aus Sicht der Person",
+            "text": "Lagebegriffe gelten immer aus Sicht der Patientin oder des Patienten, nicht aus deiner. Steht oder liegt jemand vor dir und schaut dich an, ist seine rechte Seite für dich links.",
+            "bullets": [
+              "dexter = rechts, sinister = links",
+              "kranial = kopfwärts, kaudal = steißwärts (am Rumpf: fußwärts)",
+              "median = genau in der Mittellinie",
+              "Tipp: Stell dir vor, du stehst im Körper der Person."
+            ],
+            "illustration": {
+              "figure": "body_front"
+            }
+          },
+          "questions": [
+            {
+              "id": "u18l1q1",
+              "type": "single_choice",
+              "prompt": "Wie heißt die markierte Richtung?",
+              "options": [
+                "dexter (rechts)",
+                "sinister (links)",
+                "kranial",
+                "lateral"
+              ],
+              "correctIndex": 0,
+              "explanation": "Der Pfeil zeigt zur rechten Körperseite der Person = dexter. Die Person schaut dich an. Ihr rechts ist für dich links.",
+              "illustration": {
+                "figure": "body_front",
+                "highlight": "dexter",
+                "labels": false
+              }
+            },
+            {
+              "id": "u18l1q2",
+              "type": "single_choice",
+              "prompt": "Wie heißt die markierte Richtung?",
+              "options": [
+                "kranial",
+                "kaudal",
+                "dorsal",
+                "distal"
+              ],
+              "correctIndex": 0,
+              "explanation": "Kranial = kopfwärts (griech. kraníon = Schädel).",
+              "illustration": {
+                "figure": "body_front",
+                "highlight": "kranial",
+                "labels": false
+              }
+            },
+            {
+              "id": "u18l1q3",
+              "type": "true_false",
+              "statement": "„Sinister“ bedeutet rechts.",
+              "correct": false,
+              "explanation": "Falsch. Sinister = links, dexter = rechts. Eselsbrücke: Dexterität heißt Geschicklichkeit – bei den meisten Menschen ist das die rechte Hand."
+            },
+            {
+              "id": "u18l1q4",
+              "type": "matching",
+              "prompt": "Ordne die Begriffe zu.",
+              "pairs": [
+                {
+                  "left": "dexter",
+                  "right": "rechts"
+                },
+                {
+                  "left": "sinister",
+                  "right": "links"
+                },
+                {
+                  "left": "kranial",
+                  "right": "kopfwärts"
+                },
+                {
+                  "left": "kaudal",
+                  "right": "steißwärts, fußwärts"
+                }
+              ],
+              "explanation": "Dexter/sinister beschreiben die Seite, kranial/kaudal die Richtung entlang der Körperlängsachse."
+            },
+            {
+              "id": "u18l1q5",
+              "type": "single_choice",
+              "prompt": "Dein Patient liegt im Bett und schaut dich an. Er hat Schmerzen im Arm sinister. Welcher Arm ist das von dir aus gesehen?",
+              "options": [
+                "der Arm auf deiner rechten Seite",
+                "der Arm auf deiner linken Seite"
+              ],
+              "correctIndex": 0,
+              "explanation": "Sinister = sein linker Arm. Da er dich anschaut, liegt sein linker Arm auf deiner rechten Seite.",
+              "illustration": {
+                "figure": "body_front",
+                "highlight": "sinister"
+              }
+            },
+            {
+              "id": "u18l1q6",
+              "type": "word_parts",
+              "term": "kranial",
+              "parts": [
+                {
+                  "part": "krani",
+                  "meaning": "Schädel, Kopf",
+                  "origin": "griech. kraníon"
+                },
+                {
+                  "part": "al",
+                  "meaning": "betreffend, zugehörig",
+                  "origin": "lat. -alis"
+                }
+              ],
+              "distractors": [
+                "Bauch",
+                "Rücken"
+              ],
+              "meaning": "zum Kopf hin, kopfwärts",
+              "explanation": "Krani|al = den Schädel betreffend → kopfwärts."
+            }
+          ],
+          "sourceIds": [
+            "prometheus-2018",
+            "fipat-ta-2019",
+            "pschyrembel"
+          ],
+          "articleIds": [
+            "a-lagebegriffe"
+          ],
+          "termIds": [
+            "t-dexter",
+            "t-sinister",
+            "t-kranial",
+            "t-kaudal",
+            "t-median"
+          ]
+        },
+        {
+          "id": "u18l2",
+          "title": "Vorne, hinten, Mitte, Seite",
+          "card": {
+            "title": "Bauch, Rücken, Mitte, Seite",
+            "text": "Ventral und anterior meinen vorne (bauchwärts), dorsal und posterior hinten (rückenwärts). Medial heißt zur Mitte hin, lateral zur Seite hin.",
+            "bullets": [
+              "ventral / anterior = vorne",
+              "dorsal / posterior = hinten",
+              "superior = oben, inferior = unten (z.B. Vena cava superior / inferior)",
+              "medial = zur Mitte, lateral = zur Seite",
+              "bilateral = beidseits, z.B. bilaterale Beinödeme"
+            ],
+            "illustration": {
+              "figure": "body_side"
+            }
+          },
+          "questions": [
+            {
+              "id": "u18l2q1",
+              "type": "single_choice",
+              "prompt": "Wie heißt die markierte Richtung?",
+              "options": [
+                "ventral",
+                "dorsal",
+                "kaudal",
+                "medial"
+              ],
+              "correctIndex": 0,
+              "explanation": "Ventral = bauchwärts (lat. venter = Bauch). Gleichbedeutend am Rumpf: anterior = vorne.",
+              "illustration": {
+                "figure": "body_side",
+                "highlight": "ventral",
+                "labels": false
+              }
+            },
+            {
+              "id": "u18l2q2",
+              "type": "single_choice",
+              "prompt": "Wie heißt die markierte Richtung?",
+              "options": [
+                "dorsal / posterior",
+                "ventral / anterior",
+                "superior",
+                "lateral"
+              ],
+              "correctIndex": 0,
+              "explanation": "Dorsal = rückenwärts (lat. dorsum = Rücken), posterior = hinten.",
+              "illustration": {
+                "figure": "body_side",
+                "highlight": "dorsal",
+                "labels": false
+              }
+            },
+            {
+              "id": "u18l2q3",
+              "type": "single_choice",
+              "prompt": "Wie heißt die markierte Richtung?",
+              "options": [
+                "medial",
+                "lateral",
+                "median",
+                "distal"
+              ],
+              "correctIndex": 0,
+              "explanation": "Medial = zur Mitte hin. Median wäre genau auf der Mittellinie.",
+              "illustration": {
+                "figure": "body_front",
+                "highlight": "medial",
+                "labels": false
+              }
+            },
+            {
+              "id": "u18l2q4",
+              "type": "single_choice",
+              "prompt": "Wie heißt die markierte Richtung?",
+              "options": [
+                "lateral",
+                "medial",
+                "dorsal",
+                "proximal"
+              ],
+              "correctIndex": 0,
+              "explanation": "Lateral = zur Seite hin (lat. latus = Seite).",
+              "illustration": {
+                "figure": "body_front",
+                "highlight": "lateral",
+                "labels": false
+              }
+            },
+            {
+              "id": "u18l2q5",
+              "type": "matching",
+              "prompt": "Ordne die Begriffe zu.",
+              "pairs": [
+                {
+                  "left": "ventral",
+                  "right": "bauchwärts"
+                },
+                {
+                  "left": "dorsal",
+                  "right": "rückenwärts"
+                },
+                {
+                  "left": "medial",
+                  "right": "zur Mitte hin"
+                },
+                {
+                  "left": "lateral",
+                  "right": "zur Seite hin"
+                }
+              ],
+              "explanation": "Ventral/dorsal: vorne/hinten. Medial/lateral: Mitte/Seite."
+            },
+            {
+              "id": "u18l2q6",
+              "type": "word_parts",
+              "term": "bilateral",
+              "parts": [
+                {
+                  "part": "bi",
+                  "meaning": "zwei, doppelt",
+                  "origin": "lat. bis"
+                },
+                {
+                  "part": "later",
+                  "meaning": "Seite",
+                  "origin": "lat. latus, lateris"
+                },
+                {
+                  "part": "al",
+                  "meaning": "betreffend, zugehörig",
+                  "origin": "lat. -alis"
+                }
+              ],
+              "distractors": [
+                "Mitte",
+                "Rücken"
+              ],
+              "meaning": "beidseits, auf beiden Seiten",
+              "explanation": "Bi|later|al = zwei Seiten betreffend → beidseits."
+            }
+          ],
+          "sourceIds": [
+            "prometheus-2018",
+            "fipat-ta-2019",
+            "pschyrembel"
+          ],
+          "articleIds": [
+            "a-lagebegriffe"
+          ],
+          "termIds": [
+            "t-ventral",
+            "t-dorsal",
+            "t-anterior",
+            "t-posterior",
+            "t-superior",
+            "t-inferior",
+            "t-medial",
+            "t-lateral",
+            "t-bilateral"
+          ]
+        },
+        {
+          "id": "u18l3",
+          "title": "Rumpfnah, rumpffern",
+          "card": {
+            "title": "Proximal und distal",
+            "text": "An Armen und Beinen zählt der Abstand zum Rumpf: proximal = rumpfnah, distal = rumpffern. Der Ellenbogen liegt proximal der Hand, die Hand distal des Ellenbogens.",
+            "bullets": [
+              "zentral = in der Körpermitte, peripher = am Rand (Arme, Beine)",
+              "PVK = periphere Venenverweilkanüle, ZVK = zentraler Venenkatheter",
+              "Nach einer Punktion: Durchblutung distal davon prüfen (Pulse, Farbe, Temperatur)",
+              "ipsilateral = gleiche Seite, kontralateral = Gegenseite"
+            ],
+            "illustration": {
+              "figure": "limb"
+            }
+          },
+          "questions": [
+            {
+              "id": "u18l3q1",
+              "type": "single_choice",
+              "prompt": "Wie heißt die markierte Richtung?",
+              "options": [
+                "distal",
+                "proximal",
+                "lateral",
+                "kaudal"
+              ],
+              "correctIndex": 0,
+              "explanation": "Distal = vom Rumpf weg (lat. distare = entfernt sein).",
+              "illustration": {
+                "figure": "limb",
+                "highlight": "distal",
+                "labels": false
+              }
+            },
+            {
+              "id": "u18l3q2",
+              "type": "single_choice",
+              "prompt": "Wie heißt die markierte Richtung?",
+              "options": [
+                "proximal",
+                "distal",
+                "medial",
+                "dorsal"
+              ],
+              "correctIndex": 0,
+              "explanation": "Proximal = zum Rumpf hin (lat. proximus = der Nächste).",
+              "illustration": {
+                "figure": "limb",
+                "highlight": "proximal",
+                "labels": false
+              }
+            },
+            {
+              "id": "u18l3q3",
+              "type": "true_false",
+              "statement": "Die Hand liegt distal vom Ellenbogen.",
+              "correct": true,
+              "explanation": "Richtig. Die Hand ist weiter vom Rumpf entfernt als der Ellenbogen.",
+              "illustration": {
+                "figure": "limb"
+              }
+            },
+            {
+              "id": "u18l3q4",
+              "type": "single_choice",
+              "prompt": "Nach einem Herzkatheter über die rechte Leiste kontrollierst du die Durchblutung des Beins. Wo prüfst du die Pulse?",
+              "options": [
+                "distal der Punktionsstelle, z.B. an den Fußpulsen",
+                "proximal der Punktionsstelle, am Bauch",
+                "nur direkt an der Punktionsstelle",
+                "am linken Handgelenk"
+              ],
+              "correctIndex": 0,
+              "explanation": "Ein Hämatom oder Verschluss stört die Durchblutung unterhalb, also distal der Punktion. Deshalb Fußpulse, Hautfarbe, Temperatur und Gefühl im Bein prüfen."
+            },
+            {
+              "id": "u18l3q5",
+              "type": "matching",
+              "prompt": "Ordne die Begriffe zu.",
+              "pairs": [
+                {
+                  "left": "proximal",
+                  "right": "rumpfnah"
+                },
+                {
+                  "left": "distal",
+                  "right": "rumpffern"
+                },
+                {
+                  "left": "ipsilateral",
+                  "right": "auf derselben Seite"
+                },
+                {
+                  "left": "kontralateral",
+                  "right": "auf der Gegenseite"
+                }
+              ],
+              "explanation": "Proximal/distal: Abstand zum Rumpf. Ipsi-/kontralateral: gleiche Seite oder Gegenseite."
+            },
+            {
+              "id": "u18l3q6",
+              "type": "word_parts",
+              "term": "peripher",
+              "parts": [
+                {
+                  "part": "peri",
+                  "meaning": "um … herum",
+                  "origin": "griech. perí"
+                },
+                {
+                  "part": "pher",
+                  "meaning": "tragen",
+                  "origin": "griech. phérein"
+                }
+              ],
+              "distractors": [
+                "Mitte",
+                "zwischen"
+              ],
+              "meaning": "am Rand gelegen, fern vom Körperzentrum",
+              "explanation": "Peri|pher kommt von periphéreia = Umfang, Rand. Periphere Zugänge liegen an Armen oder Beinen."
+            }
+          ],
+          "sourceIds": [
+            "prometheus-2018",
+            "fipat-ta-2019",
+            "pschyrembel"
+          ],
+          "articleIds": [
+            "a-lagebegriffe"
+          ],
+          "termIds": [
+            "t-proximal",
+            "t-distal",
+            "t-peripher",
+            "t-ipsilateral",
+            "t-kontralateral"
+          ]
+        },
+        {
+          "id": "u18l4",
+          "title": "Lagebegriffe auf der Telemetrie",
+          "card": {
+            "title": "Wo genau? Herz, Elektroden, Lagerung",
+            "text": "Infarkte, Elektroden und Lagerungen werden mit Lagebegriffen beschrieben. Wer sie kennt, versteht Befunde und Übergaben schneller.",
+            "bullets": [
+              "Vorderwand = anterior (meist RIVA/LAD), Hinterwand = inferior (meist RCA), Seitenwand = lateral (meist RCX)",
+              "Interkostalraum (ICR) = Raum zwischen zwei Rippen",
+              "parasternal = neben dem Brustbein: V1 im 4. ICR rechts parasternal",
+              "Herzbettlage = Oberkörper hoch, Beine tief"
+            ],
+            "illustration": {
+              "figure": "coronaries"
+            }
+          },
+          "questions": [
+            {
+              "id": "u18l4q1",
+              "type": "single_choice",
+              "prompt": "Wie heißt diese Lagerung?",
+              "options": [
+                "Herzbettlage",
+                "Flachlage",
+                "Oberkörperhochlage 30°",
+                "Schocklage"
+              ],
+              "correctIndex": 0,
+              "explanation": "Herzbettlage: Oberkörper hoch, Beine tief. Weniger Blut fließt zum Herzen zurück, die Lunge wird entlastet. Nicht bei niedrigem Blutdruck oder Schock.",
+              "illustration": {
+                "figure": "positioning",
+                "highlight": "herzbett",
+                "labels": false
+              }
+            },
+            {
+              "id": "u18l4q2",
+              "type": "single_choice",
+              "prompt": "V1 klebt im 4. ICR rechts parasternal (markiert). Was bedeutet parasternal?",
+              "options": [
+                "neben dem Brustbein",
+                "unter dem Schlüsselbein",
+                "in der Achselhöhle",
+                "über dem Rippenbogen"
+              ],
+              "correctIndex": 0,
+              "explanation": "Para = neben, Sternum = Brustbein. V1 liegt rechts neben dem Brustbein im 4. Zwischenrippenraum.",
+              "illustration": {
+                "figure": "electrodes",
+                "highlight": "weiss",
+                "labels": false
+              }
+            },
+            {
+              "id": "u18l4q3",
+              "type": "single_choice",
+              "prompt": "Das markierte Gefäß versorgt vor allem die Vorderwand. Wie heißt es?",
+              "options": [
+                "RIVA / LAD",
+                "RCA",
+                "RCX",
+                "Hauptstamm"
+              ],
+              "correctIndex": 0,
+              "explanation": "Der RIVA (Ramus interventricularis anterior, engl. LAD) läuft vorne zwischen den Kammern zur Herzspitze. Ein Verschluss führt zum Vorderwandinfarkt.",
+              "illustration": {
+                "figure": "coronaries",
+                "highlight": "lad",
+                "labels": false
+              }
+            },
+            {
+              "id": "u18l4q4",
+              "type": "single_choice",
+              "prompt": "Ein Hinterwandinfarkt wird im EKG-Befund meist als … bezeichnet.",
+              "options": [
+                "inferior",
+                "anterior",
+                "lateral",
+                "septal"
+              ],
+              "correctIndex": 0,
+              "explanation": "Hinterwand = inferior (Ableitungen II, III, aVF), meist durch Verschluss der RCA. Achte dabei auf Bradykardie und AV-Block.",
+              "illustration": {
+                "figure": "coronaries",
+                "highlight": "rca"
+              }
+            },
+            {
+              "id": "u18l4q5",
+              "type": "matching",
+              "prompt": "Ordne die Begriffe zu.",
+              "pairs": [
+                {
+                  "left": "Interkostalraum",
+                  "right": "Raum zwischen zwei Rippen"
+                },
+                {
+                  "left": "parasternal",
+                  "right": "neben dem Brustbein"
+                },
+                {
+                  "left": "anterior",
+                  "right": "vorne"
+                },
+                {
+                  "left": "inferior",
+                  "right": "unten"
+                }
+              ],
+              "explanation": "Diese Begriffe brauchst du für Elektroden und Infarktlokalisation."
+            },
+            {
+              "id": "u18l4q6",
+              "type": "word_parts",
+              "term": "interkostal",
+              "parts": [
+                {
+                  "part": "inter",
+                  "meaning": "zwischen",
+                  "origin": "lat. inter"
+                },
+                {
+                  "part": "kost",
+                  "meaning": "Rippe",
+                  "origin": "lat. costa"
+                },
+                {
+                  "part": "al",
+                  "meaning": "betreffend, zugehörig",
+                  "origin": "lat. -alis"
+                }
+              ],
+              "distractors": [
+                "unter",
+                "Brustbein"
+              ],
+              "meaning": "zwischen den Rippen gelegen",
+              "explanation": "Inter|kost|al = zwischen den Rippen. ICR = Interkostalraum."
+            }
+          ],
+          "sourceIds": [
+            "prometheus-2018",
+            "fipat-ta-2019",
+            "pschyrembel",
+            "aha-monitoring-2017",
+            "esc-acs-2023",
+            "icare-2020"
+          ],
+          "articleIds": [
+            "a-lagebegriffe",
+            "a-elektroden",
+            "a-stemi",
+            "a-lagerung-herz"
+          ],
+          "termIds": [
+            "t-interkostal",
+            "t-parasternal",
+            "t-anterior",
+            "t-inferior"
+          ]
+        }
+      ]
+    },
+    {
       "id": "u2",
       "title": "Herz & Kreislauf",
       "level": "grundlagen",
@@ -519,7 +1131,10 @@
               "→ Pulmonalklappe → Lungenarterie → Lunge",
               "→ Lungenvenen → linker Vorhof → Mitralklappe → linke Kammer",
               "→ Aortenklappe → Aorta → Körper"
-            ]
+            ],
+            "illustration": {
+              "figure": "heart_anatomy"
+            }
           },
           "questions": [
             {
@@ -591,6 +1206,24 @@
                 }
               ],
               "explanation": "Die linke Kammer hat die dickste Wand, weil sie gegen den hohen Druck im Körperkreislauf pumpt."
+            },
+            {
+              "id": "u2l1q6",
+              "type": "single_choice",
+              "prompt": "Welche Klappe ist markiert?",
+              "options": [
+                "Mitralklappe",
+                "Trikuspidalklappe",
+                "Aortenklappe",
+                "Pulmonalklappe"
+              ],
+              "correctIndex": 0,
+              "explanation": "Die Mitralklappe liegt zwischen linkem Vorhof und linker Kammer.",
+              "illustration": {
+                "figure": "heart_anatomy",
+                "highlight": "mitralklappe",
+                "labels": false
+              }
             }
           ],
           "sourceIds": [
@@ -612,7 +1245,10 @@
               "AV-Knoten: verzögert die Überleitung; Ersatzrhythmus ca. 40–60/min",
               "His-Bündel → Tawara-Schenkel → Purkinje-Fasern",
               "Kammer-Ersatzrhythmus: ca. 20–40/min, breite QRS-Komplexe"
-            ]
+            ],
+            "illustration": {
+              "figure": "conduction"
+            }
           },
           "questions": [
             {
@@ -684,6 +1320,24 @@
               ],
               "correctIndex": 2,
               "explanation": "Kammereigene Ersatzrhythmen sind langsam und breit, weil die Erregung nicht über das schnelle Leitungssystem läuft."
+            },
+            {
+              "id": "u2l2q6",
+              "type": "single_choice",
+              "prompt": "Welche Struktur ist markiert?",
+              "options": [
+                "AV-Knoten",
+                "Sinusknoten",
+                "His-Bündel",
+                "Purkinje-Fasern"
+              ],
+              "correctIndex": 0,
+              "explanation": "Der AV-Knoten liegt zwischen Vorhöfen und Kammern und verzögert die Überleitung (PQ-Zeit).",
+              "illustration": {
+                "figure": "conduction",
+                "highlight": "av_knoten",
+                "labels": false
+              }
             }
           ],
           "sourceIds": [
@@ -798,7 +1452,10 @@
               "Schwarz: rechts unten (Neutralelektrode)",
               "Weiß: Brustwandelektrode (bei 5-Kanal)",
               "Merkhilfe: Ampel im Uhrzeigersinn ab rechter Schulter – rot, gelb, grün"
-            ]
+            ],
+            "illustration": {
+              "figure": "electrodes"
+            }
           },
           "questions": [
             {
@@ -864,6 +1521,24 @@
               "statement": "Bei AHA-Farben (z.B. Geräte aus den USA) ist die Elektrode für den rechten Arm weiß. Achte deshalb immer auf die Beschriftung (R/RA).",
               "correct": true,
               "explanation": "Richtig. Es gibt zwei Farbsysteme (IEC und AHA). Die Buchstaben auf der Elektrode sind eindeutig."
+            },
+            {
+              "id": "u3l1q6",
+              "type": "single_choice",
+              "prompt": "Welche Elektrode (IEC) gehört an die markierte Stelle?",
+              "options": [
+                "Gelb (L)",
+                "Rot (R)",
+                "Grün (F)",
+                "Schwarz (N)"
+              ],
+              "correctIndex": 0,
+              "explanation": "Links unter dem Schlüsselbein klebt Gelb. Ampel im Uhrzeigersinn ab rechter Schulter: rot, gelb, grün.",
+              "illustration": {
+                "figure": "electrodes",
+                "highlight": "gelb",
+                "labels": false
+              }
             }
           ],
           "sourceIds": [
@@ -886,7 +1561,10 @@
               "Herzfrequenz ≈ 300 ÷ Anzahl großer Kästchen zwischen zwei R-Zacken",
               "PQ-Zeit: 0,12–0,20 s · QRS: unter 0,12 s",
               "QTc: Männer bis 450 ms, Frauen bis 460 ms"
-            ]
+            ],
+            "illustration": {
+              "figure": "ecg_waves"
+            }
           },
           "questions": [
             {
@@ -1044,6 +1722,24 @@
               ],
               "correctIndex": 0,
               "explanation": "Eine Sinustachykardie ist meist eine Reaktion des Körpers. Suche die Ursache und behandle nicht nur die Frequenz."
+            },
+            {
+              "id": "u3l3q6",
+              "type": "single_choice",
+              "prompt": "Was ist in der EKG-Kurve markiert?",
+              "options": [
+                "P-Welle",
+                "T-Welle",
+                "QRS-Komplex",
+                "U-Welle"
+              ],
+              "correctIndex": 0,
+              "explanation": "Die P-Welle zeigt die Erregung der Vorhöfe. Beim Sinusrhythmus steht vor jedem QRS-Komplex eine P-Welle.",
+              "illustration": {
+                "figure": "ecg_waves",
+                "highlight": "p",
+                "labels": false
+              }
             }
           ],
           "sourceIds": [
@@ -2140,7 +2836,11 @@
               "Auslöser: Infekt, Rhythmusstörung, Ischämie, Medikamentenpause, Salz, NSAR",
               "Therapie: Oberkörper hoch, Schleifendiuretika i.v., O₂ bei SpO₂ unter 90 %",
               "Pflege: tägliches Gewicht, Bilanz, Atmung, Kalium und Niere"
-            ]
+            ],
+            "illustration": {
+              "figure": "positioning",
+              "highlight": "herzbett"
+            }
           },
           "questions": [
             {
@@ -2261,7 +2961,10 @@
               "Troponin nach festem Zeitschema abnehmen",
               "Herzkatheter innerhalb von 24 h, bei sehr hohem Risiko sofort",
               "DAPT: ASS + P2Y12-Hemmer"
-            ]
+            ],
+            "illustration": {
+              "figure": "coronaries"
+            }
           },
           "questions": [
             {
@@ -2357,7 +3060,10 @@
               "Primäre PCI, Ziel unter 120 min ab Diagnose",
               "Hinterwand (II, III, aVF): Bradykardie und AV-Block möglich",
               "Größte Gefahr in den ersten Stunden: Kammerflimmern"
-            ]
+            ],
+            "illustration": {
+              "figure": "coronaries"
+            }
           },
           "questions": [
             {
@@ -2434,6 +3140,24 @@
               ],
               "meaning": "Herzinfarkt",
               "explanation": "Myo = Muskel, kard = Herz, Infarkt = Gewebeuntergang durch fehlende Durchblutung."
+            },
+            {
+              "id": "u7l5q6",
+              "type": "single_choice",
+              "prompt": "Welches Herzkranzgefäß ist markiert?",
+              "options": [
+                "RCA (rechte Koronararterie)",
+                "RIVA / LAD",
+                "RCX",
+                "Hauptstamm"
+              ],
+              "correctIndex": 0,
+              "explanation": "Die RCA verläuft rechts in der Herzkranzfurche zur Hinterwand. Ihr Verschluss führt meist zum Hinterwandinfarkt (inferior).",
+              "illustration": {
+                "figure": "coronaries",
+                "highlight": "rca",
+                "labels": false
+              }
             }
           ],
           "sourceIds": [
@@ -3228,7 +3952,11 @@
               "rSR' in V1/V2, breites S in I und V6",
               "neu + Atemnot: an Lungenembolie denken",
               "RSB + linksanteriorer Hemiblock = bifaszikulärer Block"
-            ]
+            ],
+            "illustration": {
+              "figure": "conduction",
+              "highlight": "tawara"
+            }
           },
           "questions": [
             {
@@ -3313,7 +4041,10 @@
               "Medikamente: ASS, Statin, Anti-Angina",
               "Revaskularisation: PCI oder Bypass-OP",
               "bei Diabetes oft Bypass bevorzugt"
-            ]
+            ],
+            "illustration": {
+              "figure": "coronaries"
+            }
           },
           "questions": [
             {
@@ -3720,7 +4451,11 @@
               "Echo: Schweregrad",
               "TAVI oder OP – das Herzteam entscheidet",
               "Vorsicht mit Nitraten"
-            ]
+            ],
+            "illustration": {
+              "figure": "heart_anatomy",
+              "highlight": "aortenklappe"
+            }
           },
           "questions": [
             {
@@ -3804,7 +4539,11 @@
               "sekundär: Kammer/Vorhof erweitert",
               "Reparatur vor Ersatz",
               "TEER (MitraClip) bei hohem OP-Risiko"
-            ]
+            ],
+            "illustration": {
+              "figure": "heart_anatomy",
+              "highlight": "mitralklappe"
+            }
           },
           "questions": [
             {
@@ -3898,7 +4637,11 @@
               "D-Dimere, CT-Angiographie",
               "Antikoagulation schon bei Verdacht",
               "Schock → Thrombolyse"
-            ]
+            ],
+            "illustration": {
+              "figure": "heart_anatomy",
+              "highlight": "lungenarterie"
+            }
           },
           "questions": [
             {
@@ -4202,7 +4945,11 @@
               "Mobitz II: plötzlicher Ausfall",
               "III°: P und QRS unabhängig – Schrittmacher"
             ],
-            "strip": "av3"
+            "strip": "av3",
+            "illustration": {
+              "figure": "conduction",
+              "highlight": "av_knoten"
+            }
           },
           "questions": [
             {
@@ -4300,7 +5047,11 @@
               "Tachy-Brady: Pause nach Herzrasen",
               "Symptom und Monitor zuordnen",
               "Therapie: Schrittmacher"
-            ]
+            ],
+            "illustration": {
+              "figure": "conduction",
+              "highlight": "sinusknoten"
+            }
           },
           "questions": [
             {
@@ -6736,6 +7487,828 @@
           "termIds": [
             "t-bradykardie"
           ]
+        }
+      ]
+    },
+    {
+      "id": "u19",
+      "title": "Fallbeispiele: Was liegt vor, was tust du?",
+      "description": "Patientinnen und Patienten mit aktuellen Beschwerden: Diagnose erkennen, richtige Maßnahme wählen.",
+      "level": "station",
+      "lessons": [
+        {
+          "id": "u19l1",
+          "title": "Brustschmerz und Atemnot",
+          "card": {
+            "title": "So gehst du einen Fall an",
+            "text": "Bei jedem Fall gilt: Erst die Patientin oder den Patienten anschauen, dann die Werte. Frage dich: Ist das gefährlich? Was ist der nächste sichere Schritt?",
+            "bullets": [
+              "Bewusstsein, Atmung, Kreislauf zuerst",
+              "Auffällige Werte sind in den Fällen rot markiert",
+              "Bei Gefahr: sofort ärztlich melden oder Notfallteam rufen",
+              "Diagnosen stellt die Ärztin oder der Arzt – du erkennst Warnzeichen und handelst"
+            ],
+            "illustration": {
+              "figure": "heart_anatomy"
+            }
+          },
+          "questions": [
+            {
+              "id": "u19l1q1",
+              "type": "case",
+              "patient": "Herr B., 64 Jahre",
+              "setting": "Telemetrie, Aufnahme wegen Vorhofflimmern",
+              "story": "Er klingelt: Seit 15 Minuten drückender Schmerz hinter dem Brustbein, ausstrahlend in den linken Arm. Er ist blass und kaltschweißig.",
+              "findings": [
+                {
+                  "label": "RR",
+                  "value": "150/90 mmHg"
+                },
+                {
+                  "label": "HF",
+                  "value": "98/min",
+                  "abnormal": true
+                },
+                {
+                  "label": "SpO₂",
+                  "value": "95 %"
+                },
+                {
+                  "label": "Schmerz",
+                  "value": "NRS 7",
+                  "abnormal": true
+                }
+              ],
+              "task": "intervention",
+              "prompt": "Was tust du zuerst?",
+              "options": [
+                "Ärztin/Arzt sofort informieren und ein 12-Kanal-EKG schreiben (lassen)",
+                "Bedarfsschmerzmittel geben und in einer Stunde nachfragen",
+                "Ihn zur Entspannung über den Flur gehen lassen",
+                "Bei der nächsten Visite erwähnen"
+              ],
+              "correctIndex": 0,
+              "explanation": "Verdacht auf akutes Koronarsyndrom: Das 12-Kanal-EKG soll innerhalb von 10 Minuten vorliegen und ärztlich beurteilt werden (ESC 2023). Patient nicht allein lassen, Vitalzeichen überwachen, Bettruhe."
+            },
+            {
+              "id": "u19l1q2",
+              "type": "case",
+              "patient": "Frau S., 78 Jahre",
+              "setting": "Telemetrie, bekannte HFrEF",
+              "story": "Nachts zunehmende Atemnot, sie kann nur noch im Sitzen schlafen. Über der Lunge hörst du feuchte Rasselgeräusche, beide Unterschenkel sind geschwollen. Gewicht +3 kg in 3 Tagen.",
+              "findings": [
+                {
+                  "label": "RR",
+                  "value": "165/95 mmHg",
+                  "abnormal": true
+                },
+                {
+                  "label": "HF",
+                  "value": "105/min",
+                  "abnormal": true
+                },
+                {
+                  "label": "AF",
+                  "value": "28/min",
+                  "abnormal": true
+                },
+                {
+                  "label": "SpO₂",
+                  "value": "88 %",
+                  "abnormal": true
+                },
+                {
+                  "label": "Gewicht",
+                  "value": "+3 kg / 3 Tage",
+                  "abnormal": true
+                }
+              ],
+              "task": "diagnose",
+              "prompt": "Was liegt am wahrscheinlichsten vor?",
+              "options": [
+                "Kardiale Dekompensation mit Lungenstauung",
+                "Ambulant erworbene Pneumonie",
+                "Hypoglykämie",
+                "Hypertensive Krise ohne Herzbeteiligung"
+              ],
+              "correctIndex": 0,
+              "explanation": "Orthopnoe, Rasselgeräusche, Ödeme und schnelle Gewichtszunahme sprechen für Wassereinlagerung bei Herzinsuffizienz (ESC 2021). Wichtig: Gewicht täglich, Ein- und Ausfuhr, Atmung und SpO₂ beobachten."
+            },
+            {
+              "id": "u19l1q3",
+              "type": "case",
+              "patient": "Frau S., 78 Jahre",
+              "setting": "Gleiche Patientin, ärztlich informiert",
+              "story": "Die Ärztin ist unterwegs. Frau S. sitzt nach vorne gebeugt im Bett, ringt nach Luft und hat Angst.",
+              "findings": [
+                {
+                  "label": "RR",
+                  "value": "160/95 mmHg",
+                  "abnormal": true
+                },
+                {
+                  "label": "AF",
+                  "value": "30/min",
+                  "abnormal": true
+                },
+                {
+                  "label": "SpO₂",
+                  "value": "87 %",
+                  "abnormal": true
+                }
+              ],
+              "task": "intervention",
+              "prompt": "Welche Lagerung hilft ihr jetzt am meisten?",
+              "options": [
+                "Herzbettlage: Oberkörper hoch, Beine tief",
+                "Flachlage",
+                "Beine hochlagern (Schocklage)",
+                "Seitenlage auf flachem Bett"
+              ],
+              "correctIndex": 0,
+              "explanation": "Herzbettlage senkt den Rückstrom zum Herzen (Vorlast) und erleichtert die Atmung. Bei normalem oder hohem Blutdruck ist das sinnvoll; bei niedrigem Blutdruck nicht. Sauerstoff nach Anordnung, beruhigen, nicht allein lassen."
+            },
+            {
+              "id": "u19l1q4",
+              "type": "case",
+              "patient": "Herr T., 67 Jahre",
+              "setting": "Telemetrie, seit 5 Tagen überwiegend bettlägerig",
+              "story": "Plötzlich Atemnot und stechender Schmerz beim Einatmen. Die rechte Wade ist dicker als die linke und druckschmerzhaft.",
+              "findings": [
+                {
+                  "label": "HF",
+                  "value": "118/min",
+                  "abnormal": true
+                },
+                {
+                  "label": "AF",
+                  "value": "26/min",
+                  "abnormal": true
+                },
+                {
+                  "label": "SpO₂",
+                  "value": "89 %",
+                  "abnormal": true
+                },
+                {
+                  "label": "RR",
+                  "value": "105/70 mmHg"
+                }
+              ],
+              "task": "diagnose",
+              "prompt": "Woran denkst du zuerst?",
+              "options": [
+                "Lungenembolie",
+                "Akuter Herzinfarkt",
+                "Asthmaanfall",
+                "Panikattacke"
+              ],
+              "correctIndex": 0,
+              "explanation": "Immobilität, Zeichen einer Beinvenenthrombose und plötzliche Atemnot mit Tachykardie und Sauerstoffmangel sind typisch für eine Lungenembolie (ESC 2019). Sofort ärztlich melden, Oberkörper hoch, Sauerstoff nach Anordnung, Kreislauf engmaschig überwachen."
+            },
+            {
+              "id": "u19l1q5",
+              "type": "case",
+              "patient": "Frau L., 55 Jahre",
+              "setting": "Telemetrie, schlecht eingestellter Bluthochdruck",
+              "story": "Schlagartig einsetzender, reißender Schmerz zwischen den Schulterblättern, „wie nie zuvor“. Der Blutdruck ist am rechten und linken Arm deutlich verschieden.",
+              "findings": [
+                {
+                  "label": "RR rechts",
+                  "value": "190/100 mmHg",
+                  "abnormal": true
+                },
+                {
+                  "label": "RR links",
+                  "value": "150/85 mmHg",
+                  "abnormal": true
+                },
+                {
+                  "label": "HF",
+                  "value": "104/min",
+                  "abnormal": true
+                }
+              ],
+              "task": "diagnose",
+              "prompt": "Welche lebensbedrohliche Ursache musst du sofort melden?",
+              "options": [
+                "Aortendissektion",
+                "Bandscheibenvorfall",
+                "Gallenkolik",
+                "Muskelverspannung"
+              ],
+              "correctIndex": 0,
+              "explanation": "Plötzlicher, reißender Rücken- oder Brustschmerz und Blutdruckunterschiede zwischen den Armen sind Warnzeichen einer Aortendissektion. Sofort ärztlich melden, Patientin nicht mobilisieren, Blutdruck an beiden Armen dokumentieren."
+            }
+          ],
+          "sourceIds": [
+            "esc-acs-2023",
+            "esc-hf-2021",
+            "esc-pe-2019",
+            "icare-2020"
+          ],
+          "articleIds": [
+            "a-acs",
+            "a-dekompensation",
+            "a-lungenembolie",
+            "a-aortendissektion",
+            "a-lagerung-herz"
+          ],
+          "termIds": []
+        },
+        {
+          "id": "u19l2",
+          "title": "Notfälle am Monitor",
+          "card": {
+            "title": "Patient vor Monitor",
+            "text": "Ein Alarm ist ein Hinweis, keine Diagnose. Ein wacher, sprechender Mensch hat keinen Herzstillstand. Ein bewusstloser Mensch ohne normale Atmung braucht sofort Hilfe – egal, was der Monitor zeigt.",
+            "bullets": [
+              "Erst Patient, dann Monitor",
+              "Bewusstlos und keine normale Atmung → Notfallteam, Herzdruckmassage",
+              "Langsamer Puls mit Schwindel oder niedrigem Blutdruck → sofort melden",
+              "Kritische Laborwerte immer sofort weitergeben"
+            ],
+            "illustration": {
+              "figure": "electrodes"
+            }
+          },
+          "questions": [
+            {
+              "id": "u19l2q1",
+              "type": "case",
+              "patient": "Herr K., 70 Jahre",
+              "setting": "Telemetrie, Monitoralarm",
+              "story": "Du gehst sofort ins Zimmer. Herr K. reagiert nicht auf Ansprache und Schmerzreiz, er atmet nicht normal.",
+              "findings": [
+                {
+                  "label": "Bewusstsein",
+                  "value": "nicht ansprechbar",
+                  "abnormal": true
+                },
+                {
+                  "label": "Atmung",
+                  "value": "keine normale Atmung",
+                  "abnormal": true
+                }
+              ],
+              "task": "intervention",
+              "prompt": "Was tust du?",
+              "options": [
+                "Hilfe/Notfallteam rufen, sofort mit Herzdruckmassage beginnen, Defibrillator bringen lassen",
+                "Elektroden kontrollieren und den Alarm quittieren",
+                "Blutzucker messen",
+                "Ärztin anrufen und auf Rückruf warten"
+              ],
+              "correctIndex": 0,
+              "explanation": "Kein Bewusstsein, keine normale Atmung und Kammerflimmern am Monitor: Herz-Kreislauf-Stillstand. Notfallteam alarmieren, Thoraxkompressionen beginnen und so früh wie möglich defibrillieren (ERC).",
+              "strip": "vf"
+            },
+            {
+              "id": "u19l2q2",
+              "type": "case",
+              "patient": "Herr F., 59 Jahre",
+              "setting": "Telemetrie, Alarm „Kammerflimmern“",
+              "story": "Du betrittst das Zimmer: Herr F. steht am Waschbecken und putzt sich gerade energisch die Zähne. Er grüßt dich.",
+              "findings": [
+                {
+                  "label": "Bewusstsein",
+                  "value": "wach, spricht"
+                },
+                {
+                  "label": "Hautfarbe",
+                  "value": "rosig"
+                }
+              ],
+              "task": "diagnose",
+              "prompt": "Was zeigt der Monitor am wahrscheinlichsten?",
+              "options": [
+                "Bewegungsartefakt",
+                "Kammerflimmern",
+                "Kammertachykardie",
+                "Asystolie"
+              ],
+              "correctIndex": 0,
+              "explanation": "Erst den Patienten anschauen, dann den Monitor: Wer wach ist und spricht, hat kein Kammerflimmern. Bewegungen erzeugen Artefakte. Danach Elektroden und Kabel prüfen.",
+              "strip": "artifact"
+            },
+            {
+              "id": "u19l2q3",
+              "type": "case",
+              "patient": "Frau M., 81 Jahre",
+              "setting": "Telemetrie, seit heute schwindelig",
+              "story": "Ihr ist schwindelig, beim Aufsetzen wird ihr „schwarz vor Augen“. Am Monitor laufen P-Wellen und QRS-Komplexe unabhängig voneinander.",
+              "findings": [
+                {
+                  "label": "HF",
+                  "value": "34/min",
+                  "abnormal": true
+                },
+                {
+                  "label": "RR",
+                  "value": "85/50 mmHg",
+                  "abnormal": true
+                },
+                {
+                  "label": "Bewusstsein",
+                  "value": "wach"
+                }
+              ],
+              "task": "diagnose",
+              "prompt": "Welche Rhythmusstörung liegt vor?",
+              "options": [
+                "AV-Block III. Grades",
+                "AV-Block I. Grades",
+                "Vorhofflimmern",
+                "Sinustachykardie"
+              ],
+              "correctIndex": 0,
+              "explanation": "Beim AV-Block III° wird keine Vorhoferregung zu den Kammern übergeleitet; ein langsamer Ersatzrhythmus übernimmt. Mit Schwindel und niedrigem Blutdruck ist das ein Notfall: sofort ärztlich melden, Patientin hinlegen, Pacing kann nötig werden.",
+              "strip": "av3"
+            },
+            {
+              "id": "u19l2q4",
+              "type": "case",
+              "patient": "Herr P., 72 Jahre",
+              "setting": "Telemetrie, Aufnahme wegen Atemnot",
+              "story": "Er spürt seit zwei Stunden Herzrasen. Der Puls ist völlig unregelmäßig.",
+              "findings": [
+                {
+                  "label": "HF",
+                  "value": "um 140/min, unregelmäßig",
+                  "abnormal": true
+                },
+                {
+                  "label": "RR",
+                  "value": "125/80 mmHg"
+                },
+                {
+                  "label": "SpO₂",
+                  "value": "95 %"
+                }
+              ],
+              "task": "diagnose",
+              "prompt": "Was zeigt der Monitor?",
+              "options": [
+                "Vorhofflimmern mit schneller Überleitung",
+                "Sinusrhythmus",
+                "Kammerflimmern",
+                "AV-Block III. Grades"
+              ],
+              "correctIndex": 0,
+              "explanation": "Unregelmäßig unregelmäßige RR-Abstände ohne erkennbare P-Wellen: Vorhofflimmern (ESC 2024). Ärztlich melden, Kreislauf beobachten, Antikoagulation und Frequenzkontrolle werden ärztlich entschieden.",
+              "strip": "afib"
+            },
+            {
+              "id": "u19l2q5",
+              "type": "case",
+              "patient": "Herr W., 66 Jahre",
+              "setting": "Telemetrie, hochdosiert Furosemid",
+              "story": "Der Monitor meldet gehäuft Extrasystolen. Das Labor ruft an: Kalium 2,9 mmol/l.",
+              "findings": [
+                {
+                  "label": "Kalium",
+                  "value": "2,9 mmol/l",
+                  "abnormal": true
+                },
+                {
+                  "label": "HF",
+                  "value": "82/min"
+                },
+                {
+                  "label": "RR",
+                  "value": "130/80 mmHg"
+                }
+              ],
+              "task": "intervention",
+              "prompt": "Was ist jetzt richtig?",
+              "options": [
+                "Wert sofort ärztlich melden; Kaliumgabe nach Anordnung, Monitor weiter beobachten",
+                "Eine Banane anbieten, das reicht",
+                "Eine zusätzliche Dosis Furosemid geben",
+                "Den Wert bis zur Visite liegen lassen"
+              ],
+              "correctIndex": 0,
+              "explanation": "Hypokaliämie macht Rhythmusstörungen wahrscheinlicher, besonders unter Diuretika und Digitalis. Kritische Laborwerte immer sofort melden; Kalium wird nach ärztlicher Anordnung ersetzt.",
+              "strip": "ves"
+            }
+          ],
+          "sourceIds": [
+            "erc-als-2021",
+            "aha-monitoring-2017",
+            "esc-af-2024",
+            "esc-pacing-2021",
+            "erc-special-2021"
+          ],
+          "articleIds": [
+            "a-reanimation",
+            "a-alarme",
+            "a-av-block",
+            "a-vorhofflimmern",
+            "a-hypokaliaemie"
+          ],
+          "termIds": []
+        },
+        {
+          "id": "u19l3",
+          "title": "Nach Eingriffen und auf Station",
+          "card": {
+            "title": "Komplikationen früh erkennen",
+            "text": "Viele Komplikationen kündigen sich durch Veränderungen der Vitalzeichen und neue Beschwerden an. Vergleiche immer mit den Vorwerten.",
+            "bullets": [
+              "Blutdruck fällt + Herzfrequenz steigt = Warnzeichen für Blutung oder Schock",
+              "Nach Punktion: Durchblutung distal prüfen",
+              "Blutzucker bei Verwirrtheit messen",
+              "Nach Medikamentengabe Wirkung und Nebenwirkung beobachten"
+            ],
+            "illustration": {
+              "figure": "limb"
+            }
+          },
+          "questions": [
+            {
+              "id": "u19l3q1",
+              "type": "case",
+              "patient": "Herr D., 61 Jahre",
+              "setting": "3 Stunden nach Herzkatheter über die rechte Leiste",
+              "story": "Er klagt über zunehmende Rücken- und Flankenschmerzen. Er ist blass und unruhig. Der Druckverband sieht trocken aus.",
+              "findings": [
+                {
+                  "label": "RR",
+                  "value": "90/55 mmHg (vorher 140/80)",
+                  "abnormal": true
+                },
+                {
+                  "label": "HF",
+                  "value": "115/min",
+                  "abnormal": true
+                },
+                {
+                  "label": "Haut",
+                  "value": "blass, kaltschweißig",
+                  "abnormal": true
+                }
+              ],
+              "task": "diagnose",
+              "prompt": "Woran musst du denken?",
+              "options": [
+                "Blutung nach innen (retroperitoneale Blutung)",
+                "Hexenschuss vom langen Liegen",
+                "Harnwegsinfekt",
+                "Normale Reaktion nach dem Eingriff"
+              ],
+              "correctIndex": 0,
+              "explanation": "Rücken- oder Flankenschmerz mit Blutdruckabfall und Herzfrequenzanstieg nach femoraler Punktion kann eine Blutung hinter das Bauchfell sein, auch bei trockenem Verband. Sofort ärztlich melden, Vitalzeichen engmaschig, flach lagern."
+            },
+            {
+              "id": "u19l3q2",
+              "type": "case",
+              "patient": "Frau A., 68 Jahre",
+              "setting": "2 Stunden nach Herzkatheter über das rechte Handgelenk",
+              "story": "Sie sagt, die rechte Hand kribble und sei „taub“. Die Finger sind blass und kühl, das Kompressionsarmband liegt noch an.",
+              "findings": [
+                {
+                  "label": "Hand rechts",
+                  "value": "blass, kühl, kribbelt",
+                  "abnormal": true
+                },
+                {
+                  "label": "RR",
+                  "value": "135/80 mmHg"
+                },
+                {
+                  "label": "Punktionsstelle",
+                  "value": "trocken"
+                }
+              ],
+              "task": "intervention",
+              "prompt": "Was tust du?",
+              "options": [
+                "Durchblutung, Motorik und Gefühl prüfen, ärztlich melden und das Armband nach Standard entlasten",
+                "Hand hochlagern und morgen nachschauen",
+                "Das Armband noch fester ziehen",
+                "Eine Wärmflasche auf die Hand legen"
+              ],
+              "correctIndex": 0,
+              "explanation": "Blasse, kühle, taube Hand nach radialem Zugang spricht für zu starken Druck oder einen Gefäßverschluss. DMS prüfen, sofort melden und das Kompressionsband nach Hausstandard entlasten."
+            },
+            {
+              "id": "u19l3q3",
+              "type": "case",
+              "patient": "Frau E., 70 Jahre",
+              "setting": "Telemetrie, Diabetes mit Insulin",
+              "story": "Beim Rundgang ist sie verwirrt, zittert und schwitzt stark. Sie kann schlucken und reagiert auf Ansprache.",
+              "findings": [
+                {
+                  "label": "Blutzucker",
+                  "value": "45 mg/dl (2,5 mmol/l)",
+                  "abnormal": true
+                },
+                {
+                  "label": "Bewusstsein",
+                  "value": "wach, verwirrt",
+                  "abnormal": true
+                },
+                {
+                  "label": "Haut",
+                  "value": "kaltschweißig",
+                  "abnormal": true
+                }
+              ],
+              "task": "intervention",
+              "prompt": "Was tust du zuerst?",
+              "options": [
+                "Schnell wirksame Kohlenhydrate geben (z.B. Traubenzucker), danach Blutzucker kontrollieren und ärztlich melden",
+                "Insulin nach Schema spritzen",
+                "Sie schlafen lassen und später messen",
+                "Nur die Hautfeuchtigkeit dokumentieren"
+              ],
+              "correctIndex": 0,
+              "explanation": "Hypoglykämie: Bei wacher Patientin, die schlucken kann, sofort schnell wirksame Kohlenhydrate geben und den Blutzucker nach etwa 15 Minuten kontrollieren. Ist sie nicht mehr wach, nichts über den Mund geben – Notruf."
+            },
+            {
+              "id": "u19l3q4",
+              "type": "case",
+              "patient": "Herr G., 74 Jahre",
+              "setting": "Telemetrie, Brustschmerz, Nitrospray nach Anordnung erhalten",
+              "story": "Zehn Minuten nach zwei Hüben Nitrospray ist ihm schwindelig und übel.",
+              "findings": [
+                {
+                  "label": "RR",
+                  "value": "80/50 mmHg",
+                  "abnormal": true
+                },
+                {
+                  "label": "HF",
+                  "value": "96/min"
+                },
+                {
+                  "label": "Bewusstsein",
+                  "value": "wach"
+                }
+              ],
+              "task": "intervention",
+              "prompt": "Was ist richtig?",
+              "options": [
+                "Flach lagern, keine weitere Nitrogabe, Vitalzeichen kontrollieren und ärztlich melden",
+                "Noch einen Hub Nitrospray geben",
+                "Ihn aufstehen lassen, damit der Kreislauf in Schwung kommt",
+                "Herzbettlage mit hängenden Beinen"
+              ],
+              "correctIndex": 0,
+              "explanation": "Nitrate weiten die Gefäße und können den Blutdruck stark senken. Bei Hypotonie keine weitere Gabe, flach lagern, Blutdruck engmaschig messen und ärztlich melden."
+            },
+            {
+              "id": "u19l3q5",
+              "type": "case",
+              "patient": "Herr R., 77 Jahre",
+              "setting": "Telemetrie, chronische Niereninsuffizienz, ACE-Hemmer",
+              "story": "Er fühlt sich schwach. Im EKG fallen hohe, spitze T-Wellen auf.",
+              "findings": [
+                {
+                  "label": "Kalium",
+                  "value": "6,9 mmol/l",
+                  "abnormal": true
+                },
+                {
+                  "label": "Kreatinin",
+                  "value": "erhöht",
+                  "abnormal": true
+                },
+                {
+                  "label": "HF",
+                  "value": "58/min"
+                }
+              ],
+              "task": "diagnose",
+              "prompt": "Welche Störung liegt vor?",
+              "options": [
+                "Hyperkaliämie",
+                "Hypokaliämie",
+                "Hypoglykämie",
+                "Hypothermie"
+              ],
+              "correctIndex": 0,
+              "explanation": "Kalium über 6,5 mmol/l mit EKG-Veränderungen ist ein Notfall (Gefahr von Bradykardie und Kammerflimmern). Sofort ärztlich melden, Monitor eng beobachten, kaliumsparende Medikamente nur nach ärztlicher Rücksprache weitergeben."
+            }
+          ],
+          "sourceIds": [
+            "esc-acs-2023",
+            "erc-special-2021",
+            "icare-2020",
+            "pschyrembel"
+          ],
+          "articleIds": [
+            "a-hyperkaliaemie",
+            "a-lagebegriffe"
+          ],
+          "termIds": []
+        },
+        {
+          "id": "u19l4",
+          "title": "Gemischte Fälle",
+          "card": {
+            "title": "Zusammenhänge erkennen",
+            "text": "Vorerkrankungen, aktuelle Beschwerden und Befunde ergeben zusammen ein Bild. Achte auf typische Kombinationen.",
+            "bullets": [
+              "Fieber + Klappenprothese → an Endokarditis denken",
+              "Sehr hoher Blutdruck + Organzeichen → hypertensiver Notfall",
+              "Lageabhängiger Brustschmerz + Reiben → Perikarditis",
+              "Schnelle Breitkomplex-Tachykardie + Schock → Notfall"
+            ],
+            "illustration": {
+              "figure": "conduction"
+            }
+          },
+          "questions": [
+            {
+              "id": "u19l4q1",
+              "type": "case",
+              "patient": "Herr J., 45 Jahre",
+              "setting": "Aufnahme über die Notaufnahme",
+              "story": "Seit einer Woche Fieber und Abgeschlagenheit. Bekannt: künstliche Aortenklappe. Die Ärztin hört ein neues Herzgeräusch.",
+              "findings": [
+                {
+                  "label": "Temperatur",
+                  "value": "39,1 °C",
+                  "abnormal": true
+                },
+                {
+                  "label": "HF",
+                  "value": "108/min",
+                  "abnormal": true
+                },
+                {
+                  "label": "CRP",
+                  "value": "stark erhöht",
+                  "abnormal": true
+                }
+              ],
+              "task": "diagnose",
+              "prompt": "An welche Diagnose musst du denken?",
+              "options": [
+                "Infektiöse Endokarditis",
+                "Erkältung",
+                "Perikarditis",
+                "Lungenembolie"
+              ],
+              "correctIndex": 0,
+              "explanation": "Fieber plus Klappenprothese oder neues Herzgeräusch = Endokarditis, bis das Gegenteil bewiesen ist (ESC 2023). Blutkulturen vor Antibiotikagabe nach Anordnung, Temperatur und Kreislauf überwachen."
+            },
+            {
+              "id": "u19l4q2",
+              "type": "case",
+              "patient": "Frau H., 69 Jahre",
+              "setting": "Telemetrie",
+              "story": "Starke Kopfschmerzen, Sehstörungen und Engegefühl in der Brust.",
+              "findings": [
+                {
+                  "label": "RR",
+                  "value": "225/130 mmHg",
+                  "abnormal": true
+                },
+                {
+                  "label": "HF",
+                  "value": "92/min"
+                },
+                {
+                  "label": "Bewusstsein",
+                  "value": "wach, unruhig"
+                }
+              ],
+              "task": "diagnose",
+              "prompt": "Was liegt vor?",
+              "options": [
+                "Hypertensiver Notfall mit Organbeteiligung",
+                "Harmloser Blutdruckanstieg wegen Aufregung",
+                "Hypotonie",
+                "Migräne ohne Bedeutung"
+              ],
+              "correctIndex": 0,
+              "explanation": "Sehr hoher Blutdruck mit Zeichen einer Organschädigung (z.B. Sehstörungen, Brustschmerz) ist ein hypertensiver Notfall (ESC 2024). Sofort melden; der Blutdruck wird kontrolliert und nicht zu schnell gesenkt."
+            },
+            {
+              "id": "u19l4q3",
+              "type": "case",
+              "patient": "Herr O., 80 Jahre",
+              "setting": "Telemetrie, Tag 3",
+              "story": "Seit gestern Fieber und Husten mit gelblichem Auswurf. Rechts unten hörst du Rasselgeräusche.",
+              "findings": [
+                {
+                  "label": "Temperatur",
+                  "value": "38,7 °C",
+                  "abnormal": true
+                },
+                {
+                  "label": "AF",
+                  "value": "24/min",
+                  "abnormal": true
+                },
+                {
+                  "label": "SpO₂",
+                  "value": "91 %",
+                  "abnormal": true
+                },
+                {
+                  "label": "CRP",
+                  "value": "erhöht",
+                  "abnormal": true
+                }
+              ],
+              "task": "diagnose",
+              "prompt": "Was ist am wahrscheinlichsten?",
+              "options": [
+                "Pneumonie",
+                "Kardiale Dekompensation",
+                "Lungenembolie",
+                "COPD ohne Infekt"
+              ],
+              "correctIndex": 0,
+              "explanation": "Fieber, eitriger Auswurf, örtliche Rasselgeräusche und erhöhte Entzündungswerte sprechen für eine Pneumonie (S3-Leitlinie). Atemfrequenz und SpO₂ sind wichtige Verlaufszeichen."
+            },
+            {
+              "id": "u19l4q4",
+              "type": "case",
+              "patient": "Frau K., 63 Jahre",
+              "setting": "Telemetrie, nach Myokardinfarkt vor 2 Wochen",
+              "story": "Scharfer Brustschmerz, der beim Einatmen und im Liegen stärker wird und im Sitzen mit Vorbeugen nachlässt. Die Ärztin hört ein Reibegeräusch.",
+              "findings": [
+                {
+                  "label": "Temperatur",
+                  "value": "38,0 °C",
+                  "abnormal": true
+                },
+                {
+                  "label": "HF",
+                  "value": "96/min"
+                },
+                {
+                  "label": "RR",
+                  "value": "130/80 mmHg"
+                }
+              ],
+              "task": "diagnose",
+              "prompt": "Was ist die wahrscheinlichste Diagnose?",
+              "options": [
+                "Perikarditis",
+                "Erneuter Herzinfarkt",
+                "Aortendissektion",
+                "Rippenprellung"
+              ],
+              "correctIndex": 0,
+              "explanation": "Atem- und lageabhängiger Schmerz, der sich im Vorbeugen bessert, plus Perikardreiben ist typisch für eine Perikarditis (ESC 2015). Auf Zeichen eines Ergusses achten: Blutdruckabfall, gestaute Halsvenen, Tachykardie."
+            },
+            {
+              "id": "u19l4q5",
+              "type": "case",
+              "patient": "Herr N., 58 Jahre",
+              "setting": "Telemetrie",
+              "story": "Er sitzt im Bett und hat seit Minuten Herzrasen. Er ist blass, wirkt benommen und antwortet nur langsam.",
+              "findings": [
+                {
+                  "label": "HF",
+                  "value": "190/min, regelmäßig, breite QRS",
+                  "abnormal": true
+                },
+                {
+                  "label": "RR",
+                  "value": "75/40 mmHg",
+                  "abnormal": true
+                },
+                {
+                  "label": "Bewusstsein",
+                  "value": "benommen",
+                  "abnormal": true
+                }
+              ],
+              "task": "intervention",
+              "prompt": "Was ist jetzt richtig?",
+              "options": [
+                "Notfallteam rufen, Defibrillator holen, Patient nicht allein lassen",
+                "Ihn auffordern, tief durchzuatmen, und später wiederkommen",
+                "Ihn zur Toilette begleiten",
+                "Nur den Alarm leiser stellen"
+              ],
+              "correctIndex": 0,
+              "explanation": "Breitkomplex-Tachykardie mit Schockzeichen ist eine instabile Kammertachykardie: Notfall. Notfallteam, Defibrillator bereit, Elektroschock (Kardioversion) wird ärztlich durchgeführt. Wird er bewusstlos ohne normale Atmung: Reanimation (ERC, ESC 2022).",
+              "strip": "vt"
+            }
+          ],
+          "sourceIds": [
+            "esc-endo-2023",
+            "esc-htn-2024",
+            "s3-cap-2021",
+            "esc-peri-2015",
+            "esc-va-2022",
+            "erc-als-2021"
+          ],
+          "articleIds": [
+            "a-endokarditis",
+            "a-hypertensive-krise",
+            "a-pneumonie",
+            "a-perikarditis",
+            "a-vt"
+          ],
+          "termIds": []
         }
       ]
     }
