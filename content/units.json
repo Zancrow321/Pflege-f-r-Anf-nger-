@@ -154,6 +154,164 @@
               ],
               "meaning": "Atemnot, erschwerte Atmung",
               "explanation": "Dys = gestört, erschwert; pnoe = Atmung. Verwandt: Apnoe (Atemstillstand), Tachypnoe (schnelle Atmung), Orthopnoe (Atemnot im Liegen, Besserung im Sitzen)."
+            },
+            {
+              "id": "u1l1q7",
+              "type": "word_parts",
+              "term": "Bradykardie",
+              "parts": [
+                {
+                  "part": "Brady",
+                  "meaning": "langsam",
+                  "origin": "griech. bradýs"
+                },
+                {
+                  "part": "kardie",
+                  "meaning": "Herz",
+                  "origin": "griech. kardía"
+                }
+              ],
+              "distractors": [
+                "schnell",
+                "Formung, Wiederherstellung"
+              ],
+              "meaning": "Herzfrequenz unter 60/min (Erwachsene in Ruhe)",
+              "explanation": "Brady | kardie = langsam | Herz → Herzfrequenz unter 60/min (Erwachsene in Ruhe). Bradykardie unter Betablocker"
+            },
+            {
+              "id": "u1l1q8",
+              "type": "word_parts",
+              "term": "Hypotonie",
+              "parts": [
+                {
+                  "part": "Hypo",
+                  "meaning": "unter, zu wenig",
+                  "origin": "griech. hypó"
+                },
+                {
+                  "part": "tonie",
+                  "meaning": "Spannung, Druck",
+                  "origin": "griech. tónos"
+                }
+              ],
+              "distractors": [
+                "Ausgleich",
+                "zusammen"
+              ],
+              "meaning": "Zu niedriger Blutdruck",
+              "explanation": "Hypo | tonie = unter, zu wenig | Spannung, Druck → Zu niedriger Blutdruck. Hypotonie nach Nitro-Gabe"
+            },
+            {
+              "id": "u1l1q9",
+              "type": "word_parts",
+              "term": "Hypoxie",
+              "parts": [
+                {
+                  "part": "Hyp",
+                  "meaning": "unter, zu wenig",
+                  "origin": "griech. hypó (o entfällt vor Vokal)"
+                },
+                {
+                  "part": "oxie",
+                  "meaning": "Sauerstoff",
+                  "origin": "griech. oxýs"
+                }
+              ],
+              "distractors": [
+                "Seite",
+                "Schnitt, Trennung"
+              ],
+              "meaning": "Sauerstoffmangel im Gewebe",
+              "explanation": "Hyp | oxie = unter, zu wenig | Sauerstoff → Sauerstoffmangel im Gewebe."
+            },
+            {
+              "id": "u1l1q10",
+              "type": "word_parts",
+              "term": "Tachypnoe",
+              "parts": [
+                {
+                  "part": "Tachy",
+                  "meaning": "schnell",
+                  "origin": "griech. tachýs"
+                },
+                {
+                  "part": "pnoe",
+                  "meaning": "Atmung",
+                  "origin": "griech. pnoḗ"
+                }
+              ],
+              "distractors": [
+                "Rücken",
+                "Herz"
+              ],
+              "meaning": "Beschleunigte Atmung (Erwachsene: über ca. 20/min)",
+              "explanation": "Tachy | pnoe = schnell | Atmung → Beschleunigte Atmung (Erwachsene: über ca. 20/min)."
+            },
+            {
+              "id": "u1l1q11",
+              "type": "word_parts",
+              "term": "Polyurie",
+              "parts": [
+                {
+                  "part": "Poly",
+                  "meaning": "viel",
+                  "origin": "griech. polýs"
+                },
+                {
+                  "part": "urie",
+                  "meaning": "Harn",
+                  "origin": "griech. ouron"
+                }
+              ],
+              "distractors": [
+                "zusammen",
+                "Flimmern"
+              ],
+              "meaning": "Krankhaft vermehrte Harnausscheidung",
+              "explanation": "Poly | urie = viel | Harn → Krankhaft vermehrte Harnausscheidung."
+            },
+            {
+              "id": "u1l1q12",
+              "type": "word_parts",
+              "term": "Hyperthermie",
+              "parts": [
+                {
+                  "part": "Hyper",
+                  "meaning": "über, zu viel",
+                  "origin": "griech. hypér"
+                },
+                {
+                  "part": "thermie",
+                  "meaning": "Wärme",
+                  "origin": "griech. thérmē"
+                }
+              ],
+              "distractors": [
+                "um … herum",
+                "zurückhalten, hemmen"
+              ],
+              "meaning": "Überwärmung des Körpers (z.B. Hitzschlag); anders als Fieber nicht durch einen verstellten Sollwert",
+              "explanation": "Hyper | thermie = über, zu viel | Wärme → Überwärmung des Körpers (z.B. Hitzschlag); anders als Fieber nicht durch einen verstellten Sollwert."
+            },
+            {
+              "id": "u1l1q13",
+              "type": "single_choice",
+              "prompt": "Was bedeutet „Tachypnoe“?",
+              "options": [
+                "Schnelle Atmung",
+                "Langsame Atmung",
+                "Atemstillstand",
+                "Atemnot im Liegen"
+              ],
+              "correctIndex": 0,
+              "explanation": "Tachy = schnell, pnoe = Atmung. Bei Erwachsenen meist über 20 Atemzüge pro Minute."
+            },
+            {
+              "id": "u1l1q14",
+              "type": "true_false",
+              "statement": "„Hypotonie“ bedeutet zu hoher Blutdruck.",
+              "correct": false,
+              "explanation": "Falsch. Hypo = unter, zu wenig: Hypotonie = zu niedriger Blutdruck. Zu hoch = Hypertonie."
             }
           ],
           "sourceIds": [
@@ -168,7 +326,12 @@
             "t-bradykardie",
             "t-hypertonie",
             "t-dyspnoe",
-            "t-apnoe"
+            "t-apnoe",
+            "t-hypotonie",
+            "t-hypoxie",
+            "t-tachypnoe",
+            "t-polyurie",
+            "t-hyperthermie"
           ]
         },
         {
@@ -315,6 +478,182 @@
               "statement": "„Koronar“ kommt von lateinisch corona (Kranz): Die Herzkranzgefäße umgeben das Herz wie ein Kranz.",
               "correct": true,
               "explanation": "Richtig. Die Koronararterien liegen kranzförmig auf dem Herzen und versorgen den Herzmuskel mit Blut."
+            },
+            {
+              "id": "u1l2q7",
+              "type": "word_parts",
+              "term": "Kardiomyopathie",
+              "parts": [
+                {
+                  "part": "Kardio",
+                  "meaning": "Herz",
+                  "origin": "griech. kardía"
+                },
+                {
+                  "part": "myo",
+                  "meaning": "Muskel",
+                  "origin": "griech. mỹs"
+                },
+                {
+                  "part": "pathie",
+                  "meaning": "Erkrankung, Leiden",
+                  "origin": "griech. páthos"
+                }
+              ],
+              "distractors": [
+                "hineinstopfen, Gewebeuntergang",
+                "Erregung"
+              ],
+              "meaning": "Erkrankung des Herzmuskels",
+              "explanation": "Kardio | myo | pathie = Herz | Muskel | Erkrankung, Leiden → Erkrankung des Herzmuskels."
+            },
+            {
+              "id": "u1l2q8",
+              "type": "word_parts",
+              "term": "Hämostase",
+              "parts": [
+                {
+                  "part": "Hämo",
+                  "meaning": "Blut",
+                  "origin": "griech. haíma"
+                },
+                {
+                  "part": "stase",
+                  "meaning": "Stillstand",
+                  "origin": "griech. stásis"
+                }
+              ],
+              "distractors": [
+                "neben",
+                "der obere"
+              ],
+              "meaning": "Blutstillung",
+              "explanation": "Hämo | stase = Blut | Stillstand → Blutstillung."
+            },
+            {
+              "id": "u1l2q9",
+              "type": "word_parts",
+              "term": "Thrombose",
+              "parts": [
+                {
+                  "part": "Thromb",
+                  "meaning": "Pfropf, Klumpen",
+                  "origin": "griech. thrómbos"
+                },
+                {
+                  "part": "ose",
+                  "meaning": "Zustand, krankhafter Vorgang",
+                  "origin": null
+                }
+              ],
+              "distractors": [
+                "Bauch",
+                "Ausgleich"
+              ],
+              "meaning": "Bildung eines Blutgerinnsels in einem Gefäß",
+              "explanation": "Thromb | ose = Pfropf, Klumpen | Zustand, krankhafter Vorgang → Bildung eines Blutgerinnsels in einem Gefäß."
+            },
+            {
+              "id": "u1l2q10",
+              "type": "word_parts",
+              "term": "Perfusion",
+              "parts": [
+                {
+                  "part": "Per",
+                  "meaning": "durch",
+                  "origin": "lat. per"
+                },
+                {
+                  "part": "fusion",
+                  "meaning": "gießen, fließen",
+                  "origin": "lat. fundere"
+                }
+              ],
+              "distractors": [
+                "Ernährung, Wachstum",
+                "Pfropf, Klumpen"
+              ],
+              "meaning": "Durchblutung eines Organs oder Gewebes",
+              "explanation": "Per | fusion = durch | gießen, fließen → Durchblutung eines Organs oder Gewebes."
+            },
+            {
+              "id": "u1l2q11",
+              "type": "word_parts",
+              "term": "Kardioversion",
+              "parts": [
+                {
+                  "part": "Kardio",
+                  "meaning": "Herz",
+                  "origin": "griech. kardía"
+                },
+                {
+                  "part": "version",
+                  "meaning": "Wendung, Umkehr",
+                  "origin": "lat. vertere"
+                }
+              ],
+              "distractors": [
+                "Sauerstoff",
+                "gegen, gegenüber"
+              ],
+              "meaning": "Überführung einer Rhythmusstörung in den Sinusrhythmus, elektrisch (EKG-getriggert) oder medikamentös",
+              "explanation": "Kardio | version = Herz | Wendung, Umkehr → Überführung einer Rhythmusstörung in den Sinusrhythmus, elektrisch (EKG-getriggert) oder medikamentös."
+            },
+            {
+              "id": "u1l2q12",
+              "type": "word_parts",
+              "term": "Angioplastie",
+              "parts": [
+                {
+                  "part": "Angio",
+                  "meaning": "Gefäß",
+                  "origin": "griech. angeĩon"
+                },
+                {
+                  "part": "plastie",
+                  "meaning": "Formung, Wiederherstellung",
+                  "origin": "griech. plássein"
+                }
+              ],
+              "distractors": [
+                "nicht, ohne",
+                "Ausgleich"
+              ],
+              "meaning": "Aufdehnung eines verengten Gefäßes, z.B. mit Ballon",
+              "explanation": "Angio | plastie = Gefäß | Formung, Wiederherstellung → Aufdehnung eines verengten Gefäßes, z.B. mit Ballon. PTCA/PCI"
+            },
+            {
+              "id": "u1l2q13",
+              "type": "single_choice",
+              "prompt": "Was ist eine „Kardiomyopathie“?",
+              "options": [
+                "Eine Erkrankung des Herzmuskels",
+                "Eine Entzündung des Herzbeutels",
+                "Eine Verengung der Herzkranzgefäße",
+                "Eine Herzklappenschwäche"
+              ],
+              "correctIndex": 0,
+              "explanation": "Kardio = Herz, myo = Muskel, pathie = Erkrankung."
+            },
+            {
+              "id": "u1l2q14",
+              "type": "matching",
+              "prompt": "Ordne die Herzschicht zu.",
+              "pairs": [
+                {
+                  "left": "Endokard",
+                  "right": "Herzinnenhaut, überzieht auch die Klappen"
+                },
+                {
+                  "left": "Myokard",
+                  "right": "Herzmuskel"
+                },
+                {
+                  "left": "Perikard",
+                  "right": "Herzbeutel"
+                }
+              ],
+              "explanation": "Endo = innen, Myo = Muskel, Peri = um herum. Entsprechend: Endokarditis, Myokarditis, Perikarditis."
             }
           ],
           "sourceIds": [
@@ -329,7 +668,12 @@
             "t-endokarditis",
             "t-hypokaliaemie",
             "t-kardiomyopathie",
-            "t-koronar"
+            "t-koronar",
+            "t-haemostase",
+            "t-thrombose",
+            "t-perfusion",
+            "t-kardioversion",
+            "t-angioplastie"
           ]
         },
         {
@@ -483,6 +827,214 @@
               ],
               "meaning": "Darstellung von Blutgefäßen mit Kontrastmittel",
               "explanation": "Die Koronarangiographie stellt die Herzkranzgefäße im Herzkatheterlabor dar."
+            },
+            {
+              "id": "u1l3q7",
+              "type": "word_parts",
+              "term": "Nykturie",
+              "parts": [
+                {
+                  "part": "Nykt",
+                  "meaning": "Nacht",
+                  "origin": "griech. nýx"
+                },
+                {
+                  "part": "urie",
+                  "meaning": "Harn",
+                  "origin": "griech. ouron"
+                }
+              ],
+              "distractors": [
+                "in der Mitte gelegen",
+                "Pfropf, Klumpen"
+              ],
+              "meaning": "Vermehrtes nächtliches Wasserlassen, z.B. bei Herzinsuffizienz",
+              "explanation": "Nykt | urie = Nacht | Harn → Vermehrtes nächtliches Wasserlassen, z.B. bei Herzinsuffizienz."
+            },
+            {
+              "id": "u1l3q8",
+              "type": "word_parts",
+              "term": "Stenose",
+              "parts": [
+                {
+                  "part": "Sten",
+                  "meaning": "eng",
+                  "origin": "griech. stenós"
+                },
+                {
+                  "part": "ose",
+                  "meaning": "Zustand, krankhafter Vorgang",
+                  "origin": null
+                }
+              ],
+              "distractors": [
+                "wenig",
+                "süß, Zucker"
+              ],
+              "meaning": "Verengung, z.B. eines Gefäßes oder einer Klappe",
+              "explanation": "Sten | ose = eng | Zustand, krankhafter Vorgang → Verengung, z.B. eines Gefäßes oder einer Klappe. Aortenklappenstenose"
+            },
+            {
+              "id": "u1l3q9",
+              "type": "word_parts",
+              "term": "Embolie",
+              "parts": [
+                {
+                  "part": "Embol",
+                  "meaning": "Hineinwerfen, Pfropf",
+                  "origin": "griech. embolḗ"
+                },
+                {
+                  "part": "ie",
+                  "meaning": "Zustand",
+                  "origin": null
+                }
+              ],
+              "distractors": [
+                "vor, vorzeitig",
+                "hineinstopfen"
+              ],
+              "meaning": "Verschluss eines Gefäßes durch verschlepptes Material, z.B. ein Gerinnsel",
+              "explanation": "Embol | ie = Hineinwerfen, Pfropf | Zustand → Verschluss eines Gefäßes durch verschlepptes Material, z.B. ein Gerinnsel. Hirnembolie bei Vorhofflimmern"
+            },
+            {
+              "id": "u1l3q10",
+              "type": "word_parts",
+              "term": "Anurie",
+              "parts": [
+                {
+                  "part": "An",
+                  "meaning": "nicht, ohne",
+                  "origin": "griech. a-/an-"
+                },
+                {
+                  "part": "urie",
+                  "meaning": "Harn",
+                  "origin": "griech. ouron"
+                }
+              ],
+              "distractors": [
+                "der Nächste",
+                "Rücken"
+              ],
+              "meaning": "Fehlende bzw. fast fehlende Harnausscheidung (unter ca. 100 ml/24 h)",
+              "explanation": "An | urie = nicht, ohne | Harn → Fehlende bzw. fast fehlende Harnausscheidung (unter ca. 100 ml/24 h)."
+            },
+            {
+              "id": "u1l3q11",
+              "type": "word_parts",
+              "term": "Apnoe",
+              "parts": [
+                {
+                  "part": "A",
+                  "meaning": "nicht, ohne",
+                  "origin": "griech. a-/an-"
+                },
+                {
+                  "part": "pnoe",
+                  "meaning": "Atmung",
+                  "origin": "griech. pnoḗ"
+                }
+              ],
+              "distractors": [
+                "der vordere",
+                "links"
+              ],
+              "meaning": "Atemstillstand",
+              "explanation": "A | pnoe = nicht, ohne | Atmung → Atemstillstand."
+            },
+            {
+              "id": "u1l3q12",
+              "type": "word_parts",
+              "term": "Arrhythmie",
+              "parts": [
+                {
+                  "part": "Ar",
+                  "meaning": "nicht, ohne",
+                  "origin": "griech. a-/an- (vor r: ar-)"
+                },
+                {
+                  "part": "rhythmie",
+                  "meaning": "Takt, Rhythmus",
+                  "origin": "griech. rhythmós"
+                }
+              ],
+              "distractors": [
+                "Schädel, Kopf",
+                "Atmung"
+              ],
+              "meaning": "Unregelmäßiger Herzschlag, Herzrhythmusstörung",
+              "explanation": "Ar | rhythmie = nicht, ohne | Takt, Rhythmus → Unregelmäßiger Herzschlag, Herzrhythmusstörung."
+            },
+            {
+              "id": "u1l3q13",
+              "type": "word_parts",
+              "term": "Asystolie",
+              "parts": [
+                {
+                  "part": "A",
+                  "meaning": "nicht, ohne",
+                  "origin": "griech. a-/an-"
+                },
+                {
+                  "part": "systolie",
+                  "meaning": "Zusammenziehen (des Herzens)",
+                  "origin": "griech. systolḗ"
+                }
+              ],
+              "distractors": [
+                "über, zu viel",
+                "Kalium"
+              ],
+              "meaning": "Fehlende elektrische und mechanische Herzaktion; Nulllinie im EKG",
+              "explanation": "A | systolie = nicht, ohne | Zusammenziehen (des Herzens) → Fehlende elektrische und mechanische Herzaktion; Nulllinie im EKG."
+            },
+            {
+              "id": "u1l3q14",
+              "type": "word_parts",
+              "term": "Orthopnoe",
+              "parts": [
+                {
+                  "part": "Ortho",
+                  "meaning": "aufrecht, gerade",
+                  "origin": "griech. orthós"
+                },
+                {
+                  "part": "pnoe",
+                  "meaning": "Atmung",
+                  "origin": "griech. pnoḗ"
+                }
+              ],
+              "distractors": [
+                "vor, vorzeitig",
+                "der obere"
+              ],
+              "meaning": "Atemnot im Liegen, die sich im Sitzen bessert; typisch bei Linksherzinsuffizienz",
+              "explanation": "Ortho | pnoe = aufrecht, gerade | Atmung → Atemnot im Liegen, die sich im Sitzen bessert; typisch bei Linksherzinsuffizienz. Patient schläft nur mit drei Kissen."
+            },
+            {
+              "id": "u1l3q15",
+              "type": "matching",
+              "prompt": "Ordne die Endung ihrer Bedeutung zu.",
+              "pairs": [
+                {
+                  "left": "-itis",
+                  "right": "Entzündung"
+                },
+                {
+                  "left": "-ose",
+                  "right": "Zustand, krankhafter Vorgang"
+                },
+                {
+                  "left": "-ämie",
+                  "right": "im Blut"
+                },
+                {
+                  "left": "-urie",
+                  "right": "Harn, Urin"
+                }
+              ],
+              "explanation": "-itis (Endokarditis), -ose (Stenose), -ämie (Hypokaliämie), -urie (Oligurie)."
             }
           ],
           "sourceIds": [
@@ -497,7 +1049,14 @@
             "t-zyanose",
             "t-oligurie",
             "t-angiographie",
-            "t-anurie"
+            "t-anurie",
+            "t-nykturie",
+            "t-stenose",
+            "t-embolie",
+            "t-apnoe",
+            "t-arrhythmie",
+            "t-asystolie",
+            "t-orthopnoe"
           ]
         }
       ]
@@ -683,6 +1242,49 @@
                 "highlight": "sinister",
                 "labels": false
               }
+            },
+            {
+              "id": "u18l1q10",
+              "type": "word_parts",
+              "term": "kaudal",
+              "parts": [
+                {
+                  "part": "kaud",
+                  "meaning": "Schwanz, Steiß",
+                  "origin": "lat. cauda"
+                },
+                {
+                  "part": "al",
+                  "meaning": "betreffend, zugehörig",
+                  "origin": "lat. -alis"
+                }
+              ],
+              "distractors": [
+                "Zustand",
+                "Seite"
+              ],
+              "meaning": "zum Steiß hin, am Rumpf: fußwärts",
+              "explanation": "kaud | al = Schwanz, Steiß | betreffend, zugehörig → zum Steiß hin, am Rumpf: fußwärts. Der Bauch liegt kaudal vom Brustkorb."
+            },
+            {
+              "id": "u18l1q11",
+              "type": "true_false",
+              "statement": "„Kranial“ und „superior“ bedeuten am Rumpf etwa dasselbe: oben, kopfwärts.",
+              "correct": true,
+              "explanation": "Richtig. Am Rumpf ist kranial ≈ superior und kaudal ≈ inferior."
+            },
+            {
+              "id": "u18l1q12",
+              "type": "single_choice",
+              "prompt": "Ein Befund lautet „Pleuraerguss dexter“. Wo ist der Erguss?",
+              "options": [
+                "Rechts",
+                "Links",
+                "Beidseits",
+                "In der Mitte"
+              ],
+              "correctIndex": 0,
+              "explanation": "Dexter = rechts. Beidseits wäre bilateral."
             }
           ],
           "sourceIds": [
@@ -878,6 +1480,118 @@
                 "highlight": "inferior",
                 "labels": false
               }
+            },
+            {
+              "id": "u18l2q9",
+              "type": "word_parts",
+              "term": "ventral",
+              "parts": [
+                {
+                  "part": "ventr",
+                  "meaning": "Bauch",
+                  "origin": "lat. venter"
+                },
+                {
+                  "part": "al",
+                  "meaning": "betreffend, zugehörig",
+                  "origin": "lat. -alis"
+                }
+              ],
+              "distractors": [
+                "Kalium",
+                "Rippe"
+              ],
+              "meaning": "bauchwärts, vorne",
+              "explanation": "ventr | al = Bauch | betreffend, zugehörig → bauchwärts, vorne. Das Brustbein liegt ventral vom Herzen."
+            },
+            {
+              "id": "u18l2q10",
+              "type": "word_parts",
+              "term": "dorsal",
+              "parts": [
+                {
+                  "part": "dors",
+                  "meaning": "Rücken",
+                  "origin": "lat. dorsum"
+                },
+                {
+                  "part": "al",
+                  "meaning": "betreffend, zugehörig",
+                  "origin": "lat. -alis"
+                }
+              ],
+              "distractors": [
+                "über, zu viel",
+                "Zustand"
+              ],
+              "meaning": "rückenwärts, hinten",
+              "explanation": "dors | al = Rücken | betreffend, zugehörig → rückenwärts, hinten. In Rückenlage sind dorsal vor allem Kreuzbein und Fersen druckgefährdet."
+            },
+            {
+              "id": "u18l2q11",
+              "type": "word_parts",
+              "term": "medial",
+              "parts": [
+                {
+                  "part": "medi",
+                  "meaning": "Mitte, mittlerer",
+                  "origin": "lat. medius"
+                },
+                {
+                  "part": "al",
+                  "meaning": "betreffend, zugehörig",
+                  "origin": "lat. -alis"
+                }
+              ],
+              "distractors": [
+                "Flimmern",
+                "Ernährung, Wachstum"
+              ],
+              "meaning": "zur Mitte (Medianebene) hin gelegen",
+              "explanation": "medi | al = Mitte, mittlerer | betreffend, zugehörig → zur Mitte (Medianebene) hin gelegen. Das Herz liegt medial der beiden Lungen."
+            },
+            {
+              "id": "u18l2q12",
+              "type": "word_parts",
+              "term": "lateral",
+              "parts": [
+                {
+                  "part": "later",
+                  "meaning": "Seite",
+                  "origin": "lat. latus, lateris"
+                },
+                {
+                  "part": "al",
+                  "meaning": "betreffend, zugehörig",
+                  "origin": "lat. -alis"
+                }
+              ],
+              "distractors": [
+                "außerhalb, zusätzlich",
+                "Erregung"
+              ],
+              "meaning": "zur Seite hin gelegen, von der Mitte weg",
+              "explanation": "later | al = Seite | betreffend, zugehörig → zur Seite hin gelegen, von der Mitte weg. Mit den Handflächen nach vorne liegt der Daumen lateral, der kleine Finger medial."
+            },
+            {
+              "id": "u18l2q13",
+              "type": "single_choice",
+              "prompt": "Die Wirbelsäule liegt … vom Brustbein.",
+              "options": [
+                "dorsal",
+                "ventral",
+                "lateral",
+                "kranial"
+              ],
+              "correctIndex": 0,
+              "explanation": "Dorsal = rückenwärts. Das Brustbein liegt ventral, die Wirbelsäule dorsal."
+            },
+            {
+              "id": "u18l2q14",
+              "type": "true_false",
+              "statement": "„Bilateral“ bedeutet auf einer Seite.",
+              "correct": false,
+              "explanation": "Falsch. Bilateral = beidseits. Auf derselben Seite = ipsilateral, auf der Gegenseite = kontralateral."
             }
           ],
           "sourceIds": [
@@ -1022,6 +1736,134 @@
               ],
               "meaning": "am Rand gelegen, fern vom Körperzentrum",
               "explanation": "Peri|pher kommt von periphéreia = Umfang, Rand. Periphere Zugänge liegen an Armen oder Beinen."
+            },
+            {
+              "id": "u18l3q7",
+              "type": "word_parts",
+              "term": "proximal",
+              "parts": [
+                {
+                  "part": "proxim",
+                  "meaning": "der Nächste",
+                  "origin": "lat. proximus"
+                },
+                {
+                  "part": "al",
+                  "meaning": "betreffend, zugehörig",
+                  "origin": "lat. -alis"
+                }
+              ],
+              "distractors": [
+                "Zustand, krankhafter Vorgang",
+                "Zustand"
+              ],
+              "meaning": "rumpfnah, zum Körperzentrum hin",
+              "explanation": "proxim | al = der Nächste | betreffend, zugehörig → rumpfnah, zum Körperzentrum hin. Der Oberarm liegt proximal, die Hand distal."
+            },
+            {
+              "id": "u18l3q8",
+              "type": "word_parts",
+              "term": "distal",
+              "parts": [
+                {
+                  "part": "dist",
+                  "meaning": "entfernt sein",
+                  "origin": "lat. distare"
+                },
+                {
+                  "part": "al",
+                  "meaning": "betreffend, zugehörig",
+                  "origin": "lat. -alis"
+                }
+              ],
+              "distractors": [
+                "nicht, ohne",
+                "Schwanz, Steiß"
+              ],
+              "meaning": "rumpffern, vom Körperzentrum weg",
+              "explanation": "dist | al = entfernt sein | betreffend, zugehörig → rumpffern, vom Körperzentrum weg. Nach einer Punktion in der Leiste die Pulse distal davon prüfen, z.B. am Fuß."
+            },
+            {
+              "id": "u18l3q9",
+              "type": "word_parts",
+              "term": "kontralateral",
+              "parts": [
+                {
+                  "part": "kontra",
+                  "meaning": "gegen, gegenüber",
+                  "origin": "lat. contra"
+                },
+                {
+                  "part": "later",
+                  "meaning": "Seite",
+                  "origin": "lat. latus, lateris"
+                },
+                {
+                  "part": "al",
+                  "meaning": "betreffend, zugehörig",
+                  "origin": "lat. -alis"
+                }
+              ],
+              "distractors": [
+                "Blut",
+                "zusammen"
+              ],
+              "meaning": "auf der gegenüberliegenden Körperseite",
+              "explanation": "kontra | later | al = gegen, gegenüber | Seite | betreffend, zugehörig → auf der gegenüberliegenden Körperseite. Ein Schlaganfall in der linken Hirnhälfte lähmt die kontralaterale, also rechte Körperseite."
+            },
+            {
+              "id": "u18l3q10",
+              "type": "word_parts",
+              "term": "ipsilateral",
+              "parts": [
+                {
+                  "part": "ipsi",
+                  "meaning": "selbst, derselbe",
+                  "origin": "lat. ipse"
+                },
+                {
+                  "part": "later",
+                  "meaning": "Seite",
+                  "origin": "lat. latus, lateris"
+                },
+                {
+                  "part": "al",
+                  "meaning": "betreffend, zugehörig",
+                  "origin": "lat. -alis"
+                }
+              ],
+              "distractors": [
+                "durch",
+                "heraus, sehr"
+              ],
+              "meaning": "auf derselben Körperseite",
+              "explanation": "ipsi | later | al = selbst, derselbe | Seite | betreffend, zugehörig → auf derselben Körperseite. Schmerz und Schwellung ipsilateral zur Punktionsstelle."
+            },
+            {
+              "id": "u18l3q11",
+              "type": "single_choice",
+              "prompt": "Eine Venenverweilkanüle am Unterarm ist ein …",
+              "options": [
+                "peripherer Zugang",
+                "zentraler Zugang",
+                "arterieller Zugang",
+                "intraossärer Zugang"
+              ],
+              "correctIndex": 0,
+              "explanation": "Peripher = am Rand, an den Gliedmaßen. Ein zentraler Venenkatheter (ZVK) liegt in einer großen, herznahen Vene."
+            },
+            {
+              "id": "u18l3q12",
+              "type": "single_choice",
+              "prompt": "Ein Schlaganfall in der linken Gehirnhälfte führt zu Lähmungen auf welcher Seite?",
+              "options": [
+                "Kontralateral, also rechts",
+                "Ipsilateral, also links",
+                "Bilateral",
+                "Gar keine"
+              ],
+              "correctIndex": 0,
+              "explanation": "Die Nervenbahnen kreuzen. Deshalb zeigen sich die Ausfälle auf der Gegenseite (kontralateral)."
             }
           ],
           "sourceIds": [
@@ -1197,6 +2039,64 @@
                 "highlight": "oberkoerper",
                 "labels": false
               }
+            },
+            {
+              "id": "u18l4q8",
+              "type": "word_parts",
+              "term": "parasternal",
+              "parts": [
+                {
+                  "part": "para",
+                  "meaning": "neben",
+                  "origin": "griech. pará"
+                },
+                {
+                  "part": "stern",
+                  "meaning": "Brustbein",
+                  "origin": "griech. stérnon"
+                },
+                {
+                  "part": "al",
+                  "meaning": "betreffend, zugehörig",
+                  "origin": "lat. -alis"
+                }
+              ],
+              "distractors": [
+                "Harn",
+                "außerhalb, zusätzlich"
+              ],
+              "meaning": "neben dem Brustbein gelegen",
+              "explanation": "para | stern | al = neben | Brustbein | betreffend, zugehörig → neben dem Brustbein gelegen. V1 liegt im 4. ICR rechts parasternal, V2 im 4. ICR links parasternal."
+            },
+            {
+              "id": "u18l4q9",
+              "type": "single_choice",
+              "prompt": "Welche Wand des Herzens ist beim Infarkt in II, III und aVF betroffen?",
+              "options": [
+                "inferior (Hinterwand)",
+                "anterior (Vorderwand)",
+                "lateral (Seitenwand)",
+                "septal"
+              ],
+              "correctIndex": 0,
+              "explanation": "II, III und aVF schauen von unten auf das Herz: inferior.",
+              "illustration": {
+                "figure": "coronaries",
+                "highlight": "rca"
+              }
+            },
+            {
+              "id": "u18l4q10",
+              "type": "single_choice",
+              "prompt": "Wo liegt die Medioklavikularlinie?",
+              "options": [
+                "Senkrecht durch die Mitte des Schlüsselbeins",
+                "Waagerecht unter den Rippen",
+                "Genau auf dem Brustbein",
+                "In der Achselhöhle"
+              ],
+              "correctIndex": 0,
+              "explanation": "Medio = Mitte, klavikulär = das Schlüsselbein betreffend. Wichtig z.B. für die Brustwandableitungen V4 (5. ICR in der Medioklavikularlinie)."
             }
           ],
           "sourceIds": [
@@ -1422,6 +2322,26 @@
                 "highlight": "linker_vorhof",
                 "labels": false
               }
+            },
+            {
+              "id": "u2l1q12",
+              "type": "true_false",
+              "statement": "Die Wand der linken Kammer ist dicker als die der rechten Kammer.",
+              "correct": true,
+              "explanation": "Richtig. Die linke Kammer pumpt gegen den hohen Druck im Körperkreislauf und hat deshalb die dickste Muskelwand."
+            },
+            {
+              "id": "u2l1q13",
+              "type": "single_choice",
+              "prompt": "Woher bekommt der rechte Vorhof sein Blut?",
+              "options": [
+                "Aus den Hohlvenen",
+                "Aus den Lungenvenen",
+                "Aus der Aorta",
+                "Aus der Lungenarterie"
+              ],
+              "correctIndex": 0,
+              "explanation": "Obere und untere Hohlvene bringen das sauerstoffarme Blut aus dem Körper in den rechten Vorhof."
             }
           ],
           "sourceIds": [
@@ -1590,6 +2510,26 @@
                 "highlight": "purkinje",
                 "labels": false
               }
+            },
+            {
+              "id": "u2l2q10",
+              "type": "single_choice",
+              "prompt": "Welcher EKG-Abschnitt entspricht der Verzögerung im AV-Knoten?",
+              "options": [
+                "PQ-Zeit",
+                "QRS-Komplex",
+                "T-Welle",
+                "ST-Strecke"
+              ],
+              "correctIndex": 0,
+              "explanation": "Die PQ-Zeit umfasst die Vorhoferregung und die Überleitung über den AV-Knoten bis zu den Kammern."
+            },
+            {
+              "id": "u2l2q11",
+              "type": "true_false",
+              "statement": "Fällt der Sinusknoten aus, kann der AV-Knoten mit etwa 40–60/min als Ersatz einspringen.",
+              "correct": true,
+              "explanation": "Richtig. Der nächstlangsamere Taktgeber übernimmt: AV-Knoten 40–60/min, Kammern 20–40/min."
             }
           ],
           "sourceIds": [
@@ -1667,12 +2607,70 @@
               "statement": "Bei Vorhofflimmern kann die am Handgelenk getastete Pulsfrequenz niedriger sein als die am Monitor gezählte Herzfrequenz.",
               "correct": true,
               "explanation": "Richtig, das nennt man Pulsdefizit. Nicht jede Kammeraktion wirft genug Blut aus, um peripher tastbar zu sein."
+            },
+            {
+              "id": "u2l3q6",
+              "type": "single_choice",
+              "prompt": "Wie hoch ist die normale Atemfrequenz eines Erwachsenen in Ruhe ungefähr?",
+              "options": [
+                "12–20/min",
+                "4–8/min",
+                "25–35/min",
+                "40–60/min"
+              ],
+              "correctIndex": 0,
+              "explanation": "Normal sind etwa 12–20 Atemzüge pro Minute. Eine steigende Atemfrequenz ist oft ein frühes Warnzeichen einer Verschlechterung."
+            },
+            {
+              "id": "u2l3q7",
+              "type": "true_false",
+              "statement": "Eine steigende Atemfrequenz kann ein frühes Warnzeichen für eine Verschlechterung sein.",
+              "correct": true,
+              "explanation": "Richtig. Die Atemfrequenz reagiert oft früher als Blutdruck oder Sättigung, z.B. bei Sepsis, Lungenstauung oder Azidose."
+            },
+            {
+              "id": "u2l3q8",
+              "type": "single_choice",
+              "prompt": "Wie lange zählst du den Puls bei einem unregelmäßigen Rhythmus?",
+              "options": [
+                "Eine volle Minute",
+                "15 Sekunden × 4",
+                "10 Sekunden × 6",
+                "5 Sekunden × 12"
+              ],
+              "correctIndex": 0,
+              "explanation": "Bei unregelmäßigem Puls (z.B. Vorhofflimmern) liefert nur das Zählen über eine volle Minute einen verlässlichen Wert."
+            },
+            {
+              "id": "u2l3q9",
+              "type": "matching",
+              "prompt": "Ordne den Begriff zu.",
+              "pairs": [
+                {
+                  "left": "Tachykardie",
+                  "right": "HF über 100/min"
+                },
+                {
+                  "left": "Bradykardie",
+                  "right": "HF unter 60/min"
+                },
+                {
+                  "left": "Tachypnoe",
+                  "right": "schnelle Atmung"
+                },
+                {
+                  "left": "Hypotonie",
+                  "right": "niedriger Blutdruck"
+                }
+              ],
+              "explanation": "Die Grenzen gelten für Erwachsene in Ruhe."
             }
           ],
           "sourceIds": [
             "guyton-2021",
             "esc-htn-2024",
-            "esc-af-2024"
+            "esc-af-2024",
+            "pschyrembel"
           ],
           "articleIds": [
             "a-vitalzeichen"
@@ -1845,6 +2843,26 @@
                 "highlight": "gruen",
                 "labels": false
               }
+            },
+            {
+              "id": "u3l1q10",
+              "type": "single_choice",
+              "prompt": "Wie oft sollen Telemetrie-Elektroden laut AHA-Empfehlung gewechselt werden?",
+              "options": [
+                "Täglich",
+                "Einmal pro Woche",
+                "Nur wenn sie abfallen",
+                "Alle 2 Stunden"
+              ],
+              "correctIndex": 0,
+              "explanation": "Täglicher Wechsel mit guter Hautvorbereitung verbessert die Signalqualität und reduziert Fehlalarme (AHA 2017)."
+            },
+            {
+              "id": "u3l1q11",
+              "type": "true_false",
+              "statement": "Elektroden klebt man am besten direkt auf Knochenvorsprünge, Narben oder Hautfalten.",
+              "correct": false,
+              "explanation": "Falsch. Dort leiten sie schlecht und verrutschen leicht. Besser auf flache, möglichst muskelarme Hautstellen."
             }
           ],
           "sourceIds": [
@@ -1992,6 +3010,56 @@
                 "highlight": "qt",
                 "labels": false
               }
+            },
+            {
+              "id": "u3l2q10",
+              "type": "single_choice",
+              "prompt": "Zwischen zwei R-Zacken liegen 2 große Kästchen. Wie hoch ist die Frequenz?",
+              "options": [
+                "150/min",
+                "100/min",
+                "75/min",
+                "300/min"
+              ],
+              "correctIndex": 0,
+              "explanation": "300 ÷ Anzahl großer Kästchen: 300 ÷ 2 = 150/min."
+            },
+            {
+              "id": "u3l2q11",
+              "type": "single_choice",
+              "prompt": "Zwischen zwei R-Zacken liegen 5 große Kästchen. Wie hoch ist die Frequenz?",
+              "options": [
+                "60/min",
+                "75/min",
+                "50/min",
+                "100/min"
+              ],
+              "correctIndex": 0,
+              "explanation": "300 ÷ 5 = 60/min."
+            },
+            {
+              "id": "u3l2q12",
+              "type": "matching",
+              "prompt": "Ordne den EKG-Abschnitt seiner Bedeutung zu.",
+              "pairs": [
+                {
+                  "left": "P-Welle",
+                  "right": "Erregung der Vorhöfe"
+                },
+                {
+                  "left": "PQ-Zeit",
+                  "right": "Überleitung zu den Kammern"
+                },
+                {
+                  "left": "QRS-Komplex",
+                  "right": "Erregung der Kammern"
+                },
+                {
+                  "left": "T-Welle",
+                  "right": "Erregungsrückbildung der Kammern"
+                }
+              ],
+              "explanation": "So kannst du jeden Abschnitt einem Teil der Herzaktion zuordnen."
             }
           ],
           "sourceIds": [
@@ -2136,6 +3204,14 @@
                 "highlight": "st",
                 "labels": false
               }
+            },
+            {
+              "id": "u3l3q9",
+              "type": "true_false",
+              "statement": "Bei einer Sinusbradykardie fehlen die P-Wellen.",
+              "correct": false,
+              "explanation": "Falsch. Bei jeder Sinusrhythmus-Variante steht vor jedem QRS eine P-Welle – nur die Frequenz ist langsamer (unter 60/min).",
+              "strip": "sinus_brady"
             }
           ],
           "sourceIds": [
@@ -2232,6 +3308,57 @@
               ],
               "correctIndex": 0,
               "explanation": "Instabile Bradykardie: ärztliche Behandlung sofort (z.B. Atropin oder externer Schrittmacher nach Anordnung). Flach lagern und nicht allein lassen."
+            },
+            {
+              "id": "u4l1q6",
+              "type": "single_choice",
+              "prompt": "Was ist typisch für einen AV-Block II° Typ Wenckebach?",
+              "options": [
+                "Die PQ-Zeit wird von Schlag zu Schlag länger, bis eine Überleitung ausfällt",
+                "Die PQ-Zeit ist konstant verlängert, jede P-Welle wird übergeleitet",
+                "Vorhöfe und Kammern schlagen völlig unabhängig",
+                "Es gibt keine P-Wellen"
+              ],
+              "correctIndex": 0,
+              "explanation": "Wenckebach (Mobitz I): zunehmende PQ-Verlängerung bis zum Ausfall eines QRS, dann beginnt der Zyklus neu.",
+              "strip": "av2_wenckebach"
+            },
+            {
+              "id": "u4l1q7",
+              "type": "matching",
+              "prompt": "Ordne den AV-Block seinem Merkmal zu.",
+              "pairs": [
+                {
+                  "left": "AV-Block I°",
+                  "right": "PQ-Zeit konstant über 0,20 s"
+                },
+                {
+                  "left": "AV-Block II° Wenckebach",
+                  "right": "PQ wird länger bis zum Ausfall"
+                },
+                {
+                  "left": "AV-Block II° Mobitz",
+                  "right": "plötzlicher Ausfall bei konstanter PQ"
+                },
+                {
+                  "left": "AV-Block III°",
+                  "right": "keine Überleitung, Ersatzrhythmus"
+                }
+              ],
+              "explanation": "Je höher der Grad, desto gefährlicher – Mobitz II und III° können plötzlich in eine Asystolie münden."
+            },
+            {
+              "id": "u4l1q8",
+              "type": "single_choice",
+              "prompt": "Welches Medikament wird bei symptomatischer Bradykardie laut ERC zuerst eingesetzt?",
+              "options": [
+                "Atropin",
+                "Adenosin",
+                "Amiodaron",
+                "Metoprolol"
+              ],
+              "correctIndex": 0,
+              "explanation": "Atropin 0,5 mg i.v. (wiederholbar bis max. 3 mg) ist die erste Wahl bei instabiler Bradykardie; reicht das nicht, folgen Katecholamine oder Pacing."
             }
           ],
           "sourceIds": [
@@ -2332,6 +3459,26 @@
               ],
               "correctIndex": 0,
               "explanation": "CHA₂DS₂-VA: Herzinsuffizienz, Hypertonie, Alter, Diabetes, Schlaganfall/TIA, Gefäßerkrankung. Das Geschlecht zählt in der Version von 2024 nicht mehr."
+            },
+            {
+              "id": "u4l2q7",
+              "type": "true_false",
+              "statement": "Vor einer elektrischen Kardioversion von Vorhofflimmern muss das Risiko eines Vorhofgerinnsels bedacht werden (Antikoagulation oder TEE).",
+              "correct": true,
+              "explanation": "Richtig. Mit dem Sinusrhythmus kann sich ein Gerinnsel aus dem Vorhof lösen und einen Schlaganfall auslösen (ESC 2024)."
+            },
+            {
+              "id": "u4l2q8",
+              "type": "single_choice",
+              "prompt": "Welche Pflegebeobachtung ist bei neuem Vorhofflimmern besonders wichtig?",
+              "options": [
+                "Pulsdefizit und Kreislauf (Blutdruck, Schwindel) beobachten",
+                "Nur die Temperatur messen",
+                "Den Patienten möglichst viel laufen lassen",
+                "Keine – Vorhofflimmern ist immer harmlos"
+              ],
+              "correctIndex": 0,
+              "explanation": "Schnelles Vorhofflimmern kann den Kreislauf belasten. Herzfrequenz am Monitor und am Puls (Pulsdefizit), Blutdruck und Beschwerden beobachten."
             }
           ],
           "sourceIds": [
@@ -2428,6 +3575,20 @@
               "statement": "Niedrige Kalium- und Magnesiumwerte können ventrikuläre Rhythmusstörungen begünstigen.",
               "correct": true,
               "explanation": "Richtig. Achte auf die Laborwerte und die Elektrolytgaben nach Anordnung."
+            },
+            {
+              "id": "u4l3q7",
+              "type": "single_choice",
+              "prompt": "Welcher Rhythmus ist das?",
+              "options": [
+                "Sinusrhythmus mit ventrikulären Extrasystolen",
+                "Kammerflimmern",
+                "Vorhofflimmern",
+                "AV-Block III°"
+              ],
+              "correctIndex": 0,
+              "explanation": "Einzelne vorzeitige, breite QRS-Komplexe ohne vorangehende P-Welle in einem sonst normalen Sinusrhythmus: VES.",
+              "strip": "ves"
             }
           ],
           "sourceIds": [
@@ -2528,6 +3689,33 @@
                 }
               ],
               "explanation": "Wer die Bilder sicher kennt, reagiert im Ernstfall schneller."
+            },
+            {
+              "id": "u4l4q6",
+              "type": "matching",
+              "prompt": "Ordne den Rhythmus der Maßnahme zu (Patient ohne Puls).",
+              "pairs": [
+                {
+                  "left": "Kammerflimmern",
+                  "right": "Schock (defibrillieren)"
+                },
+                {
+                  "left": "pulslose VT",
+                  "right": "wie Kammerflimmern behandeln"
+                },
+                {
+                  "left": "Asystolie",
+                  "right": "kein Schock, Adrenalin so früh wie möglich"
+                }
+              ],
+              "explanation": "Defibrillierbar sind VF und pulslose VT. Bei Asystolie und PEA: Herzdruckmassage und Adrenalin, kein Schock (ERC)."
+            },
+            {
+              "id": "u4l4q7",
+              "type": "true_false",
+              "statement": "Bei einer Asystolie gibt man Adrenalin so früh wie möglich.",
+              "correct": true,
+              "explanation": "Richtig. Bei nicht defibrillierbaren Rhythmen wird Adrenalin 1 mg i.v. so früh wie möglich gegeben, dann alle 3–5 Minuten (ERC)."
             }
           ],
           "sourceIds": [
@@ -2618,6 +3806,50 @@
               "statement": "Bei jedem Rhythmusalarm wird zuerst der Patient beurteilt, nicht nur die Kurve.",
               "correct": true,
               "explanation": "Richtig: Patient vor Monitor. Bewusstsein, Atmung, Puls und Hautfarbe sagen mehr als jede Kurve."
+            },
+            {
+              "id": "u5l1q6",
+              "type": "single_choice",
+              "prompt": "Ein Alarm „Asystolie“ ertönt, der Patient spricht mit dir. Was ist die wahrscheinlichste Ursache?",
+              "options": [
+                "Abgefallene Elektrode oder Kabel",
+                "Echter Herzstillstand",
+                "Defekter Patient",
+                "Hyperkaliämie"
+              ],
+              "correctIndex": 0,
+              "explanation": "Wer spricht, hat keinen Herzstillstand. Elektroden und Kabel prüfen, dann Alarm quittieren und Ursache beheben."
+            },
+            {
+              "id": "u5l1q7",
+              "type": "true_false",
+              "statement": "Alarmgrenzen sollten an den einzelnen Patienten angepasst werden (nach Anordnung/Standard).",
+              "correct": true,
+              "explanation": "Richtig. Individuell angepasste Alarmgrenzen helfen, unnötige Alarme zu vermeiden, ohne echte Gefahren zu übersehen (AHA 2017)."
+            },
+            {
+              "id": "u5l1q8",
+              "type": "matching",
+              "prompt": "Ordne die Alarmursache der Maßnahme zu.",
+              "pairs": [
+                {
+                  "left": "Elektrode lose",
+                  "right": "Elektrode neu kleben"
+                },
+                {
+                  "left": "Bewegungsartefakt",
+                  "right": "Patient beobachten, Kurve neu beurteilen"
+                },
+                {
+                  "left": "Batterie leer",
+                  "right": "Batterie im Sender wechseln"
+                },
+                {
+                  "left": "echtes Kammerflimmern",
+                  "right": "Notfallteam, Reanimation"
+                }
+              ],
+              "explanation": "Erst Patient anschauen, dann technische Ursachen beheben."
             }
           ],
           "sourceIds": [
@@ -2725,11 +3957,45 @@
               "statement": "Ein Magnesiummangel begünstigt Torsade-de-pointes-Tachykardien.",
               "correct": true,
               "explanation": "Richtig. Magnesium wird bei Torsade de pointes auch therapeutisch gegeben (nach ärztlicher Anordnung)."
+            },
+            {
+              "id": "u5l2q7",
+              "type": "single_choice",
+              "prompt": "Welcher Kaliumwert ist eine Hyperkaliämie?",
+              "options": [
+                "5,8 mmol/l",
+                "4,2 mmol/l",
+                "3,8 mmol/l",
+                "3,2 mmol/l"
+              ],
+              "correctIndex": 0,
+              "explanation": "Der Referenzbereich liegt etwa bei 3,5–5,0 mmol/l. Werte darüber sind eine Hyperkaliämie."
+            },
+            {
+              "id": "u5l2q8",
+              "type": "true_false",
+              "statement": "Eine Blutentnahme mit langem Stauen und „Pumpen“ der Faust kann falsch hohe Kaliumwerte ergeben.",
+              "correct": true,
+              "explanation": "Richtig. Hämolyse und Muskelarbeit setzen Kalium frei (Pseudohyperkaliämie). Trotzdem jeden hohen Wert melden und ggf. kontrollieren lassen."
+            },
+            {
+              "id": "u5l2q9",
+              "type": "single_choice",
+              "prompt": "Welche Medikamente können das Kalium erhöhen?",
+              "options": [
+                "ACE-Hemmer, Sartane, Spironolacton",
+                "Furosemid und Torasemid",
+                "Insulin und Salbutamol",
+                "Abführmittel"
+              ],
+              "correctIndex": 0,
+              "explanation": "RAAS-Hemmer und Aldosteronantagonisten halten Kalium zurück. Schleifendiuretika, Insulin und Abführmittel senken es eher."
             }
           ],
           "sourceIds": [
             "erc-special-2021",
-            "esc-va-2022"
+            "esc-va-2022",
+            "pschyrembel"
           ],
           "articleIds": [
             "a-kalium",
@@ -2823,6 +4089,26 @@
               ],
               "correctIndex": 0,
               "explanation": "Die arterielle Punktion liegt etwas oberhalb des Hautschnitts. Manuell komprimieren und nicht loslassen, bis Hilfe da ist."
+            },
+            {
+              "id": "u5l3q6",
+              "type": "true_false",
+              "statement": "Nach femoralem Zugang gehören Fußpulse, Hautfarbe und Temperatur des Beins zur Kontrolle.",
+              "correct": true,
+              "explanation": "Richtig. Die Durchblutung distal der Punktion wird nach Standard kontrolliert – ein Hämatom oder Verschluss stört sie."
+            },
+            {
+              "id": "u5l3q7",
+              "type": "single_choice",
+              "prompt": "Wodurch fällt eine retroperitoneale Blutung oft auf?",
+              "options": [
+                "Rücken- oder Flankenschmerz, RR-Abfall, HF-Anstieg – oft ohne sichtbare Blutung",
+                "Immer durch eine große Blutlache am Verband",
+                "Durch Fieber",
+                "Durch Juckreiz"
+              ],
+              "correctIndex": 0,
+              "explanation": "Die Blutung geht nach innen (hinter das Bauchfell), der Verband kann trocken sein. Kreislaufzeichen sind entscheidend."
             }
           ],
           "sourceIds": [
@@ -2917,6 +4203,50 @@
               ],
               "correctIndex": 0,
               "explanation": "Nicht allein lassen, nicht belasten, und Diagnostik und Arzt sofort."
+            },
+            {
+              "id": "u6l1q6",
+              "type": "single_choice",
+              "prompt": "Was gehört zu den typischen Begleitzeichen eines Herzinfarkts?",
+              "options": [
+                "Kaltschweißigkeit, Übelkeit, Angst, Atemnot",
+                "Juckreiz und Hautausschlag",
+                "Fieber über 39 °C",
+                "Durchfall"
+              ],
+              "correctIndex": 0,
+              "explanation": "Neben Brustschmerz sind vegetative Zeichen häufig. Frauen, Ältere und Diabetiker haben oft untypische Beschwerden."
+            },
+            {
+              "id": "u6l1q7",
+              "type": "true_false",
+              "statement": "Frauen, ältere Menschen und Diabetiker haben bei einem Herzinfarkt oft untypische Beschwerden, z.B. nur Atemnot oder Übelkeit.",
+              "correct": true,
+              "explanation": "Richtig. Deshalb bei neuen Beschwerden großzügig ein EKG schreiben und melden."
+            },
+            {
+              "id": "u6l1q8",
+              "type": "matching",
+              "prompt": "Ordne die Maßnahme bei Brustschmerz (ACS-Verdacht) zu.",
+              "pairs": [
+                {
+                  "left": "Sofort",
+                  "right": "12-Kanal-EKG, ärztlich melden"
+                },
+                {
+                  "left": "Laufend",
+                  "right": "Monitor, Vitalzeichen"
+                },
+                {
+                  "left": "SpO₂ unter 90 %",
+                  "right": "Sauerstoff"
+                },
+                {
+                  "left": "Patient",
+                  "right": "Bettruhe, nicht allein lassen"
+                }
+              ],
+              "explanation": "EKG innerhalb von 10 Minuten, Überwachung, Sauerstoff nur bei Hypoxämie (ESC 2023)."
             }
           ],
           "sourceIds": [
@@ -3025,6 +4355,39 @@
                 }
               ],
               "explanation": "Das ist der Kern des ALS-Algorithmus des ERC."
+            },
+            {
+              "id": "u6l2q7",
+              "type": "single_choice",
+              "prompt": "Was machst du, sobald der Defibrillator da ist?",
+              "options": [
+                "Elektroden kleben, Rhythmus analysieren, bei VF/pVT schocken – Unterbrechungen der Herzdruckmassage minimal halten",
+                "Erst alle Kabel ordnen und den Patienten waschen",
+                "Herzdruckmassage für 2 Minuten ganz stoppen",
+                "Nur Sauerstoff geben"
+              ],
+              "correctIndex": 0,
+              "explanation": "Die Pausen der Thoraxkompressionen vor und nach dem Schock sollen so kurz wie möglich sein (ERC)."
+            },
+            {
+              "id": "u6l2q8",
+              "type": "true_false",
+              "statement": "Nach einem Schock prüft man zuerst 1 Minute lang den Puls, bevor man weiterdrückt.",
+              "correct": false,
+              "explanation": "Falsch. Nach dem Schock sofort mit der Herzdruckmassage weitermachen (2 Minuten), dann Rhythmus erneut analysieren (ERC)."
+            },
+            {
+              "id": "u6l2q9",
+              "type": "single_choice",
+              "prompt": "Wann gibt man laut ERC bei Kammerflimmern Amiodaron 300 mg?",
+              "options": [
+                "Nach dem dritten Schock",
+                "Vor dem ersten Schock",
+                "Nur bei Asystolie",
+                "Nie bei Reanimation"
+              ],
+              "correctIndex": 0,
+              "explanation": "Bei VF/pVT nach drei Schocks: Adrenalin 1 mg und Amiodaron 300 mg (ERC)."
             }
           ],
           "sourceIds": [
