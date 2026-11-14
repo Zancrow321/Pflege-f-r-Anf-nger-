@@ -29,7 +29,7 @@ Artikel verweisen über `relatedArticleIds` aufeinander („Siehe auch“), Lekt
 
 ## Inhalte (Stand 13.11.2026)
 
-- 19 Einheiten, 76 Lektionen, 398 Fragen; 78 Nachschlage-Artikel, 80 Fachbegriffe mit Wortbausteinen
+- 19 Einheiten, 80 Lektionen, 625 Fragen (davon 90 Fallfragen, 50 mit Schaubild); 78 Nachschlage-Artikel, 80 Fachbegriffe mit Wortbausteinen
 - Grundlagen: Fachsprache (Wortbausteine), **Lage- und Richtungsbegriffe** (dexter/sinister, kranial/kaudal,
   ventral/dorsal, medial/lateral, proximal/distal …), Herz & Kreislauf
 - Station: EKG & Monitor, Rhythmusstörungen, Telemetrie-Alltag, Notfälle, Krankheitsbilder 1–8, Medikamente, Prozeduren,

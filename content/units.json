@@ -10021,6 +10021,69 @@
               ],
               "correctIndex": 0,
               "explanation": "Der Blutzucker kann dabei normal sein. Arzt informieren."
+            },
+            {
+              "id": "u15l1q6",
+              "type": "case",
+              "patient": "Herr O., 68 Jahre",
+              "setting": "Telemetrie, HFrEF, neu Bisoprolol 1,25 mg",
+              "story": "Die Ärztin möchte die Dosis in den nächsten Wochen schrittweise steigern. Er fragt, warum man nicht gleich die volle Dosis nimmt.",
+              "findings": [
+                {
+                  "label": "HF",
+                  "value": "74/min"
+                },
+                {
+                  "label": "RR",
+                  "value": "115/70 mmHg"
+                },
+                {
+                  "label": "EF",
+                  "value": "30 %",
+                  "abnormal": true
+                }
+              ],
+              "task": "intervention",
+              "prompt": "Was erklärst du?",
+              "options": [
+                "Betablocker werden bei Herzinsuffizienz langsam auftitriert, damit sich das Herz anpassen kann („start low, go slow“)",
+                "Die volle Dosis ist immer sofort richtig",
+                "Betablocker sind bei Herzinsuffizienz verboten",
+                "Die Dosis spielt keine Rolle"
+              ],
+              "correctIndex": 0,
+              "explanation": "Betablocker können anfangs die Pumpfunktion kurz belasten. Deshalb niedrig beginnen und alle 2–4 Wochen steigern, bis zur Zieldosis oder höchsten verträglichen Dosis (ESC 2021)."
+            },
+            {
+              "id": "u15l1q7",
+              "type": "matching",
+              "prompt": "Ordne die Säule der typischen Kontrolle zu.",
+              "pairs": [
+                {
+                  "left": "Betablocker",
+                  "right": "Herzfrequenz und Blutdruck"
+                },
+                {
+                  "left": "ACE-Hemmer/ARNI",
+                  "right": "Blutdruck, Kreatinin, Kalium"
+                },
+                {
+                  "left": "Spironolacton",
+                  "right": "Kalium"
+                },
+                {
+                  "left": "SGLT2-Hemmer",
+                  "right": "Genitalhygiene, Ketoazidose-Zeichen"
+                }
+              ],
+              "explanation": "Jede Säule hat typische Nebenwirkungen, die du gezielt beobachtest."
+            },
+            {
+              "id": "u15l1q8",
+              "type": "true_false",
+              "statement": "SGLT2-Hemmer führen zu Zucker im Urin und können Genitalinfektionen begünstigen.",
+              "correct": true,
+              "explanation": "Richtig. Gute Intimhygiene und auf Brennen oder Juckreiz achten."
             }
           ],
           "sourceIds": [
@@ -10118,6 +10181,48 @@
               ],
               "correctIndex": 0,
               "explanation": "Hyperkaliämie und Nierenwertanstieg sind typische Probleme."
+            },
+            {
+              "id": "u15l2q6",
+              "type": "case",
+              "patient": "Herr Y., 70 Jahre",
+              "setting": "Telemetrie, bisher Ramipril, Umstellung auf Sacubitril/Valsartan geplant",
+              "story": "Die letzte Ramipril-Tablette hat er heute Morgen genommen. Die ARNI-Tablette ist für heute Abend angeordnet.",
+              "findings": [
+                {
+                  "label": "Letzter ACE-Hemmer",
+                  "value": "heute 8 Uhr",
+                  "abnormal": true
+                },
+                {
+                  "label": "ARNI geplant",
+                  "value": "heute 20 Uhr",
+                  "abnormal": true
+                }
+              ],
+              "task": "intervention",
+              "prompt": "Was tust du?",
+              "options": [
+                "Nachfragen: Zwischen letztem ACE-Hemmer und erstem ARNI müssen mindestens 36 Stunden liegen",
+                "Wie geplant geben",
+                "Beide Tabletten zusammen geben",
+                "Ramipril heute Abend nochmal geben"
+              ],
+              "correctIndex": 0,
+              "explanation": "ACE-Hemmer und Neprilysin-Hemmer zusammen erhöhen stark das Risiko eines Angioödems. Deshalb mindestens 36 Stunden Pause (ESC 2021)."
+            },
+            {
+              "id": "u15l2q7",
+              "type": "single_choice",
+              "prompt": "Woran erkennst du ein Sartan (AT1-Blocker) am Namen?",
+              "options": [
+                "Endung „-sartan“, z.B. Candesartan",
+                "Endung „-pril“",
+                "Endung „-olol“",
+                "Endung „-dipin“"
+              ],
+              "correctIndex": 0,
+              "explanation": "-sartan = AT1-Blocker, -pril = ACE-Hemmer, -olol = Betablocker, -dipin = Calciumantagonist vom Dihydropyridin-Typ."
             }
           ],
           "sourceIds": [
@@ -10201,6 +10306,48 @@
               ],
               "correctIndex": 0,
               "explanation": "Wie Furosemid, aber länger wirksam."
+            },
+            {
+              "id": "u15l3q6",
+              "type": "case",
+              "patient": "Frau U., 84 Jahre",
+              "setting": "Telemetrie, Furosemid 40 mg i.v. um 22 Uhr angeordnet",
+              "story": "Sie ist sturzgefährdet und schläft schlecht.",
+              "findings": [
+                {
+                  "label": "Sturzrisiko",
+                  "value": "hoch",
+                  "abnormal": true
+                },
+                {
+                  "label": "Uhrzeit",
+                  "value": "22 Uhr",
+                  "abnormal": true
+                }
+              ],
+              "task": "intervention",
+              "prompt": "Was ist sinnvoll?",
+              "options": [
+                "Nachfragen, ob die Gabe früher am Tag möglich ist; Klingel, Urinflasche/Toilettenstuhl bereitstellen",
+                "Ohne Hilfsmittel geben, sie findet den Weg allein",
+                "Furosemid durch doppelte Trinkmenge ersetzen",
+                "Bettgitter ohne Rücksprache hochziehen und nichts weiter tun"
+              ],
+              "correctIndex": 0,
+              "explanation": "Diuretika wirken über Stunden harntreibend. Abends gegeben stören sie die Nachtruhe und erhöhen das Sturzrisiko durch nächtliche Toilettengänge."
+            },
+            {
+              "id": "u15l3q7",
+              "type": "single_choice",
+              "prompt": "Welches Diuretikum spart Kalium?",
+              "options": [
+                "Spironolacton",
+                "Furosemid",
+                "Torasemid",
+                "Hydrochlorothiazid"
+              ],
+              "correctIndex": 0,
+              "explanation": "Spironolacton und Eplerenon sind Aldosteronantagonisten: Sie halten Kalium zurück. Schleifen- und Thiaziddiuretika senken Kalium."
             }
           ],
           "sourceIds": [
@@ -10283,6 +10430,41 @@
               ],
               "correctIndex": 0,
               "explanation": "Deshalb regelmäßige Kontrollen von TSH und Leberwerten."
+            },
+            {
+              "id": "u15l4q6",
+              "type": "case",
+              "patient": "Frau B., 73 Jahre",
+              "setting": "Telemetrie, Amiodaron i.v. über peripheren Zugang",
+              "story": "Die Einstichstelle am Unterarm ist gerötet, schmerzhaft und entlang der Vene verhärtet.",
+              "findings": [
+                {
+                  "label": "Zugang",
+                  "value": "gerötet, schmerzhaft, Venenstrang tastbar",
+                  "abnormal": true
+                },
+                {
+                  "label": "Temperatur",
+                  "value": "37,2 °C"
+                }
+              ],
+              "task": "diagnose",
+              "prompt": "Was liegt am wahrscheinlichsten vor?",
+              "options": [
+                "Thrombophlebitis durch Amiodaron",
+                "Normale Hautreaktion, weiterlaufen lassen",
+                "Allergie gegen das Pflaster",
+                "Hämatom nach Blutentnahme"
+              ],
+              "correctIndex": 0,
+              "explanation": "Amiodaron reizt die Venen stark. Infusion stoppen, Zugang entfernen, ärztlich melden; längere Gaben möglichst über einen großen oder zentralen Zugang."
+            },
+            {
+              "id": "u15l4q7",
+              "type": "true_false",
+              "statement": "Unter Amiodaron-Langzeittherapie werden Schilddrüse, Leber und Lunge kontrolliert.",
+              "correct": true,
+              "explanation": "Richtig. Amiodaron enthält Jod und kann Schilddrüse, Leber, Lunge, Haut und Augen schädigen."
             }
           ],
           "sourceIds": [
@@ -10387,6 +10569,60 @@
               ],
               "correctIndex": 0,
               "explanation": "Sofort melden, Kreislauf beobachten."
+            },
+            {
+              "id": "u16l1q6",
+              "type": "case",
+              "patient": "Herr F., 65 Jahre",
+              "setting": "Telemetrie, vor 2 Monaten Stent, ASS + Ticagrelor",
+              "story": "Er hat seit gestern schwarzen, teerartigen Stuhl und ist schwach.",
+              "findings": [
+                {
+                  "label": "Hb",
+                  "value": "gefallen",
+                  "abnormal": true
+                },
+                {
+                  "label": "HF",
+                  "value": "108/min",
+                  "abnormal": true
+                },
+                {
+                  "label": "RR",
+                  "value": "100/60 mmHg",
+                  "abnormal": true
+                }
+              ],
+              "task": "diagnose",
+              "prompt": "Woran denkst du?",
+              "options": [
+                "Obere Magen-Darm-Blutung unter doppelter Plättchenhemmung",
+                "Eisentabletten erklären alles, kein Handlungsbedarf",
+                "Verstopfung",
+                "Lebensmittelvergiftung"
+              ],
+              "correctIndex": 0,
+              "explanation": "Teerstuhl (Meläna) mit Hb-Abfall und Kreislaufreaktion spricht für eine obere GI-Blutung. Sofort melden; Plättchenhemmer nur ärztlich pausieren – Stentthrombose-Risiko!"
+            },
+            {
+              "id": "u16l1q7",
+              "type": "single_choice",
+              "prompt": "Wie lange dauert die duale Plättchenhemmung nach ACS meist standardmäßig?",
+              "options": [
+                "12 Monate",
+                "1 Woche",
+                "1 Monat",
+                "Lebenslang beide Medikamente"
+              ],
+              "correctIndex": 0,
+              "explanation": "Standard nach ACS sind 12 Monate DAPT, danach meist ein Plättchenhemmer dauerhaft. Bei hohem Blutungsrisiko kann verkürzt werden (ESC 2023)."
+            },
+            {
+              "id": "u16l1q8",
+              "type": "true_false",
+              "statement": "Ein DOAK braucht keine regelmäßigen INR-Kontrollen.",
+              "correct": true,
+              "explanation": "Richtig. DOAKs werden fest dosiert. Wichtig sind aber Nierenfunktion, Gewicht, Alter und Wechselwirkungen (EHRA 2021)."
             }
           ],
           "sourceIds": [
@@ -10472,6 +10708,53 @@
               ],
               "correctIndex": 0,
               "explanation": "Verdacht auf Muskelschädigung (CK)."
+            },
+            {
+              "id": "u16l2q6",
+              "type": "case",
+              "patient": "Frau G., 70 Jahre",
+              "setting": "Telemetrie, Heparin seit 7 Tagen",
+              "story": "Die Thrombozyten sind von 240.000 auf 90.000/µl gefallen. Am Bein ist neu eine Schwellung aufgetreten.",
+              "findings": [
+                {
+                  "label": "Thrombozyten",
+                  "value": "−60 %",
+                  "abnormal": true
+                },
+                {
+                  "label": "Heparin",
+                  "value": "seit Tag 7",
+                  "abnormal": true
+                },
+                {
+                  "label": "Bein",
+                  "value": "neu geschwollen",
+                  "abnormal": true
+                }
+              ],
+              "task": "diagnose",
+              "prompt": "Woran musst du denken?",
+              "options": [
+                "Heparin-induzierte Thrombozytopenie Typ II (HIT)",
+                "Normale Schwankung",
+                "Vitamin-K-Mangel",
+                "Blutverlust beim Waschen"
+              ],
+              "correctIndex": 0,
+              "explanation": "Ein Thrombozytenabfall um mehr als 50 % etwa 5–10 Tage nach Heparinbeginn, oft mit neuen Thrombosen, ist typisch für HIT II. Heparin sofort ärztlich stoppen lassen, auf ein anderes Antikoagulans umstellen."
+            },
+            {
+              "id": "u16l2q7",
+              "type": "single_choice",
+              "prompt": "Wann sollen Statine bei sehr hohem Risiko angepasst werden?",
+              "options": [
+                "Wenn das LDL-Ziel nicht erreicht ist – dann Dosis steigern oder kombinieren (z.B. Ezetimib)",
+                "Nie, die Startdosis bleibt immer",
+                "Nur bei Muskelschmerz",
+                "Nur im Sommer"
+              ],
+              "correctIndex": 0,
+              "explanation": "Ziel ist LDL < 55 mg/dl und ≥ 50 % Senkung bei sehr hohem Risiko. Wird es nicht erreicht: Statin steigern, Ezetimib, ggf. PCSK9-Hemmer (ESC 2019)."
             }
           ],
           "sourceIds": [
@@ -10567,6 +10850,52 @@
               ],
               "correctIndex": 0,
               "explanation": "Patient dabei sitzen oder liegen lassen."
+            },
+            {
+              "id": "u16l3q6",
+              "type": "case",
+              "patient": "Herr T., 61 Jahre",
+              "setting": "Telemetrie, Brustschmerz, Nitrospray angeordnet",
+              "story": "Er erwähnt, dass er gestern Abend eine Potenztablette (Sildenafil) genommen hat.",
+              "findings": [
+                {
+                  "label": "RR",
+                  "value": "130/80 mmHg"
+                },
+                {
+                  "label": "Schmerz",
+                  "value": "NRS 5",
+                  "abnormal": true
+                },
+                {
+                  "label": "PDE-5-Hemmer",
+                  "value": "vor 18 Stunden",
+                  "abnormal": true
+                }
+              ],
+              "task": "intervention",
+              "prompt": "Was tust du?",
+              "options": [
+                "Kein Nitro geben, ärztlich melden – Gefahr eines schweren Blutdruckabfalls",
+                "Nitro wie verordnet geben",
+                "Halbe Dosis Nitro geben",
+                "Nitro und eine weitere Potenztablette geben"
+              ],
+              "correctIndex": 0,
+              "explanation": "Nitrate und PDE-5-Hemmer (Sildenafil, Tadalafil) zusammen können einen lebensbedrohlichen Blutdruckabfall auslösen. Nach Sildenafil mindestens 24 h, nach Tadalafil 48 h kein Nitrat."
+            },
+            {
+              "id": "u16l3q7",
+              "type": "single_choice",
+              "prompt": "Welche typische Nebenwirkung haben Dihydropyridine wie Amlodipin?",
+              "options": [
+                "Knöchelödeme",
+                "Bradykardie",
+                "Husten",
+                "Hyperkaliämie"
+              ],
+              "correctIndex": 0,
+              "explanation": "Amlodipin weitet die Arteriolen – häufig entstehen Knöchelödeme, die nicht durch Herzinsuffizienz bedingt sind."
             }
           ],
           "sourceIds": [
@@ -10663,6 +10992,51 @@
               ],
               "correctIndex": 0,
               "explanation": "Atropin hemmt den Vagus."
+            },
+            {
+              "id": "u16l4q6",
+              "type": "case",
+              "patient": "Frau L., 30 Jahre",
+              "setting": "Notaufnahme, stabile Tachykardie 190/min, Vagusmanöver erfolglos",
+              "story": "Die Ärztin ordnet Adenosin 6 mg i.v. an. Der Zugang liegt in der Ellenbeuge.",
+              "findings": [
+                {
+                  "label": "HF",
+                  "value": "190/min",
+                  "abnormal": true
+                },
+                {
+                  "label": "RR",
+                  "value": "120/80 mmHg"
+                },
+                {
+                  "label": "Zugang",
+                  "value": "Ellenbeuge, großlumig"
+                }
+              ],
+              "task": "intervention",
+              "prompt": "Wie bereitest du die Gabe vor?",
+              "options": [
+                "Defibrillator/Monitor bereit, Adenosin als schneller Bolus mit sofortigem Nachspülen (z.B. 20 ml NaCl)",
+                "Langsam über 10 Minuten infundieren",
+                "In 500 ml Glukose verdünnen",
+                "Unter die Haut spritzen"
+              ],
+              "correctIndex": 0,
+              "explanation": "Adenosin hat eine Halbwertszeit von Sekunden. Es muss herznah als schneller Bolus gegeben und sofort nachgespült werden, unter EKG-Aufzeichnung (ESC 2019, ERC)."
+            },
+            {
+              "id": "u16l4q7",
+              "type": "single_choice",
+              "prompt": "Welche Dosis Atropin ist bei instabiler Bradykardie laut ERC die Startdosis?",
+              "options": [
+                "0,5 mg i.v.",
+                "5 mg i.v.",
+                "0,05 mg i.v.",
+                "1 mg alle 3–5 min bis 10 mg"
+              ],
+              "correctIndex": 0,
+              "explanation": "0,5 mg i.v., wiederholbar alle 3–5 Minuten bis maximal 3 mg (ERC)."
             }
           ],
           "sourceIds": [
@@ -10754,6 +11128,48 @@
               ],
               "correctIndex": 0,
               "explanation": "Kontrastmittel belastet die Niere."
+            },
+            {
+              "id": "u17l1q6",
+              "type": "case",
+              "patient": "Frau N., 79 Jahre",
+              "setting": "Tag 1 nach TAVI über die Leiste",
+              "story": "Sie ist plötzlich sehr müde, die Herzfrequenz am Monitor ist auf 38/min gefallen. P-Wellen und QRS laufen unabhängig.",
+              "findings": [
+                {
+                  "label": "HF",
+                  "value": "38/min",
+                  "abnormal": true
+                },
+                {
+                  "label": "RR",
+                  "value": "90/55 mmHg",
+                  "abnormal": true
+                },
+                {
+                  "label": "Monitor",
+                  "value": "AV-Block III°",
+                  "abnormal": true
+                }
+              ],
+              "task": "diagnose",
+              "prompt": "Was ist hier passiert?",
+              "options": [
+                "Kompletter AV-Block als typische TAVI-Komplikation",
+                "Normale Müdigkeit nach dem Eingriff",
+                "Vorhofflimmern",
+                "Hypoglykämie"
+              ],
+              "correctIndex": 0,
+              "explanation": "Die Klappenprothese drückt auf das nahe Reizleitungssystem. Ein neuer AV-Block III° ist ein Notfall: sofort melden, ggf. Pacing, meist Schrittmacher.",
+              "strip": "av3"
+            },
+            {
+              "id": "u17l1q7",
+              "type": "true_false",
+              "statement": "Vor einem Herzkatheter fragt man nach Kontrastmittelallergie und kontrolliert Nierenwerte.",
+              "correct": true,
+              "explanation": "Richtig. Auch Schilddrüsenwerte, Gerinnung und blutverdünnende Medikamente sind wichtig."
             }
           ],
           "sourceIds": [
@@ -10838,6 +11254,48 @@
               ],
               "correctIndex": 0,
               "explanation": "Die Auslöser sitzen meist an den Lungenvenen."
+            },
+            {
+              "id": "u17l2q6",
+              "type": "case",
+              "patient": "Herr P., 67 Jahre",
+              "setting": "Elektive Kardioversion bei Vorhofflimmern",
+              "story": "Er nimmt Apixaban. Vor dem Eingriff fragst du nach der Einnahme: Er hat es in den letzten 5 Tagen zweimal vergessen.",
+              "findings": [
+                {
+                  "label": "Antikoagulation",
+                  "value": "lückenhaft",
+                  "abnormal": true
+                },
+                {
+                  "label": "Rhythmus",
+                  "value": "Vorhofflimmern seit 6 Wochen",
+                  "abnormal": true
+                }
+              ],
+              "task": "intervention",
+              "prompt": "Was tust du?",
+              "options": [
+                "Ärztlich melden – bei unsicherer Antikoagulation ist vorher meist ein TEE zum Ausschluss eines Vorhofthrombus nötig",
+                "Nichts sagen, Hauptsache er ist nüchtern",
+                "Ihm schnell zwei Tabletten geben",
+                "Die Kardioversion selbst durchführen"
+              ],
+              "correctIndex": 0,
+              "explanation": "Vor einer Kardioversion von Vorhofflimmern über 24 h braucht es mindestens 3 Wochen zuverlässige Antikoagulation oder ein TEE ohne Thrombus (ESC 2024). Vergessene Einnahmen müssen gemeldet werden."
+            },
+            {
+              "id": "u17l2q7",
+              "type": "single_choice",
+              "prompt": "Was ist bei der elektrischen Kardioversion wichtig?",
+              "options": [
+                "Der Schock wird synchronisiert auf die R-Zacke abgegeben, der Patient ist sediert",
+                "Der Patient ist dabei wach und ohne Schmerzmittel",
+                "Der Schock fällt beliebig in die T-Welle",
+                "Es wird immer ohne Monitor gearbeitet"
+              ],
+              "correctIndex": 0,
+              "explanation": "Die Synchronisation verhindert, dass der Schock in die vulnerable Phase (T-Welle) fällt und Kammerflimmern auslöst."
             }
           ],
           "sourceIds": [
@@ -10936,6 +11394,46 @@
               ],
               "correctIndex": 0,
               "explanation": "Der Überdruck vermindert den Rückstrom zum Herzen."
+            },
+            {
+              "id": "u17l3q6",
+              "type": "case",
+              "patient": "Herr R., 73 Jahre",
+              "setting": "Telemetrie, NIV wegen hyperkapnischer COPD-Exazerbation",
+              "story": "Er ist unruhig, zieht immer wieder an der Maske. Es pfeift laut aus der Maske, die Atemfrequenz steigt.",
+              "findings": [
+                {
+                  "label": "Leckage",
+                  "value": "hoch",
+                  "abnormal": true
+                },
+                {
+                  "label": "AF",
+                  "value": "30/min",
+                  "abnormal": true
+                },
+                {
+                  "label": "Bewusstsein",
+                  "value": "wach, ängstlich"
+                }
+              ],
+              "task": "intervention",
+              "prompt": "Was tust du zuerst?",
+              "options": [
+                "Beruhigen, Maskensitz und Größe prüfen, Leckage reduzieren, ärztlich informieren",
+                "Die NIV ohne Rücksprache beenden und Sauerstoff 15 l/min geben",
+                "Die Maske fester ziehen, bis Druckstellen entstehen",
+                "Ihn fixieren"
+              ],
+              "correctIndex": 0,
+              "explanation": "NIV gelingt nur mit guter Maskenanpassung und Mitarbeit. Ängste ansprechen, Sitz korrigieren, Druckstellen vermeiden. Bleibt er unruhig oder verschlechtert er sich: ärztliche Neubewertung."
+            },
+            {
+              "id": "u17l3q7",
+              "type": "true_false",
+              "statement": "Unter NIV sind Hautschäden an Nase und Stirn durch die Maske eine häufige Komplikation.",
+              "correct": true,
+              "explanation": "Richtig. Druckstellen regelmäßig kontrollieren, Hautschutz verwenden, Maskengröße passend wählen."
             }
           ],
           "sourceIds": [
@@ -11023,6 +11521,51 @@
               ],
               "correctIndex": 0,
               "explanation": "Externes Pacing ist nur eine Überbrückung."
+            },
+            {
+              "id": "u17l4q6",
+              "type": "case",
+              "patient": "Herr A., 78 Jahre",
+              "setting": "Telemetrie, AV-Block III°, externes Pacing läuft",
+              "story": "Am Monitor folgt auf jeden Stimulationsspike ein breiter QRS-Komplex. Er stöhnt und gibt starke Schmerzen an.",
+              "findings": [
+                {
+                  "label": "Capture",
+                  "value": "ja"
+                },
+                {
+                  "label": "RR",
+                  "value": "110/70 mmHg"
+                },
+                {
+                  "label": "Schmerz",
+                  "value": "NRS 8",
+                  "abnormal": true
+                }
+              ],
+              "task": "intervention",
+              "prompt": "Was ist richtig?",
+              "options": [
+                "Ärztlich Analgesie und Sedierung anfordern – externes Pacing ist schmerzhaft",
+                "Pacing ausschalten, weil er Schmerzen hat",
+                "Nichts tun, das gehört dazu",
+                "Die Pads abziehen und neu kleben"
+              ],
+              "correctIndex": 0,
+              "explanation": "Transkutane Stimulation verursacht Muskelkontraktionen und Schmerzen. Patienten brauchen Analgesie und Sedierung, bis ein transvenöser Schrittmacher liegt (ERC)."
+            },
+            {
+              "id": "u17l4q7",
+              "type": "single_choice",
+              "prompt": "Wie prüfst du, ob das externe Pacing mechanisch wirkt?",
+              "options": [
+                "Einen tastbaren Puls (z.B. an der Leiste) passend zur Stimulationsfrequenz fühlen",
+                "Nur auf die Muskelzuckungen achten",
+                "Die Temperatur messen",
+                "Den Patienten nach dem Datum fragen"
+              ],
+              "correctIndex": 0,
+              "explanation": "Nicht nur elektrisches Capture (QRS nach Spike), sondern auch mechanisches Capture prüfen: tastbarer Puls, besserer Blutdruck. Femoral tasten – Muskelzucken stört am Hals."
             }
           ],
           "sourceIds": [
