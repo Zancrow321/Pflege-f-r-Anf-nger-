@@ -212,5 +212,21 @@
     "citation": "O'Driscoll BR, Howard LS, Earis J, Mak V. BTS guideline for oxygen use in adults in healthcare and emergency settings. Thorax. 2017;72(Suppl 1):ii1–ii90.",
     "url": "https://doi.org/10.1136/thoraxjnl-2016-209729",
     "year": 2017
+  },
+  {
+    "id": "prometheus-2018",
+    "citation": "Schünke M, Schulte E, Schumacher U. Prometheus LernAtlas der Anatomie. Allgemeine Anatomie und Bewegungssystem. 5. Aufl. Stuttgart: Thieme; 2018.",
+    "year": 2018
+  },
+  {
+    "id": "fipat-ta-2019",
+    "citation": "Federative International Programme for Anatomical Terminology (FIPAT). Terminologia Anatomica. 2. Aufl. FIPAT.library.dal.ca; 2019.",
+    "url": "https://fipat.library.dal.ca/ta2/",
+    "year": 2019
+  },
+  {
+    "id": "icare-2020",
+    "citation": "I care Pflege. 2. Aufl. Stuttgart: Thieme; 2020. Kapitel Bewegung und Lagerung sowie Pflege bei Erkrankungen des Herzens.",
+    "year": 2020
   }
 ]

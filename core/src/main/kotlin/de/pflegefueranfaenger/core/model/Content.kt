@@ -40,6 +40,8 @@ data class LearnCard(
     val bullets: List<String> = emptyList(),
     /** Optionaler EKG-Streifen, der auf der Lernkarte gezeichnet wird. */
     val strip: Rhythm? = null,
+    /** Optionales Schaubild auf der Lernkarte. */
+    val illustration: Illustration? = null,
 )
 
 @Serializable
@@ -77,6 +79,8 @@ sealed interface Question {
     val id: String
     val explanation: String
     val strip: Rhythm?
+    /** Optionales Schaubild über der Frage. */
+    val illustration: Illustration?
 
     @Serializable
     @SerialName("single_choice")
@@ -87,6 +91,7 @@ sealed interface Question {
         val correctIndex: Int,
         override val explanation: String,
         override val strip: Rhythm? = null,
+        override val illustration: Illustration? = null,
     ) : Question
 
     @Serializable
@@ -97,6 +102,7 @@ sealed interface Question {
         val correct: Boolean,
         override val explanation: String,
         override val strip: Rhythm? = null,
+        override val illustration: Illustration? = null,
     ) : Question
 
     @Serializable
@@ -107,6 +113,7 @@ sealed interface Question {
         val pairs: List<Pair>,
         override val explanation: String,
         override val strip: Rhythm? = null,
+        override val illustration: Illustration? = null,
     ) : Question {
         @Serializable
         data class Pair(val left: String, val right: String)
@@ -128,8 +135,44 @@ sealed interface Question {
         val meaning: String,
         override val explanation: String,
         override val strip: Rhythm? = null,
+        override val illustration: Illustration? = null,
+    ) : Question
+
+    /**
+     * Fallfrage: Eine Patientin oder ein Patient wird mit aktueller Situation und Befunden vorgestellt.
+     * Gefragt ist entweder die wahrscheinlichste Diagnose oder die richtige nächste Maßnahme.
+     */
+    @Serializable
+    @SerialName("case")
+    data class Case(
+        override val id: String,
+        /** z.B. „Herr K., 72 Jahre“. */
+        val patient: String,
+        /** Vorgeschichte und aktuelle Situation. */
+        val story: String,
+        val task: CaseTask,
+        val prompt: String,
+        val options: List<String>,
+        val correctIndex: Int,
+        override val explanation: String,
+        /** Wo/wann, z.B. „Telemetrie, 3 h nach Herzkatheter“. */
+        val setting: String? = null,
+        /** Vitalzeichen und Befunde. */
+        val findings: List<Finding> = emptyList(),
+        override val strip: Rhythm? = null,
+        override val illustration: Illustration? = null,
     ) : Question
 }
+
+@Serializable
+enum class CaseTask(val label: String) {
+    @SerialName("diagnose") DIAGNOSE("Was liegt vor?"),
+    @SerialName("intervention") INTERVENTION("Was tust du?"),
+}
+
+/** Befund in einer Fallfrage, z.B. RR 85/50 (auffällig). */
+@Serializable
+data class Finding(val label: String, val value: String, val abnormal: Boolean = false)
 
 /** Art eines Wiki-Artikels. Diagnosen, Prozeduren, Therapien und Medikamente folgen einer festen Gliederung. */
 @Serializable
@@ -192,6 +235,8 @@ data class Article(
     val houseSpecific: Boolean = false,
     val status: ReviewStatus = ReviewStatus.UNREVIEWED,
     val termIds: List<String> = emptyList(),
+    /** Schaubilder, die oben im Artikel gezeigt werden. */
+    val illustrations: List<Illustration> = emptyList(),
 )
 
 @Serializable
@@ -202,6 +247,8 @@ data class Term(
     val meaning: String,
     val example: String? = null,
     val sourceIds: List<String>,
+    /** Optionales Schaubild zum Begriff. */
+    val illustration: Illustration? = null,
     val status: ReviewStatus = ReviewStatus.UNREVIEWED,
 )
 

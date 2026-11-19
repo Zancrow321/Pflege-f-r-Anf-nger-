@@ -39,6 +39,7 @@ import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.unit.dp
 import de.pflegefueranfaenger.app.LoadedContent
 import de.pflegefueranfaenger.app.ui.components.EcgStrip
+import de.pflegefueranfaenger.app.ui.components.IllustrationView
 import de.pflegefueranfaenger.app.ui.components.UnreviewedBadge
 import de.pflegefueranfaenger.app.ui.theme.CorrectGreen
 import de.pflegefueranfaenger.app.ui.theme.HeartRed
@@ -165,6 +166,7 @@ private fun CardView(title: String, card: LearnCard, articles: List<Pair<String,
             Text(card.title, style = MaterialTheme.typography.headlineSmall, fontWeight = FontWeight.Bold)
             UnreviewedBadge()
             card.strip?.let { EcgStrip(it, showLabel = true) }
+            card.illustration?.let { IllustrationView(it, interactive = true) }
             Text(card.text, style = MaterialTheme.typography.bodyLarge)
             card.bullets.forEach { b ->
                 Row {

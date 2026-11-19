@@ -44,6 +44,9 @@
       "t-myokarditis",
       "t-hypokaliaemie",
       "t-elektrokardiogramm"
+    ],
+    "relatedArticleIds": [
+      "a-lagebegriffe"
     ]
   },
   {
@@ -77,6 +80,14 @@
       "t-koronar",
       "t-stenose",
       "t-insuffizienz"
+    ],
+    "illustrations": [
+      {
+        "figure": "heart_anatomy"
+      },
+      {
+        "figure": "coronaries"
+      }
     ]
   },
   {
@@ -108,7 +119,12 @@
     "lastChecked": "2026-11-13",
     "houseSpecific": false,
     "status": "unreviewed",
-    "termIds": []
+    "termIds": [],
+    "illustrations": [
+      {
+        "figure": "conduction"
+      }
+    ]
   },
   {
     "id": "a-vitalzeichen",
@@ -183,7 +199,12 @@
     "lastChecked": "2026-11-13",
     "houseSpecific": true,
     "status": "unreviewed",
-    "termIds": []
+    "termIds": [],
+    "illustrations": [
+      {
+        "figure": "electrodes"
+      }
+    ]
   },
   {
     "id": "a-ekg-papier",
@@ -219,7 +240,12 @@
     "lastChecked": "2026-11-13",
     "houseSpecific": false,
     "status": "unreviewed",
-    "termIds": []
+    "termIds": [],
+    "illustrations": [
+      {
+        "figure": "ecg_waves"
+      }
+    ]
   },
   {
     "id": "a-qt-zeit",
@@ -248,7 +274,13 @@
     "lastChecked": "2026-11-13",
     "houseSpecific": true,
     "status": "unreviewed",
-    "termIds": []
+    "termIds": [],
+    "illustrations": [
+      {
+        "figure": "ecg_waves",
+        "highlight": "qt"
+      }
+    ]
   },
   {
     "id": "a-sinusrhythmus",
@@ -281,6 +313,11 @@
     "termIds": [
       "t-bradykardie",
       "t-tachykardie"
+    ],
+    "illustrations": [
+      {
+        "figure": "ecg_waves"
+      }
     ]
   },
   {
@@ -382,6 +419,12 @@
     "termIds": [
       "t-bradykardie",
       "t-synkope"
+    ],
+    "illustrations": [
+      {
+        "figure": "conduction",
+        "highlight": "av_knoten"
+      }
     ]
   },
   {
@@ -798,6 +841,11 @@
       "t-infarkt",
       "t-ischaemie",
       "t-diaphorese"
+    ],
+    "illustrations": [
+      {
+        "figure": "coronaries"
+      }
     ]
   },
   {
@@ -977,7 +1025,8 @@
     ],
     "relatedArticleIds": [
       "a-vorhofflimmern",
-      "a-nstemi"
+      "a-nstemi",
+      "a-lagerung-herz"
     ],
     "sourceIds": [
       "esc-hf-2021",
@@ -992,6 +1041,12 @@
       "t-dyspnoe",
       "t-insuffizienz",
       "t-nykturie"
+    ],
+    "illustrations": [
+      {
+        "figure": "positioning",
+        "highlight": "herzbett"
+      }
     ]
   },
   {
@@ -1091,6 +1146,11 @@
       "t-infarkt",
       "t-ischaemie",
       "t-koronar"
+    ],
+    "illustrations": [
+      {
+        "figure": "coronaries"
+      }
     ]
   },
   {
@@ -1191,6 +1251,12 @@
       "t-ischaemie",
       "t-koronar",
       "t-angioplastie"
+    ],
+    "illustrations": [
+      {
+        "figure": "coronaries",
+        "caption": "Lage des Infarkts: Vorderwand meist RIVA/LAD, Hinterwand (inferior) meist RCA, Seitenwand meist RCX."
+      }
     ]
   },
   {
@@ -1570,6 +1636,11 @@
     "termIds": [
       "t-kardiomyopathie",
       "t-ischaemie"
+    ],
+    "illustrations": [
+      {
+        "figure": "coronaries"
+      }
     ]
   },
   {
@@ -2037,7 +2108,14 @@
     "lastChecked": "2026-11-13",
     "houseSpecific": true,
     "status": "unreviewed",
-    "termIds": []
+    "termIds": [],
+    "illustrations": [
+      {
+        "figure": "conduction",
+        "highlight": "tawara",
+        "caption": "Beim Rechtsschenkelblock ist der rechte Tawara-Schenkel gestört."
+      }
+    ]
   },
   {
     "id": "a-khk-3gefaess",
@@ -2146,6 +2224,12 @@
       "t-arteriosklerose",
       "t-revaskularisation",
       "t-ischaemie"
+    ],
+    "illustrations": [
+      {
+        "figure": "coronaries",
+        "caption": "Bei der 3-Gefäß-KHK sind RCA, RIVA/LAD und RCX verengt."
+      }
     ]
   },
   {
@@ -2348,6 +2432,12 @@
       "t-endokarditis",
       "t-embolie",
       "t-insuffizienz"
+    ],
+    "illustrations": [
+      {
+        "figure": "heart_anatomy",
+        "caption": "Betroffen sind meist die Klappen, am häufigsten Mitral- und Aortenklappe."
+      }
     ]
   },
   {
@@ -2548,6 +2638,12 @@
     "termIds": [
       "t-stenose",
       "t-synkope"
+    ],
+    "illustrations": [
+      {
+        "figure": "heart_anatomy",
+        "highlight": "aortenklappe"
+      }
     ]
   },
   {
@@ -2640,6 +2736,12 @@
     "status": "unreviewed",
     "termIds": [
       "t-insuffizienz"
+    ],
+    "illustrations": [
+      {
+        "figure": "heart_anatomy",
+        "highlight": "mitralklappe"
+      }
     ]
   },
   {
@@ -2742,6 +2844,13 @@
       "t-thrombolyse",
       "t-dyspnoe",
       "t-tachypnoe"
+    ],
+    "illustrations": [
+      {
+        "figure": "heart_anatomy",
+        "highlight": "lungenarterie",
+        "caption": "Das Gerinnsel verlegt die Lungenarterie oder ihre Äste; die rechte Kammer muss gegen den Widerstand pumpen."
+      }
     ]
   },
   {
@@ -3017,6 +3126,12 @@
     "termIds": [
       "t-bradykardie",
       "t-tachykardie"
+    ],
+    "illustrations": [
+      {
+        "figure": "conduction",
+        "highlight": "sinusknoten"
+      }
     ]
   },
   {
@@ -6142,6 +6257,155 @@
     "status": "unreviewed",
     "termIds": [
       "t-bradykardie"
+    ]
+  },
+  {
+    "id": "a-lagebegriffe",
+    "title": "Lage- und Richtungsbegriffe am Körper",
+    "category": "Fachsprache",
+    "summary": "Dexter, sinister, proximal, distal & Co.: Wo liegt was – immer aus Sicht der Patientin oder des Patienten.",
+    "body": [
+      "Lagebegriffe beschreiben, wo etwas am Körper liegt oder in welche Richtung es geht. Sie gelten immer aus Sicht der Patientin oder des Patienten, nicht aus deiner. Schaut dich jemand an, liegt seine rechte Seite (dexter) für dich links.",
+      "Grundlage ist die anatomische Normalstellung: aufrecht stehend, Blick nach vorne, Arme hängend, Handflächen nach vorne.",
+      "Rechts und links:",
+      "- dexter / dextra = rechts (Abk. re., dext.)",
+      "- sinister / sinistra = links (Abk. li., sin.)",
+      "- bilateral = beidseits · ipsilateral = auf derselben Seite · kontralateral = auf der Gegenseite",
+      "Oben und unten:",
+      "- kranial = kopfwärts · kaudal = steißwärts, am Rumpf fußwärts",
+      "- superior = oben, der obere · inferior = unten, der untere (z.B. Vena cava superior / inferior)",
+      "Vorne und hinten:",
+      "- ventral = bauchwärts · dorsal = rückenwärts",
+      "- anterior = vorne, der vordere · posterior = hinten, der hintere",
+      "Mitte und Seite:",
+      "- median = genau in der Mittellinie · medial = zur Mitte hin · lateral = zur Seite hin",
+      "An Armen und Beinen:",
+      "- proximal = rumpfnah · distal = rumpffern (die Hand liegt distal vom Ellenbogen)",
+      "- zentral = in der Körpermitte · peripher = am Rand, z.B. periphere Venenverweilkanüle (PVK) vs. zentraler Venenkatheter (ZVK)",
+      "Auf der Telemetrie begegnen dir die Begriffe ständig: Elektrode V1 im 4. Interkostalraum (ICR) rechts parasternal, Vorderwandinfarkt = anterior, Hinterwandinfarkt = inferior, Seitenwand = lateral, Pulse distal der Punktionsstelle kontrollieren."
+    ],
+    "illustrations": [
+      {
+        "figure": "body_front",
+        "caption": "Die Person schaut dich an: Ihr rechts (dexter) liegt für dich links."
+      },
+      {
+        "figure": "body_side",
+        "caption": "Von der Seite: ventral/anterior = vorne, dorsal/posterior = hinten."
+      },
+      {
+        "figure": "limb",
+        "caption": "Am Arm: proximal = rumpfnah, distal = rumpffern."
+      }
+    ],
+    "kind": "wissen",
+    "relatedArticleIds": [
+      "a-fachsprache",
+      "a-elektroden",
+      "a-stemi"
+    ],
+    "keywords": [
+      "Lagebegriffe",
+      "Richtungsbegriffe",
+      "dexter",
+      "sinister",
+      "rechts",
+      "links",
+      "proximal",
+      "distal",
+      "kranial",
+      "kaudal",
+      "ventral",
+      "dorsal",
+      "anterior",
+      "posterior",
+      "medial",
+      "lateral",
+      "median",
+      "superior",
+      "inferior",
+      "Anatomie"
+    ],
+    "sourceIds": [
+      "prometheus-2018",
+      "fipat-ta-2019",
+      "pschyrembel"
+    ],
+    "lastChecked": "2026-11-13",
+    "houseSpecific": false,
+    "status": "unreviewed",
+    "termIds": [
+      "t-dexter",
+      "t-sinister",
+      "t-kranial",
+      "t-kaudal",
+      "t-ventral",
+      "t-dorsal",
+      "t-anterior",
+      "t-posterior",
+      "t-superior",
+      "t-inferior",
+      "t-medial",
+      "t-lateral",
+      "t-median",
+      "t-proximal",
+      "t-distal",
+      "t-peripher",
+      "t-bilateral",
+      "t-kontralateral",
+      "t-ipsilateral",
+      "t-interkostal",
+      "t-parasternal"
+    ]
+  },
+  {
+    "id": "a-lagerung-herz",
+    "title": "Lagerung von Herzpatienten",
+    "category": "Telemetrie-Alltag",
+    "summary": "Flachlage, Oberkörperhochlage und Herzbettlage: wann welche Lagerung hilft.",
+    "body": [
+      "Die Lagerung beeinflusst Atmung und Kreislauf. Welche Lagerung passt, hängt von Beschwerden, Blutdruck und ärztlicher Anordnung ab.",
+      "Herzbettlage:",
+      "- Oberkörper hoch, Beine tief (Bett als „Sessel“)",
+      "- Weniger Blut fließt zum Herzen zurück (Vorlast sinkt), die Lunge wird entlastet, das Atmen fällt leichter",
+      "- Typisch bei Atemnot durch Lungenstauung, z.B. bei kardialer Dekompensation",
+      "- Nicht bei niedrigem Blutdruck oder Schock: Der Blutdruck kann weiter fallen",
+      "Oberkörperhochlage (ca. 30°):",
+      "- erleichtert die Atmung und ist nach vielen Eingriffen Standard",
+      "- Nach femoralem Zugang (Leiste) gelten Vorgaben des Hauses zu Bettruhe und Hüftbeugung",
+      "Flachlage:",
+      "- z.B. zur Reanimation (harte Unterlage) oder wenn eine Kreislaufschwäche droht",
+      "Beobachte nach jedem Lagewechsel Atmung, Herzfrequenz, Blutdruck und Befinden."
+    ],
+    "illustrations": [
+      {
+        "figure": "positioning"
+      }
+    ],
+    "kind": "wissen",
+    "relatedArticleIds": [
+      "a-dekompensation",
+      "a-lagebegriffe"
+    ],
+    "keywords": [
+      "Lagerung",
+      "Herzbettlage",
+      "Oberkörperhochlage",
+      "Flachlage",
+      "Atemnot",
+      "Lungenödem",
+      "Vorlast"
+    ],
+    "sourceIds": [
+      "icare-2020",
+      "esc-hf-2021"
+    ],
+    "lastChecked": "2026-11-13",
+    "houseSpecific": true,
+    "status": "unreviewed",
+    "termIds": [
+      "t-dyspnoe",
+      "t-orthopnoe"
     ]
   }
 ]

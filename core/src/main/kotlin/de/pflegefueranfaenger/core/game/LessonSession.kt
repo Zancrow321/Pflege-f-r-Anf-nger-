@@ -15,6 +15,7 @@ sealed interface Answer {
 object AnswerChecker {
     fun isCorrect(question: Question, answer: Answer): Boolean = when (question) {
         is Question.SingleChoice -> answer is Answer.Choice && answer.index == question.correctIndex
+        is Question.Case -> answer is Answer.Choice && answer.index == question.correctIndex
         is Question.TrueFalse -> answer is Answer.Bool && answer.value == question.correct
         is Question.Matching -> answer is Answer.Matches &&
             question.pairs.size == answer.pairs.size &&

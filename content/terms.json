@@ -1259,5 +1259,569 @@
       "pschyrembel"
     ],
     "example": "Aortendissektion"
+  },
+  {
+    "id": "t-dexter",
+    "term": "dexter",
+    "parts": [
+      {
+        "part": "dexter",
+        "meaning": "rechts",
+        "origin": "lat. dexter"
+      }
+    ],
+    "meaning": "rechts, auf der rechten Körperseite (weiblich: dextra)",
+    "example": "Arteria femoralis dextra = rechte Oberschenkelarterie, z.B. als Zugang beim Herzkatheter.",
+    "sourceIds": [
+      "prometheus-2018",
+      "fipat-ta-2019",
+      "pschyrembel"
+    ],
+    "status": "unreviewed",
+    "illustration": {
+      "figure": "body_front",
+      "highlight": "dexter"
+    }
+  },
+  {
+    "id": "t-sinister",
+    "term": "sinister",
+    "parts": [
+      {
+        "part": "sinister",
+        "meaning": "links",
+        "origin": "lat. sinister"
+      }
+    ],
+    "meaning": "links, auf der linken Körperseite (weiblich: sinistra)",
+    "example": "Ventriculus sinister = linke Herzkammer.",
+    "sourceIds": [
+      "prometheus-2018",
+      "fipat-ta-2019",
+      "pschyrembel"
+    ],
+    "status": "unreviewed",
+    "illustration": {
+      "figure": "body_front",
+      "highlight": "sinister"
+    }
+  },
+  {
+    "id": "t-kranial",
+    "term": "kranial",
+    "parts": [
+      {
+        "part": "krani",
+        "meaning": "Schädel, Kopf",
+        "origin": "griech. kraníon"
+      },
+      {
+        "part": "al",
+        "meaning": "betreffend, zugehörig",
+        "origin": "lat. -alis"
+      }
+    ],
+    "meaning": "zum Kopf hin, kopfwärts",
+    "example": "Der Hals liegt kranial vom Brustkorb.",
+    "sourceIds": [
+      "prometheus-2018",
+      "fipat-ta-2019",
+      "pschyrembel"
+    ],
+    "status": "unreviewed",
+    "illustration": {
+      "figure": "body_front",
+      "highlight": "kranial"
+    }
+  },
+  {
+    "id": "t-kaudal",
+    "term": "kaudal",
+    "parts": [
+      {
+        "part": "kaud",
+        "meaning": "Schwanz, Steiß",
+        "origin": "lat. cauda"
+      },
+      {
+        "part": "al",
+        "meaning": "betreffend, zugehörig",
+        "origin": "lat. -alis"
+      }
+    ],
+    "meaning": "zum Steiß hin, am Rumpf: fußwärts",
+    "example": "Der Bauch liegt kaudal vom Brustkorb.",
+    "sourceIds": [
+      "prometheus-2018",
+      "fipat-ta-2019",
+      "pschyrembel"
+    ],
+    "status": "unreviewed",
+    "illustration": {
+      "figure": "body_front",
+      "highlight": "kaudal"
+    }
+  },
+  {
+    "id": "t-ventral",
+    "term": "ventral",
+    "parts": [
+      {
+        "part": "ventr",
+        "meaning": "Bauch",
+        "origin": "lat. venter"
+      },
+      {
+        "part": "al",
+        "meaning": "betreffend, zugehörig",
+        "origin": "lat. -alis"
+      }
+    ],
+    "meaning": "bauchwärts, vorne",
+    "example": "Das Brustbein liegt ventral vom Herzen.",
+    "sourceIds": [
+      "prometheus-2018",
+      "fipat-ta-2019",
+      "pschyrembel"
+    ],
+    "status": "unreviewed",
+    "illustration": {
+      "figure": "body_side",
+      "highlight": "ventral"
+    }
+  },
+  {
+    "id": "t-dorsal",
+    "term": "dorsal",
+    "parts": [
+      {
+        "part": "dors",
+        "meaning": "Rücken",
+        "origin": "lat. dorsum"
+      },
+      {
+        "part": "al",
+        "meaning": "betreffend, zugehörig",
+        "origin": "lat. -alis"
+      }
+    ],
+    "meaning": "rückenwärts, hinten",
+    "example": "In Rückenlage sind dorsal vor allem Kreuzbein und Fersen druckgefährdet.",
+    "sourceIds": [
+      "prometheus-2018",
+      "fipat-ta-2019",
+      "pschyrembel"
+    ],
+    "status": "unreviewed",
+    "illustration": {
+      "figure": "body_side",
+      "highlight": "dorsal"
+    }
+  },
+  {
+    "id": "t-anterior",
+    "term": "anterior",
+    "parts": [
+      {
+        "part": "anterior",
+        "meaning": "der vordere",
+        "origin": "lat. anterior"
+      }
+    ],
+    "meaning": "vorne liegend, der vordere",
+    "example": "Vorderwandinfarkt = anteriorer Infarkt (meist RIVA/LAD).",
+    "sourceIds": [
+      "prometheus-2018",
+      "fipat-ta-2019",
+      "pschyrembel"
+    ],
+    "status": "unreviewed",
+    "illustration": {
+      "figure": "body_side",
+      "highlight": "ventral"
+    }
+  },
+  {
+    "id": "t-posterior",
+    "term": "posterior",
+    "parts": [
+      {
+        "part": "posterior",
+        "meaning": "der hintere",
+        "origin": "lat. posterior"
+      }
+    ],
+    "meaning": "hinten liegend, der hintere",
+    "example": "Die Wirbelsäule liegt posterior vom Herzen.",
+    "sourceIds": [
+      "prometheus-2018",
+      "fipat-ta-2019",
+      "pschyrembel"
+    ],
+    "status": "unreviewed",
+    "illustration": {
+      "figure": "body_side",
+      "highlight": "dorsal"
+    }
+  },
+  {
+    "id": "t-superior",
+    "term": "superior",
+    "parts": [
+      {
+        "part": "superior",
+        "meaning": "der obere",
+        "origin": "lat. superior"
+      }
+    ],
+    "meaning": "oben liegend, der obere",
+    "example": "Vena cava superior = obere Hohlvene.",
+    "sourceIds": [
+      "prometheus-2018",
+      "fipat-ta-2019",
+      "pschyrembel"
+    ],
+    "status": "unreviewed",
+    "illustration": {
+      "figure": "body_side",
+      "highlight": "superior"
+    }
+  },
+  {
+    "id": "t-inferior",
+    "term": "inferior",
+    "parts": [
+      {
+        "part": "inferior",
+        "meaning": "der untere",
+        "origin": "lat. inferior"
+      }
+    ],
+    "meaning": "unten liegend, der untere",
+    "example": "Vena cava inferior = untere Hohlvene. Inferiorer Infarkt = Hinterwandinfarkt (EKG: II, III, aVF).",
+    "sourceIds": [
+      "prometheus-2018",
+      "fipat-ta-2019",
+      "pschyrembel"
+    ],
+    "status": "unreviewed",
+    "illustration": {
+      "figure": "body_side",
+      "highlight": "inferior"
+    }
+  },
+  {
+    "id": "t-medial",
+    "term": "medial",
+    "parts": [
+      {
+        "part": "medi",
+        "meaning": "Mitte, mittlerer",
+        "origin": "lat. medius"
+      },
+      {
+        "part": "al",
+        "meaning": "betreffend, zugehörig",
+        "origin": "lat. -alis"
+      }
+    ],
+    "meaning": "zur Mitte (Medianebene) hin gelegen",
+    "example": "Das Herz liegt medial der beiden Lungen.",
+    "sourceIds": [
+      "prometheus-2018",
+      "fipat-ta-2019",
+      "pschyrembel"
+    ],
+    "status": "unreviewed",
+    "illustration": {
+      "figure": "body_front",
+      "highlight": "medial"
+    }
+  },
+  {
+    "id": "t-lateral",
+    "term": "lateral",
+    "parts": [
+      {
+        "part": "later",
+        "meaning": "Seite",
+        "origin": "lat. latus, lateris"
+      },
+      {
+        "part": "al",
+        "meaning": "betreffend, zugehörig",
+        "origin": "lat. -alis"
+      }
+    ],
+    "meaning": "zur Seite hin gelegen, von der Mitte weg",
+    "example": "Mit den Handflächen nach vorne liegt der Daumen lateral, der kleine Finger medial.",
+    "sourceIds": [
+      "prometheus-2018",
+      "fipat-ta-2019",
+      "pschyrembel"
+    ],
+    "status": "unreviewed",
+    "illustration": {
+      "figure": "body_front",
+      "highlight": "lateral"
+    }
+  },
+  {
+    "id": "t-median",
+    "term": "median",
+    "parts": [
+      {
+        "part": "median",
+        "meaning": "in der Mitte gelegen",
+        "origin": "lat. medianus"
+      }
+    ],
+    "meaning": "genau in der Mittellinie des Körpers",
+    "example": "Das Brustbein liegt median.",
+    "sourceIds": [
+      "prometheus-2018",
+      "fipat-ta-2019",
+      "pschyrembel"
+    ],
+    "status": "unreviewed",
+    "illustration": {
+      "figure": "body_front",
+      "highlight": "median"
+    }
+  },
+  {
+    "id": "t-proximal",
+    "term": "proximal",
+    "parts": [
+      {
+        "part": "proxim",
+        "meaning": "der Nächste",
+        "origin": "lat. proximus"
+      },
+      {
+        "part": "al",
+        "meaning": "betreffend, zugehörig",
+        "origin": "lat. -alis"
+      }
+    ],
+    "meaning": "rumpfnah, zum Körperzentrum hin",
+    "example": "Der Oberarm liegt proximal, die Hand distal.",
+    "sourceIds": [
+      "prometheus-2018",
+      "fipat-ta-2019",
+      "pschyrembel"
+    ],
+    "status": "unreviewed",
+    "illustration": {
+      "figure": "limb",
+      "highlight": "proximal"
+    }
+  },
+  {
+    "id": "t-distal",
+    "term": "distal",
+    "parts": [
+      {
+        "part": "dist",
+        "meaning": "entfernt sein",
+        "origin": "lat. distare"
+      },
+      {
+        "part": "al",
+        "meaning": "betreffend, zugehörig",
+        "origin": "lat. -alis"
+      }
+    ],
+    "meaning": "rumpffern, vom Körperzentrum weg",
+    "example": "Nach einer Punktion in der Leiste die Pulse distal davon prüfen, z.B. am Fuß.",
+    "sourceIds": [
+      "prometheus-2018",
+      "fipat-ta-2019",
+      "pschyrembel"
+    ],
+    "status": "unreviewed",
+    "illustration": {
+      "figure": "limb",
+      "highlight": "distal"
+    }
+  },
+  {
+    "id": "t-peripher",
+    "term": "peripher",
+    "parts": [
+      {
+        "part": "peri",
+        "meaning": "um … herum",
+        "origin": "griech. perí"
+      },
+      {
+        "part": "pher",
+        "meaning": "tragen",
+        "origin": "griech. phérein"
+      }
+    ],
+    "meaning": "am Rand gelegen, fern vom Körperzentrum (z.B. Arme und Beine)",
+    "example": "Periphere Venenverweilkanüle (PVK) am Unterarm, im Gegensatz zum zentralen Venenkatheter (ZVK).",
+    "sourceIds": [
+      "prometheus-2018",
+      "fipat-ta-2019",
+      "pschyrembel"
+    ],
+    "status": "unreviewed"
+  },
+  {
+    "id": "t-bilateral",
+    "term": "bilateral",
+    "parts": [
+      {
+        "part": "bi",
+        "meaning": "zwei, doppelt",
+        "origin": "lat. bis"
+      },
+      {
+        "part": "later",
+        "meaning": "Seite",
+        "origin": "lat. latus, lateris"
+      },
+      {
+        "part": "al",
+        "meaning": "betreffend, zugehörig",
+        "origin": "lat. -alis"
+      }
+    ],
+    "meaning": "beidseits, auf beiden Seiten",
+    "example": "Bilaterale Beinödeme bei Herzinsuffizienz.",
+    "sourceIds": [
+      "prometheus-2018",
+      "fipat-ta-2019",
+      "pschyrembel"
+    ],
+    "status": "unreviewed"
+  },
+  {
+    "id": "t-kontralateral",
+    "term": "kontralateral",
+    "parts": [
+      {
+        "part": "kontra",
+        "meaning": "gegen, gegenüber",
+        "origin": "lat. contra"
+      },
+      {
+        "part": "later",
+        "meaning": "Seite",
+        "origin": "lat. latus, lateris"
+      },
+      {
+        "part": "al",
+        "meaning": "betreffend, zugehörig",
+        "origin": "lat. -alis"
+      }
+    ],
+    "meaning": "auf der gegenüberliegenden Körperseite",
+    "example": "Ein Schlaganfall in der linken Hirnhälfte lähmt die kontralaterale, also rechte Körperseite.",
+    "sourceIds": [
+      "prometheus-2018",
+      "fipat-ta-2019",
+      "pschyrembel"
+    ],
+    "status": "unreviewed"
+  },
+  {
+    "id": "t-ipsilateral",
+    "term": "ipsilateral",
+    "parts": [
+      {
+        "part": "ipsi",
+        "meaning": "selbst, derselbe",
+        "origin": "lat. ipse"
+      },
+      {
+        "part": "later",
+        "meaning": "Seite",
+        "origin": "lat. latus, lateris"
+      },
+      {
+        "part": "al",
+        "meaning": "betreffend, zugehörig",
+        "origin": "lat. -alis"
+      }
+    ],
+    "meaning": "auf derselben Körperseite",
+    "example": "Schmerz und Schwellung ipsilateral zur Punktionsstelle.",
+    "sourceIds": [
+      "prometheus-2018",
+      "fipat-ta-2019",
+      "pschyrembel"
+    ],
+    "status": "unreviewed"
+  },
+  {
+    "id": "t-interkostal",
+    "term": "interkostal",
+    "parts": [
+      {
+        "part": "inter",
+        "meaning": "zwischen",
+        "origin": "lat. inter"
+      },
+      {
+        "part": "kost",
+        "meaning": "Rippe",
+        "origin": "lat. costa"
+      },
+      {
+        "part": "al",
+        "meaning": "betreffend, zugehörig",
+        "origin": "lat. -alis"
+      }
+    ],
+    "meaning": "zwischen den Rippen gelegen",
+    "example": "4. Interkostalraum (ICR) rechts parasternal = Position der Brustwandelektrode V1.",
+    "sourceIds": [
+      "prometheus-2018",
+      "fipat-ta-2019",
+      "pschyrembel",
+      "aha-monitoring-2017"
+    ],
+    "status": "unreviewed",
+    "illustration": {
+      "figure": "electrodes",
+      "highlight": "weiss"
+    }
+  },
+  {
+    "id": "t-parasternal",
+    "term": "parasternal",
+    "parts": [
+      {
+        "part": "para",
+        "meaning": "neben",
+        "origin": "griech. pará"
+      },
+      {
+        "part": "stern",
+        "meaning": "Brustbein",
+        "origin": "griech. stérnon"
+      },
+      {
+        "part": "al",
+        "meaning": "betreffend, zugehörig",
+        "origin": "lat. -alis"
+      }
+    ],
+    "meaning": "neben dem Brustbein gelegen",
+    "example": "V1 liegt im 4. ICR rechts parasternal, V2 im 4. ICR links parasternal.",
+    "sourceIds": [
+      "prometheus-2018",
+      "fipat-ta-2019",
+      "pschyrembel",
+      "aha-monitoring-2017"
+    ],
+    "status": "unreviewed",
+    "illustration": {
+      "figure": "electrodes",
+      "highlight": "weiss"
+    }
   }
 ]

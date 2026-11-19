@@ -46,6 +46,7 @@ import androidx.compose.ui.text.style.TextDecoration
 import androidx.compose.ui.unit.dp
 import de.pflegefueranfaenger.app.LoadedContent
 import de.pflegefueranfaenger.app.ui.components.HouseSpecificBadge
+import de.pflegefueranfaenger.app.ui.components.IllustrationView
 import de.pflegefueranfaenger.app.ui.components.UnreviewedBadge
 import de.pflegefueranfaenger.app.ui.components.WordPartsBreakdown
 import de.pflegefueranfaenger.core.model.ArticleKind
@@ -191,6 +192,7 @@ fun ArticleScreen(
             if (a.houseSpecific) HouseSpecificBadge()
         }
         Text(a.summary, style = MaterialTheme.typography.titleMedium)
+        a.illustrations.forEach { IllustrationView(it, interactive = true) }
         Paragraphs(a.body)
         a.sections.forEach { section ->
             Text(section.title, style = MaterialTheme.typography.titleMedium, fontWeight = FontWeight.Bold,
@@ -242,6 +244,7 @@ fun TermScreen(content: LoadedContent, termId: String, onBack: () -> Unit) {
         WordPartsBreakdown(t.parts)
         Text("Bedeutung", style = MaterialTheme.typography.titleSmall, color = MaterialTheme.colorScheme.primary)
         Text(t.meaning, style = MaterialTheme.typography.bodyLarge)
+        t.illustration?.let { IllustrationView(it) }
         t.example?.let {
             Text("Beispiel", style = MaterialTheme.typography.titleSmall, color = MaterialTheme.colorScheme.primary)
             Text(it, style = MaterialTheme.typography.bodyLarge)
